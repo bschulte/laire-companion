@@ -260,7 +260,7 @@
             },
 
             {
-              "name": "One-Handed Blun",
+              "name": "One-Handed Blunt",
               "onListCost": 2,
               "offListCost": 6,
               "duration": "Constant",
@@ -270,7 +270,7 @@
             },
 
             {
-              "name": "Bastard Swor",
+              "name": "Bastard Sword",
               "onListCost": 4,
               "offListCost": 12,
               "duration": "Constant",
@@ -280,7 +280,7 @@
             },
 
             {
-              "name": "Bastard Blun",
+              "name": "Bastard Blunt",
               "onListCost": 4,
               "offListCost": 12,
               "duration": "Constant",
@@ -300,7 +300,7 @@
             },
 
             {
-              "name": "Two-Handed Blun",
+              "name": "Two-Handed Blunt",
               "onListCost": 4,
               "offListCost": 10,
               "duration": "Constant",
@@ -310,7 +310,7 @@
             },
 
             {
-              "name": "Quarterstaf",
+              "name": "Quarterstaff",
               "onListCost": 2,
               "offListCost": 6,
               "duration": "Constant",
@@ -320,7 +320,7 @@
             },
 
             {
-              "name": "Spea",
+              "name": "Spear",
               "onListCost": 3,
               "offListCost": 8,
               "duration": "Constant",
@@ -330,7 +330,7 @@
             },
 
             {
-              "name": "Polear",
+              "name": "Polearm",
               "onListCost": 5,
               "offListCost": 12,
               "duration": "Constant",
@@ -340,7 +340,7 @@
             },
 
             {
-              "name": "Thrown Weapo",
+              "name": "Thrown Weapon",
               "onListCost": 2,
               "offListCost": 6,
               "duration": "Constant",
@@ -350,7 +350,7 @@
             },
 
             {
-              "name": "Bo",
+              "name": "Bow",
               "onListCost": 3,
               "offListCost": 9,
               "duration": "Constant",
@@ -360,7 +360,7 @@
             },
 
             {
-              "name": "Crossbo",
+              "name": "Crossbow",
               "onListCost": 4,
               "offListCost": 12,
               "duration": "Constant",
@@ -370,7 +370,7 @@
             },
 
             {
-              "name": "Shiel",
+              "name": "Shield",
               "onListCost": 5,
               "offListCost": 15,
               "duration": "Constant",
@@ -380,7 +380,7 @@
             },
 
             {
-              "name": "Florentin",
+              "name": "Florentine",
               "onListCost": 3,
               "offListCost": 9,
               "duration": "Constant",
@@ -390,7 +390,7 @@
             },
 
             {
-              "name": "Weapon Proficienc",
+              "name": "Weapon Proficiency",
               "onListCost": 10,
               "offListCost": 15,
               "duration": "Constant",
@@ -400,7 +400,7 @@
             },
 
             {
-              "name": "Critical Attac",
+              "name": "Critical Attack",
               "onListCost": 5,
               "offListCost": 10,
               "duration": "Instant",
@@ -410,7 +410,7 @@
             },
 
             {
-              "name": "Disar",
+              "name": "Disarm",
               "onListCost": 4,
               "offListCost": 8,
               "duration": "Instant",
@@ -420,7 +420,7 @@
             },
 
             {
-              "name": "Stunning Blo",
+              "name": "Stunning Blow",
               "onListCost": 6,
               "offListCost": 12,
               "duration": "Instant",
