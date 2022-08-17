@@ -537,10 +537,30 @@
     "tags": ["basics"]
   },
   {
-    "name": "",
-    "content": "",
-    "subsection": "Brownie and Play Credits ",
-    "section": "Basic Game Play",
-    "tags": ["basics"]
+    "name": "Weapon Damage",
+    "content": [
+      "The following table outlines how much base damage a weapon does. Bastard Sword, Bastard Blunt, and Spear have two numbers listed, the first is using the weapon with on hand the second is using the weapon with two hands. For Polearms, the first number is for striking with the head, and the second number is for striking with the butt end. Lastly, all thrown weapons deal 1 point of damage, except javelins, which deal 2 points of damage.",
+      {
+        "type": "list",
+        "items": [
+          "Small Weapon: 1",
+          "One-Handed Edged: 2",
+          "One-Handed Blunt: 2",
+          "Bastard Sword: 3/2",
+          "Bastard Blunt: 3/2",
+          "Two-Handed Edged: 3",
+          "Two-Handed Blunt: 3",
+          "Quarterstaff: 2",
+          "Spear: 3/2",
+          "Polearm: 4/2",
+          "Thrown Weapon: 1/2",
+          "Bow: 3",
+          "Crossbow: 4"
+        ]
+      }
+    ],
+    "subsection": "Weapons, Magic and Taking Damage",
+    "section": "Weapon Damage",
+    "tags": ["basics", "damage"]
   }
 ]

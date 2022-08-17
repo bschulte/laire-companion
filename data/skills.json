@@ -1,0 +1,442 @@
+{
+  "introduction": [
+    "LAIRE is a live action game, and many of the things a player can do in the game are only limited by what they can physically perform. If a character wants to move silently through the woods, then the player does it; if a character wants to spot a bird two miles away, then the player looks; if a character wants to make a dramatic speech that will make people willing to fight and die for them, then the player says it.",
+    "However, LAIRE is also a fantasy game, and it allows characters to perform tasks that people in the real world cannot. A skill is the game mechanic that allows a character to interact with the game world and perform things they would otherwise be unable to do. Players acquire skills for their characters by spending Build Points, and players get Build Points by adventuring. Build Points are sometimes referred to as just Build.",
+    "In order for a character to be able to perform any of the skills listed in this rulebook, the player must purchase that skill. Just because a player can do something in “real life” does not mean their character can perform the skill in the game. For example, AJ may already be a locksmith in the real world, but any of his characters must have the Pick Locks skill before he can attempt to pick a lock in-game.",
+    "A character gains skills and abilities by earning Build Points. By attending an event, players automatically earn Build Points for their character. In addition, a player may receive Roleplaying Chips (RC’s) for conspicuous roleplaying.",
+    {
+      "type": "header",
+      "content": "Skill Costs"
+    },
+    "A player acquires skills for their character by spending Build Points. The cost of some skills depends on whether a character has a corresponding Skill List or not. There are three Basic Career Skill Lists and no Skill Lists for the Advanced Careers. A Skill List is not a skill by itself, but it makes the purchase of skills cost less. The purchase of a Skill List represents a general, overall knowledge of a field; it does not help a character perform any skills better, but it makes it easier to learn skills in that field.",
+    "There are three Basic Career Skill Lists that cost Build Points to learn and gives a player’s character a cost reduction on those skills. They are: Warrior Basic Career Skill List, Mage Basic Career Skill List, and Rogue Basic Career Skill List. The rest of the lists in our game refer to groupings of skills that share a similar career. For example, the Master Warrior Skill List contains all the skills appropriate to Master Warriors. This does not imply that a Master Warrior would not have access to other skills in the game, just that these are the skills associated with the Master Warrior Advanced Career.",
+    "There are two costs for almost every skill listed on the Basic Career Skill Lists. The first is the list price; this is the price a character pays when they have purchased the Skill List. The second higher cost is the non-list cost; this is the Build Point cost to buy the skill if a character has not already purchased the Skill List.",
+    "If a character has already purchased skills in a list and then decides to purchase the list itself, the character will get back the extra Build spent on those skills.",
+    "For example, Avirim Darkfire purchases the Polearm skill for 12 Build off list. Later, he learns the Weapons Skill List for 10 Build. He would get back 7 Build, the difference between the off list and on list cost of the Polearm skill.",
+    "Note that this is the only way a character can reallocate Build already spent; a character cannot “give back” or unlearn a skill and get a Build Point refund. Additionally, the character must have the full 10 Build Points on their Character Card to learn the new Skill List.",
+    "There is no penalty for knowing multiple Skill Lists, and a character may know as many as they wish and have the Build Points to spend."
+  ],
+  "basicCareerSkillLists": [
+    "As stated a few times earlier in this chapter, there are three Basic Career Skill Lists which the player can choose for their new character. The player also has the option of just buying the skills off those lists and skills from the Miscellaneous Skill List. A character is not required to purchase one of these Skill Lists, but it is a smart choice. Many of the Advanced Careers require one of these lists as a prerequisite to learning skills from that career and it does save the character some Build Points. Similarly, there is nothing saying a player cannot learn all three lists if they wish, but it is also advantageous to the player’s character to focus their character on a specific career track. However the choice is ultimately up to the player.",
+    "The three Basic Career Skill Lists each cost 10 Build Points and the Miscellaneous Skill List, like the Advanced Career Skill Lists, has no Build Point cost associated with it and all the skills on the list have only one cost. The three Basic Career Skill Lists are:",
+    {
+      "type": "list",
+      "items": [
+        "Warrior Basic Career Skill List",
+        "Mage Basic Career Skill List",
+        "Rogue Basic Career Skill List"
+      ]
+    },
+    {
+      "type": "header",
+      "content": "Warrior Basic Career"
+    },
+    "Those players who wish their characters to fight and have the skills and Body Points to make them good at it, should choose this Basic Career and the skills associated with this list. Warriors have a long tradition in fantasy fare to be the ones in the middle of the fighting, going toe to toe with all manner of monsters and villains. It is arguably the most physically demanding – on the player – career in the game.",
+    "Many character archetypes fit in this Basic Career, the mercenary, bodyguard, soldier, and adventurer. Indeed, even footpads, highwaymen, and thugs can be made by purchasing this Skill List and later augmenting the character’s skills with a few Rogue skills.",
+    "Warriors can learn any Weapon Skill, Shield Skill, or fighting style in the game. They can also learn a few basic, yet very effective, martial skills that will help them survive a fight.",
+    "The only Advanced Career that is associated with this career is the Master Warrior. There are other Advanced Careers that the character may pursue that do not depend on a Basic Career for its basis, namely the Alchemist, Spell Singer, Druid, Follower of the Light or Servant of Darkness.",
+    {
+      "type": "header",
+      "content": "Mage Basic Career"
+    },
+    "What is a fantasy game without the Mage? Most fantasy involves magical elements of some kind and there always seems to be a mage – for good or for ill – involved in the story. Mages in many fantasy stories and games go by various names: wizard, sorcerer, warlock, witch, spell caster, thaumaturge, etc. In our game, any character that casts magic is a Mage. Sorcerers and Warlocks are specialized mages and those names are reserved for those characters that pursue those Advanced Careers.",
+    "There are numerous and varied character archetypes that fit in this Basic Career: hedge wizards, students of magic, combat mages, healers, etc. Magic in our game augments well with other careers to help to round out a character but it takes a committed amount of time and Build Points for a character to reach the higher ranks of magic; dabblers abound but masters are few.",
+    "Mages can learn any School of Low Magic in our game and purchase their Power Points at a reduced cost. They can also easily learn to read magic but have a limited number of weapons to choose from.",
+    "The Warlock and Sorcerer are the Advanced Careers that are associated with this list. The Alchemist and Spell Singer careers do not require the character to start out as this Basic Career. The character may also choose to follow one of the faiths and become a Druid, Follower of the Light or Servant of Darkness.",
+    {
+      "type": "header",
+      "content": "Rogue Basic Career"
+    },
+    "Of all the career paths a player can choose for his character, none require the player to have as much out-of-game skill as the Rogue. These players must be able to do almost all the classic feats a fantasy Rogue can do. Even many of the skills a character will learn require the player to perform the task. Rogues in LAIRE are varied in how they apply their skills. They are the burglars, cutpurses, footpads, scouts, spies, sneaks, lookouts, treasure hunters, etc. of the fantasy genre.",
+    "Rogues can learn to fight with many more weapon types than the Mage but not as many as the Warrior All of their fighting styles revolve around stealth, speed and dexterity. Additionally, the player will be able to choose from a few basic but useful skills to round out their character.",
+    "When a character is ready to advance their career they will have two choices, the Master Thief and the Assassin. There are other Advanced Careers that the character may pursue that do not depend on a Basic Career for its basis, namely the Alchemist, Spell Singer, Druid, Follower of the Light or Servant of Darkness."
+  ],
+  "sampleCharacters": {
+    "fighters": [
+      {
+        "name": "Sword and Board Fighter 1",
+        "skills": [
+          { "cost": 10, "name": "Warrior Basic Career Skill List" },
+          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
+          { "cost": 5, "name": "Shield Skill" },
+          { "cost": 5, "name": "Critical Attack" },
+          { "cost": 2, "name": "First Aid" }
+        ],
+        "bodyPoints": 10,
+        "powerPoints": 0
+      },
+      {
+        "name": "Sword and Board Fighter 2",
+        "skills": [
+          { "cost": 10, "name": "Warrior Basic Career Skill List" },
+          { "cost": 2, "name": "Weapon Skill: One-Handed Blunt" },
+          { "cost": 5, "name": "Shield Skill: Large Shield" },
+          { "cost": 4, "name": "Disarm" },
+          { "cost": 4, "name": "Stamina" }
+        ],
+        "bodyPoints": 11,
+        "powerPoints": 0
+      },
+      {
+        "name": "Florentine Fighter 1 teller",
+        "skills": [
+          { "cost": 10, "name": "Warrior Basic Career Skill List" },
+          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
+          { "cost": 3, "name": "Florentine" },
+          { "cost": 10, "name": "+1 Weapon Proficiency: One-Handed Edge" }
+        ],
+        "bodyPoints": 10,
+        "powerPoints": 0
+      },
+      {
+        "name": "Florentine Fighter 2",
+        "skills": [
+          { "cost": 10, "name": "Warrior Basic Career Skill List" },
+          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
+          { "cost": 3, "name": "Florentine" },
+          { "cost": 4, "name": "Disarm" },
+          { "cost": 2, "name": "First Aid" },
+          { "cost": 4, "name": "Stamina" }
+        ],
+        "bodyPoints": 11,
+        "powerPoints": 0
+      },
+      {
+        "name": "Two-Handed Weapon Fighter 1",
+        "skills": [
+          { "cost": 10, "name": "Basic Career Skill List" },
+          { "cost": 4, "name": "Weapon Skill: Bastard Edge" },
+          { "cost": 10, "name": "+1 Weapon Proficiency: Bastard Edge" }
+        ],
+        "bodyPoints": 9,
+        "powerPoints": 0
+      },
+      {
+        "name": "Two-Handed Weapon Fighter 2",
+        "skills": [
+          { "cost": 10, "name": "Basic Career Skill List" },
+          { "cost": 4, "name": "Weapon Skill: Two-Handed Edge" },
+          { "cost": 5, "name": "Critical Attack" },
+          { "cost": 4, "name": "Disarm" }
+        ],
+        "bodyPoints": 9,
+        "powerPoints": 0
+      }
+    ],
+    "mages": [
+      {
+        "name": "Combat Mage 1",
+        "skills": [
+          { "cost": 10, "name": "Mage Basic Career Skill List" },
+          { "cost": 1, "name": "Enchantments School" },
+          { "cost": 1, "name": "Bonds School" },
+          { "cost": 2, "name": "Pyrotechnics School" },
+          { "cost": 2, "name": "Weapon Skill: Quarter Staff" },
+          { "cost": 9, "name": "Power Points" }
+        ],
+        "bodyPoints": 5,
+        "powerPoints": 17
+      },
+      {
+        "name": "Combat Mage 2",
+        "skills": [
+          { "cost": 10, "name": "Mage Basic Career Skill List" },
+          { "cost": 1, "name": "Enchantments School" },
+          { "cost": 2, "name": "Ice School" },
+          { "cost": 1, "name": "Bonds School" },
+          { "cost": 0, "name": "Weapon Skill: Small Weapon" },
+          { "cost": 10, "name": "Power Points" }
+        ],
+        "bodyPoints": 18,
+        "powerPoints": 15
+      },
+      {
+        "name": "Healer",
+        "skills": [
+          { "cost": 10, "name": "Mage Basic Career Skill List" },
+          { "cost": 2, "name": "Auras School" },
+          { "cost": 2, "name": "Healing School" },
+          { "cost": 2, "name": "First Aid" },
+          { "cost": 9, "name": "Power Points" }
+        ],
+        "bodyPoints": 5,
+        "powerPoints": 17
+      },
+      {
+        "name": "Scholarly Mage",
+        "skills": [
+          { "cost": 10, "name": "Mage Basic Career Skill List" },
+          { "cost": 2, "name": "Ice School" },
+          { "cost": 1, "name": "Thaumaturgy School" },
+          { "cost": 4, "name": "Literacy: Common" },
+          { "cost": 1, "name": "Read Magic" },
+          { "cost": 7, "name": "Power Points" }
+        ],
+        "bodyPoints": 5,
+        "powerPoints": 14
+      }
+    ],
+    "rogues": [
+      {
+        "name": "Mugger",
+        "skills": [
+          { "cost": 10, "name": "Rogue Basic Career Skill List" },
+          { "cost": 0, "name": "Weapon Skill: Small Weapon" },
+          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
+          { "cost": 5, "name": "Waylay" },
+          { "cost": 6, "name": "Backstab" },
+          { "cost": 2, "name": "First Aid" }
+        ],
+        "bodyPoints": 6,
+        "powerPoints": 0
+      },
+
+      {
+        "name": "Burglar",
+        "skills": [
+          { "cost": 10, "name": "Rogue Basic Career Skill List" },
+          { "cost": 0, "name": "Weapon Skill: Small Weapon" },
+          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
+          { "cost": 3, "name": "Florentine" },
+          { "cost": 2, "name": "Pick Locks" },
+          { "cost": 2, "name": "Disarm Traps" },
+          { "cost": 4, "name": "Evaluate Item" },
+          { "cost": 2, "name": "First Aid" }
+        ],
+        "bodyPoints": 6,
+        "powerPoints": 0
+      },
+      {
+        "name": "Assassin in Training",
+        "skills": [
+          { "cost": 10, "name": "Rogue Basic Career Skill List" },
+          { "cost": 0, "name": "Weapon Skill: Small Weapon" },
+          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
+          { "cost": 5, "name": "Waylay" },
+          { "cost": 2, "name": "Herbal lore" },
+          { "cost": 4, "name": "Literacy: Common" },
+          { "cost": 2, "name": "Poison Lore" }
+        ],
+        "bodyPoints": 6,
+        "powerPoints": 0
+      },
+      {
+        "name": "Scout",
+        "skills": [
+          { "cost": 10, "name": "Rogue Basic Career Skill List" },
+          { "cost": 0, "name": "Weapon Skill: Small Weapon" },
+          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
+          { "cost": 2, "name": "Weapon Skill: Thrown Weapon" },
+          { "cost": 3, "name": "Florentine" },
+          { "cost": 5, "name": "Waylay" },
+          { "cost": 2, "name": "Pick Locks" }
+        ],
+        "bodyPoints": 6,
+        "powerPoints": 0
+      }
+    ],
+    "skillLists": [
+      {
+        "warrior": {
+          "skills": [
+            {
+              "name": "Small Weapon",
+              "onListCost": 0,
+              "offListCost": 0,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "One-Handed Edge",
+              "onListCost": 2,
+              "offListCost": 6,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "One-Handed Blun",
+              "onListCost": 2,
+              "offListCost": 6,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Bastard Swor",
+              "onListCost": 4,
+              "offListCost": 12,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Bastard Blun",
+              "onListCost": 4,
+              "offListCost": 12,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Two-Handed Edge",
+              "onListCost": 4,
+              "offListCost": 10,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Two-Handed Blun",
+              "onListCost": 4,
+              "offListCost": 10,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Quarterstaf",
+              "onListCost": 2,
+              "offListCost": 6,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Spea",
+              "onListCost": 3,
+              "offListCost": 8,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Polear",
+              "onListCost": 5,
+              "offListCost": 12,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Thrown Weapo",
+              "onListCost": 2,
+              "offListCost": 6,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Bo",
+              "onListCost": 3,
+              "offListCost": 9,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Crossbo",
+              "onListCost": 4,
+              "offListCost": 12,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Shiel",
+              "onListCost": 5,
+              "offListCost": 15,
+              "duration": "Constant",
+              "prerequisiteSkill": "None",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Florentin",
+              "onListCost": 3,
+              "offListCost": 9,
+              "duration": "Constant",
+              "prerequisiteSkill": "Any One-Hand Weapon Skill",
+              "purchase": "Once",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Weapon Proficienc",
+              "onListCost": 10,
+              "offListCost": 15,
+              "duration": "Constant",
+              "prerequisiteSkill": "Any Weapon Skill",
+              "purchase": "Multi",
+              "tagged": "No"
+            },
+
+            {
+              "name": "Critical Attac",
+              "onListCost": 5,
+              "offListCost": 10,
+              "duration": "Instant",
+              "prerequisiteSkill": "Any Weapon Skill",
+              "purchase": "Multi",
+              "tagged": "Yes"
+            },
+
+            {
+              "name": "Disar",
+              "onListCost": 4,
+              "offListCost": 8,
+              "duration": "Instant",
+              "prerequisiteSkill": "Any Weapon Skill",
+              "purchase": "Multi",
+              "tagged": "Yes"
+            },
+
+            {
+              "name": "Stunning Blo",
+              "onListCost": 6,
+              "offListCost": 12,
+              "duration": "Instant",
+              "prerequisiteSkill": "Weapon Proficiency",
+              "purchase": "Multi",
+              "tagged": "Yes"
+            }
+          ],
+          "specialNotes": [
+            "If a character purchases a one-handed and two-handed Weapon skill, they are able to use bastard weapons of the appropriate type. For example, if a player purchases One-Handed Edge and Two-Handed Edge they are able to use Bastard Edge Weapons",
+            "Two-handed weapons (Two-Handed Sword, Two-Handed Blunt, Polearm, Staff, and Bows) must be used with two hands to cause damage. However, the player may use these weapons with one hand to block",
+            "Bows and Crossbows may not be used to block an attack for they are too delicate. The one exception is Magic or unshatterable Bows, these weapons can be used to block attacks in melee combat but cannot be used to strike with in melee combat",
+            "All weapons gain the benefit of the character’s Strength Bonus except Crossbows. Bows count as two-handed weapons."
+          ]
+        }
+      }
+    ]
+  }
+}
