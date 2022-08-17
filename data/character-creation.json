@@ -1,0 +1,157 @@
+[
+  {
+    "section": "The Basic Questions",
+    "content": [
+      "Here are some questions you can ask yourself when you are creating your character.",
+      {
+        "type": "header",
+        "content": "What Can Your Character Do?"
+      },
+      "Look over the Skill Lists and see what you would like your character to be able to do. You receive 25 Build Points with which to start your character. Using your 25 Build Points, you can purchase those skills that best fit your character.",
+      {
+        "type": "header",
+        "content": "What Does Your Character Want to Become?"
+      },
+      "Look over the description of the Basic and Advanced Career Skill Lists in Chapter 4 and see if any of them matches your character’s goals. If your character is going to specialize in one type of Basic Career, it might be worthwhile to purchase a Skill List so that all skills purchased from that list will cost less.",
+      "You may want to think about what type of niche you might carve for yourself within the game. For example, you may decide that you want to be Lord High Inquisitor. Is there someone else who already has that role in the game? Who would be the one to appoint you to the job? What can you do to make yourself the obvious candidate for the title?",
+      {
+        "type": "header",
+        "content": "What Does Your Character Look Like?"
+      },
+      "Your costume is an integral part of your character. It is much easier to play the part if you look it. Many players take considerable time and expense with their costumes, and it shows. Better costumes get a player noticed by both other players and the staff alike. In general, avoid devices that were invented in modern times; for example, zippers, blue jeans, t-shirts. Medieval-looking footwear can be expensive, so feel free to wear black or brown work boots.",
+      "However, an expensive costume is not necessary to have fun. Even a pair of sweat pants, old boots, and a loose belted shirt can make a good costume; there is always room for another warrior in a simple tunic or tabard. A good way to develop an impressive costume is to start with a few key items and add more as your character advances and your monetary situation allows.",
+      "People should be able to look at you and tell something about your character. Your character’s race and profession should be apparent from your appearance and roleplaying. You do not have to maintain the classic fantasy stereotypes if you do not want to; not all Dwarves wear heavy armor, carry a battleaxe in one hand and a tankard of Dwarven spirits in the other. However, everyone should be able to identify you from a distance as a Dwarf. Strive to develop a costume, the mannerisms, and the colloquialisms common to the race and profession you portray."
+    ]
+  },
+  {
+    "section": "The Character Description",
+    "content": [
+      "The next step in developing your character is to write a description of your character’s background and submit it to the Plot Committee. The purpose of this description is to give Plot enough detail so they can arrange interesting events that could involve your character. For example, if you write that you have a long lost Uncle Cedric, you may meet that uncle someday; of course, he may have changed since you last met him.",
+      "The character description should be as long as you want it to be. If your character can be described in a paragraph, then that is enough. You should keep your history under five pages, and try not to overwhelm the Plot Committee with a lot of detail. The purpose of the character description is to enhance your enjoyment of the game; it is not meant to be a classroom writing assignment.",
+      "If you need help or have questions about what you are allowed to put into a character description, you can contact the Plot Committee.",
+      "Here are some things to consider when you write your character description.",
+      {
+        "type": "header",
+        "content": "What is the Story Behind Your Character?"
+      },
+      "Many new characters in LAIRE are young and have not had much experience yet: an adventurer fresh from the farm with nothing more than a sword and a will to fight; a spellcaster who has just graduated from magician’s school and is ready to put their talents to the test; a ragamuffin who grew up in the forest who is looking for their destiny in a town full of people. Your character does not have to be a youngster; you could be an old retired veteran or mercenary, who took up adventuring to alleviate boredom. Do not let these ideas limit you.",
+      "Give your character a past that describes how your character got to be the way they are now. Past events that you include in your character description may come back to affect your character – old enemies, family debts, etc.).",
+      {
+        "type": "header",
+        "content": "What Obstacles Must Your Character Overcome?"
+      },
+      "Do not make life too easy for your character. Some of the most interesting characters in the game are those who have been handicapped by their players in some way. Perhaps your character is cursed and is looking for a cure. Maybe your character has some strange beliefs. Does your character dislike Elves? Hate Dwarves? Believe everything a Gypsy tells them?",
+      {
+        "type": "header",
+        "content": "What Are Your Character’s Goals?"
+      },
+      "You should feel free to include a wish list of events or goals that you would like for your character. Is your character looking for a long lost relative? The sword that was stolen from your character’s mother in battle? Proof that they are innocent of the murder of a noble in a neighboring kingdom? A long forgotten tome of ancient lore? A chance to meet the Queen of the Elves? A magic gate to the stars?",
+      "Do not expect everything you wish for, but expect your wishes to come true when you least expect it.",
+      {
+        "type": "header",
+        "content": "Questions to ask When Developing a Character"
+      },
+      {
+        "type": "list",
+        "items": [
+          "Where and when were you born?",
+          "Into what social class were you born?",
+          "Who are your parents?",
+          "Do you have any siblings?",
+          "What was your childhood like?",
+          "Do you have any close friends or enemies?",
+          "What specific goals does your character have?",
+          "How did you come to learn your trade?",
+          "Did you learn or attempt to learn any other trades?",
+          "Are you an adventurer? If so, why?",
+          "Do you currently belong to an adventuring group?",
+          "If so, what is your relationship with these individuals?",
+          "What do you want most in life?",
+          "How do you feel about fame, power, and wealth?",
+          "What tempts your character?",
+          "What would you change about yourself, if you could?",
+          "Do you have any fears or superstitions?",
+          "What is your attitude toward friends, enemies, and rangers?",
+          "What is your attitude toward other races?",
+          "Do you have any prejudices?",
+          "What are your feelings about magic?",
+          "What are your feelings about thieves?",
+          "What are your feelings about nobility?",
+          "Does your character have a set of ethics?"
+        ]
+      },
+      "Your relatives:",
+      {
+        "type": "list",
+        "items": [
+          "Are they still alive?",
+          "What are their professions?",
+          "What are they like?",
+          "Where are their former and current homes?",
+          "What is the nature of your past and current relationship?"
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Common Problems"
+      },
+      "These are the common problems that occur in character descriptions:",
+      {
+        "type": "list",
+        "items": [
+          "Please do not waste the Plot Committee’s time with a wish list that is too extravagant. For example, do not bother to write that your character wants a +3 magic sword; players must earn such treasures on their own.",
+          "Backgrounds that give characters unfair advantages are a dime a dozen. This usually takes the form of a player giving their character a noble title or giving themselves great wealth. If you want a noble title or lots of money, you will have to earn them in-game. This is not a hard and fast rule: if you combine the advantages you give your character with corresponding disadvantages, the Plot Committee may allow it. You once had a noble title but lost it in disgrace; you once had great wealth but squandered it.",
+          "Try to avoid the stereotypes of third rate fantasy novels. For example, you would be amazed how many bastard sons of nobility there are in the game. Create a role that will give you enjoyment, but an original characterization will get you more attention than the usual story of “I’m an Elf and the Dwarves killed my parents and now I seek revenge”. However, any goal is better than no goal at all; if you really want to be a character from your favorite fantasy story, go ahead."
+        ]
+      },
+      "After you submit your history, you must get approval from the Plot Committee before your history can be brought in-game and is truth. You can play your character before you get approval, but your history technically does not exist until it is approved."
+    ]
+  },
+  {
+    "section": "Creating a Character",
+    "content": [
+      "Every player when creating a character needs to decide what race they would like to play and what type of character they are interested in playing. The races are described in the next section and the Basic Careers in the following.",
+      "Every character receives 25 Build Points at the time of character creation. These Build Points can be spent on any skill on the Basic Career Skill Lists and Miscellaneous Skill List, so long as the prerequisite to purchase the skill are met. This may exclude some skills from starting characters because they only have so many Build Points to spend at the start. These Build Points do not go towards determining a character’s level.",
+      "Every character gets to pick one Professional skill they want their character to start with for 0 Build Points, if they wish. This is not mandatory; a player may not wish to have their character know a profession. Players who pick Common Man for their race may start with two Professional skills for 0 Build Points.",
+      "Some players may have earned Build Points towards their character before they even created one, for example, a player that NPC’s an entire Event will earn Build Points for their character. These extra Build Points earned by doing service for the organization can be used to build a character. These Build Points are used to determine a character’s level, so it is possible to start playing a character that is more than first level. Other sources of Build Points – from Brownie Points or purchased Build Points – cannot be spent on a starting character",
+      "Sometimes a player may not like the character they created and may wish to start over. A player may scrap a character and will receive up to a maximum of 22 Awarded Build Points towards their next character. Only Build Points actually Awarded can be transferred.",
+      "Every new character gets the following starting items: any normal armor, one normal shield, two normal weapons, and 15 copper pieces. The player must have a physical representation for each item, except the copper pieces, they bring in and they cannot bring in an item later."
+    ]
+  },
+  {
+    "section": "Character Races and Tribes",
+    "content": [
+      "There are twenty different races, and several tribes of humans to choose from when making a character in addition to the standard human race. This could be the most important initial choice a player can make. Some races come with large advantages, but they are accompanied with equally large detriments. Some detriments are obvious like restrictions on skills or increased costs of some skills. Others are not so obvious. For example, should a player choose to play a Dark Elf they should consider the in-game dislike many other characters have for Dark Elves and the out-of-game difficulty with applying all the required make-up. Choose carefully what race you would like to play.",
+      "Some of the racial advantages and disadvantages gained by playing a race are biological and others are cultural. The game makes no distinction in the racial descriptions below. However, a player cannot write away their character’s racial disadvantages in their character’s history. For example, you cannot choose to play a Northern Barbarian and say you grew up in the Duke of Avalon’s court and therefore have learned to read and cast magic beyond what your racial limitations say. If you do, you are no longer considered a part of that race and have normal human characteristics. Finally, in order to gain the racial benefits of a race, you are assumed to have spent enough time, usually until the age of maturity, with other people of that race.",
+      "While choosing a race and during game play, players should put aside standard fantasy stereotypes about fantasy races when dealing with size. All races come in all shapes and sizes. Halflings can be as short as 5 feet or as tall as 7 feet.",
+      {
+        "type": "header",
+        "content": "Costuming Do’s and Don’ts"
+      },
+      "No character can wear the costume, in part or in whole, of another race if this leads to any confusion of the character’s race",
+      "The following is a list of examples that are proscribed. It is not a complete list.",
+      {
+        "type": "list",
+        "items": [
+          "You may not have pointy ears",
+          "You may not wear Tartan or talk in a brogue",
+          "You may not wear black face paint",
+          "You may not wear gaudy clothes and lots of bad jewelry or talk with a Romanian accent",
+          "You may not wear blue, brown, green, or red makeup around your eyes",
+          "You may not wear furs covering more than 25% of your body",
+          "You may not wear braided hair AND furs",
+          "You may not wear earthen colored clothing AND earthen colored beads",
+          "You may not wear a fake beard",
+          "You may not wear two fake, long braids",
+          "You may not wear fake fur on your feet",
+          "You may not wear fake muttonchops",
+          "You may not wear fur/fur like makeup or have a feline/canine tail, feline/canine nose and whiskers, and feline/canine ears",
+          "You may not wear a full green body costume covering the head, body, hands and feet",
+          "You may not wear green, yellow, or brown makeup on your face and exposed skin"
+        ]
+      },
+      "Some combinations are okay since they do not lead to confusions. For example, a Half Troll that wears brown leathers with beads and feathers can not reasonably be confused with a Southern Barbarian.",
+      "The final determination on acceptability of a character’s costume is made by Plot and Eboard."
+    ]
+  }
+]

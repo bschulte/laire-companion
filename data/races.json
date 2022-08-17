@@ -1,0 +1,535 @@
+[
+  {
+    "name": "Human",
+    "description": "Humans are by far the most prolific race found across Midlantia. Yet even humans come with different abilities gained from the regions and cultures where they live. There are six human cultures or tribes that a player can choose from. There may be other human cultures encountered during game play but only these are available to the player. ",
+    "subraces": [
+      {
+        "name": "Northern Barbarian",
+        "description": [
+          "These people live in the harsh, cold climate of the Frozen North where food is scarce and the neighbors hostile. Each clan is composed of large extended families lead by a patriarch. Every clan has its demesne that it frequently roams through heading north in the short summer and back south for the fall through spring. They hunt when game is available and forage if the opportunity presents itself, but their chief means of survival is raiding. Typically, in the fall through spring the tribe survives by raiding their Ice Elf and Nymidian neighbors, and when times are hard, each other. This has made them marked and all the people in the area seek their eradication making them very xenophobic, even to other Northern Barbarian people outside their tribe. Northern Barbarians do not take slaves or captives, they have nothing to use them for and only cause a drain on their already limited resources.",
+          "Both men and women share the responsibilities for tending the tribe’s needs and welfare. Both are found equally in the raiding parties and with the tribe caring for the young and wounded, animals and food stocks. There are very few elderly people in the tribe as most do not live long enough to grow old or if they do, are eventually unable to keep up and are left behind.",
+          "Northern Barbarians have very little free time to spend pursuing things that do not directly aid the survival of the tribe. There is little or no art work, jewelry or other such frivolous things. Most Northern Barbarians do not take coins, gems or anything they cannot wear, wield or eat as much of their economy – such as it is – is based on trade and their xenophobic nature prevents them from trading with the outside world. They have very little, if any, knowledge of arcane skills or low magic. However, some tribes have managed to hold on to the rudiments of the magical arts. Highly superstitious, they shun magic generally and are very careful on choosing what magics to learn. Their hard, stressful lives leave little room for religion and most do not follow any of the gods. The very few that do, follow the three in equal numbers."
+        ],
+        "advantages": [
+          {
+            "text": "+1 Damage Bonus with all weapons"
+          },
+          {
+            "text": "+5 Body Points at first level"
+          }
+        ],
+        "disadvantages": [
+          {
+            "text": "Cannot learn Sorcery, Warlock, Spell Singing, or Alchemy skills until Level 20"
+          },
+          {
+            "text": "Cannot learn any Literacy skill until Level 5"
+          },
+          {
+            "text": "Cannot learn Rank 2 low magic until Level 5, Rank 3 until level 10, Rank 4 until Level 15"
+          },
+          {
+            "text": "Cannot start game with non-elemental schools of magic"
+          }
+        ],
+        "costumeAndRoleplay": "Must wear fur –real or imitation – visibly as part of their costume covering 25% of body and some of their hair visibly in braids.",
+        "nativeLiteracy": "None"
+      },
+      {
+        "name": "Plains Barbarian",
+        "description": [
+          "The vast open prairies and plains west of the Wolfskael Mountains are home to the Plains Barbarian tribes. Ranging over almost the entire length of the mountains and many days travel west, the area they cover is vast and most of the time covered in lush vegetation. The plainsmen are expert horsemen and spend most of their time in the saddle riding from hunting ground to hunting ground. There is a harsh divide between the men and women of the tribe. The men hunt and make war; the women tend the young and produce the crafts and items needed by the tribe.",
+          "These people are mostly nomadic, but from time to time they venture into the mountains and settle down for a short time, long enough to gather the wood and metals they need to support them over the coming months.",
+          "Plainsmen have no fixed territories and frequently different tribes come in contact with each other and war ensues. These people are highly aggressive almost always choosing to fight rather than talk, and to the victor goes the spoils; which not only includes the defeated’s goods but their people as well. The plainsmen practice slavery and whole tribes have vanished into slavery in the past. There is no end to the servitude the defeated must pay for defeat, and it is only very seldom that they are freed. However, slavery is not passed onto the children and when a child born to slave parents comes of age; they are freed and welcomed into the tribe.",
+          "Though the land is very bountiful, eventually the tribe grows too large to be supported and it breaks up often violently. These new tribes are almost immediately hostile towards each other and sometimes brother is pitted against brother.",
+          "The plainsmen are xenophobic but much less so than the Northern Barbarian. They know the value of gold, silver, copper and jewels and when they are found in the mountains, they seek out people to trade with. They have the time to put value on knowledge and have a good oral tradition; some members have even learned to read and write. They know and understand magic and while they do not have the resources or temperament to learn any high level arcane art, they have practiced and keep up with their knowledge of low magic.",
+          "The more cerebral pursuits of faith and questions of the origins of the universe have little use to the steppe barbarian. However, some do feel the draw of the powerful skills the Dark Lord has to offer and there are those who seek out his blessings. Few follow the other gods, but there are always some."
+        ],
+        "advantages": [
+          "+3 Body Points at first level",
+          "Free Weapon Skill of Choice"
+        ],
+        "disadvantages": [
+          "Cannot learn Sorcery, Warlock, Spell Singing, or Alchemy skills until Level 15",
+          "Cannot learn Rank 3 low magic until Level 7, Rank 4 until Level 10",
+          "Cannot start game with non-elemental schools of magic"
+        ],
+        "costumeAndRoleplay": "Must paint eyes black and have black tattoos on face covering 25% of face.",
+        "nativeLiteracy": "Common"
+      },
+      {
+        "name": "Southern Barbarian",
+        "description": [
+          "The more peaceful Southern Barbarians that make their home in the wilderness south of Avalon and north of the Plains of Gehenna form more stable tribes than the other barbarians of Midlantia. Exposure to non-violent external influences has taught these people the benefits of semi-permanent living. It is believed that these people originally migrated from the steppes and prairies of the western Wolfskael Mountains and settled in this region either because of some war or natural hardship a long time ago. Their lifestyle has changed and only rarely does the more warlike and aggressive nature of their heritage comes through.",
+          "They have begun to learn how to farm and have begun to domesticate the flora of the region and cultivate crops in growing quantities, but still rely on gathering for much of their needs. They have begun to learn animal husbandry, but still mostly rely on hunting. They have learned how to craft what they find into more complicated and useful items.",
+          "The area they live in supports many rivers and streams and has much arable land for which to lay down a settlement. This semi-stagnant living and surplus of food in good years has given them the time to explore more complex social and political structures. They have the time to explore the mysteries of the universe and have started to come to an understanding of the world around them. Unlike their cousins, they are more mystical in belief and have found a harmony with nature that makes most of them follow the Mother’s teachings. Most follow that faith and there are a good number of them that are Druids and Protectors. However, as with any free willed people, there are those who seek out other paths and as their exposure to the outside world grows, so do the number of followers of the High Lord and Dark Lord. They are still superstitious of magic and things they have not learned to understand and, in that, they are much like the other barbarians.",
+          "They have shed their xenophobic roots and put down their weapons for other pursuits, which has allowed them to trade with each other and outsiders, and with trade comes new ways of thinking. While they are the most “civilized” of the barbarians, they are still barbarians. Their ways are simple, their society primitive, but they are learning.",
+          "They are not, however, free from the rigors of the dangerous world they live in. Frequently the Outlanders from their south raid or come in conflict with the Southern Barbarians over territory and wars erupt. These people have learned to work together more than the other barbarians and this gives them the safety of numbers and strength of unity; but this is not always the case. A strong leader is needed to bring the people together, and if one does not emerge, the whole suffers.",
+          "The world can be harsh and in hard times, in order to survive, they turn to their roots and raid others first then eventually each other."
+        ],
+        "advantages": [
+          "Free Weapon Skill of choice ~ or ~ On-list cost rebate for two Rank 1 elemental low magic schools",
+          "+2 Body Points at First Level"
+        ],
+        "disadvantages": [
+          "Cannot learn Sorcery, Warlock, Spell Singing, or Alchemy skills until Level 10",
+          "Cannot start game with non-elemental schools of magic",
+          "Cannot learn Rank 3 non-elemental low magic until level 7, Rank 4 until level 10"
+        ],
+        "costumeAndRoleplay": "Must wear earthen colored clothing and earthen colored beads and feathers.",
+        "nativeLiteracy": "Common"
+      },
+      {
+        "name": "Outlanders",
+        "description": [
+          "The Plains of Gehenna are home to a race of barbaric people called Outlanders. Some historians say they are descendants of the Plains Barbarians, similar to the Southern Barbarian, but who settled much farther to the south. Others claim they are human descendants of the once powerful Carthidian Empire. The Plains of Gehenna are dry most of the year, nearly infertile savannas dotted with deserts. The weather is not the only hazard in this harsh land. Anti-magic storms rage across the land destroying all magical items and draining magical energies from anyone who has them. It is these storms that have shaped this race of people the most, changing even their biology. Outlanders are known most for their ability to resist magic and for their intense hatred of mages and magic in almost all its forms.",
+          "These people live a nomadic lifestyle, forming two or three extended family sized clans. Some clans are much larger using their strength to influence the other clans. Men and women share the jobs equally except child rearing which is solely the province of women, such tasks being shunned by the men of the tribe so much that even touching a child before the age of maturity is tantamount to a capitol offense. Similarly, women do not fight or take up arms. However, this social mores is not as strictly followed and women, in times of great need, take up weapons to defend the clan and the young. Indeed, these female Outlanders are known for their tenacity and skill in combat which must come from the training all young Outlanders receive.",
+          "Outlanders hunt and gather as their primary sources of food. Occasionally the clan will set down temporary roots long enough to grow grains during the wet season in late winter. The hearty, fast growing grains – which only grow on the plains – are highly nutritious and are made into flat breads that keep for a long time and supplement the Outlanders diet throughout the year.",
+          "Their other source of food and goods comes from the nearly constant raiding of the Southern Barbarians to their north and people to the west.",
+          "The clan is ruled by the strongest and a “might-makes-right” code is pervasive throughout their society. However, Outlanders are not a stupid people and they quickly learn when to and when not to apply their philosophy and with whom. Though in times past women have been heads of clans, it is a rare sight and few people have witnessed this to record the fact.",
+          "Outlanders are very xenophobic, and do not tolerate outsiders in their territories. While their might-make-right philosophy often pits clan against clan, Outlanders from different clans do come together for the rare social event.",
+          "Outlanders generally do not take slaves when they raid. When it is done, the slave is usually taken as a form of extended punishment and the individual rarely lives longer than a few months under the harsh treatment received.",
+          "Outlanders are not superstitious people. They do not bother nor care about such things. The supernatural world around them has all but been destroyed by the anti-magic storms that ravage their countryside. Magical creatures almost all people everywhere take for granted are not seen in these lands. The three powers – the Mother, the High Lord and the Dark Lord – are worshiped equally among the people and this makes up the bulk of their philosophical and supernatural dealings."
+        ],
+        "advantages": [
+          "+1 Damage Bonus with all weapons",
+          "+3 Body Points at Level 1",
+          "Can purchase the Resist Spell skill and starts the game with two purchases of this skill for 0 Build Points"
+        ],
+        "disadvantages": [
+          "Cannot learn the Mage Basic Career Skill List",
+          "Cannot learn any Arcane skills except Alchemy skills",
+          "Cannot learn any Literacy skills until Level 15",
+          "Cannot use latent spells. If cast upon them, they will invoke them to get rid of them.",
+          "Cannot use magic items until Level 15, but can use faith items at any appropriate time"
+        ],
+        "costumeAndRoleplay": [
+          "The player must wear fur visibly as part of their costume covering 25% of their body.",
+          "Distrustful of magic and strong dislike of mages. They do not have to attack on sight."
+        ],
+        "nativeLiteracy": "None. Outlanders do not have a written language, preferring to pass down their history orally."
+      },
+      {
+        "name": "Gypsie",
+        "description": [
+          "Gypsies are wholly nomadic people; traveling around the civilized world in wagon caravans laden with trade goods, trading with everyone they meet. They form very close extended families which are lead by a single member. Gypsies are easily recognized by their flashy dress and excessive, and in most peoples eyes, gaudy jewelry.",
+          "Gypsies are not xenophobic but have little respect for anyone not in their family, extending to even other Gypsies. Non-Gypsies are referred to as Gaja, and the word carries a negative connotation bordering on a direct insult to anyone labeled as such. Gypsies survive economically solely by trade; satisfying all their needs through trade.",
+          "The arrival of these vagabonds is always met with mixed feelings. Some are glad for the goods and coin that Gypsies bring with them. Others lock up their valuables and close their doors in fear of them disappearing mysteriously when Gypsies are in town – whether founded in truth or not. Still others, who have made friends with members of the family, are excited to hear what stories of the outside world the Gypsy caravan brings this time.",
+          "Not all Gypsy families are so dismissive of outsiders and have made themselves welcome in various lands and towns. However, all Gypsies share the not unfounded derogatory stereotype of thieves, criminals and miscreants. Whether due to a worn out welcome or to general wanderlust, Gypsies do not stay in one place for too long.",
+          "Nobles and indeed the whole feudal political structure is an anathema to Gypsies who refuse to pay nobles of any land any heed or respect. This has made Gypsies unwelcome in many places, but few nobles bring the issue to violence fearing the renowned Gypsy curse. It is not known precisely where this ability to lay a curse on anyone who kills a Gypsy, but it is accepted that this ability is a powerful innate ability in all who are Gypsies, and none are immune from its effects. This has made Gypsies feared by many, and affords the caravan another layer of protection from greedy eyes who covet their goods."
+        ],
+        "advantages": [
+          "Half cost for the Rogue Basic Career Skill List (5 Build Points)",
+          "Can learn Divination and Medium skills for 0 Build Points, may start game with these skills",
+          "Can purchase the Gypsy Curse skill, and must start the game with this skill"
+        ],
+        "disadvantages": [
+          "When speaking in Romany, may only speak the truth. If the character is charmed, they can be compelled to lie.",
+          "The character must miss four regular, non-special LAIRE Events per year."
+        ],
+        "costumeAndRoleplay": [
+          "Must speak in a Romanian accent at all times.",
+          "Player must wear brightly colored clothing and gaudy jewelry, which does not have to have an in-game value.",
+          "Gypsies are very clannish by nature and tend to stay with their clan, doing what they can to support the clan and obey the clan leader.",
+          "Gypsies tend to be mistrustful of non-clan members."
+        ],
+        "nativeLiteracy": "Common"
+      },
+      {
+        "name": "Highlanders and Celts",
+        "description": [
+          "Highlanders and Celts live in the upland regions of mountain ranges north of Avalon. These people live simple lives which some call primitive or even barbaric, but they are neither. If you ask a Celt or a Highlander if they are related, they will tell you yes. These tribes of humans were separated a long time ago and have once more been reuited in recent days..",
+          { "type": "header", "content": "Highlanders" },
+          "The lower Wolfskael Mountains are the home of the upland peoples known as Highlanders, a people steeped in their own history passed down orally by their Spell Singers – known as Shanahee - and lead by their Druids. They were driven from their homes in the highlands of the mountains by the Bainites, creatures created by the Hierarch Bain and fled to Avalon. Indeed, if it was not for this war a generation ago, Avalon may never have learned of these peoples existence.",
+          "Their society is broken down in to large clans – hold outs from generations ago. However, many different clans can be found in one town and as these town relationships grow stronger, the clan loyalties break down. Do not be misguided, the old clan loyalties are very strong still and cause a great amount of friction within the various Highlander settlements.",
+          "A clan chief leads a clan, but so does the local leader of a town. How either is chosen is a mystery to any outsider, and maybe even Highlanders themselves. The Shanahee are keepers of history and laws. They are respected and revered within the Highlander society and enjoy a protected and honored status. They are keepers of history and pass this knowledge down orally and through song and prose. Highlanders do not learn to read and write due to the guidance from the Shanahee who teach that writing such things taints and devalues the story.",
+          "The other highly influential, and with nearly noble authority, are the Druids. These people are revered and honored and most importantly, obeyed by all Highlanders from any social level. They appear on the surface to maintain a distance from politics but it is obvious to any how strong their influence is over the leaders of the society. Highlanders have Followers of the Light amongst their numbers, and Servants of Darkness as well. Indeed whole clans of Dark Paladins have been rumored to exist.",
+          {
+            "type": "header",
+            "content": "Celts"
+          },
+          "Found in the upland regions of the Wolfskael Mountains and living throughout the Duchy of Avalon, the Celts now have a nation of their own living along side their Highlander brothers. Arriving late in the last decade from across the ocean as shipwrecked refugees these people have found a home in Avalon. Their old home of Erin was recently destroyed. The survivors, who were saved with the aid of the Heroes of Avalon, have returned to their ancient home in the Highlands.",
+          "Many of their old traditions are taking a back seat to the local laws and customs of their new home. However, the old ways die hard and they still cling to their old traditions whenever possible. Chief amongst them is their reverence, respect and obedience to their Druids",
+          "However set in the old ways they are, the Celts have adapted themselves to Avalonian society and ways and have made many friends and allies. ",
+          "Recently, the Celts have been taken in by their Highlander cousins and have found a national identity. ",
+          {
+            "type": "header",
+            "content": "The Geasa"
+          },
+          "Every Highlander and Celt character must start the game with a Geasa, which is a superstitious code the character has developed during their lives. Some examples of Geasas are given below: ",
+          {
+            "type": "list",
+            "items": [
+              "Must not walk alone at night.",
+              "Never except a drink for free.",
+              "Only accept spells from other Highlanders.",
+              "Do not start conversations with strangers"
+            ]
+          },
+          "Should a character willingly break their Geasa, they will suffer the following effects:",
+          {
+            "type": "list",
+            "items": [
+              "Their Body Point total is reduced to half until the character atones.",
+              "The character may only use passive or defensive skills.",
+              "The character can only swing their weapon’s Base Damage, regardless of any Strength Bonus or Damage Bonus they may have."
+            ]
+          },
+          "If a character is compelled by a mind controlling effect, they have not broken their Geasa. The Plot Committee or the Racial Contact will give the player a way to atone for their transgression. This usually takes the character about an hour of in-game roleplaying, but it depends on why the character broke their Geasa and what their Geasa is."
+        ],
+        "advantages": ["Can purchase the Rage skill"],
+        "disadvantages": [
+          "Has a personal Geasa which must be chosen at character creation.",
+          "Cannot learn any Literacy skills until Level 5"
+        ],
+        "costumeAndRoleplay": [
+          "The player must speak in a Scottish Brogue for Highlanders and a Celtic Accent for Celt characters..",
+          "The player must wear any color of Scottish Tartan as either a kilt, skirt, dress or trews"
+        ],
+        "nativeLiteracy": "None. Highlanders and Celts do not have a written language, preferring to pass down their history orally."
+      }
+    ]
+  },
+  {
+    "name": "Elves",
+    "description": [
+      "Many long eons ago the first elves appeared on the world. They went by many names and were called many things, the most common of which was the Anteanum. These Ancient Elves enjoyed dominance over the world and their domain stretched over the known world. Over the centuries and after the appearance of other races, the Anteanum’s numbers dwindled until they faded into obscurity. Their descendants still exist however changed by time.",
+      "Rumors persist of sightings of these Ancient Elves whom to this day still live; their immortal lives lived out in a world that has forgotten them.",
+      "All elven races share a disdain for all kinds of charms. Along with their dislike for charms they are able to learn a mystical ability to resist the affects of many types of charms. All Elves live for thousands of years, some reaching 4,000 years old. Elves age as humans do until about the age of eighteen, then physically age one year for every fifty years they live.",
+      "There are three types of elves a player may choose to play, though there are others that may be encountered during game play, they are not open to players as races they can choose.",
+      "Any union between any Elves always results in one of the parent’s racial characteristics being dominant. The player therefore has to choose one of the two races to be their character’s racial characteristics. For example, if a Gray Elf and a Dark Elf have a child, that child will either look like and have the racial advantages and disadvantages for either a Dark Elf or a Gray Elf, not some mix of the two."
+    ],
+    "subraces": [
+      {
+        "name": "Dark Elves",
+        "description": [
+          "The exact origins of the Dark Elves are not known to most people. What is known for sure is that their society reveres one of the Hierarchs, Arachnia. These descendants of the Ancient Elves at one time lived above ground with the other Elves until something drove them underground and there they dwelt for millennia until this day, adapting to their new environment.",
+          "Dark Elven society is lead by matriarchs and men are second class citizens. It is the women in their society that are the rulers and administrators. The men are soldiers at best and in some cases slaves to the whims of the females.",
+          "The Underdark where they dwell is said to be vast and covering below ground what above ground is most of the eastern known world. The Underdark is a dangerous place and few who venture there return. What information is available about the Dark Elven world is learned mostly through turncoats and renegades from their society.",
+          "The Dark Elven political structure is as complicated as any other, more so perhaps due to the constant political maneuvering and backstabbing that pervades not only the nobles but down to the lowliest commoner. There is one queen who shares her power with no one, even though she may have many consorts. There are many noble houses, some great some small, some powerful some weak and all Dark Elves belong to one of these houses. The leaders of these houses have, depending on the influence of the house, great power and the greatest of these collectively have enough influence to influence the decisions of the queen. Life in the Underdark is a constant struggle for position and survival.",
+          "The Underdark is not a lifeless wasteland as some may imagine and natural resources abound, enough to make these people self sufficient. When the need for goods that are found in short supply arises, they quickly turn to stealing from the surface races. They take what they need, including slaves, and disappear under ground where they believe themselves safe from reprisals. Dark Elves live long lives but generally do not have the luxury of time to pursue the finer arts. However, some do and their artwork would rival their Gray Elf cousins’ beauty and skill, if their works were not tainted by their dark hearts and thoughts. Few find their works pleasing to the eye and there is little market for their goods.",
+          "Given all this, Dark Elves still have free will and some do not abide by their societies’ moral choices and find themselves hiding their true nature from their own family, friends and people. This makes life particularly hard on Dark Elves who chose not to follow along with the dark wishes of their leaders. Many choose the surface world as a means of escape where they are only marginally more accepted by the people on the surface. Lands such as Avalon, with its laws that protect rather than punish the populace give these outcasts a place to try and live in peace. Even though the overwhelming number of Dark Elves are evil and to some extent follow the Dark Lord, free will has allowed some to be Followers of the Light and others Druids."
+        ],
+        "advantages": [
+          "Half cost for the Rogue Basic Career Skill List (5 Build Points)",
+          "+1 Damage Bonus for all weapons during the night (7pm to 7am) or while completely underground",
+          "Can purchase the Elven Resist skill",
+          "Can purchase Poison Immunity: Sleep Poison as a racial ability for 3 Build Points. May start the game with this skill",
+          "Can purchase the Blind Fighting skill as a racial ability for 3 Build Points. May start the game with this skill."
+        ],
+        "disadvantages": [
+          "-2 Body Points at first Level",
+          "Double cost for the Stamina skill (8 Build Points)",
+          "-1 Damage Bonus during the day (7am to 7pm)",
+          "Cannot learn the Charm School "
+        ],
+        "costumeAndRoleplay": "The player must wear black pointed ears and black makeup on their face and exposed skin. Most Dark Elves have white hair, but this is not required.",
+        "nativeLiteracy": "Dark Elven"
+      },
+      {
+        "name": "Gray Elves",
+        "description": [
+          "The Gray Elven nation on Midlantia is in the heart of the Mistwood. Ruled by the Elven Queen, their cities which blend into the forest are the heart of these people’s lives. They are great mages having a natural affinity for magic, but can also be warriors and rogues.",
+          "These people are aloof and proud, claiming a more direct decent from the Anteanum. They look down on all other races – even other elves – as inferior and either treat them with disdain or patronizing simplicity. Their attitude towards the other races has earned them few true allies. All Gray Elves are not so insufferable, however, and indeed their society is as good as the Dark Elf society is evil. Their benevolence, even tainted as some may say by their arrogance, is the reason they do have friends, namely the Duchy of Avalon which for almost its entire existence has had an alliance with the Elves of Mistwood.",
+          "Gray Elves are isolationists, preferring to close the outside world from their lives. Some Gray Elves, however, have ventured forth from their cities and the Mistwood and sought out the outside world, some simply find life in the Mistwood boring and seek adventure. Many find their way to Avalon where their magical aptitude allows them easily to find a place in Avalonian society.",
+          "The Elven Queen rules her people with the aid of the Elven high nobles, each representing a noble house. In this way too, Gray Elves are similar to Dark Elves, but their laws rather than promoting strife, conflict and turmoil in the pursuit of power, protect the people they are placed upon.",
+          "Gray Elves are long lived and their long lives, powerful ancient magic, and graceful skill allows them to be great creators of all forms of art and music. Not all Gray Elves are artisans, but with hundreds of years of practice there is little a skilled Gray Elf craftsman cannot do. Gray Elves trade with the outside world and their crafts are highly sought after and this trade has made the Gray Elf nation very wealthy, even perhaps beyond what outsiders could imagine.",
+          "Most Gray Elves tend to be good, though being free willed creatures some have sought out means of power to satiate their darker desires. Few chose to follow the Mother, preferring their cities to the wild and they often leave the pursuit of such things to the Wood Elves, but they still hold the Mother in high regard."
+        ],
+        "advantages": [
+          "+2 Power Points for the first 3 levels (+6 Power Points Total)",
+          "Half cost for the Mage Basic Career Skill List (5 Build Points)",
+          "Can purchase the Elven Resist skill"
+        ],
+        "disadvantages": [
+          "-2 Body Points at Level 1",
+          "Double cost for the Stamina skill (8 Build Points)",
+          "Increased cost for Rogue Basic Career Skill List (15 Build Points)",
+          "Cannot learn the Charm School"
+        ],
+        "costumeAndRoleplay": "The player must wear pointed ears and blue makeup around the eyes.",
+        "nativeLiteracy": "Elven, Common"
+      },
+      {
+        "name": "Wood Elves",
+        "description": [
+          "These descendants of the Anteanum have taken to living in the lush and beautiful forests and glades of the Mistwood, preferring to sleep as close to nature as they can. Wood Elves form small agrarian communities, living in blissful harmony with the land. Wood Elves practice little politics and while they have a king, their ultimate allegiance is to the Elven Queen who graciously takes care of the politics and administration of the Mistwood. While some may speculate that this would cause reason for dissention, nothing could be farther from the truth. Truly most Wood Elves just do not care or bother with such matters.",
+          "Wood Elves do not act nearly as haughty and arrogant as Gray Elves, in fact compared to Gray Elves they are positively humble. If not for their solitary nature with other Wood Elves, these Elves would find it much easier to work with other races. This is not to say they are not prideful, in fact they may be even more proud than Gray Elves, believing they have found the one true path all Elves should follow. However they do not foster their ideals on others and therefore do not seem as aloof.",
+          "Wood Elves have little to no economy within their society, preferring to share or at most trade for the things they need. What they do produce in surplus is sent to the cities of the Gray Elves to be traded with the outside world. When not tending to their environs, Wood Elves rival the Gray Elf skill at craftsmanship, again due to their long lives and great amount of skill as opposed to any biological disposition. Wood Elves have a natural affinity with the use of bows and indeed many can use one better than most.",
+          "Wood Elves hold the Mother in highest regard, which should come as no surprise given their preferred lifestyle. There are, to be sure, Wood Elves that have found this way of life unsatisfying and have found fulfillment following other paths including worship of the other Powers. Indeed, many who come to Avalon are in search of another way of life from being warriors to powerful mages."
+        ],
+        "advantages": [
+          "+1 Damage Bonus with all bows",
+          "Weapon Skill: Bow skill for 0 Build Points",
+          "Can purchase the Elven Resist skill",
+          "Can purchase the Tracking skill as a racial ability for 3 Build Points. May start the game with this skill."
+        ],
+        "disadvantages": [
+          "-2 Body Points at Level 1",
+          "Double cost for the Stamina skill (8 Build Points)",
+          "Cannot learn the Charm School"
+        ],
+        "costumeAndRoleplay": "The player must wear pointed ears and brown makeup around the eyes",
+        "nativeLiteracy": "Elven"
+      }
+    ]
+  },
+  {
+    "name": "Dwarves",
+    "description": [
+      "The Dwarven nation appeared in the mountains of this part of the world well before the founding of any human settlements. Said to be old enough as a race to have known the Ancient Elves, the Dwarves have changed little over the long years since their appearance. Dwarves as a people suffer from a magical deficiency that makes it difficult for them to become mages of any kind.",
+      "Though they consider themselves one people, most non-dwarves recognize two races of Dwarves; the Hill Dwarves who live in the lower hills near the mountains and the Mountain Dwarves who live deep inside the mountains. The closest Dwarven kingdom to Avalon is found in the Black Hills, the mountain range north and west of Avalon.",
+      "There is one king of the Dwarves who rules over all Dwarven people. There are Dwarven knights and lords, but no known high nobles. Their society has its share of farmers, herders, and craftsman, mostly among the Hill Dwarves. The underground lands of the Mountain Dwarves provide little of the sustenance for their people, instead Mountain Dwarves mine, and mine with a great tenacity. Stone and ores of all kinds are their chief export.",
+      "While life in and on the mountains is not harsh, it is dangerous. Many of the creatures of the Hierarchs – Goblins, Orcs, Trolls and Ogres – have taken refuge and live there. Underground, the Dark Elves of the Underdark war with the Mountain Dwarves nearly constantly, both having a great hatred for the other.",
+      "Dwarves worship the three gods at about the same frequency. Many Mountain Dwarves are warriors, though a few overcome their magic weakness and pursue the higher magical arts. Hill Dwarves are craftsman, but also pursue careers as warriors, rogues and a few even as mages. Counter to popular belief, Dwarves live about as long as humans do.",
+      "Any union between any Dwarves always results in one of the parent’s racial characteristics being dominant. The player therefore has to choose one of the two races to be their character’s racial characteristics. For example, if a Mountain Dwarf and a Hill Dwarf have a child, that child will either look like and have the racial advantages and disadvantages for either a Mountain Dwarf or a Hill Dwarf, not some mix of the two."
+    ],
+    "subraces": [
+      {
+        "name": "Hill Dwarves",
+        "description": "",
+        "advantages": [
+          "Half cost for the Armor Smith skill (1.5 Build Points)",
+          "Half cost for the Weapon Smith skill",
+          "Can purchase the Dwarven Resist skill",
+          "+5% Bonus to Alchemical Success Rolls"
+        ],
+        "disadvantages": [
+          "Cannot learn Power Points until Level 5. Can have a maximum of 7 Power Points per Level starting at Level 5 (i.e. 42 PP at Level 10)",
+          "Cannot use bows, may use crossbows",
+          "Can only learn one Warlock skill every other level starting at Level 15",
+          "Cannot learn Sorcery until Level 15 and receives a -15% Ritual Casting Bonus",
+          "Cannot learn Spell Singing skills until Level 15 and can only earn a rank of Spell Singing every 5 Levels starting at Level 15. Then can have only a maximum of 6 Spell Singing Points per level starting at Level 15"
+        ],
+        "costumeAndRoleplay": "The player must wear a brown or red beard if they are playing a male character – even if they have a real beard – or two long brown or red braids of hair if they are playing a female character.",
+        "nativeLiteracy": "Dwarven"
+      },
+      {
+        "name": "Mountain Dwarves",
+        "description": "",
+        "advantages": [
+          "+1 Strength Bonus, Non-Combinable",
+          "+2 Body Points for the first three Levels (+6 Body Points Total)",
+          "Can purchase the Dwarven Resist skill"
+        ],
+        "disadvantages": [
+          "Cannot learn Power Points until Level 5. Can have a maximum of 7 Power Points per Level starting at Level 5 (i.e. 36 PP at Level 10).",
+          "Cannot use bows, may use crossbows",
+          "Can only learn one Warlock skill every other Level starting at Level 15",
+          "Cannot learn Sorcery until Level 15 and receives a -15% Ritual Casting Bonus",
+          "Cannot learn Spell Singing skills until Level 15 and can only earn a rank of Spell Singing every 5 Levels starting at Level 15. Then can have only a maximum of 6 Spell Singing Points per level starting at Level 15"
+        ],
+        "costumeAndRoleplay": "The player must wear a black beard if they are playing a male character – even if they have a real beard – or two long black braids of hair if they are playing a female character",
+        "nativeLiteracy": "Dwarven"
+      }
+    ]
+  },
+  {
+    "name": "Halflings",
+    "description": [
+      "Halflings are merry folk who, though frail of stature, are crafty and make skilled artisans. The Halfling’s love of good food and drink is renowned and indeed these people are often found in a tavern indulging their desires. Halflings make poor warriors and usually depend on their cleverness and stealth to protect them.",
+      "Halflings originally come from Gleneden, a land next to the Wolfskael Mountains in western Nymidia. Recently they have found a new home in the Barony of the Dale and indeed many Halflings hail from there. Their home in New Gleneden in the Dale mirrors their life style in old Gleneden. That is to say, life is generally good there. Halflings live up to their reputation and spend a great deal of their time eating and drinking ales and wines and singing and dancing. They live a simple life of farming and tending to their small herds of animals.",
+      "Halflings produce a vast surplus of food but seldom see it that way and eat most of it. Sometimes however they do sell it for goods and services needed by the community as a whole. There are many, many craftsman among the Halflings and their goods are sought after by many outsiders. While their goods and surplus of food has made them a target in the past for raiders, their new home in Avalon affords them a level of security they have not been used to in past generations.",
+      "Halflings who do not farm or craft can be found adventuring around the world and have a reputation for being exceptional rouges getting into all kinds of places they were not meant to go. Some Halflings take up the Arcane skills but few if any become outright warriors, though there have been some to be sure. Most Halflings are too busy being happy to worry about matters of faith and few pursue such things. However, some have chosen to pick a faith and take up that fight for one of the world’s powers."
+    ],
+    "advantages": [
+      "Half cost for the Rogue Basic Career Skill List (5 Build Points)",
+      "Reduced cost for all Craftsman skills (1 Build Point each)",
+      "+1 Damage Bonus with all thrown weapons and Small Weapon skill"
+    ],
+    "disadvantages": [
+      "-2 Body Points at Level 1",
+      "Double cost for the Stamina skill (8 Build Points)",
+      "Double cost for the Warrior Basic Career Skill List (20 Build Points)",
+      "Cannot use or learn the following weapons: Pole-Arms, 2-Handed Weapons, Bastard Weapons ( including Spears ), A Shield Larger than Shoulder to Waist."
+    ],
+    "costumeAndRoleplay": "The player must wear fur on the tops of their feet and mutton chops for males and curly cues in front of ears for females.",
+    "nativeLiteracy": "Common"
+  },
+  {
+    "name": "Mystical Races",
+    "description": "These races are strange and varied, indeed, creatures right out of story books. Their histories and societies are varied, but all share a mystical nature that makes them far from human.",
+    "subraces": [
+      {
+        "name": "Kaletani",
+        "description": [
+          "Kaletani are an intelligent race of feline humanoids that developed through the ages. They are not the product of human coupling in any way as some have suggested. These civilized people are highly adept at magic and most of them are mages of some kind.",
+          "Kaletani are mostly encountered living with other races, primarily with humans in their cities and towns. Many of their numbers come from the unpopulated plains and woods around the Duchy of Avalon where they live in small groups much as their animal kin do.",
+          "Kaletani meet from time to time during the year to exchange stories, goods and magical knowledge and training. There are no social distinctions between the sexes and all tasks are shared equally. Most Kaletani practice magic though some are accomplished thieves while few train in martial skills.",
+          "Kaletani mingle with most races without much conflict save those races who shun magic. It is through this sharing of community that Kaletani gain their knowledge of other races and nations and not through trade as most other cultures do.",
+          "Long ago in the early years of this race, Necromancy and those who wield this magic caused great harm to their people, a fact no Kaletani forgets. This deep rooted hatred for this magic has made them staunch opponents to its use and aggressively oppose its spread. This has become such a feature of this race that they no longer possess the ability to use the magic in any form and have found it much easier to learn Healing.",
+          "Kaletani are free to follow any of the three paths. Most who do choose to follow a path chose to be a Druid or Follower of the Light. Few choose to become Servants of Darkness and those that do still carry their racial dislike of Necromancy."
+        ],
+        "advantages": [
+          "+3 Power Points for the first two Levels (+6 Power Points Total)",
+          "Half cost for the Mage Basic Career Skill List (5 Build Points)",
+          "The Natural Claws skill",
+          "Half cost for each rank of the Healing School"
+        ],
+        "disadvantages": [
+          "Double cost for all Master Warrior skills",
+          "Cannot learn any necromantic skill or ability including the Necromancy School and necromantic rituals."
+        ],
+        "costumeAndRoleplay": [
+          "The player must wear fur on exposed areas of the body except face and hands which requires fur makeup, a feline tail, feline nose and whiskers, and feline ears",
+          "Must attack undead whenever possible and prudent",
+          "Will not wear any wholly metallic armor such as plate mail or chain mail. They can wear studded leather armor."
+        ],
+        "nativeLiteracy": "Kaletani, Common"
+      },
+      {
+        "name": "Saurians",
+        "description": [
+          "Saurians come from the Great White Swamp in western Avalon. They live in semi-nomadic tribes throughout the swamp; setting down roots when food is plentiful. While both males and females share most responsibilities, it is the females that tend the young and males that hunt. Food is usually abundant in the swamp and food is rarely a concern for the tribe. However, there are many dangers in the Great White Swamp, some stemming from the environmental hazards others from the other denizens of the swamp.",
+          "Saurians are considered barbaric by most races, but these people have an appreciation for the finer things in life, they just do not have the free time to pursue them. These people find it difficult to learn magic, but once they grasp the concepts, they can excel at it.",
+          "Saurians are able to spit a poison that will paralyze their targets; making it easier to catch their pray. They also have a reputation for their weakness of good music, indeed they will enter an almost helpless state when they sit and listen to it for too long. Aggressive actions taken near or upon them will snap them out of their trance and most get very angry at being disturbed. Saurians are cold blooded and if exposed to cold temperatures; they will slow down and if left alone can fall completely asleep until they warm up. Elves are very wary of Saurians for the former are the favorite food of the latter.",
+          "Saurians are not predisposed to follow any of the Powers and indeed, each can claim about the same number of followers."
+        ],
+        "advantages": [
+          "+1 Strength Bonus, Non-Combinable",
+          "2 Threshold",
+          "Can purchase the Poison Spit skill and must start the game with one purchase of this skill",
+          "The Natural Claws Skill",
+          "Can purchase the Swim Skill for 0 Build Points and must start the game with this skill."
+        ],
+        "disadvantages": [
+          "Color blind",
+          "Double effect from ice attacks",
+          "Double cost for the Mage Basic Career Skill List (20 Build Points)"
+        ],
+        "costumeAndRoleplay": [
+          "Must wear a full body costume covering the head, body, hands and feet and a lizard like tail. Coloring can be any combination of earth tones: brown, reds, yellow, and green. The costuming must have scales.",
+          "Saurians are cold blooded and if exposed to cold temperatures, they will slow down and if left alone can fall completely asleep until they warm up",
+          "Distracted by good music and will enter a dream like state if not disturbed, can react normally if attacked."
+        ],
+        "nativeLiteracy": "Common"
+      },
+      {
+        "name": "Wolfen",
+        "description": [
+          "Wolfen are intelligent, civilized canine humanoids. They, like the Kaletani, have no ties to humans and are a race unto their own. Wolfen tend to be earthy and gruff, which many claim make them uncivilized, but this is not true. They are loyal to anyone they consider part of their pack. This could be as small as an adventuring party, or as large as the village they live in. They make no distinction in race when it comes to members of the pack. In unpopulated areas, especially wooded areas, Wolfen packs are composed entirely of Wolfen, but when found living along side other races, the Wolfen may be the only one of their race in the pack.",
+          "Wolfen have an affinity towards martial skills and lack the magical aptitude needed to make them accomplished wielders of magic. Their sense of loyalty to the pack makes them excellent soldiers and guards and when found living with other races, these are the roles they frequently take. However, some Wolfen take up other pursuits and become craftsman or artisans, but their numbers are few.",
+          "Wolfen, like most races, follow the three Powers at about the same ratio and make up a small percent of the population"
+        ],
+        "advantages": [
+          "Half cost for the Fighter Basic Career Skill List (5 Build Points)",
+          "One purchase of the Critical Attack skill for 0 Build Points",
+          "+2 Body Points for the first two Levels (+4 Body Points Total)",
+
+          "The Natural Claws skill"
+        ],
+        "disadvantages": [
+          "Can have only a maximum of 6 Power Points or Spell Singing Points per Level.",
+          "Double cost any Sorcery skills, -10% Ritual Casting Bonus",
+          "Double cost any Warlock skills",
+          "Double cost any Spell Singing skills, 1 Spell Singing Point for 1 Build Point"
+        ],
+        "costumeAndRoleplay": [
+          "The player must wear canine ears and fur on exposed areas of the body except face",
+          "Pack mentality, obeys pack leader and puts members of the pack before self."
+        ],
+        "nativeLiteracy": "None. Wolfen do not have a written language, preferring to pass down their history orally."
+      }
+    ]
+  },
+  {
+    "name": "Half Breeds",
+    "description": [
+      "Most races cannot interbreed, they are simply too dissimilar to create offspring. Some, however are similar enough that occasionally a child is born from their union. Humans are the only race that can create half breeds. These children are usually, but not always, sterile and cannot have offspring of their own. If both parents are of the same half breed they will create a half breed child. If one of the parents is of pure blood, they will always create a pure blooded child. Dissimilar half breeds never produce any offspring, so if a Half Orc and a Half Elf mate they will never produce an offspring.",
+      "Only humans have the genetic similarity to other races that will produce half breeds. Therefore, there will never, ever be a half Orc, half Elf or a half Elf, half Dwarf or a half Wolfen, half Lesser Saurian.",
+      "The offspring of the monstrous races will always have free will even though their parent did not, a gift of their free willed parent. Except for Half Elves, half breeds live as long as humans do. Half Elves live about 1,000 years and age as humans do up to about eighteen years old, then physically age about one year for every ten years of life."
+    ],
+    "subraces": [
+      {
+        "name": "Half Elves",
+        "description": [
+          "The result of a human and any elf, all Half Elves look the same. They have the same racial characteristics regardless of what kind of Elf the parent was.",
+          "These people are shunned by the elves and often find it hard to fit in with humans. Stuck between two worlds, they tend to be a lonely solitary people."
+        ],
+        "advantages": [
+          "Can purchase the Elven Resist skill, purchasable once every other level"
+        ],
+        "disadvantages": [
+          "-1 Body Points at Level 1",
+          "Cannot learn the Charm School"
+        ],
+        "costumeAndRoleplay": "The player must wear pointy ears and no makeup.",
+        "nativeLiteracy": "Common, Elven (or Dark Elven if the character is a Half Dark Elf)"
+      },
+      {
+        "name": "Half Ogres",
+        "description": [
+          "Half Ogres have a parent who was an Ogre and a parent who was a human. These half breeds are exceptionally strong, very tough, and very proficient fighters with two handed weapons. They are, however, in a word, dumb and lack the intelligence of their human parentage. They find magic almost impossible to learn. They are somewhat clumsy and they find it difficult to learn Dexterity skills.",
+          "Most human societies fear the half breed and shun them, and Ogres find them weak runts and abuse them. Very few Half Ogres find a place to live with people.",
+          "Most Half Ogres are an expression of extremes, doing nothing in moderation. Some are exceptionally kind and nonviolent while others are particularly cruel, but all are savage and fierce in combat or when angered."
+        ],
+        "advantages": [
+          "+1 Strength Bonus",
+          "+1 Damage Bonus with all weapons",
+          "+3 Body Points for the first three Levels (+9 Body Points Total)"
+        ],
+        "disadvantages": [
+          "Double cost for Mage Basic Career Skill List (20 Build Points)",
+          "Double cost for all Arcane skills on the Mage Basic Career Skill List",
+          "Double cost for the Rogue Basic Career Skill List (20 Build Points)",
+          "Double cost for all Dexterity skills",
+          "Double cost for all Literacy skills",
+          "Cannot learn any Sorcery skills",
+          "Cannot learn any Warlock skills",
+          "Cannot learn any Spell Singing skills",
+          "Cannot learn any Alchemy skills"
+        ],
+        "costumeAndRoleplay": [
+          "The player must wear yellow makeup on their face and all exposed skin.",
+          "Half Ogres are dim witted and naïve and takes twice the normal time of in-game roleplay to learn skills"
+        ],
+        "nativeLiteracy": "None"
+      },
+      {
+        "name": "Half Orcs",
+        "description": [
+          "Half Orcs are by far the most intelligent of the monstrous half breeds, and with great determination can learn magic. They might not be as strong as a full Orc, but their intelligence allows them to survive and even thrive in Orc society. They might not be as smart as humans, but their toughness and strength allows them to find their place in human society. "
+        ],
+        "advantages": [
+          "+1 Strength Bonus, Non-Combinable",
+          "+3 Body Points at Level 1 "
+        ],
+        "disadvantages": [
+          "Double cost for all Spell Singing skills, 1 Spell Singing Point for 1 Build Point",
+          "Double cost for all Literacy Skills"
+        ],
+        "costumeAndRoleplay": "The player must wear green makeup on their face and all exposed skin. Cannot wear a pig nose.",
+        "nativeLiteracy": "Common"
+      },
+      {
+        "name": "Half Trolls",
+        "description": [
+          "Half Trolls are the toughest of the half breeds and quite strong; making them excellent warriors. Their low dexterity makes them somewhat unsuited to being rogues. They are more intelligent than Half Ogres and can learn some low magic, if not with difficulty, but they lack the intelligence and magical nature needed to wield high magic.",
+          "Along with their Troll parent’s strength, they share their vulnerability to fire. Like all half breeds, Half Trolls find it difficult to find a place in either Troll or Human societies, and like the Half Ogre, their savage natures tend to come through when their emotions run high."
+        ],
+        "advantages": [
+          "+1 Strength Bonus",
+          "+4 Body Points for the first four Levels (+16 Body Points total)",
+          "+2 Damage Bonus with claws",
+          "The Natural Claws skill",
+          "Can learn Feat of Strength skill as a racial, starts the game with one purchase for 0 Build Points"
+        ],
+        "disadvantages": [
+          "Double cost for Mage Basic Career Skill List (20 Build Points)",
+          "Double cost for the Rogue Basic Career Skill List (20 Build Points)",
+          "Double cost for all Literacy skills",
+          "Cannot learn any Sorcery skills",
+          "Cannot learn any Warlock skills",
+          "Cannot learn any Spell Singing skills",
+          "Cannot learn any Alchemy skills",
+          "Double effect from fire attacks"
+        ],
+        "costumeAndRoleplay": [
+          "The player must wear brown makeup on their face and all exposed skin.",
+          "Slow to learn higher philosophical concepts."
+        ],
+        "nativeLiteracy": "None"
+      }
+    ]
+  }
+]

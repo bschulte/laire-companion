@@ -1,0 +1,546 @@
+[
+  {
+    "name": "The First Rule",
+    "content": "If a skill, spell or other rule does not explicitly state you can do something, then you cannot do it. For example, the Giant Strength spell does not say you can use it to leap greater distances, therefore, no matter how creative you may be in trying; you cannot leap with a Giant Strength spell. Another example, the Slay skill says nothing about being used to break an object such as a door. During game play your character wants to get into a room behind a closed door. You cannot use one of your purchases of the Slay skill to break down the door.",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Characters and Players",
+    "content": "You are a player and your character is the role you take up in the LAIRE game world. Characters are anything played by a player in the game. Any PC or NPC is a character; Orcs, Goblins, Zombies, Dwarves, etc are all characters. Throughout this rulebook these two words are used and they are not interchangeable. Be careful when you read this rulebook, many of the rules change their meaning if you exchange these two game terms.",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Tag Cycles and Using Skills",
+    "content": "If you do not play in a Tag Cycle you cannot use tags from that Tag Cycle. This rule applies to PCs as well as NPCs.",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Rounding Rules",
+    "content": "From time to time a player may have to round a number. Unless otherwise stated, the player should round any remainder in their favor with a minimum of 1.",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Losing Permanent Pool Points or Body Points",
+    "content": "No character can ever be forced by any charm effect to use a skill or ability, cast a spell or a ritual that will expend permanent pool points – Power Points, Elemental Pool Points, etc. – or permanent Body Points. If the character is made to do so, the attempt fails and nothing is lost. ",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Rule Conflicts",
+    "content": "Some rules, skills, spells, rituals, etc. conflict with a more general rule or another skill, spell, ritual, etc. To determine how these rules interact, follow the rule with the most specific information. For example, the general rule is, a skill is used if a defense is called for it. However, many faith skills state that only a magical defense, such as an Invulnerability spell will cause the faith skill to be expended. Finally, the Destroy Undead skill is not used if an Invulnerability spell is called.",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "What Happens When You Call a Hold",
+    "content": "When someone calls the word “Hold,” you should stop what you are doing immediately, and stay exactly where you are. Do not leave the spot you are standing on; players who move without good reason during a Hold should be reported to a Marshal. Do not have any conversation during a Hold, in-game or out-of-game, unless it relates to the specific reason why the Hold was called",
+    "subsection": "The Hold Rule",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics", "hold_rule"]
+  },
+  {
+    "name": "How to Call a Hold",
+    "content": [
+      "To call a Hold, shout “Hold” as loud as you can. If you hear the cry of “Hold” you should repeat it at once, and then stop any action you are involved in. In combat situations, be sure your opponent has recognized the Hold before dropping your guard.",
+      "When the reason for a Hold has been resolved, the player who called the Hold or a Marshal should call “Three, two, one... LAY ON”. The game then resumes from where it left off"
+    ],
+    "subsection": "The Hold Rule",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics", "hold_rule"]
+  },
+  {
+    "name": "When to Call a Hold",
+    "content": [
+      "The main reason to call a Hold is for a safety reason. Safety reasons include:",
+      {
+        "type": "list",
+        "items": [
+          "a personal injury;",
+          "a combat rules violation, such as:",
+          "another player strikes you in the head or groin,",
+          "a player is striking you too hard;",
+          "you see something that may endanger you or other players:,",
+          "rocky or dangerous terrain,,",
+          "broken glass on the ground,",
+          "a pit or a hole,",
+          "a child or a non-LAIRE member entering the play area,",
+          "spotting broken weapons or armor,",
+          "a player entering an out-of-game area."
+        ]
+      },
+      "You can also call a Hold for a rules related reason, such as clarifying the effects of a spell. This is mildly discouraged, since there is nothing more distracting during a battle than a stream of Hold’s for trivial reasons. If there is a rules problem in the middle of a battle, try to work it out quickly without calling a Hold. It is common courtesy for players not involved in the clarification to pause and wait for those involved to be done before continuing. Be aware of your surroundings and what the other players are doing."
+    ],
+    "subsection": "The Hold Rule",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics", "hold_rule"]
+  },
+  {
+    "name": "What is not allowed during a Hold",
+    "content": [
+      "Players may not call a Hold for personal convenience or to perform any out-of-game activity that has an affect in-game. For example, it is illegal to call a Hold in order to gather spell packets or arrows. If a Hold is called for another reason, you are allowed to gather spell packets but you must be back in the place where you started when the LAY ON is called. You may not gather thrown weapons or arrows since these items are in-game.",
+      "No in-game conversation, discussion of tactics, or other talking should occur during a Hold. Only the person who called the Hold, the Marshal, and any subject of the Hold should speak while it is in effect. This will shorten the Hold, and keep the flow of the game going. Also, if the Hold was called because of safety reasons or for a Marshal to give an in-game description or other instructions, you cannot hear it if you are talking. This cannot be stressed enough, when you hear a Hold called, be quiet!",
+      "Also, you may not call a Hold to compensate out-of-game for ingame challenges. If you are out of breath, stumble, or drop your sword you may not call a Hold to catch your breath, regain your balance or pick up your sword.You may consult a copy of the rules or an out-of-game copy of the spell verbals during a Hold.",
+      "Players who call unnecessary Hold’s will be cautioned. If the player continues to call unnecessary Hold’s, they will be disciplined."
+    ],
+    "subsection": "The Hold Rule",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics", "hold_rule"]
+  },
+  {
+    "name": "The Word Hold In-game",
+    "content": "You are encouraged to use “period sounding” speech, but a cry of “Hold varlet! I wish to smite thee” is a bad idea. All those around you will hear and repeat the “Hold” and will ignore the rest of your sentence. Therefore, you should not yell the words “Hold” or “Halt” at all, and you should be cautious about beginning any sentence with the word “Hold.” Instead, use the word “Stop”, or “Keep the line” instead of “Hold the line”.",
+    "subsection": "The Hold Rule",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics", "hold_rule"]
+  },
+  {
+    "name": "Striking With a Weapon",
+    "content": [
+      "You must swing your weapon at moderate speed with moderate force. If you do not have enough time to call damage between each of your swings, then you are swinging too quickly.",
+      "A swing should cover no more than 180 degrees, and no less than a combined 45 degrees with your arm and 90 degrees with your wrist. A “windmill” swing is not allowed. If you swing too hard, you will be warned for excessive force. Repeated offences will result in a combat violation, which will result in your removal from combat for the rest of the Event and a required attendance at a re-education class before you are allowed into combat again",
+      "You must precede thrusting attacks by drawing back for each strike. Nobody ever pierced a breastplate by going poke, poke, poke with their sword.",
+      "Adjust yourself to your opponent. Big brawny men in 40 pounds of plate mail are less likely to feel the blow of a foam sword than someone weighing 120 pounds wearing a few wisps of cloth. If someone is striking you too hard, tell them to ease off. The reverse is true as well; if someone is striking you too softly for you to feel through your armor, let them know."
+    ],
+    "subsection": "Weapons, Magic and Taking Damage",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Calling Damage",
+    "content": [
+      "When you strike with a weapon, you should call out the damage inflicted by that weapon. The damage done by a weapon must be followed by some modifier; normally this is the word “damage”. For example, if you are wielding a Two-Hand Edged weapon and you have no special combat bonuses, you would call “Three Damage” when you strike an opponent with your weapon.",
+      "Even if your attack does not make contact, you may still want to call damage with every swing. You never know if your opponent is going to make an error and your attack may get through unexpectedly. If your attack lands and you do not call damage properly, your opponent does not have to take the damage.",
+      "Calling damage is out-of-game. If your character is under the effect of some force that causes the character to be silent, you must still call damage with each blow.",
+      "When swinging special weapon attacks, such as the Slay or Disarm skill, you should give your opponent a moment to respond to the attack by either taking the effect or calling a defense. It is a good practice to acknowledge the attack by looking at your opponent and saying “Got it,” or some other similar phrase. This is not required but it will help to alleviate confusion. If you have multiple purchases of a specialty attack you may chain them together, attacking your opponent quickly. However, if your opponent ever calls more defenses, takes the effect, or any combination of these than you have current uses of the skill then you will receive a rules violation. For example, John is playing a warrior and has two purchases of the Slay skill. During a fight he hits his opponent four times calling “Slay” each time. The defending character calls “Invulnerability, Slay Parry, Slay Parry, Ritual of Defense”. John is in violation of the rules, he only had two Slays. Another example, John strikes his opponent three times calling “Slay” each time. The defending character calls “Invulnerability, Dodge” then falls down. John is in violation of the rules, he only has two Slays"
+    ],
+    "subsection": "Weapons, Magic and Taking Damage",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Additions to Normal Damage",
+    "content": [
+      "You should add any Damage Bonuses you have to the Base Weapon Damage of the weapon you are wielding. For example, if you are striking with a regular long sword you would call “Two Damage” with each blow; if you had two purchases of the Weapon Proficiency skill giving you a +2 Damage Bonus with the long sword then you would call “Four Damage” with each blow.",
+      "If your character has the Florentine or Master Florentine skill, then you must call damage with each weapon for each strike. You cannot add up the damage of both weapons in a single blow. Call the damage for each of your weapons clearly; these skills do not allow you to swing your weapons twice as fast.",
+      "You should only call the damage that your character normally does. If you are aware that a particular attack does extra damage to a type of monster, let the NPC do any special calculations. For instance, Arturis the Warrior carries the legendary Lightning Blade. He knows that the Gelatin Golem he is fighting takes double damage from electrical attacks; still, he only calls “Two Lightning” when attacking and lets the Gelatin Golem’s player double the damage."
+    ],
+    "subsection": "Weapons, Magic and Taking Damage",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "When You Do Not Call Full Damage",
+    "content": [
+      "You are allowed to do less damage than your maximum. If your character can call “Six Damage” because you are wielding a twohand blunt weapon and you have a +3 Damage Bonus, you can choose to call “One Damage” instead. However, if the weapon has any special modifiers, you must state the appropriate modifier for that weapon. For example, if you have a +2 magic long sword and two purchases of the Weapon Proficiency skill, you can call “One Magic” instead of “Six Magic,” but you must include the word “magic”.",
+      "You do not call damage with certain special attacks. If you are making one of these special attacks, you do not call damage along with the special attack. For example, assume that you deal 5 points of damage with your weapon and have one purchase of the Slay skill. If you hit a player and call “Five Damage,” you cannot use a Slay as well."
+    ],
+    "subsection": "Weapons, Magic and Taking Damage",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Taking Damage",
+    "content": [
+      "You are responsible for keeping track of the damage that has been done to your character. As you are damaged, you must keep a running tally of how many Armor Points and Body Points you have, and to subtract damage from this total as you are struck. Under normal circumstances, you first subtract the damage from your Armor Points; when your Armor Points are gone, you subtract the damage from your Body Points. When your Body Points reach zero or below, lie down; your character is either Unconscious or Bleeding to Death. Please see later in this chapter for more information on death and dying.",
+      "If no marshal is present, the player who is taking the damage, not the one inflicting it, has the final say on how much damage has been taken. The marshal has final say on whether an attack is successful or not. It is sometimes necessary to make a judgment call when you are trying to decide whether legal contact was made in combat. If you feel a solid blow, then you should take the damage. If someone barely touches you with their weapon, then you do not have to take the damage. If someone is consistently hitting you too softly, let them know. If someone insists they hit you, but you did not feel it due to thick clothing or heavy armor, take the damage honorably, and request that they strike with a little more force.",
+      "If you deliberately block or deflect a weapon, then it does not do damage, nor do weapons that strike your shield. However, normal objects do not protect you against a weapon attack. If you happen to have a sheathed sword and someone hits you on that sheath, the blow is not parried; if you feel the blow you should take the damage. It is illegal to deliberately block an attack with a body part that is not a legal target.",
+      "If you think a player is not taking their damage fairly, then you should report them to a Marshal. Be sure to ask the player about how much damage they thought they took; remember that there are monsters that are immune to the attacks of some weapons. Players who are repeatedly cautioned for not taking damage will be disciplined"
+    ],
+    "subsection": "Weapons, Magic and Taking Damage",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Illegal Combat Maneuvers",
+    "content": [
+      "The following combat maneuvers are illegal in the LAIRE rules system:",
+      {
+        "type": "list",
+        "items": [
+          "Trapping a weapon with any body part.",
+          "Trapping or pinning a weapon with another weapon or against any object at any time. This includes standing on a weapon or roleplaying standing on a weapon.",
+          "Charging, or running at an opponent so fast as to force them to retreat for fear of injury. It is acceptable to run up to an opponent so long as you stop in front of them and do not cause them to retreat.",
+          "Crouching down behind a shield so that you cannot be struck anywhere but in the head; this is called “turtling.” In real combat, a turtled individual could be physically pushed over, but since no physical contact is allowed in combat, neither is turtling. Standing in a corner with your shield protecting you is not turtling; as long as you present a legal target for an opponent while your shield is in front of you, you are not turtling.",
+          "Fighting in such a way that an illegal combat target becomes highly vulnerable to being struck"
+        ]
+      }
+    ],
+    "subsection": "Weapons, Magic and Taking Damage",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Legal Contact in Combat",
+    "content": [
+      "In combat, the only physical contact allowed between players is using a LAIRE-authorized weapon. You may not touch an opponent in combat with your hands, not even to cast a spell or administer a poison. You may not grab an opponent’s weapon with your hand. A shield is not a weapon; you can use it to parry blows, but you cannot use it to pin a weapon or strike another player.",
+      "The following areas of the body may not be struck by a weapon at all: the head, the neck, and the groin. This is a safety issue; if you should accidentally strike a player in one of those areas then they take no damage, and you may receive a warning. Wrists and hands are “semi-legal” targets; it is not a weapons violation to hit those areas, but the target takes no damage as a result. Though the chest is a legal strike area, please exercise extra caution when fighting women.",
+      "Apart from the areas mentioned above, all other parts of the body, including the soles of the feet, are legal parts of the body for weapon attacks.",
+      "Some attacks such as Slays are only effective on a specific part of the body. These locations are given in the description of the skill."
+    ],
+    "subsection": "Weapons, Magic and Taking Damage",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Types of Injury",
+    "content": [
+      "There are different levels of injury that your character can sustain. The simplest injury, Body Point damage, can be directly cured with skills and spells that restore Body Points such as: Heal Person, Battle Surgery, Healing Potion, Paladin Healing, Soothe Your Wounds, Heal spell song, etc. Whenever you lose Body Points for any reason, you tear off a Body Point tag for each Body Point your character has lost. When your character is healed, the player must give you the Power Point tags, skill tags, or item tags to substitute for Body Point tags",
+      "A character can be injured in other ways than Body Point damage. For example, a limb can be incapacitated by a Stunning Blow, and only a Heal Limb will restore it. Special injuries are described under the skill and spell rules that can cause or cure that type of injury."
+    ],
+    "subsection": "Death and Dying",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Death and Recovery",
+    "content": [
+      "When your character has lost all their Body Points, you should fall to the ground, lie still, and start your Death Count. If the ground is wet, muddy, or rocky, you can kneel or crouch; just make sure it is clear to your fellow players that your character is down.",
+      "Do not talk to other players out-of-game unless it is necessary. If someone asks, “I examine you, what do I see?” it is okay to say, “You see me bleeding to death,” but you cannot yell, “I need a healing spell” or “I’m going to die in sixty seconds! Someone help me!” If you are counting down the amount of time you have left, do so silently unless someone uses First Aid or casts a Detect Life or Assess Your Ailment spell on your character.",
+      "No matter how much damage you take, you will never go below -1 Body Points. If your character is at -1 Body Points and you are hit for 10 points of damage, you are still at -1 Body Points. While a character can remove the extremities from a body, the torso is not destroyed with normal damage. After a character is past their Death Count and the player’s spirit has not yet left, then things like acid and fire and other destructive effects can destroy a body.",
+      "Characters do not die immediately when they go below 0 Body Points. In summary: a character can be Unconscious at 0 Body Points for 5 minutes, then they will wake up; a character can lay dying at -1 Body Point for 1 minute during which they can be healed; a character is at the Brink of Death for 5 minutes and can still be restored by a Heal Life spell; after that a character is dead and must be resurrected by a Return Spirit or at the Healer’s Guild. So, a character that is reduced to -1 Body Points will have a total of 6 minutes to receive healing.",
+      {
+        "type": "table",
+        "headers": [
+          "Type of Damage",
+          "Stage/Status",
+          "Time to Heal",
+          "How to Heal*"
+        ],
+        "footers": [
+          "*This is not an exhaustive list, but a sampling. The skill and spell description will describe how this works.",
+          "** Note: Only one type of each of these forms of life can be received per day (7am to 7am). This is not an exhaustive list, but a sampling."
+        ],
+        "rows": [
+          [
+            "Body Points Reduced to Zero, Waylaid",
+            "<link>Unconscious",
+            "Will Wake up in 5 minutes and, if originally at 0 Body Points, at 1 Body Points",
+            "Heal Person "
+          ],
+          [
+            "Body Points Reduced to -1",
+            "<link>Bleeding to Death",
+            "1 minute",
+            "Heal Person, First Aid, Battle Surgery, Healing Potion, Paladin Healing"
+          ],
+          [
+            "Slayed/Assassinated",
+            "<link>Mortally Wounded",
+            "1 Minute",
+            "Heal Mortal Wound"
+          ],
+          [
+            "Kill spell, Death Touched, Instant Death poison or Killing Blowed",
+            "<link Dying>Brink of Death or Dying",
+            "5 minutes",
+            "Life Spell, Paladin Life, Elemental Life, Artifact Life, Draconic Life **"
+          ]
+        ]
+      }
+    ],
+    "subsection": "Death and Dying",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Unconsciousness",
+    "content": [
+      "If a character takes enough damage to go to 0 Body Points, that character is Unconscious. If they are undisturbed, they will revive in 5 minutes and be at 1 Body Point.",
+      "A character who has been Waylaid is also Unconscious; if left unharmed, they will revive in 5 minutes. If they are healed for at least 1 Body Point or First Aid is applied and completed (in other words, the character spends the full, uninterrupted 60 seconds), they will become conscious before the 5 minutes have elapsed.",
+      "Skills and spells that restore Body Points will restore an unconscious character, if the character became unconscious due to Body Point damage or a Waylay. If a character is unconscious due to a Sleep spell or similar effect, then these healing methods can restore the character’s Body Points, but will not wake up the character. "
+    ],
+    "subsection": "Death and Dying",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Bleeding to Death",
+    "content": "If a character takes enough damage to go to below 0 Body Points, that character is Bleeding to Death. A dying character is considered to be at -1 Body Points, no matter how much additional damage was taken. If your character has 2 Body Points and is hit for 4 points of damage, your character is at -1 Body Points; if your character is then hit by a 24 point Inferno spell the character is still at -1 Body Points. A character goes from Bleeding to Death to Dying if they are not treated within 1 minute of the time they began Bleeding to Death",
+    "subsection": "Death and Dying",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Mortally Wounded",
+    "content": "A character is considered Mortally Wounded when they have been affected by a Slay or Assassinate skill. The character is reduced to -1 Body Points, should lie down, and begin their count. The character has 1 minute to receive a Heal Mortal Wound spell or a Follower of the Light using their Healing Pool to Heal Mortal Wound, at which the Light using their Healing Pool to Heal Mortal Wound, at which time the character is at 1 Body Point. A character goes from being Mortally Wounded to the Brink of Death if they are not treated within that 1 minute.",
+    "subsection": "Death and Dying",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Dying",
+    "content": [
+      "A character is at the Brink of Death stage if:",
+      {
+        "type": "list",
+        "items": [
+          "they were Bleeding to Death and left untreated for more than 1 minute",
+          "they were Mortally Wounded and left untreated for more than 1 minute",
+          "they were given a Killing Blow ",
+          "they were hit with a Kill spell or the Death Touch skill",
+          "they were affected by an Instant Death poison"
+        ]
+      },
+      "A character stays at the Dying stage for 5 minutes. The 5 minutes are counted from the moment the character first went to the Brink of Death stage; for example, if a character is given a Killing Blow while they are Bleeding to Death or Morally Wounded, the 5 minutes is counted from the time when the character received the Killing Blow.",
+      "Any life effect is only effective if the character is at the Brink of Death. If a character receives the Life inappropriately, they have not used their chance to receive that type of life later on that day, however, any Power Points are used and any magic item or power is expended. The only exception is the Life skill or Death Touch skill; this is not expended for that Tag Cycle until it is actually used.",
+      "When the character is brought back to life, they are restored to 1 Body Point. See the description of Life spell in the Magic chapter for more information."
+    ],
+    "subsection": "Death and Dying",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Death",
+    "content": [
+      "After the 5 minutes have expired, the character is Dead. Only a Return Spirit spell or the Healer’s Guild can restore the character to life. In either case, the death is recorded on the character card and the Death System must be used to see if the character has been successfully resurrected. When a character is resurrected in this way, they are restored to their full Body Points. A Return Spirit takes a full 10 minutes to cast; if the caster is interrupted during that time, the spell has failed (see the spells description elsewhere in this book).",
+      "Return Spirit or resurrection in the Healer’s Guild will only work if the target character is willing to be resurrected. You cannot force a character to resurrect.",
+      "Any spells that the character was under the effects of, including latent spell defenses, are gone should the character resurrect in the Healer’s Guild without their body. On the other hand, if the character receives a Heal Spirit spell or their body is brought to the Healer’s Guild and resurrected, all the character’s spells and any other effects will still be present when the character resurrects"
+    ],
+    "subsection": "Death and Dying",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Killing Blows",
+    "content": "To force a character to the Brink of Death when they are Unconscious, Bleeding to Death, paralyzed, asleep, or otherwise totally unresisting, a player may deliver a Killing Blow with a weapon, spell or hands. Note that hands can only be used in this one specific case and are not allowed to be used in combat normally",
+    "subsection": "Death and Dying",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "After Your Character is Dead",
+    "content": [
+      "If your character is dead, you may remain lying in the spot where your character fell for as long as you wish. Your soul can remain within your body indefinitely. As long as your character’s soul remains with its body, you must continue to lie at the spot where your character fell. You may wish to stay at the spot for several reasons: you hope to receive a Return Spirit spell; you want your body to serve as a warning to others; you have decided that you do not want your character to be resurrected and you are hoping for a funeral, and many other possible reasons.",
+      "If your character is dead and unresurrectable , then the character’s body cannot dissipate. The player may play the body for as long as they wish. If the player does not want to play the body any longer, then a suitable physical representation for the body must be found. Such a representation must be approved by a marshal. The body will still decompose at the discretion of Plot.",
+      "When you decide that you have waited long enough, you can become a “spirit”. Put on a white headband and go to the Healers’ Guild.",
+      "When you decide to travel out-of-game to the Healers’ Guild to be restored, you become a “spirit” or “wandering soul”. The only ingame activity you can perform while a spirit is to go to the Healers Guild to be resurrected. There can be no form of in-game communication between a spirit and any other character. Spirits may never “phase” or pass through another character and will never produce any in-game effects by their passing. A spirit cannot make others feel anything like cold, or sad or malcontent in any way. A character cannot juxtapose themselves to another character and give them chills or haunting feelings, EVER! A spirit cannot affect the game world in any way, shape or form!",
+      "However, there are several out-of-game activities you may have to perform before you go the Healers Guild. First, you must put on a white headband to indicate that you are out-of-game and your body completely dissipates leaving nothing behind.",
+      "Next, leave all your LAIRE items at the spot where your character died, including your money, gems, jewelry, potions, scrolls, and magic items. The only exception is when your character has been killed in an out-of-the-way place and you think it unlikely anyone would ever come to the spot for the rest of the event; in that case, leave all your stuff anyway and tell a Marshal where you died before you resurrect. You may leave your personal weapons and armor where you died or take them to the Armory or the Merchants Guild, but leave the tag at the spot where you died. You are not required to leave your personal costuming and items where you died, however if you wish you may.",
+      "If you had any magic items or magic weapons, you should leave the physical representation of the item at the spot where your character fell, but go to the Treasure Manager to give them the magic-item cards. If you are absolutely certain that no one would find the magic item where your body fell, then you can give the item to the Treasure Manager instead of leaving it lost in the woods. But be sure; if the item was important, there may be teams of adventurers scouring the woods looking for it, and they should have their chance to find it.",
+      "Once you have disposed of all of your in-game possessions, go to the Healers Guild. When your spirit arrives, lie down or sit and wait for a healer; they will know what to do next. If your spirit arrives at the Healers Guild with any in-game items, your items will be taken and given to the Treasure Manager. "
+    ],
+    "subsection": "Death and Dying",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "In-game Behavior",
+    "content": "The game is better if you stay in-game as much as possible. Try to keep out-of-game comments to a minimum; yes, we have seen Monty Python and the Holy Grail as many times as you have. Let us look at the Hamlet analogy: it may seem funny to the actor playing Hamlet to stick in a line from A Streetcar Named Desire, but chances are it will just make the audience fidget; after all, they came for a good performance of Shakespeare, and the joke just spoils the experience. All of us work together to create the illusion that we are participating in a fantasy world; no one likes it when their work is spoiled.",
+    "subsection": "In-game vs. Out-of-game ",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Out-of-game Behavior",
+    "content": [
+      "If you are out-of-game for some reason – you are tired and taking a break, you are walking to a phone to make a call, you are a spirit and you are going to the Healers Guild to be resurrected – do not interact with the people in-game. Stay out of areas where there are crowds or combat. If you are out-of-game, stay completely out of the game until you are ready to go fully back into the game; do not hold in-game discussions with other players, or yank off your white headband and go rushing to attack a nearby Orc",
+      "On the other side of the coin, if you see someone wearing a white headband or wearing regular street clothes, ignore them while you are in-game. Obviously there are exceptions to this but try to avoid all out-of-game contact while you are in-game. At best, you would be distracting yourself from your own roleplaying; at worst you could be interfering with other players’ enjoyment of the game.",
+      "Of course, there are times when you must ask a quick rules question or take a moment for a quick out-of-game activity. Try to keep these actions as brief as possible."
+    ],
+    "subsection": "In-game vs. Out-of-game ",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Going In- and Out-of-Game",
+    "content": [
+      "The basic rule is simple, wherever you went out-of-game is where you should come back in-game. If you put your white head on in your room in the inn and went to your car, you should come back in game in your room when you are done. There are some exceptions to this, most notability if a Marshal asks you to put your white headband on for some reason he will generally tell you where and when you can take off your headband and come in-game. The other common circumstance is when you resurrect; when you put your white headband on and become a spirit, wherever you resurrect is where you come back in-game.",
+      "The other rule is when going out-of-game or coming back in-game, make sure you are not involved in anything. You should step away from any crowds or if something is going on right in front of where you went out-of-game, wait until it is over before stepping back ingame. For example, if you went out of game by the edge of a field near where your car is parked and when your return there is a large fight, you should wait until it is over before coming back in. Similarly, if you are involved in a fight and have to go out-of-game, make sure you walk out of sight of the combat before you put your white headband on. "
+    ],
+    "subsection": "In-game vs. Out-of-game ",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Out-of-Game Areas",
+    "content": [
+      "Some areas of the camp are always designated out-of-game. The parking lot, the bathrooms, the NPC cabin, out-of-game sleeping areas, and Logistics are all always out-of-game areas. There is no combat or roleplaying allowed in these areas. While you go out-ofgame when you enter one of these areas, even without a headband, you cannot run into them from pursuers or other such situations. They are not safe places to hide. The same rules on when and where you can go out-of-game apply to these areas.",
+      "There may be other areas of the camp that are off limits and designated out-of-game. Check Logistics for any handouts or attend Opening Ceremonies for any announcements on a month by month, camp by camp basis."
+    ],
+    "subsection": "In-game vs. Out-of-game ",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Abuse of the System",
+    "content": [
+      "It is poor sportsmanship, not to mention illegal, to go in- and out-ofgame whenever it suits your immediate convenience. For example, if you are suddenly surrounded by a group of monsters, you cannot say, “Sorry, I’m out-of-game” unless you were wearing your white headband before they sprang their ambush. Even if you were wearing a white headband, it would be wrong for you to walk over to your friends, say, “Hey, I know where there are a bunch of monsters waiting in ambush. Let’s do a counterambush,” take off your white headband, and lead an attack on those monsters.",
+      "You cannot go out-of-game to perform an in-game action. This includes calling a Hold to collect spell packets or arrows, or putting on a white headband to escape soldiers who are searching for you. For the former, you are responsible for bringing enough props to do what you want to do; it is not fair to make other people stop and wait for you. In the latter case, if you want to hide, then hide; if you know people are searching for your character but you are tired and you want to go to sleep out-of-game, you must get permission from the Executive Director.",
+      "There are times when the game can get difficult to play, and you may be tempted to go out-of-game to avoid trouble. Do not do it. Dealing with difficult situations is part of the challenge of the game, and often brings the greatest rewards."
+    ],
+    "subsection": "In-game vs. Out-of-game ",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Sleeping In-Game",
+    "content": [
+      "LAIRE runs from Friday night until Sunday afternoon and does not stop in between. Some players are not capable of playing the whole event for medical reasons or otherwise and at every event, special out-of-game sleeping arrangements can be made. You should speak to Logistics when you arrive or specify that you need out-of-game sleeping when you pre-register for the Event.",
+      "Sometimes during an Event, a player may really need some sleep, gets injured, or falls ill. In these cases that player must receive permission from the Executive Director to sleep out-of-game. Players that go out-of-game to sleep without permission will be given the appropriate disciplinary action. It is unfair to the other players in the game, everyone would like to sleep safe and sound, but that is part of the thrill of the game and part of the risk and everyone should share in that excitement."
+    ],
+    "subsection": "In-game vs. Out-of-game ",
+    "section": "Basic Game Rules and Concepts",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Intro",
+    "content": [
+      "When the game of LAIRE is played, your character goes on adventures, lives, dies, is hurt, is healed, uses abilities, and learns new abilities from other characters. The department of LAIRE responsible for keeping track of all these things is called Logistics. The first thing you do each time you attend a LAIRE event is to visit the Logistics area. After you pay to attend the event, you will receive cards and tags which specify everything about your character: how many Body Points they have, what skills they know, the number of times the skill can be used in a day, what spells they can cast, and so forth.",
+      "Logistics is open at every event from early Friday night to about 1:00am. In addition, there are Logistics personnel available during the day on Saturday and again after the event is over to collect your cards.",
+      "When you arrive at the event you are expected to check in. This entails:",
+      {
+        "type": "list",
+        "items": [
+          "paying your fees to Finance,",
+          "getting your Character Card,",
+          "getting your tags,",
+          "getting your sleeping assignment, and",
+          "most importantly, getting your NPC work duty"
+        ]
+      },
+      "As was discussed earlier, every player is required to give five hours a weekend to the game in some capacity to help it run. The majority of people NPC, others work logistics, run modules, and other tasks necessary for the game to run. It is your responsibility to get your work assignment when you check in."
+    ],
+    "subsection": "Logistics and Check-in",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "The Character Card",
+    "content": [
+      "The character card is stamped to prove that you paid to attend the event. If you do not have your character card with you, you cannot play. If you lose this card for any reason, put on a white headband immediately and go to Logistics where a temporary replacement will be written out. Avoid the hassle: keep your character card safe and on your person at all times. If you find someone’s Character Card, please give it to Logistics immediately.",
+      "On your Character Card you will find your name, your character’s name, and a list of all the permanent abilities that your character has. Your Character Card represents all the abilities that are inseparable from your character; for example, your character will always be an Elf, always knows Rank 3 Ice Magic, and always knows how to wield a small weapon. If anyone asks out-of-game for proof that you have an ability, you show them your Character Card or show a Marshal. For example, you would show someone your card if your character cast an Inferno spell on them and they wanted proof that your character could cast Rank 4- Ice Magic.",
+      "When you receive your card at the Logistics area, check that all the Build Points and abilities that you gained at your previous event are included on the card. The Character Card also lists the number of temporary tags you should receive for each Tag Cycle of the Event",
+      "The back of your Character Card is used to record all the permanent changes made to your character during an event. If your character learns a new skill, the teacher writes the name of the skill and their player number and initials on the back of the card. If you go through a module the Build Points awarded are noted by a Marshal on the back of the card. If your character is killed, the additional death is noted on the back of the card by the person who restores you."
+    ],
+    "subsection": "Logistics and Check-in",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Checking Out",
+    "content": [
+      "At the end of an event, you must go to Logistics and check out. Before you get on line, you should make sure you have the following things:",
+      {
+        "type": "list",
+        "items": [
+          "your Character Card,",
+          "your 1 silver piece upkeep,",
+          "your work assignment duty signed,",
+          "your site (the place you slept) cleanup signed,",
+          "your camp cleanup signed."
+        ]
+      },
+      "Your Character Card is our record of how your character changed during the event; if you do not hand it in, we cannot update your character records with the Build Points you have earned or the new abilities you have gained. If you forget to hand in your Character Card at the end of an Event, your character will not be updated by the next Event, even if you give us your Character Card at a later time.",
+      "If your character accumulated a few deaths during an Event, or you received a disciplinary warning, you may be tempted to deliberately “forget” to hand in your Character Card. However, deaths and warnings are recorded separately and will be added to your character records even if your Character Card is not handed in. Failure to hand in your Character Card for this reason will result in disciplinary action. So take your lumps and give us your card; at least you will get the Build Points you are entitled to.",
+      "If you have to leave before the end of the Event and cannot perform your duty or help clean up, then let someone in-charge know; do not just drop off your card at Logistics. The strict rule is that if you have not done both your work assignment and your clean-up, then you do not earn any Build Points for that Event and any bonus Build Points for going on modules. We are willing to make some exceptions, but you have to ask us first"
+    ],
+    "subsection": "Logistics and Check-in",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Up Keep",
+    "content": [
+      "The “maintenance fee”, or upkeep, is the amount of game money your character must pay to support themselves between events. You should ask at Logistics what the maintenance fee is for your character; typically it is higher for characters with noble titles or other special positions in society. You pay your maintenance fee when you check out your character from Logistics.",
+      "If you do not pay the maintenance fee, your character will be affected in some way. You will find out how your character has been affected at the start of the following event. Effects include, but are not limited to, diseases or loss of Body Points or death."
+    ],
+    "subsection": "Logistics and Check-in",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "PC’ing",
+    "content": [
+      "You are a player, and your character is your representation in the LAIRE game world. You have complete control over your own character, subject to the rules of the game; you control how your character feels, speaks, acts, lives, and dies. In contrast, there are non-player characters (NPC’s), whose actions are not fully controlled by their players; these are described in a subsequent section.",
+      "Your character could become the greatest hero to ever stride across the world, or the most wicked creature ever to have slinked in the shadows, depending on what you want to do and how well you play the game. We cannot make you a good player you have to do that yourself."
+    ],
+    "subsection": "Logistics and Check-in",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "NPC’ing",
+    "content": [
+      "Of all the volunteer work you can do for LAIRE, by far the most important is… to be a non-player character. The NPC’s play all the roles that the players do not: the monsters, the townsfolk, the princes and princesses in distress, the imprisoned dragon that must be rescued from the evil clutches of a dastardly knight. Someone has to play these parts so the other players can have fun.",
+      "The most important part of NPC’ing to remember is: do as you are asked and instructed to do and play the role you are given correctly. When you are given a role to play at an event you are also given instructions by a Plot, Monster or Module Marshal on what to do and how to play the role. It is important to the storyline and smooth running of the game that you follow these instructions. For example, if you are given the role of a beneficent healer who is sent into town to heal whom ever they can, you should not take it upon yourself to kill as many people as you are able and steal them blind. Neither should you decide to charge people for your healing for any reason.",
+      "You should play the role correctly. If you are given a zombie to play you should not charge the line, deftly and acrobatically thrust, parry and break through the line to reach the healers in the back because you think it would be a good tactic. Zombies are slow, mindless creatures that are unable to perform those actions. Additionally, if you meet a lone traveler on the road and cut them down, you should not pick up the body and hide it in the woods – zombies are far too stupid to do this.",
+      "Finally, be considerate of your fellow player’s feelings. If you do manage to kill a PC or rob them, do not gloat about it to them or return to an out-of-game area and have a laugh at their expense. No one likes to fail and people certainly do not like to be made fun of because of it. Remember, one day that person may be the NPC you are facing as your PC and you would not like them to do such to you.",
+      "This is a game and the goal is to have fun, not see how many people you can kill in a single NPC shift.",
+      "Any player that travels more than 350 miles to attend an Event is not required to NPC or perform any other type of 5 hour duty shift."
+    ],
+    "subsection": "Logistics and Check-in",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Intro",
+    "content": "LAIRE is a cooperative effort. The organization only works when everyone participates to make it work. We are a not-for-profit organization, and we cannot pay you for your efforts on our behalf. Instead, we award Brownie Points (BRP) when you work for us. The basic rate is one BRP for each hour of labor; sometimes the rate is higher for arduous work such as helping to run Logistics.",
+    "subsection": "Brownie and Play Credits ",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "How to Spend Brownie Points",
+    "content": [
+      "Brownie Points may not be traded between players. There is one exception: you can give BRP to another player for the sole purpose of helping them buy a new life if they pull a black marble.",
+      {
+        "type": "table",
+        "headers": ["Category", "Brownie Point Cost"],
+        "rows": [
+          [
+            "Build for a Character",
+            "1 Brownie Point per 0.1 Build Point up to a maximum of half the Awarded Build Points"
+          ],
+          [
+            "In-Game Money",
+            "Brownie Point to copper pieces ratio will be posted at Events and on Laire.com"
+          ],
+          [
+            "Resurrecting from a Black Marble",
+            "5 Brownie Points per Black Marble"
+          ],
+          [
+            "Spell Defenses",
+            "1 Brownie Point per Power Point (3 Brownie Points per Power Point if lost magic) for each non 5th Rank, non warlock enhanced Latent spell"
+          ]
+        ]
+      },
+      "You spend BRP at the end of an event, by telling the Logistics staff person you desire to “brownie your character”. The staff person will note it on your Character Card. If you are using BRP to buy copper pieces, you give your Character Card to the Treasure Manager who will note it on your chard. If you are buying a new life, you turn in your BRP at the Healers Guild."
+    ],
+    "subsection": "Brownie and Play Credits ",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Earning Brownie Points",
+    "content": "On page 275 (LINK_TODO) there is a table outlining the Brownie Points, Build or Play Credits awarded for the various jobs in LAIRE. Not all the jobs listed are described in this rule book. You will learn what each of these jobs are as you play the game.",
+    "subsection": "Brownie and Play Credits ",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "LAIRECash",
+    "content": "LAIRECash can be used only to offset the cost of LAIRE Events, up to half the cost of the Event. One LAIRECash equals one dollar.",
+    "subsection": "Brownie and Play Credits ",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "Play Credits",
+    "content": "Every time you go to a full event weekend end, you are required to have one Play Credit. The most common way to earn Play Credits is to NPC a full weekend. From time to time, LAIRE will have a special event usually lasting only a single day or night, for example, the Halloween Party. These events do no require a Play Credit to participate. Any player that travels more than 200 miles to attend an Event does not require a Play Credit to participate.",
+    "subsection": "Brownie and Play Credits",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  },
+  {
+    "name": "",
+    "content": "",
+    "subsection": "Brownie and Play Credits ",
+    "section": "Basic Game Play",
+    "tags": ["basics"]
+  }
+]
