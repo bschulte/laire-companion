@@ -562,5 +562,106 @@
     "subsection": "Weapons, Magic and Taking Damage",
     "section": "Weapon Damage",
     "tags": ["basics", "damage"]
+  },
+  {
+    "name": "Earning Build and Leveling",
+    "content": [
+      "A “Level” is an overall indicator of how much adventuring a character has done. There are skills that characters cannot learn until they have achieved a certain Level; also, the strength of the monsters and the amount of treasure awarded on modules often depends on the average Level of the characters in the party.",
+      "A character’s level is determined by the number of Build Points they have been awarded not on the number of Build Points spent; your character can earn 20 Build Points and go up two Levels, but you may choose to spend only 2 Build Points on new skills.",
+      "New characters receive 25 initial Build Points. The Awarded Build is the number of Build Points you gain above that initial 25. The Total Build is the sum of the awarded Build Points plus the initial 25. The number of Build Points that corresponds to a character’s Level is on the following chart:",
+      {
+        "type": "table",
+        "headers": ["Level", "Awarded Build", "Total Build"],
+        "rows": [
+          ["1", "0-9", "25-34"],
+          ["2", "10-19", "35-44"],
+          ["3", "20-29", "45-54"],
+          ["4", "30-39", "55-64"],
+          ["5", "40-49", "65-74"],
+          ["6", "50-59", "75-84"],
+          ["7", "60-69", "85-94"],
+          ["8", "70-79", "95-104"],
+          ["9", "80-89", "105-114"],
+          ["10", "90-99", "115-124"],
+          ["11", "100-109", "125-134"],
+          ["12", "110-119", "135-144"],
+          ["13", "120-129", "145-154"],
+          ["14", "130-139", "155-164"],
+          ["15", "140-149", "165-174"],
+          ["16", "150-159", "175-184"],
+          ["17", "160-169", "185-194"],
+          ["18", "170-179", "195-204"],
+          ["19", "180-189", "205-214"],
+          ["20", "190-199", "215-224"]
+        ]
+      },
+      "Every character is awarded a blanket number of Build Points for attending an Event. These Build Points are an award and not a right. A player pays to attend the Event not for Build Points. The Builds Point awarded every Event is a privilege not a right and the Executive Board can chose to withhold Build Points from a character or the game if they wish or award extra Build Points if they wish.",
+      "The standard amount of Build Points awarded is given in the table below. In addition to the Build Point blanket, a player may wish to spend Brownie Points to increase this amount at a rate of 1 Brownie Point per 0.1 Build Points, up to a maximum of half the Awarded Build Points, rounded up. A player may also purchase Build Points for their characters. Only 10 Build Points per character per calendar year can be purchased. The player can buy Build Points in any amount up to the maximum in 1 Build Point increments.",
+      {
+        "type": "table",
+        "headers": [
+          "Character Level",
+          "Awarded Build Points",
+          "Maximum Build from Brownie"
+        ],
+        "rows": [
+          ["1", "6", "3"],
+          ["2", "5", "2.5"],
+          ["3", "4", "2"],
+          ["4", "3", "1.5"],
+          ["5 to 25", "2", "1"],
+          ["26 to 30", "1.7", "0.9"],
+          ["31 to 35", "1.5", "0.8"],
+          ["36 and up", "1", "0.5"]
+        ]
+      },
+      "Characters can also gain extra Build Points for exceptional roleplaying and going on a Module. These extra Build Points are called Roleplaying Chips (RC) and are either written directly on a character’s card or handed to a player in the form of a round yellow chip. These chips are handed into Logistics at the end of the Event when you turn in your Character Card. Players earn RC not characters and a player may hand in the chips with any character they have; however, RC’s written on a character card are for that character only and cannot be transferred."
+    ],
+    "section": "Character Growth",
+    "tags": ["leveling"]
+  },
+  {
+    "name": "Learning and Teaching Skills",
+    "content": [
+      "Some skills have a prerequisite listed in the skill tables. This means that a character must know the prerequisite ability before they can learn that skill. For example, the Set Traps skill on the Rogue Basic Career Skill List has a prerequisite of Disarm Traps; a character must have the Disarm Traps Skill listed on the front of their Character Card before they can learn the Set Traps skill. Both a skill and its prerequisite cannot be learned during the same event. If your character has just learned Rank 1 of the Aura School of magic, you must wait until the next event before you can learn Rank 2 of the Aura School. The character must actually know the prerequisite skill; it cannot come from an item. For example, if a character has an item that gives them one Proficiency skill while worn, and they do not know the Proficiency skill, they cannot learn the Stun skill.",
+      "Most skills are gained only if a teacher can be found in-game. A teacher is not needed for the skills purchased with the initial 25 Build Points. A teacher is also not needed to learn an additional use of a skill from the Basic Skill Lists a character already has provided they have purchased that Basic Career Skill List. For example, if your character knows Weapon Proficiency +1, you can teach yourself Weapon Proficiency +2; if you have one use of the Disarm skill, you can gain a second use without a teacher; if you have purchased Power Points, you do not need a teacher for more. However you cannot teach yourself the next rank of a skill and must find a teacher in- game. For example, you cannot teach yourself Rank 2 of the Auras School or Rank 2 Weapon Smith.",
+      "A teacher is needed to learn any skill off of a Basic Career Skill List if they have not purchased that list and a new Advanced Career skill even if the character already knows skills from that list. Also, a teacher is needed to learn Miscellaneous Skills, but there is no list associated with these skills. Further, a character has to be Level 5 before they can learn any Advanced Career skill.",
+      "Normally, a character may learn as many skills as they want and have the unspent Build Points for. However, only one new Advanced Career skill, including Master Miscellaneous, can be learned an Event. If you are learning another use (an additional purchase) of a skill you already have, that does not count towards your one new skill. Limitations on learning ranks and prerequisites still apply.",
+      "There may be other restrictions to learning skills. For example, magic spells can only be taught with the aid of a Tome of Spell Lore. The Duchy of Avalon has many tomes available to characters in the City of Avalon. Those ranks listed as available on the Mage Basic Career Skill List can be learned using these books.",
+      "When a character is taught a skill, the teacher must write the following on the back of the Character Card: the name of the new skill, and the teacher’s name and the teacher’s Player Number. Aside from the exceptions noted below, anyone can teach any basic skill they know. Advanced Career skills require the teacher to have the Teach skill. There is a Teach skill for each Advanced Career and each must be learned separately. A character can teach any skill they have the teach skill for to any character that has the proper prerequisites to learn that skill.” The Teach skill does not cost any Build Points but the player must have Plot approval to gain this skill. Additionally, any Master Miscellaneous skills the character has can be taught; a separate teach skill is not needed. The one exception to this rule about Advanced Career skills is Elemental Pool Points and Spell Singing Points, a character can teach themselves both without the Teach skill once they learn the first ones.",
+      "Players teaching a skill should roleplay the instruction and not just sign the Character Card. As a rule, it takes 5 minutes per Build Point of roleplaying to teach a skill. So, to teach the First Aid skill would take 10 minutes, to teach the Slay Skill would take 50 minutes. However, some teachers may choose to take longer to teach a skill and others may have a skill or ability that will allow them to reduce the time it takes to teach a skill. Spending the time to roleplay the teaching will make the new skill more significant to the student. However, the student does not gain the use of the new skill until the next Event; characters do not suddenly gain the ability to pick locks at the instant the teacher signs their card.",
+      "In addition to the in-game teaching of the skill, the teacher will instruct the player out-of-game how the skill works. If the player teaches the out-of-game use of the skill incorrectly, they may lose the ability to teach.",
+      "Once a teacher signs the card, it is assumed they have taught the skill correctly. If a player wishes their character to teach a skill incorrectly then they should not sign the card.",
+      "Once a skill appears on a player’s card their character has used the skill or cast the spell successfully at least once."
+    ],
+    "section": "Character Growth",
+    "tags": ["leveling"]
+  },
+  {
+    "name": "Body Points",
+    "content": [
+      "Body Points reflect the ability of the character to take damage. It is a measure of their hardiness and stamina in battle. A character with a low number of Body Points is more grievously affected by the damage they take than a character with an exceptionally high number of Body Points.",
+      "The LAIRE Logistics system is computerized, and a character’s Body Points are calculated before the Event. The number of Body Points a character has is indicated on the Character Card. The complete procedure for determining a character’s Body Points is given below. If a discrepancy is suspected between the number of Body Points on a Character Card and what is expected the player should report the problem to Logistics.",
+      "Body Points are calculated in a way that reflects how a character decides to spend their Build Points. The skill system is divided into different lists, and these lists are grouped into six categories. For each skill purchased, a fraction of a Body Point is received depending on the category of the list; the sum of these fractions gives the base number of Body Points. Another 3 Body Points are added to this base, and any remainder in the grand total is then rounded up to the next whole number. Finally, any racial or other special bonuses or penalties are added to the total. This gives a character’s Body Point total.",
+      "There are five categories of Skill Lists: Martial, Dexterity, Arcane, Faith, and Racial. Miscellaneous skills fall into one of the first three categories. Each Skill on one of these lists will give you a different amount of Body Points per Build Point. See the table below for the values:",
+      {
+        "type": "table",
+        "headers": ["Skill List Category", "BP per Build Spent", "Associated Skill Lists"],
+        "rows": [
+          ["Martial", "0.25", "Warrior, Weapons Master"],
+          ["Dexterity", "0.10", "Rogue, Master Thief, Assassin"],
+          ["Arcane", "0.05", "Mage, Alchemy, Sorcery, Warlock, Spell Singing"],
+          ["Faith", "0.20", "Follower of the Light, Druid, Servant of Darkness"],
+          ["Miscellaneous", "0.15", "Some Miscellaneous Skills, Some Master Miscellaneous Skills"],
+          ["Racial", "0.15", "Racial Skills"]
+        ]
+      },
+      "There is one exception of the on-list versus off-list Build Point value, for Power Points, you receive 0.05 Body Points for each Build you spend, even if you bought the Power Points off-list.",
+      "Some skills are found on more than one Skill List; for example, the One-Handed Edge skill is on the Weapons Skill List and the Rogue Basic Career Skill List. You receive the Body Points from the Skill List that gives you the greatest number of Body Points, even if you purchased the skill from a different Skill List. In the above example, if you purchased the One-Handed Edge skill from the Rogue Basic Career Skill List, you would still receive 0.25 Body Points, as if you purchased it from the Warrior Basic Career Skill List.",
+      "For example, Lilith purchases: the Weapons Skill List, One-Handed Edged Weapon, and Shield. All 18 Build Points are spent on Martial skills, Lilith gets 18 x 0.25 = 4.5 Body Points, plus 3 = 7.5 = 8 Body Points.",
+      "Tythis purchases: One-Handed Edged Weapon (6 BP), Battle Surgery (4 BP), First Aid (2 BP), Armor Smith (3 BP), Literacy (4 BP), 1st Rank Aura School (5 BP), and 11 Power Points (11 BP). This sums up as follows: 6 x 0.25 (Martial skills) + 13 x 0.15 (Miscellaneous skills) + 16 x 0.05 (Arcane skills) = 3.95 Body Points, plus 3 = 6.95 Body Points, which is rounded to 7 Body Points."
+    ],
+    "section": "Character Growth",
+    "tags": ["leveling", "health", "hp"]
   }
 ]
