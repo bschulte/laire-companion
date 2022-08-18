@@ -234,209 +234,853 @@
         "bodyPoints": 6,
         "powerPoints": 0
       }
-    ],
-    "skillLists": [
-      {
-        "warrior": {
-          "skills": [
-            {
-              "name": "Small Weapon",
-              "onListCost": 0,
-              "offListCost": 0,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "One-Handed Edge",
-              "onListCost": 2,
-              "offListCost": 6,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "One-Handed Blunt",
-              "onListCost": 2,
-              "offListCost": 6,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Bastard Sword",
-              "onListCost": 4,
-              "offListCost": 12,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Bastard Blunt",
-              "onListCost": 4,
-              "offListCost": 12,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Two-Handed Edge",
-              "onListCost": 4,
-              "offListCost": 10,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Two-Handed Blunt",
-              "onListCost": 4,
-              "offListCost": 10,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Quarterstaff",
-              "onListCost": 2,
-              "offListCost": 6,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Spear",
-              "onListCost": 3,
-              "offListCost": 8,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Polearm",
-              "onListCost": 5,
-              "offListCost": 12,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Thrown Weapon",
-              "onListCost": 2,
-              "offListCost": 6,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Bow",
-              "onListCost": 3,
-              "offListCost": 9,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Crossbow",
-              "onListCost": 4,
-              "offListCost": 12,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Shield",
-              "onListCost": 5,
-              "offListCost": 15,
-              "duration": "Constant",
-              "prerequisiteSkill": "None",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Florentine",
-              "onListCost": 3,
-              "offListCost": 9,
-              "duration": "Constant",
-              "prerequisiteSkill": "Any One-Hand Weapon Skill",
-              "purchase": "Once",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Weapon Proficiency",
-              "onListCost": 10,
-              "offListCost": 15,
-              "duration": "Constant",
-              "prerequisiteSkill": "Any Weapon Skill",
-              "purchase": "Multi",
-              "tagged": "No"
-            },
-
-            {
-              "name": "Critical Attack",
-              "onListCost": 5,
-              "offListCost": 10,
-              "duration": "Instant",
-              "prerequisiteSkill": "Any Weapon Skill",
-              "purchase": "Multi",
-              "tagged": "Yes"
-            },
-
-            {
-              "name": "Disarm",
-              "onListCost": 4,
-              "offListCost": 8,
-              "duration": "Instant",
-              "prerequisiteSkill": "Any Weapon Skill",
-              "purchase": "Multi",
-              "tagged": "Yes"
-            },
-
-            {
-              "name": "Stunning Blow",
-              "onListCost": 6,
-              "offListCost": 12,
-              "duration": "Instant",
-              "prerequisiteSkill": "Weapon Proficiency",
-              "purchase": "Multi",
-              "tagged": "Yes"
-            }
-          ],
-          "specialNotes": [
-            "If a character purchases a one-handed and two-handed Weapon skill, they are able to use bastard weapons of the appropriate type. For example, if a player purchases One-Handed Edge and Two-Handed Edge they are able to use Bastard Edge Weapons",
-            "Two-handed weapons (Two-Handed Sword, Two-Handed Blunt, Polearm, Staff, and Bows) must be used with two hands to cause damage. However, the player may use these weapons with one hand to block",
-            "Bows and Crossbows may not be used to block an attack for they are too delicate. The one exception is Magic or unshatterable Bows, these weapons can be used to block attacks in melee combat but cannot be used to strike with in melee combat",
-            "All weapons gain the benefit of the character’s Strength Bonus except Crossbows. Bows count as two-handed weapons."
-          ]
-        }
-      }
     ]
+  },
+  "skillLists": [
+    {
+      "warrior": {
+        "skills": [
+          {
+            "name": "Small Weapon",
+            "onListCost": 0,
+            "offListCost": 0,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "One-Handed Edge",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "One-Handed Blunt",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Bastard Sword",
+            "onListCost": 4,
+            "offListCost": 12,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Bastard Blunt",
+            "onListCost": 4,
+            "offListCost": 12,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Two-Handed Edge",
+            "onListCost": 4,
+            "offListCost": 10,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Two-Handed Blunt",
+            "onListCost": 4,
+            "offListCost": 10,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Quarterstaff",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Spear",
+            "onListCost": 3,
+            "offListCost": 8,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Polearm",
+            "onListCost": 5,
+            "offListCost": 12,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Thrown Weapon",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Bow",
+            "onListCost": 3,
+            "offListCost": 9,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Crossbow",
+            "onListCost": 4,
+            "offListCost": 12,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Shield",
+            "onListCost": 5,
+            "offListCost": 15,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Florentine",
+            "onListCost": 3,
+            "offListCost": 9,
+            "duration": "Constant",
+            "prerequisiteSkill": "Any One-Hand Weapon Skill",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Weapon Proficiency",
+            "onListCost": 10,
+            "offListCost": 15,
+            "duration": "Constant",
+            "prerequisiteSkill": "Any Weapon Skill",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+
+          {
+            "name": "Critical Attack",
+            "onListCost": 5,
+            "offListCost": 10,
+            "duration": "Instant",
+            "prerequisiteSkill": "Any Weapon Skill",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+
+          {
+            "name": "Disarm",
+            "onListCost": 4,
+            "offListCost": 8,
+            "duration": "Instant",
+            "prerequisiteSkill": "Any Weapon Skill",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+
+          {
+            "name": "Stunning Blow",
+            "onListCost": 6,
+            "offListCost": 12,
+            "duration": "Instant",
+            "prerequisiteSkill": "Weapon Proficiency",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          }
+        ],
+        "specialNotes": [
+          "If a character purchases a one-handed and two-handed Weapon skill, they are able to use bastard weapons of the appropriate type. For example, if a player purchases One-Handed Edge and Two-Handed Edge they are able to use Bastard Edge Weapons",
+          "Two-handed weapons (Two-Handed Sword, Two-Handed Blunt, Polearm, Staff, and Bows) must be used with two hands to cause damage. However, the player may use these weapons with one hand to block",
+          "Bows and Crossbows may not be used to block an attack for they are too delicate. The one exception is Magic or unshatterable Bows, these weapons can be used to block attacks in melee combat but cannot be used to strike with in melee combat",
+          "All weapons gain the benefit of the character’s Strength Bonus except Crossbows. Bows count as two-handed weapons."
+        ]
+      },
+
+      "mage": {
+        "skills": [
+          {
+            "name": "Read Magic",
+            "onListCost": 1,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "Any Literacy",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Power Points",
+            "onListCost": null,
+            "offListCost": null,
+            "duration": "",
+            "prerequisiteSkill": "None",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Auras School",
+            "onListCost": [2, 2, 2, 2, 4],
+            "offListCost": [5, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [3, 4]
+          },
+          {
+            "name": "Bonds School",
+            "onListCost": [1, 2, 2, 2, 4],
+            "offListCost": [3, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [3, 4]
+          },
+          {
+            "name": "Charms School",
+            "onListCost": [1, 2, 2, 2, 4],
+            "offListCost": [3, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [4]
+          },
+          {
+            "name": "Death School",
+            "onListCost": [1, 2, 2, 2, 4],
+            "offListCost": [3, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [4]
+          },
+          {
+            "name": "Demonology",
+            "onListCost": [3, 3, 4, 4, 6],
+            "offListCost": [7, 9],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [4]
+          },
+          {
+            "name": "Enchantments School",
+            "onListCost": [1, 2, 2, 2, 4],
+            "offListCost": [3, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [3, 4]
+          },
+          {
+            "name": "Healing School",
+            "onListCost": [2, 2, 2, 2, 4],
+            "offListCost": [5, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [4]
+          },
+          {
+            "name": "Ice School",
+            "onListCost": [2, 2, 2, 2, 4],
+            "offListCost": [5, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [4]
+          },
+          {
+            "name": "Necromancy School",
+            "onListCost": [2, 2, 2, 2, 4],
+            "offListCost": [5, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [4]
+          },
+          {
+            "name": "Pyrotechnics School",
+            "onListCost": [2, 2, 2, 2, 4],
+            "offListCost": [5, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [4]
+          },
+          {
+            "name": "Thaumaturgy School",
+            "onListCost": [1, 2, 2, 2, 4],
+            "offListCost": [3, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "See special notes",
+            "purchase": "Multi",
+            "tagged": "No",
+            "lostRanks": [4]
+          },
+          {
+            "name": "Small Weapon",
+            "onListCost": 0,
+            "offListCost": 0,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Quarterstaff",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          }
+        ],
+        "specialNotes": [
+          "The Build costs separated by slashes are the costs for each rank in the school of magic. Those ranks outlined and grayed out are lost and cannot be learned easily in Avalon. For example, the list cost of the Death School is given as 1/2/2/2/4; this means that the 1st Rank Death School costs 1 Build, 2nd Rank Death School costs 2 Build, 3rd Rank costs 2 Build, etc. and 5th Rank is lost and cannot be easily learned.",
+          "No rank above two can be purchased off-list. Therefore, there is no off-list cost for 3rd Rank or higher Schools on the Table",
+          "The prerequisites for purchasing the next rank of a school is given in the table below:",
+          {
+            "type": "table",
+            "headers": ["Rank", "Character Level", "Power Points"],
+            "rows": [
+              ["1", "1st", "3"],
+              ["2", "3rd", "25"],
+              ["3", "5th", "50"],
+              ["4", "7th", "75"],
+              ["5", "9th", "100"]
+            ]
+          }
+        ]
+      },
+      "rogue": {
+        "skills": [
+          {
+            "name": "Small Weapon",
+            "onListCost": 0,
+            "offListCost": 0,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Thrown Weapon",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "One-Handed Edge",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Crossbow",
+            "onListCost": 4,
+            "offListCost": 12,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Bow",
+            "onListCost": 3,
+            "offListCost": 9,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Florentine",
+            "onListCost": 3,
+            "offListCost": 9,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Disarm Trap",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Set Trap",
+            "onListCost": [1, 2, 3, 4],
+            "offListCost": [3, 6],
+            "duration": "Constant",
+            "prerequisiteSkill": "Disarm Trap",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Pick Lock",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Waylay",
+            "onListCost": 5,
+            "offListCost": 15,
+            "duration": "Constant",
+            "prerequisiteSkill": "Small Weapon",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Backstab",
+            "onListCost": 6,
+            "offListCost": 12,
+            "duration": "Constant",
+            "prerequisiteSkill": "Waylay",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Poison Lore",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "Literacy, Herbal Lore",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Poisons Rank 1",
+            "onListCost": 2,
+            "offListCost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "Poison Lore",
+            "purchase": "Once",
+            "tagged": "No"
+          }
+        ],
+        "specialNotes": [
+          "The Build costs separated by slashes are the costs for each rank of the Set Trap skill. For example, the on-list cost is given as 1/2/3/4; this means that the first purchase of this skill costs 1 Build Point, the second costs 2 Build Points, and so on. A character can only purchase this skill twice off list."
+        ]
+      },
+      "miscellaneous": {
+        "skills": [
+          {
+            "name": "First Aid",
+            "onListCost": 2,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Battle Surgery",
+            "onListCost": 4,
+            "duration": "Special",
+            "prerequisiteSkill": "First Aid",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Stamina",
+            "onListCost": 4,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Superior Strength",
+            "onListCost": 15,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Advanced Strength",
+            "onListCost": 10,
+            "duration": "Constant",
+            "prerequisiteSkill": "Superior Strength",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Herbal Lore",
+            "onListCost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Evaluate Item",
+            "onListCost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Literacy",
+            "onListCost": 4,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Armor Smith",
+            "onListCost": 3,
+            "duration": "Special",
+            "prerequisiteSkill": "None",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Weapon Smith",
+            "onListCost": [4, 6, 8, 10],
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Craftsman Skills",
+            "onListCost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Professional Skills",
+            "onListCost": 1,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Divination",
+            "onListCost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Instructor",
+            "onListCost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Medium",
+            "onListCost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Researcher",
+            "onListCost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Quick Study",
+            "onListCost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Torture",
+            "onListCost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "purchase": "Once",
+            "tagged": "No"
+          }
+        ],
+        "specialNotes": [
+          "The Build Point costs separated by slashes are the costs for each rank of the Weapon Smith skill."
+        ]
+      }
+    }
+  ],
+  "weaponSmithRules": [
+    "The Weapon Smith skill is purchased in ranks. Each rank allows the character to make more complicated weapons. Additionally, the higher ranks of the Weapon Smith skill allow the character to create weapons of quality. All weapons require stock material which is purchasable in-game from the Armory or out-of-game from the Treasure Manager.",
+    "A character can create any number of normal weapons they wish in between Events. They need to pay the production cost for the raw materials to the Treasure Manager and receives the appropriate weapon card. If a character wishes to make a weapon during an Event, they must spend the indicated time in-game. All special weapons must be made in-game.",
+    "In addition to the stock materials, the character also needs access to a forge. A character can find a forge in the City of Avalon in the Armory. The player needs to find out in-game what their character needs to do to gain access to the forges in the armory.",
+    "The production times listed in the following table indicates how much time the character must spend making the listed weapons. All times, after the initial base crafting times, are cumulative. Therefore, if a character wanted to make a permanently silvered, unshatterable long sword with a +1 Damage Bonus, they would need to spend 1 hour and 30 minutes at a forge to complete the work. The time spent must be uninterrupted, but does not require concentration to complete. If the character is forced to stop their work, the task fails and the stock materials lost. The character may talk to other characters or move around the forge performing the forging. They may cast spells, fish an item out of a pouch, or perform other simple tasks, but not engage in combat for more than 30 seconds or move more than 20 feet from the forge.”",
+    "The costs of the stock materials must be found out in-game. With the exception of Mithril weapons, any broken weapon can be re-forged if the pieces are present. The base cost needs to be paid again and the time spent forging the weapon. Weapons destroyed with the Shatter spell, Blast spell and Shatter Weapon skill render the weapon into pieces too small to reasonably find or re-forge. Read the descriptions below for more information on re-forging those types of weapons.",
+    "Below is an explanation of the various special weapons and crafting skills listed in the table. All crafting must be done at the time the weapon is made with the exception of Metal Coatings, which is done after the weapon is constructed. Any combination of these crafting skills is possible, though some like Dwarven Crafting a Mithril weapon does not make sense.",
+    "Normal Weapons are common fare of weapons most characters have. They are the norm against which all others are compared. A broken weapon can be re-forged with no additional materials cost.",
+    "Cold Forging refers to a special process of making a weapon without the aid of fire. Without the tempering of the metal it is weaker and does not hold an edge well, therefore it suffers a -1 Damage Bonus. These weapons have a special effect on some characters, which the player must find out in-game. A Cold Forged Shield has no special qualities. A broken Cold Forged weapon can be re-forged with no additional materials cost. Cold Forging alone does not make a weapon an item of quality.",
+    "Metal Coatings allow a weapon to swing for that metal for 12 months – not Events – after its making. Eventually this coating will wear off and in 12 months – not Events – the weapon will be normal again. The metal to coat the weapon with must be available and is part of the stock material cost. Coated weapons are still considered normal, not a weapon of quality. Copper, Silver and Gold coatings are the most common. A weapon with a Metal Coating can be re- forged if broken but without the coating. Mithril and Adamantite can never be coated with another metal nor can they be used to coat a weapon.",
+    "A Dissection Knife is constructed out-of-game as an edged throwing weapon, however, it can never be used in combat. Dissection knives are required to use the Dissection skill. They can be combined with other crafting skills, such as Elven and Dwarven crafting, and made of any metal.",
+    "Wire Creation is the ability to make wire from coins or stock. Each coin can make a 12 inch long piece of wire. The appropriate metal must be available to make the wire.",
+    "Venom Weapons are daggers or swords that have a special chamber in the pommel of the weapon that allows the character to load a contact alchemical item into the blade. Normally when a blade is coated with a contact alchemical item the next swing uses it up. The character can choose when to coat their weapon before they swing with the alchemical item, they suffix their damage with “Poison” when they swing. Only one dose of the alchemical item can be loaded at a time. Venom Weapons are far too intricate to re-forge and must be completely remade. Venom weapons are not marked in any special way and appear as normal weapons unless inspected closely.",
+    "Some rituals require a weapon or shield to be Enchantment Quality in order to hold the enchantment; this crafting creates such a weapon. This crafting does not change the properties of the weapon. The special property of the Enchantment Quality is lost if the weapon is broken and only the base normal weapon can be re-forged.",
+    "A weapon can be made Permanently Alloyed with Copper, Silver, or Gold with this crafting. The weapon must be created from scratch; an existing weapon cannot be Permanently Alloyed after its creation. This effect lasts until the weapon is destroyed. These weapons can be re-forged with no additional material cost.",
+    "A weapon smith can craft Boxes out of metal or wood of a maximum of 10 cubic feet. While not useful in and of itself, when combined with Dwarven Crafting and Dwarven Crafted Locks, characters have a safe place to keep their in-game belongings.",
+    "Bone Crafting allows the character to make a weapon out of the bones of a mystical creature that has Damage Resistance: Silver or better. The bone weapon will always suffer a -1 Damage Bonus penalty and can never, ever be combined with any other crafting skill except Enchantment Quality.",
+    "Unshatterable or Dwarven Crafted weapons and shields cannot be broken. They are not affected by the Shatter or Blast spells or the Shatter Weapon skill. They cannot be broken with any Strength Bonus. This does not mean they are indestructible. Anything that would melt a normal weapon will destroy an Unshatterable weapon. These weapons cannot ever be re-forged once destroyed.",
+    "Elven Crafting give a weapon a +1 Damage Bonus. This crafting can be combined with any other crafting including Mithril weapons. Once broken, the weapon can be re-forged but will not retain its Damage Bonus and the base cost must be repaid to regain the bonus. Elven Crafting a shield gives no additional bonus.",
+    "Weapons and shields can be forged with Mithril. These Mithril Forged weapons and shields are indestructible and nothing short of an Eldritch attack will harm these weapons and shields. Mithril ore is mined like any other ore and smelted into bars; however unlike mundane metals, once forged into something, Mithril can never be re-forged. There are different types of Mithril – normal Mithril, Starfire Mithril, Moonfire Mithril, and Sunfire Mithril. Under starlight, Starfire Mithril gains a +1 Damage Bonus and is magical, Moonfire gains the same properties under moon light and Sunfire gains the same bonuses under sunlight. Mithril Forged weapons that have a wooden haft such as axes, hammers and polearms are assumed to have Unshatterable hafts and therefore the entire weapon is Unshatterable, this adds no extra time or cost and is assumed to be calculated in already."
+  ],
+  "weaponCraftingTimes": [
+    {
+      "name": "Small and Thrown Weapons",
+      "productionTime": "10 minutes",
+      "rank": 1
+    },
+    {
+      "name": "One-Handed Blunt",
+      "productionTime": "15 minutes",
+      "rank": 1
+    },
+    {
+      "name": "Bastard Blunt",
+      "productionTime": "20 minutes",
+      "rank": 1
+    },
+    {
+      "name": "Two-Handed Blunt",
+      "productionTime": "20 minutes",
+      "rank": 1
+    },
+    {
+      "name": "Spear",
+      "productionTime": "15 minutes",
+      "rank": 1
+    },
+    {
+      "name": "Quarterstaff",
+      "productionTime": "10 minutes",
+      "rank": 1
+    },
+    {
+      "name": "Shield",
+      "productionTime": "15 minutes",
+      "rank": 1
+    },
+    {
+      "name": "One-Handed Edge",
+      "productionTime": "15 minutes",
+      "rank": 2
+    },
+    {
+      "name": "Bastard Edge",
+      "productionTime": "20 minutes",
+      "rank": 2
+    },
+    {
+      "name": "Two-Handed Edge",
+      "productionTime": "20 minutes",
+      "rank": 2
+    },
+    {
+      "name": "Polearm",
+      "productionTime": "25 minutes",
+      "rank": 2
+    },
+    {
+      "name": "Bow",
+      "productionTime": "20 minutes",
+      "rank": 2
+    },
+    {
+      "name": "Crossbow",
+      "productionTime": "25 minutes",
+      "rank": 2
+    },
+    {
+      "name": "Cold Forging",
+      "productionTime": "Base Weapon Time",
+      "rank": 2
+    },
+    {
+      "name": "Metal Coating (copper, silver, or gold)",
+      "productionTime": "15 minutes",
+      "rank": 2
+    },
+    {
+      "name": "Dissection Knife",
+      "productionTime": "15 minutes",
+      "rank": 2
+    },
+    {
+      "name": "Wire Creation",
+      "productionTime": "10 minutes",
+      "rank": 2
+    },
+    {
+      "name": "Venom Dagger",
+      "productionTime": "45 minutes",
+      "rank": 3
+    },
+    {
+      "name": "Enchantment Quality",
+      "productionTime": "Base + 20 minutes",
+      "rank": 3
+    },
+    {
+      "name": "Permanently Alloyed Weapon",
+      "productionTime": "Base + 20 minutes",
+      "rank": 3
+    },
+    {
+      "name": "Boxes",
+      "productionTime": "10 minutes",
+      "rank": 3
+    },
+    {
+      "name": "Locks",
+      "productionTime": "15 minutes",
+      "rank": 3
+    },
+    {
+      "name": "Bone Weapon",
+      "productionTime": "Base + 50 minutes",
+      "rank": 4
+    },
+    {
+      "name": "Venom Sword",
+      "productionTime": "50 minutes",
+      "rank": 4
+    },
+    {
+      "name": "Unshatterable (Dwarven Crafting)",
+      "productionTime": "Base + 30 minutes",
+      "rank": 4
+    },
+    {
+      "name": "+1 Damage Bonus (Elven Crafting)",
+      "productionTime": "Base + 30 minutes",
+      "rank": 4
+    },
+    {
+      "name": "Mithril Forging, Any Type",
+      "productionTime": "Base + 30 minutes",
+      "rank": 4
+    }
+  ],
+  "armorSmithRules": [
+    "The Armor Smith skill is purchased in ranks. Each rank allows the character to repair 6 Armor Points worth of cloth, leather or metal armor. Additionally the character can make a piece of leather or metal armor worth up to 6 Armor Points per purchase of the skill. When creating a new piece of armor the character must have the appropriate amount of stock material. This material is purchasable in-game from the Armory Guild or out-of-game from the Treasure Manager.",
+    "In between Events, the character can create any number of pieces of armor up to the number of Armor Points their skill allows. The player should see the Treasure Manager to get the cards made. If the character wishes to make the armor in-game they must spend the indicated time roleplaying the creation of the armor. All special armor types must be made in-game.",
+    "The chart below indicates the sectional armor pieces a character can make and the times associated with its creation. Additionally, there is a Base Time needed to make any set of armor, whether it is one piece or a whole suit. These times are cumulative, so if the character wishes to make a piece of light plate chest armor (16 minutes) with shoulders (4 minutes) and sleeves (4 minutes) that covers the groin and thighs (8 minutes), the total time would be 72 minutes. The time spent must be uninterrupted, but does not require concentration to complete. If the character is forced to stop their work, the task fails and the stock materials lost. The character may talk to other characters or move around the forge performing the forging. They may cast spells, fish an item out of a pouch, or perform other simple tasks, but not engage in combat for more than 30 seconds or move more than 20 feet from the forge.",
+    "Besides the raw material, the character needs access to a forge. In the City of Avalon, the Armory has a forge but the character must learn in-game what is required to gain access to the forge.",
+    "Armor Smith, like Weapon Smith, has special crafting techniques that give armor a special quality. All crafting must be done at the time the armor is made. Four purchases of the Armor Smith skill is needed for Eleven Crafting, Dwarven Crafting, Bone Crafting, and Enchantment Quality. Five purchases of the Armor Armor skill is needed for Mithril Crafting.",
+    "The times given in the above table are in addition to the time it would normally take to make the armor and are cumulative. For example, it would normally take the character 42 minutes to make a chain mail shirt that covers the torso and shoulders. If it was to be made Dwarven Crafted, it would take the character 63 minutes. If it was Elven and Dwarven Crafted, the total time would be 84 minutes.",
+    "There is little use in-game to make a shield using Cold Forging. This crafting alone does not make a shield an item of quality and therefore cannot be used to stop spells.",
+    "Elven Crafting a suit of armor increases the amount of Base Armor Points, the Armor Points without the Real Bonus, by 25%.",
+    "Dwarven Crafting a suit of armor makes the armor more durable, and therefore degrades, after taking damage, by 2 Armor Points instead of the normal 3 Armor Points.",
+    "Bone Crafting allows the character to create a suit of armor out of the bones of a character that has Damage Resistance: Silver or greater. The armor always counts as Chain Mail. This crafting cannot be combined with any other armor crafting except Enchantment Quality.",
+    "Some rituals require armor to be Enchantment Quality in order to hold the enchantment; this crafting creates such a piece of armor. This crafting does not change the properties of the armor. The special property of the Enchantment Quality is lost if the armor is broken and only the base normal armor can be re-forged. Armor that is Eleven Crafted, Dwarven Crafted, or Mithril Crafted is also considered Enchantment Quality.",
+    "Mithril Crafting allows the character to make a piece of chain mail, light plate, or heavy plate armor out of Mithril. This increases the Base Armor Points by 50%, the armor degrades after taking damage by 2 Armor Points instead of the normal 3 Armor Points, and makes the armor indestructible and nothing short of an Eldritch attack will destroy the armor. However, this does not mean the armor cannot be damaged during a fight. The same rules apply for Mithril armor, but the suit itself cannot be destroyed. Mithril ore is mined like any other ore and smelted into bars; however unlike mundane metals, once forged into something, Mithril can never be re-forged. There are different types of Mithril – normal Mithril, Starfire Mithril, Moonfire Mithril, and Sunfire Mithril. All these different types of metals work the same as standard Mithril when made into a suit of armor."
+  ],
+  "armorCraftingTimes": {
+    "headers": ["Armor Type", "SL, RL, RM", "CM", "LP, HP"],
+    "rows": [
+      ["Base Time", "20", "30", "40"],
+      ["Helmet, Full", "4", "6", "8"],
+      ["Helmet, Partial", "4", "6", "8"],
+      ["Helmet, Cap", "2", "3", "4"],
+      ["Neck", "2", "3", "4"],
+      ["Shoulders", "2", "3", "4"],
+      ["Breast Plate", "4", "6", "8"],
+      ["Back Plate", "4", "6", "8"],
+      ["Upper Arms", "2", "3", "4"],
+      ["Elbows", "2", "3", "4"],
+      ["Lower Arms", "2", "3", "4"],
+      ["Groin", "2", "3", "4"],
+      ["Upper Legs", "2", "3", "4"],
+      ["Knees", "2", "3", "4"],
+      ["Lower Legs", "2", "3", "4"]
+    ],
+    "footers": [
+      "Abbreviations stand for: Soft Leather, Ridged Leather, Ring Mail, Chain Mail, Light Plate and Heavy Plate respectively."
+    ]
+  },
+  "craftingTimeIncreases": {
+    "Elven Crafting": "50%",
+    "Dwarven Crafting": "50%",
+    "Bone Crafting": "50%",
+    "Enchantment Quality": "25%",
+    "Mithril Crafting": "50%"
   }
 }
