@@ -646,13 +646,25 @@
       "There are five categories of Skill Lists: Martial, Dexterity, Arcane, Faith, and Racial. Miscellaneous skills fall into one of the first three categories. Each Skill on one of these lists will give you a different amount of Body Points per Build Point. See the table below for the values:",
       {
         "type": "table",
-        "headers": ["Skill List Category", "BP per Build Spent", "Associated Skill Lists"],
+        "headers": [
+          "Skill List Category",
+          "BP per Build Spent",
+          "Associated Skill Lists"
+        ],
         "rows": [
           ["Martial", "0.25", "Warrior, Weapons Master"],
           ["Dexterity", "0.10", "Rogue, Master Thief, Assassin"],
           ["Arcane", "0.05", "Mage, Alchemy, Sorcery, Warlock, Spell Singing"],
-          ["Faith", "0.20", "Follower of the Light, Druid, Servant of Darkness"],
-          ["Miscellaneous", "0.15", "Some Miscellaneous Skills, Some Master Miscellaneous Skills"],
+          [
+            "Faith",
+            "0.20",
+            "Follower of the Light, Druid, Servant of Darkness"
+          ],
+          [
+            "Miscellaneous",
+            "0.15",
+            "Some Miscellaneous Skills, Some Master Miscellaneous Skills"
+          ],
           ["Racial", "0.15", "Racial Skills"]
         ]
       },
@@ -663,5 +675,339 @@
     ],
     "section": "Character Growth",
     "tags": ["leveling", "health", "hp"]
-  }
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Magic is an important element to any fantasy roleplaying game. Even if your character never casts a magic spell or uses a magic item, the existence of magic has an impact on your character. The LAIRE magic system has several aspects; the basic magic or low magic is described in this chapter. There are other, more complex forms of magic called high magic which is comprised of: Sorcery, Warlockery and Spell Singing. There is also the faith magic of the Druids called Nature Magic. These high magics are described in their respective Advanced Careers. This chapter deals solely with low magic and the various schools of magic that make it up, along with the general rules for how to use magic in our game."
+    ],
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "The heart of any magic system is the spells that exist. In LAIRE, there are dozens of low magic spells; these are organized into schools according to the nature of the spell. To cast a spell, a player must recite a spell verbal, toss a small beanbag called a spell packet at a target, and hit the target. Each spell costs a certain number of Power Points; spell casters have a limited number of Power Points for casting spells. Spells may also be contained within items such as scrolls or magic items."
+    ],
+    "subsection": "How Spells Work",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "How to Cast a Spell",
+    "content": [
+      "These are the complete, formal steps necessary for a character to cast a spell:",
+      {
+        "type": "list",
+        "items": [
+          "The caster must know the particular rank of the particular school to which the spell belongs. For example, to cast a Kill spell, a character must know Rank 4 of the Death School; knowing Rank 4 Charms School or Rank 1 Death School spells does not help.",
+          "The caster must have an unbroken arm, a free, unfettered, undamaged hand with nothing in it in-game. Out-of-game, the only item that can be in the player’s hand is a spell packet. So if a caster’s wrists are bound, they can still cast, but not if their hands were broken, removed or restrained.",
+          "The caster must recite the spell verbal loudly enough for at least one other person to hear. The target does not have to be able to make out the words or hear the verbal. However, if the only person that can hear the verbal is the target, then they must be able to hear the verbal. Therefore, in a battle, you may have to yell so your target can hear you. However, if you are alone you can still cast a spell on yourself or on an inanimate object.",
+          "After the spell verbal has been recited, the caster must touch a target with the spell packet. The caster can hold on to the spell after reciting the verbal for no longer than 5 seconds. If the caster has not thrown the spell packet by then, the spell is wasted and the Power Points expended. While holding onto a spell, a caster can speak, “Get out of the way, I’m holding a Fireball” for example; otherwise they should be counting out the seconds by counting “One Fireball, two Fireball…” The caster will both count the seconds and remind others what the spell will do when it hits.",
+          "For a spell to take effect, it must hit the target. It can hit any part of the target, any item of clothing that the target is wearing, or any item that the target is holding, including a shield; regardless of whether the item is in or out-of-game. The one exception is the head, which is never a legal target for any physical contact in-game. While not a legal target for melee combat, the hands and groin are legal targets for spell packets. If the packet bounces off the ground or is deflected in some other way, by a tree branch for example, the spell does not affect the target. Also, a spell can affect an unintended target; if a caster throws a Lightning Bolt spell and a friend steps in and is hit by mistake, the caster cannot cancel the spell.",
+          "If the spell does damage, the caster must call out the damage when the packet hits the target. For example, if a caster hits someone with a Fireball spell, the caster should say “Fireball, Sixteen Magic Fire” when the spell hits; if a caster hits someone with a Maim spell, the caster should say “Maim, Twelve Magic Body” when the spell hits. The proper form therefore is: spell name + damage + type of damage. If the spell does not deal damage, then simply the name of the spell is used unless the spell requires a choice to be made as in what limb is affected or what spell is affected. For example, casting an Enslavement spell at a target the caster would say: “Enslavement Spell”. The caster should never call extended damage; that is, if they think a character takes double damage from fire, they should not call “Fireball, Thirty Two Magic Fire” if they hit with a Fireball spell, since this may confuse the player playing the target character."
+        ]
+      },
+      "A character always needs to have a spell packet to cast a spell, unless they are casting a spell upon themselves. Even if their intended target is unresisting, they must touch them with a spell packet. A character cannot physically restrain another player in order to cast a spell or for any other reason. For example, a player cannot grab another player’s arm and cast a spell. A character cannot cast a spell on an opponent they are in combat with by touching them with a packet; they must throw the spell packets when fighting. This is also true for characters with claws – either the natural ability or the skill. A character with claws can never “touch cast”, in combat or out, with their claws. A character cannot use the Channeling skill with claws, no matter how big or powerful or magical the character is, their claws ARE NOT weapons of quality. This does not mean there are not creatures that have spell like abilities that they deliver with their claws.",
+      "The target player is often a poor judge of whether a spell packet hit them. When someone tosses a spell packet at a character, they are often trying to dodge the spell or trying to run away; a spell can hit someone from behind or be tossed at them while it is dark. The spell caster or other people are usually in a better position see if the character has been hit. As a general rule, if at least two people say you have been hit by a spell, assume you have been hit and keep on playing."
+    ],
+    "subsection": "How Spells Work",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "How to Interrupt a Spell or Fail to Cast a Spell",
+    "content": [
+      "The Power Points required to cast the spell are spent at the end of the spell verbal, so if the spell casting process is interrupted in any way, the spell has no effect and the Power Points are not lost unless the caster has completed the verbal but not yet thrown the spell. If the character flubs the spell’s verbal the spell fails and the Power Points are lost, but if the character catches themselves before the verbal is completed they can stop reciting or change to a different spell verbal. The ways a spell can be interrupted are as follows:",
+      {
+        "type": "list",
+        "items": [
+          "The caster takes damage to their Armor Points or to their Body Points, either by being struck by a weapon or by another spell. The only ways a caster can continue casting a spell while taking damage are: to call an appropriate defense or by having the Concentration skill. It is acceptable to finish the spell verbal then call a defense even if this breaks the 5 second rule on calling defenses.",
+          "The caster is unable to speak or move, for example, by being affected by a Silence or Paralysis spells, or is unable to move their hand.",
+          "The spell verbal is recited incorrectly. Any mistake means the spell does not work, even if it is a single word. Note that invoking a latent spell while reciting a verbal is not a mistake.",
+          "The spell packet leaves the caster’s hand before the verbal is fully recited.",
+          "The spell does not come into physical contact with a target. If the target of a spell is a character, then the spell can affect them or any item in their possession that can be seen; if a fighter is carrying a sword, then a Shatter <sword> takes affect if the spell hits the fighter, the sword, or any item they are holding. Spell casters often aim their offensive spells at an opponent’s shield, and some fighters may drop their shield rather than risk being affected by a spell. However, if the spell is Blast <shield> and the spell hits the shield, then the shield is broken since the shield is a legitimate target of the spell. Some shields of quality can resist elemental damaging spells. See later in this chapter for a full description.",
+          "The spell packet strikes the target character in the head. For safety reasons, the head is never a legal target for a spell packet.",
+          "The caster does not have a spell packet to throw. It is the responsibility of the player to make sure they have enough spell packets. A player may not call a Hold to collect spell packets. However, if a Hold is called for some other reason, it is allowed to collect packets as long as the Hold is not prolonged and as long as the player returns to their exact position when the Hold was called."
+        ]
+      }
+    ],
+    "subsection": "How Spells Work",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "Power Points",
+    "content": [
+      "Power Points of any kind, low magic, Spell Singing, or Elemental Pool Points, are a measure of the amount of magical energy a character has. A spell caster receives a certain number of Power Point tags with which to cast spells based on how many Build Points the character has spent learning Power Points. These tags are given to the player when checking in at Logistics. These tags should be kept on a ring with the player’s other tags. Power Point tags are color coded; on a given Tag Cycle, a spell caster is only allowed to use those tags whose color has been assigned for that Tag Cycle.",
+      "When a character casts a spell, the player removes the appropriate Power Point tags from their ring. If the spells were used against another character, that player has the right to ask for the used Power Point tags as proof that the caster had enough power to cast the spell; otherwise the tags should be given to a Marshal or discarded. If the Power Points were used to cast a latent spell, the caster should write their out-of-game name and the name of the latent spell on the back of the tags and give the tags to the character receiving the spell; the target should put the tags on their ring so they can prove that they have the spell when they invoke it. Often the character casting the latent spells will be in a fight or some other intense activity, during the action, it is not necessary to stop what is going on to write tags, but the player should keep track of what they cast and be ready to turn the tags over to the appropriate person when the action is over.",
+      "Power Points may not be traded between characters. They cannot be saved from day to day or from one Event to another. If, at the end of the Tag Cycle, a player has unused Power Point tags, they must be turned into Logistics at the end of the Event."
+    ],
+    "subsection": "How Spells Work",
+    "section": "Magic",
+    "tags": ["mp", "power points", "pp"]
+  },
+  {
+    "name": "Spell Verbals",
+    "content": [
+      "In order to cast a spell, a player must recite a spell verbal, that is, a short phrase that uniquely identifies the spell to be cast. When a spell verbal is recited, each word must be distinct enough for at least one person to hear; “Isummfrth neldrich furbl” is not a substitute for “I Summon Forth an Eldritch Fireball.”",
+      "All the spell verbals for a rank within a school of magic begin with a common phrase; the name of the spell completes the verbal. For example, the spells of the second rank Aura school have verbals that begin with, “I Weave a Protective Aura of…” So, to cast a Negation spell, a player would say, “I Weave a Protective Aura of Negation.” Similarly, the verbal for the first rank Charm school is, “I Command You to…” so to cast a Speak the Truth spell a player says, “I Command You to Speak the Truth.”",
+      "A caster may always use the phrase of a higher rank to cast a spell of a lower rank. For example, “I Weave an Aura of Armor,” “I Weave a Protective Aura of Armor,” and “I Weave a Protective and Warding Aura of Armor” are all legitimate verbals for the Armor spell, a first rank Aura spell. However, “I Weave an Aura of Invulnerability” is not a valid verbal for the third rank Invulnerability spell; only “I Weave a Protective and Warding Aura of Invulnerability” is valid.",
+      "The spell verbal is in-game. If you see a player with a spell packet in their hand start to recite, “I Control Chaos…” then your character knows that the spellcaster is about to cast a Necromancy spell; if you hear “I Summon Forth…” then you know that a Pyrotechnics spell is about to be cast.",
+      "There are other in-game characteristics that distinguish spells from one another. Each spell gives off a flash of light when it is cast. The table below indicates what color goes with what school.",
+      {
+        "type": "table",
+        "headers": ["School", "Color"],
+        "rows": [
+          ["Auras", "Green"],
+          ["Bonds", "Green"],
+          ["Charms", "Green"],
+          ["Death", "Green"],
+          ["Demonology", "Green"],
+          ["Enchantments", "Green"],
+          ["Healing", "Green"],
+          ["Ice", "Green"],
+          ["Necromancy", "Green"],
+          ["Pyrotechnics", "Green"],
+          ["Thaumaturgy", "Green"]
+        ]
+      },
+      "However, it takes more than just saying the words to cast a spell. A character who just says, “I Call upon Darkness and Terror to Kill You and Wreak Havoc upon Your Soul,” has not necessarily cast a Kill spell; they must have the skill of Rank 4 Death Magic, spend the Power Points, have a spell packet in hand, and the desire to cast as well. Any character can say the verbal for a spell if they know them, even a character with that school and rank of magic, but the spell is not cast unless the character wishes to; there needs to be a conscious effort on the part of the character to cast a spell. The spell is cast when the verbal is finished, so there is a visible effect when the character ends casting.",
+      "Players should avoid using the verbal for spells or the out-of-game skill activation descriptors in-game unless they are actually using that skill or casting that spell. A player cannot gain an unfair advantage by using an in-game spell or skill verbal.",
+      "For example, Greg is playing an NPC rogue that has no magic. Before he leaves the NPC cabin he picks up a spell packet. Later, after being discovered, he is chased by some characters out of the inn. Greg tries to get away by scaring the characters by turning, with spell packet in hand, and recites the Death Slave verbal and pretends to throw the spell packet. His character cannot cast magic, but the players chasing him do not know that and assume, incorrectly that a very dangerous spell is coming at them and act appropriately. This gives Greg an unfair advantage by using an in-game spell verbal to fool other players.",
+      "Another example, Brian is playing an NPC Dark Paladin. He comes into the inn and begins telling the characters there about how his farm house was attacked by Dark Paladins. Many characters come over to listen. During the tail, he says, “Yeah and they said ‘By the will of the Dark Lord I grant you DEATH!’ and reaches over and uses his Death Touch skill to attack another character. No one can be sure what happened. This is taking an unfair advantage of the rules. However, had Brian gotten everyone’s attention, then turned and said, “And I am that Dark Paladin, ‘By my black heart I grant you DEATH’ and used the skill on another character, that would be acceptable."
+    ],
+    "subsection": "How Spells Work",
+    "section": "Magic",
+    "tags": ["casting", "spells", "verbal"]
+  },
+  {
+    "name": "Latent Spells",
+    "content": [
+      "Not all spells have an immediate effect. Some spells give the target character the ability to hold on to a spell and to invoke it when they need it. These delayed action spells are called latent spells. Latent spells are identified as such in the spell descriptions.",
+      "The Negation spell is an example of a latent spell; when a character invokes it, this defense cancels another spell that was just cast on the character. A character with such a latent spell cast on them can choose when the spell is to take effect. If someone casts a Healing spell on them, the character probably will not want to invoke a Negation spell; if someone casts a Kill spell on them, they probably will.",
+      "To invoke a latent spell, the player says the name of the spell. This is out-of-game; a player can do this even if their character cannot speak. In-game, there is a characteristic flash of light that indicates the use of a latent spell. An unconscious, sleeping, enfeebled, or Torso Stunned character cannot invoke a latent spell, nor can inanimate objects or a mindless creature such as a Zombie. Some latent spells do not need to be invoked out loud, nor do they all have the characteristic flash of light. One example of this is the Resist Suggestion spell. The player does not need to say anything in order to invoke the use of this defense, but they should give the tags to a marshal or the player – their choice – and explain why they did not take the effect of the spell.",
+      "A latent spell must be announced when it is used. If the player forgets they have a defense, too bad; there are no do-overs. Latent spells can only be used once. If a latent spell is invoked by mistake – for example, a player says “Invulnerability” when they meant to say “Negation” – then the spell has been used. If a player is not sure what kind of spell defense to call for the attack, they may ask the attacking character what kind of attack it was, either physical or magical. This is the limit to the information given. If the player is still not sure, they may call as many defenses as they wish, but they must be called at the same time, all the defenses called are used, and the player will find out at the end if the attack was stopped or not.",
+      "For example, Errol is fighting a Basilisk which tries to turn him to stone. The player asks what kind of attack it is and the NPC responds with “Magical”. Still not sure what he should call, Errol decides to call: “Negation, Spell Shield, Dodge!” All three defenses are used up and since one of the defenses worked the NPC tells Errol that the attack was stopped.",
+      "The player has 5 seconds in which to call a defense. After this time, they forfeit their chance to call one. One exception to this is calling a spell defense while casting. It is acceptable to call a spell defense when the character finishes reciting the verbal. In order to call a spell defense, the character must have the spell already cast upon them before they are affected by a spell. You cannot use the 5 second window to cast a spell upon yourself in defense of that attack.",
+      "Latent spells cast on a character are attached to a character’s body, not to their spirit. If a character dies and they are resurrected at the Healers Guild without their body, then they lose all the latent spells that were cast on them in addition to any alchemical items they may have had active when they died.",
+      "When casting a latent spell on a character, take the Power Point tags used to cast the spell, write the caster’s name and the name of the spell, and give the tags to the character. For convenience, a player may abbreviate the name of the latent spell. Here are some suggested abbreviations:",
+      {
+        "type": "table",
+        "headers": ["Latent Spell", "Suggested Abbreviation"],
+        "rows": [
+          ["Absorption", "ABS"],
+          ["Armor*", "+3 AP"],
+          ["Aura of Resistance", "ARES"],
+          ["Defense", "DEF"],
+          ["Fire Shield", "FS"],
+          ["Fortitude", "FOR"],
+          ["Giant Strength", "GS"],
+          ["Frost Brand", "FB"],
+          ["Ice Shield", "IS"],
+          ["Invulnerability", "INV"],
+          ["Magic Weapon", "MW"],
+          ["Negation", "NEG"],
+          ["Obscure", "OBS"],
+          ["Reflection", "REF"],
+          ["Resist Suggestion", "RS"],
+          ["Stamina*", "+3 BP"],
+          ["Vigilance", "VIG"]
+        ],
+        "footers": [
+          "* These spells are not actually latent, but are active spells. They are in the list for completion."
+        ]
+      },
+      "Latent spells do not last past the end of the Event. When the Event is over, discard the Power Point tags used to represent the latent spells cast on your character or weapons."
+    ],
+    "subsection": "Special Rules for Spells",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "Stacking Spells",
+    "content": [
+      "There can be no more than one of any given spell active on a character at any one time. A character cannot have three Giant Strength spells, be Dominated by two different spell casters, or have seven Reflection spells on them at the same time.",
+      "There are also some spells that cannot be cast in combination with other spells. For example, a character cannot have both a Negation spell and a Reflection spell cast on them. All of these limitations are listed in the descriptions of the individual spells.",
+      "If a character has a spell cast on them and they already have an incompatible spell, then in general the spell that uses the greater number of Power Points takes precedence; if the two spells have the same number of Power Points, then the more recently cast spell takes precedence. This is just a general guideline; there may be exceptions noted in the school and spell descriptions.",
+      "Note that these guidelines relate to spell incompatibilities, not spell defenses. A Negation spell will cancel a Kill spell, even though the Kill spell uses more Power Points.",
+      "The exception to this rule is the Warlock skill Overlay. This skill allows a character to have more than one of the same type of defensive spell on them. For example, a person could have a Negation and an Overlaid Negation. See the skill description for the Overlay skill for more information on this."
+    ],
+    "subsection": "Special Rules for Spells",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "Wall Spells and Concentration Rules",
+    "content": [
+      "Wall spells, such as the Wall of Flame or Wall of Force spells, diverge from the normal rules for casting a spell. The caster must have physical representation for the spell in lieu of a spell packet.",
+      "The caster should recite the verbal for the spell following the normal rules for verbals and how long the caster has to release the spell. However, rather than throwing a spell packet the caster takes a piece of garland, of any color except green, that is 10 feet long and in- game roleplays drawing the wall while out-of-game they place the garland down. The player may not call a Hold to place the garland down and should their spell be interrupted before the garland is placed or they fail to place the garland down before 5 seconds after the end of the verbal has expired; the spell and the Power Points are expended. The character cannot throw the garland; they must place it down with their hand. The garland cannot be attached to anything such as sticks, weights, or weapons. The garland cannot be “pre- placed” and must be placed while casting",
+      "The caster may lay the garland in any shape they wish, but care should be taken that the caster is not immune to their own wall spells. The caster can place the garland in a line, an oval, a semicircle, a right angle, etc, whatever shape they wish. The garland can only touch itself at the end points; doubling the garland back does not double the damage. For example, a character wants to fill a 5 foot wide doorway with a Wall of Flame spell, they can make a narrow oval or a “U” shape but anyone passing through will only be effected once by the wall and hence only take 14 points of magical fire damage.",
+      "The garland is always out-of-game, so a character cannot move it in- game. Once the wall spell ends for any reason, the garland can be picked up or moved out of the way, but no Hold should be called to do this. If any character wishes to cast a wall spell where there is garland already placed from a previous casting of a wall spell no longer than 5 minutes prior, but not in use, they can, but they must still roleplay drawing the wall by moving their hand over the garland from end to end. One piece of garland can only represent one wall at a time; three casters cannot use the same piece of garland for three separate wall spells. Additionally, walls cannot overlap and the garland must be at least 5 inches apart.",
+      "Wall spells are always vertical Wall and parallel to the radial axis Spell of the Earth. It can never be placed on an angle or parallel to the surface of the Earth. The wall is always 10 feet high and will always follow the contours of the natural terrain features of the ground it is cast upon. So if the wall is placed on a slope with a big rock in the way, the wall will be 10 feet high all along the path and look like the diagram to the right.",
+      "If the wall spell goes over a body or inanimate object, the wall spell will go through the object, and since damaging spells causes no damage to inanimate objects, there is no added effect. However, the Wall of Force spell works slightly differently. It still goes through the object but that object is locked in place and cannot be moved until the spell ends. If the object is a character or a character in their Death Count, then the player must choose what side of the wall they want to be on and can move appropriately.",
+      "In order to maintain the wall spell after it has been cast, the character must concentrate on it. To represent this concentration, the player should hold their arm – either one – out straight, perpendicular to their body and parallel to the ground with their palm facing the wall they are maintaining. If the caster’s arm is no longer perpendicular to their body, for example, the player gets tired, then the spell has expired. The caster may not rest their arm on any support. These spells do not require total concentration and the character may move at a walking pace attack, block, call skills, invoke latent spells, or cast new spells so long as the new spell is not also a concentration spell. However, the character must maintain Line of Sight with the wall they are maintaining and cannot take any damage to their Armor Points or Body Points; be affected by any spell or effect, other than the Pin spell, that restricts movement; or any spell or effect that causes a Torso Stun. The caster must also remain awake; sleeping spell casters cannot concentrate on maintaining a spell.",
+      "All wall spells are not opaque and thus a character can see through the wall. Characters can maintain Line of Sight through these walls. Each wall can be seen as they glow with the color of their school."
+    ],
+    "subsection": "Special Rules for Spells",
+    "section": "Magic",
+    "tags": ["spells", "wall", "concentration"]
+  },
+  {
+    "name": "Durations",
+    "content": [
+      "Spells do not last forever. Each spell has a duration given in its description. Some spells have a fixed time limit; for example, a Sleep spell lasts for 10 minutes. Other spells have a duration of Instant, which means the spell has an immediate effect.",
+      "Other spells last until the caster leaves Line of Sight. This means that the caster would be able to see the person or area affected if the player were to turn around or to take a step. If someone steps between the caster and the target, this will not block the spell; if the caster walks around to the other side of a wall then the spell expires. The spell also expires if the caster is Unconscious, Bleeding to Death, Mortally Wounded, at the Brink of Death, or Dead.",
+      "If the duration of a spell is listed as Event, then the spell lasts to the end of the current LAIRE Event.",
+      "Latent spells last until they are invoked.",
+      "All spells, including latent spells, expire at the end of an Event. Spells do not carry over from one Event to another.",
+      "Note that the above rules deal with the duration of spells. These rules do not apply to the duration of curses or any other forms of magic that affect a character’s spirit; such magic can last indefinitely. Some sorcery effects also last longer than one Event. These times are given in the ritual’s description."
+    ],
+    "subsection": "Special Rules for Spells",
+    "section": "Magic",
+    "tags": ["time", "spells", "duration"]
+  },
+  {
+    "name": "Overspending Power Points",
+    "content": [
+      "A character cannot ever overspend Power Points. This is true for low magic Power Points, Spell Singing Points, Elemental Pool Points, Healing Pool Points or Wounding Pool Points. If you do not have the power to use, you cannot cast the spell or wield the effect. The spell simply fails and the balance of the points are not spent.",
+      "Should a player realize later that they have overcast, they should tell a marshal that is involved in the encounter and that marshal will make an appropriate call on what should happen. If there is no marshal available, and the issue is between a PC and an NPC, then the “tie” should go to the PC. If the issue is between PC’s only, and no simple, reasonable resolution can be come to between the players, the players should find a marshal to resolve the problem.",
+      "For example, Dennis is casting a Life spell on his sister Kaye. He correctly recites the verbal and the spell works. However when he looks at his tag ring to hand over the Power Points, he realizes he only has 10 Power Points left. Kaye should lie down and resume her Death Count and Dennis still has his 10 Power Points."
+    ],
+    "subsection": "Special Rules for Spells",
+    "section": "Magic",
+    "tags": ["casting", "pp", "cost"]
+  },
+  {
+    "name": "Natural Immunities",
+    "content": [
+      "Some races and creatures are naturally resistant or immune to the effects of some spells. You will have to learn about these immunities in-game; do not be surprised if a fire-breathing dragon ignores all the Fireball spells you cast at it.",
+      "Some races can only resist the effects of certain spells a limited number of times per day. If a player is playing a member of such a race, and they have both a racial defense and a spell defense, they must use their racial ability first. For example, if a character has both the Elven Resist skill and a Negation spell defense and someone hits them with a Fumble spell, they must call their Elven Resist first."
+    ],
+    "subsection": "Special Rules for Spells",
+    "section": "Magic",
+    "tags": ["immunity", "immune", "resistance"]
+  },
+  {
+    "name": "Shields and Spells",
+    "content": [
+      "Normal shields do not stop spells, and as stated before, if a spell hits a character’s shield they are affected by the spell. Shields of quality, however, will stop damaging elemental spells. The shields of quality are: unshatterable shields, enchantment quality shields and magic shields. Even if the shield has been in the character’s family for generations and is special to the character, unless it has the appropriate tag, it will not stop any spells.",
+      "The six elemental schools are given in the table below:",
+      {
+        "type": "table",
+        "headers": ["School of Magic", "Element"],
+        "rows": [
+          ["Bonds", "Earth"],
+          ["Death", "Death"],
+          ["Enchantments", "Air"],
+          ["Healing", "Life"],
+          ["Ice", "Water"],
+          ["Pyrotechnics", "Fire"]
+        ]
+      },
+      "Only the spells from these schools that do damage are stopped by shields of quality. For example: the Fireball, Ice Bolt, Lightning Bolt, and Maim spells all do damage and are all stopped by shields of quality. Spells that have an effect are not stopped by shields of quality. For example: the Pin, Paralysis, Shatter, Blast, Ice Cast and Artic Wind spells are all effect spells and are not stopped by shields of quality."
+    ],
+    "subsection": "Special Rules for Spells",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "Stopping Spells for Someone Else",
+    "content": [
+      "A spell that is not augmented by the Perfect Aim skill can be stopped for another character by using a martial parry skill. The character doing this still takes effect from the spell and has the option to call a defense that stops spells.",
+      "For example, a necromancer throws a Death Slave spell at Mythies who does not see it coming. Hemist, standing within weapons reach of Mythies, uses his Critical Attack skill as a parry to stop the Death Slave spell. He then calls his Negation spell to stop himself from becoming a Death Slave."
+    ],
+    "subsection": "Special Rules for Spells",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "Casting Spells on Inanimate Objects",
+    "content": [
+      "In general, a spell may not be cast on inanimate objects such as rocks or weapons. You cannot cast a Fire Shield spell on a wooden box so that it cannot be burned, an Obscure spell on your magic sword so that no one can tell it is magical, or a Lightning Bolt spell on a rock to destroy it.",
+      "There are exceptions to this general rule, and they are noted in the individual spell descriptions. Among these exceptions are: Attachment and Lock spells, which can be used to hold objects in place; Shatter and Blast spells, which can be used to destroy objects; or Magic Weapon spell, which makes a weapon magical for one strike. Under no circumstances can a spell be cast on an object more than once; in particular, a character cannot cast multiple Magic Weapon spells on a weapon, but they could have a Magic Weapon and Frost Brand spells on one sword, for example.",
+      "A Dying or Unconscious person is not an “inanimate object” for the purposes of these rules. A character can cast a Sleep spell on a person, give them a Killing Blow, cast a Pin spell on them, then cast a Heal Life spell; the result will be a Pinned character with 1 Body Point."
+    ],
+    "subsection": "Special Rules for Spells",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "There are over 120 low magic spells in the game. The spells are divided into different schools of magic. A school of magic contains spells whose effects are all related in some way. For example, the Auras School only contains spells that help to defend a character; the Pyrotechnics School contains fire related spells.",
+      "Spells are also grouped by rank within a school; the more powerful a spell is, the higher its rank. What rank a character may learn is dependant upon the chart given below.",
+      {
+        "type": "table",
+        "headers": ["Rank, Character Level", "Power Points"],
+        "rows": [
+          ["1", "1st", "3"],
+          ["2", "3rd", "25"],
+          ["3", "5th", "50"],
+          ["4", "7th", "75"],
+          ["5", "9th", "100"]
+        ]
+      },
+      "All the lower ranks of a school must be learned before a higher rank can be learned; a character cannot learn the second rank of the Healing School unless they know the first rank of the Healing School.",
+      "The schools and spells are described in detail later in this chapter. A school may have special rules that override the standard rules on magic; a spell may have special rules that override the standard rules of the school. In order to understand all the rules that affect the use of a particular spell, you must read both the school description and the spell description.",
+      "When you choose a school of magic to learn, be aware that some schools of magic are illegal in some parts of the LAIRE game world. For example, the School of Necromancy is illegal in the lands of Avalon.",
+      "Though events in-game may change exactly how and what a character can learn, the norm is any character can teach any other character that has all the proper prerequisites and racial ability to learn the first rank of any school of magic they already know. This can be done anywhere and requires no special out-of-game supervision. While in the Guild of Arcane Lore or on another node of magic, a character can teach any second rank school of magic they know, without any aid. To learn any of the other schools and ranks in this rulebook, the character needs a teacher and use of the Magical Tomes located, usually, in the Guild of Arcane Lore. It is through these tomes that the knowledge is taught by the teacher to the student.",
+      "The Guild of Arcane Lore is one of the Guilds operating in Avalon, and there may be in-game requirements needed to gain access to these tomes. There are also other tomes that teach magic elsewhere in the world that the character must learn about on their own.",
+      "Some spells and ranks of magic are lost and cannot be found in the Magical Tomes Avalon currently has. There are currently no fifth ranks of magic in the Magical Tomes that Avalon currently has. The lost spells are indicated in the spell descriptions later in this chapter."
+    ],
+    "subsection": "Learning Low Magic",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "Spell Books",
+    "content": [
+      "There are many spell verbals in the game, and it helps to have a written reminder of what they are. However, no one is allowed to have an out-of-game cheat sheet of the spell verbals in-game. If a Hold is called, a player can use the opportunity to look at a reminder of a spell’s verbal. The spell verbals have to be memorized and reviewed in-game.",
+      "Many spell casters prepare a small in-game or in-play book that contains the spell verbals. This is optional, but it is strongly encouraged. Any book, sheet of paper, or other reference to the spell verbals is an in-game/in-play item. If a spell book is in-game, it can be stolen, used by others, or destroyed in-game. Out-of-game a player should never damage another players physical representation without that players permission; guard it carefully. There is no penalty for losing a spell book, except that the player has to find some other way to review the verbals for the spells. Of course, if a player memorizes every spell verbal in these rules, then they do not need a spell book. It is entirely up to the player.",
+      "If a player acquires someone’s in-game spell book and finds an out- of-game name inside, take the book immediately to the Merchants’ Guild. Out-of-game, if a player wants to get their spell book back by the end of an Event, make sure an out-of-game name is written on the book. If a player finds an in-play spell book, they may not take it, they can leave a note saying it was stolen and get a tag for that book from a marshal. It is the player’s responsibility to indicate in their spell books whether the book is in-game or in-play. A player should assume if the book is not marked, that it is in-play.",
+      "Even though a player may know a spell’s verbal, they still cannot cast it unless their character has learned the skill of casting the rank of the school to which the spell belongs. They may have memorized that the Heal Person spell has the verbal, “I Draw upon the Earth to Heal this Person,” but they cannot cast a Heal Person spell unless they know Healing Rank 1."
+    ],
+    "subsection": "Learning Low Magic",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "There are spells in the game that are not described in these rules. This means that even if a player memorizes all the spell verbals in the rules, a player may still be confronted with spells they do not know. If a player hears an unfamiliar spell verbal, they may call a Hold and ask what the spell does, but they should only do this if there is a serious question about the effects of the spell.",
+      "However, when the combat is over, a player should feel free to ask a spell caster for proof that they can cast an unfamiliar spell. Whether a spell caster is a player or an NPC, they must have proof that indicates what non-standard spells they can cast. Any spell that is not in this rulebook only exists because it has been approved by both the Plot Committee and the E-Board; a player who makes up spells without that approval will be disciplined.",
+      "It is possible for new spells, new ranks, and new schools to enter the game through research and ritual magic. A player must learn about these new schools and spells in-game."
+    ],
+    "subsection": "New Spells",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "",
+    "content": [],
+    "subsection": "Learning Low Magic",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "",
+    "content": [],
+    "subsection": "Learning Low Magic",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "",
+    "content": [],
+    "subsection": "Learning Low Magic",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
+  {
+    "name": "",
+    "content": [],
+    "subsection": "Learning Low Magic",
+    "section": "Magic",
+    "tags": ["casting", "spells", "magic"]
+  },
 ]
