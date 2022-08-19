@@ -1,0 +1,252 @@
+{
+  "schoolsOfMagic": [
+    {
+      "name": "Auras School",
+      "specialRules": [
+        "A character may only have one physical defensive Aura spell – Vigilance or Invulnerability – on them at any one time, not both. Similarly, a character may only have one magical defensive Aura spell – Defense, Negation, Reflection, or Absorption – on them at any one time. If a character has a latent defensive spell and an incompatible spell is cast on them, the spell that uses the most Power Points takes precedence. Aura of Resistance and Purity will not stack with themselves but can be combined with a physical and magical spell defense.",
+        "If a character is hit with a Destroy Magic spell then all the spells of the Auras School listed below are lost, excluding the Armor and Stamina spells. Further rules and description of the Destroy Magic spell is listed under the Thaumaturgy School.",
+        "The magical spell defenses may or may not work on other forms of magic than just the spells in these rules. For example, they are known to work against spell songs, but they do not work against curses. If you do not know whether some mystical attack on your character can be prevented by a magical defense, you can try invoking it, but even if the defense does not work, it is still used up."
+      ],
+      "verbalPrefix": "I waeve an aura of",
+      "spells": [
+        {
+          "name": "Armor",
+          "ppCost": 1,
+          "duration": "Until Used Up",
+          "description": "This spell gives the character an additional 3 Armor Points. These extra 3 Armor Points are the first Armor Points lost when the character is damaged.",
+          "rank": 1
+        },
+        {
+          "name": "Stamina",
+          "ppCost": 2,
+          "duration": "Until Used Up",
+          "description": "This spell gives the character an additional 3 Body Points. These extra 3 Body Points are the first points lost when the character’s Body Points are damaged, but otherwise act as normal Body Points.",
+          "rank": 1
+        },
+        {
+          "name": "Defense",
+          "ppCost": 3,
+          "duration": "Until Used Up",
+          "description": [
+            "When invoked, this spell reduces the result of any damaging spell to one half. It has no effect against non-damage effect spells such as Sleep or Drain Magic.",
+            "A Kill spell is reduced to doing half the target’s full Body Points, rounded up, minimum of two. This spell will halve the effects of a Life spell cast upon a character hurt by the element of Life, if the undead is intelligent enough to invoke it. If the character drops to 0 or -1 Body Points they are Bleeding to Death, not at the Brink of Death."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Vigilance",
+          "ppCost": 4,
+          "duration": "Latent",
+          "description": [
+            "When invoked, this spell gives protection against certain specific attacks: it prevents a Waylay with 3 or fewer points of damage from rendering the target unconscious and taking damage and it leaves the target of a Slay or an Assassinate skill with half their current Body Points. However, if direct body damage was done by the weapon, then any blade poisons on the weapon take effect.",
+            "Vigilance has no effect against any other form of attack, magical or non-magical, including a Waylay that does 4 or more points of damage."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Negation",
+          "ppCost": 5,
+          "duration": "Latent",
+          "description": "When invoked, this spell completely cancels the effects of one spell cast upon the character. A Negation will stop spell like effects such as those from Nature Magic and Spell Songs normally.",
+          "rank": 2
+        },
+        {
+          "name": "Reflection",
+          "ppCost": 6,
+          "duration": "Latent",
+          "description": [
+            "When invoked, Reflection turns a spell back upon its caster. If the caster also has a Reflection spell and chooses to invoke it, then the spell is reflected back upon the target again. If the original target still has some other appropriate form of defense against spells they may then invoke it.",
+            "A Reflection will stop magical spell like effects including those from Nature Magic and Spell Songs, but in these cases, while the spell is stopped, the spell is not redirected back at the caster.",
+            "For purposes of determining who the caster of a reflected spell is, the character that last used the reflection is considered the caster. For example, a character is hit with a Paralysis spell, they invoke a Reflection spell and the original caster is now paralyzed, and the original defending character can remove the Paralysis spell by touch since they are now considered the caster."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Fortitude",
+          "ppCost": 7,
+          "duration": "Latent, 5 Minutes",
+          "description": [
+            "When invoked, this spell provides the character with a 4 Threshold, which negates all physical attacks on the target character that delivers 4 points of damage or less, for 5 minutes. If a blow does 5 or more points of damage, Fortitude will not block it.",
+            "If a character is under the affects of a Fortitude spell, then it takes a Waylay that does 5 or more points of damage to knock them unconscious. A Fortitude spell does protect a character from a Killing Blow, provided the damage done by the Killing Blow is four points or less and the spell’s duration has not expired.",
+            "The Threshold provided by a Fortitude spell does not protect the character from any spells, only physical attacks are stopped and cannot be stacked with other Thresholds. As a rule, Thresholds do not add, only the most protective Threshold protects the character.",
+            "Once a Fortitude spell is invoked, it is no longer a latent spell and is considered an active spell. A character cannot invoke a Fortitude spell as a defense to an attack, they must already have the spell active to gain the benefits of the spell."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Absorption",
+          "ppCost": 8,
+          "duration": "Latent",
+          "description": [
+            "When invoked, an Absorption spell negates the effect of a spell. Also, the actual, modified Power Points used to cast the negated spell are given to the character. This spell will not give a character any Power Points if they do not have the Power Point skill, nor will it give a character more Power Points than their normal Power Point maximum.",
+            "If a character uses an Absorption to stop an area of effect spell that does not strike them directly, the effect is stopped but the character gains no Power Points. For example, a character wishes to safely cross a Wall of Flame spell. They can call their Absorption to protect themselves from the damage, but gain no Power Points.",
+            "An Absorption will stop magical spell like effects including those from Nature Magic and Spell Songs, but in these cases, the effect is stopped but the character gains no Power Points from the spell even if the character is a Druid or Spell Singer."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Invulnerability",
+          "ppCost": 8,
+          "duration": "Latent",
+          "description": [
+            "This spell protects against one physical attack. It cancels a Waylay, Slay, Assassinate, Stunning Blow, Critical Attack, or any other non- spell effect that does damage or harmful physical effect.",
+            "An Invulnerability spell can be used to stop a Killing Blow if the target is immobilized and still conscious, but the player must say the word “Invulnerability” audibly to give the attacker the chance to see the characteristic flash of light."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Purity",
+          "ppCost": 8,
+          "duration": "Latent",
+          "description": [
+            "When invoked, this spell protects the character from one external alchemical attack. Purity will not stop any alchemy the character consumes.",
+            "Paste of Binding, acids, Fire Breath, Sunwater, Paste of Stickiness, and Alchemical Lubricant have an external effect but will not be stopped by this spell. These items are stopped by an Invulnerability spell."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Resistance to Shield You",
+          "ppCost": 12,
+          "duration": "Latent",
+          "description": "When invoked, this spell will stop any one physical or magical attack and follows all the standard rules for Invulnerability and Negation spells. A character can still only have one Resistance upon them at a time.",
+          "rank": 4
+        },
+        {
+          "name": "Dragon Skin to Harden Your Hide",
+          "ppCost": 16,
+          "duration": "Latent, 10 Minutes",
+          "description": [
+            "When this latent spell is invoked, the character gains 25 Body Points that can be healed and Damage Resistance: Silver. Spells and other magical attacks still harm the character normally as does “Light” and “Dark” attacks.",
+            "This defense lasts for 10 minutes or until dispelled. The Body Points gained from this spell are the first to go, therefore when the spell ends, the character will not lose any additional Body Points if they are below their normal maximum.",
+            "This spell costs 1 permanent power point"
+          ],
+          "rank": 5
+        },
+        {
+          "name": "Elder Resistance to Shield You from Harm",
+          "ppCost": 24,
+          "duration": "Latent",
+          "description": [
+            "This latent spell defense will stop any one attack or effect regardless of the nature of the attack. This includes warlock augmented spells, sorcery, martial skill, alchemy, faith, etc. Unlike some characters that have this affect as an innate ability, the character does not suffer a Torso Stun effect when they invoke this defense.",
+            "This spell costs 2 permanent power points"
+          ],
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "name": "Bonds School",
+      "specialRules": [
+        "Any Bond School spell can be removed by its caster. The caster must touch the target player of the spell and say, “I Release You From (name of spell)”. This also applies to the Imprisonment spell, as the act of touching the target player refers to the ability of the caster to make physical contact with the target, not the caster’s character and the target character.",
+        "Almost all the Bond spells can be removed by a Dispel Magic; Imprisonment and Impenetrable Portal are the only two listed here that cannot. The Pin, Bind, Paralysis, and Imprisonment spells are not mutually exclusive and therefore, a character can be effected by all four at once.",
+        "Characters with an exceptional Strength Bonus are immune to the effects of certain Bonds School spells. Only a Strength Bonus that is combinable counts at all towards determining if a character is immune to a Bonds School spell. Skills, spells and alchemical items that grant a non-combinable Strength Bonus are never considered in the calculations, but skills and spells that grant even a temporary combinable Strength Bonus do count. The table below outlines the required Strength Bonus needed and what spell immunities are gained.",
+        {
+          "type": "table",
+          "headers": ["Spell Name", "Strength Bonus"],
+          "rows": [
+            ["Pin", "+2"],
+            ["Bind", "+4"],
+            ["Paralysis", "+6"],
+            ["Imprisonment", "+8"]
+          ]
+        },
+        "Some characters are immune to the effects of Bond School spells. The commonly encountered ones are ethereal or incorporeal undead. Others to be sure exist, but the player must learn of these during game play."
+      ],
+      "verbalPrefix": "I Create a Magical",
+      "spells": [
+
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+        {
+          "name": "",
+          "ppCost": 0,
+          "duration": "",
+          "description": "",
+          "rank": 2
+        },
+      ]
+    }
+  ]
+}
