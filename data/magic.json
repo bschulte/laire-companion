@@ -1717,6 +1717,144 @@
           "rank": 5
         }
       ]
+    },
+    {
+      "name": "Thaumaturgy School",
+      "specialRules": [
+        "The Detect Magic, See Magic, Identify Magic, Detect Curse, and Know Your Curse spells have a logistical limitation. If there is no one present who, out-of-game, can inform the caster of the magical properties of an item, then these spells do not work but do not cost the character any Power Points. Also, the first three spells cannot detect the presence or effects of alchemical items.",
+        "Thaumaturgy spells work the same on low magic, Nature Magic and Spell Singing. Many work normally on most sorcery rituals.",
+        "The word “thaumaturgy” is pronounced “THAW-ma-tur-jee.”"
+      ],
+      "verbalPrefix": "I Pierce the Veil to...",
+      "spells": [
+        {
+          "name": "Detect Magic",
+          "ppCost": 0,
+          "duration": "Instant",
+          "description": [
+            "This spell costs 1 Power Point if Thrown",
+            "This spell will identify if an object is magical. The spell costs no Power Points if the caster is touching the object; the spell costs 1 Power Point if the caster tosses a spell packet at the object."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "See Magic",
+          "ppCost": 1,
+          "duration": "Instant",
+          "description": [
+            "This spell will cause all magic within 5 feet to glow with a cerulean color; the 5 feet is measured from the point of impact of the spell packet. Magic items, scrolls, and characters with latent or active spells will all glow briefly. Only the caster can see this glow and the glow is the same regardless of the power level of the magic. The glow cannot be hidden by an intervening object; a magic ring cannot be protected from a See Magic by hiding it in a pouch.",
+            "A defense against magic will stop the spell if cast directly at a character, but if the spell is targeted at an inanimate object or if a character is in the area of effect, they can only invoke an Obscure spell to stop the effect. If they are not the target of the spell, they will only know that the See Magic was cast in their area if they have an Obscure upon them, and then they will only know that the spell was cast, not who cast it."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Know Your Magic",
+          "ppCost": 2,
+          "duration": "Instant",
+          "description": [
+            "This spell will reveal to the caster all the spells that are currently affecting that person. The caster gets to look at the all the latent spells on the target character. If the character has any active spells affecting them – Dominate, Enfeeble, Death Slave, etc. – those are also revealed to the caster. This includes any Warlock augmented spells.",
+            "This spell does not reveal any rituals or curses that currently affect a character. It does not determine any natural racial or natural magical powers that a creature may possess for example, it cannot determine if an elf can resist a Sleep spell. A Know Magic spell cannot detect the effects of any alchemical items."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Detect Curse",
+          "ppCost": 3,
+          "duration": "Instant",
+          "description": "This spell will reveal to the caster whether or not the target character is cursed – as by a werewolf, a vampire, a gypsy, etc. It does not reveal the type of curse or the number of curses on the character, only the fact that a character is cursed.",
+          "rank": 2
+        },
+        {
+          "name": "Sever Magic",
+          "ppCost": 4,
+          "duration": "Instant",
+          "description": [
+            "This spell destroys the magical link between a character and one of the active spells they have cast. The spell must be cast on the character that is actively controlling the spell. Sever Magic spell can be used against an Enslave, Dominate, Dominate Undead, Command Undead, Wall of Flame, Wall of Force, the undead creation spells, etc. This spell will not end a spell that does not require concentration, for example, in the case of a Dominate spell the character is still dominated and must follow the commands already given. However, spells that do require concentration such as a wall spell will end if the caster is severed from the spell.",
+            "Normal defenses against magic do not work against a Sever Magic spell, it is the link that is affected, not the caster, but an Obscure spell will stop the spell. If the caster has multiple magical links, the caster of Sever Magic spell must specify which link is being severed; otherwise the target caster chooses a link to drop."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Obscure",
+          "ppCost": 5,
+          "duration": "Latent",
+          "description": [
+            "When invoked, this spell will protect against one Thaumaturgy spell. For example, if someone casts a See Magic spell on a character and they do not want to reveal that they possess any magic items, if the character invokes an Obscure spell then the caster will see no magic when they look at the target character.",
+            "Important: Unlike most latent spells, an Obscure spell does not have to be announced when it is invoked; there is no characteristic flash of light when this defense is used. If a player invokes an Obscure spell in a manner that is not immediately obvious, they should consult with a Marshal to confirm that the spell was used. For example, if a character uses this spell against a Detect Curse spell to avoid suspicion that they are a werewolf, a Marshal should be informed.",
+            "An Obscure spell cannot protect against nor prevent a Destroy Magic or Disrupt your Defenses spell."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Dispel Magic",
+          "ppCost": 6,
+          "duration": "Instant",
+          "description": [
+            "This spell undoes the effect of one currently active spell. For example, this spell can cancel the effects of most Bond spells, Charm spells, wall spells, etc. The Dispel Magic spell can be cast at the effect of the spell as in the case of Wall of Force or Lock spells or at the character affected by the spell. When the spell is used against the target character directly, the character should make an out-of-game comment indicating which spell is being canceled; if the caster does not specify, then the target player must choose one active spell to be removed.",
+            "Dispel Magic does not work against latent spells. It also does not work against Imprisonment or Magic Sanctuary, and it cannot undo the creation of undead by the Necromancy School."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Drain Magic Power",
+          "ppCost": 6,
+          "duration": "Instant",
+          "description": [
+            "This spell will cause the target character to lose up to 10 Power Points and transfer the lost points to the caster of the spell. The target cannot lose more Power Points then they have left, and the caster cannot gain more than their normal Power Point maximum. However, if the caster is at his maximum Power Points and the target has power left, the target character will still loose up to 10 Power Points.",
+            "The exchange of Power Point tags is mandatory when this spell is used. If this spell is used on a non-player character that does not have any Power Point tags, then the NPC (not the player!) must take the Power Point tags used to cast the spell, write down the number of Power Points transferred, and sign their out-of-game name."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Destroy Magic",
+          "ppCost": 9,
+          "duration": "Instant",
+          "description": [
+            "This spell destroys all spells with a duration of latent, even those augmented by Warlock skills, on a character. No spell from the Aura School can prevent this; neither can an Obscure spell. A Destroy Magic spell does not effect active spells such as Paralysis, Imprisonment, and Magic Sanctuary or an active Fortitude.",
+            "This spell will be stopped by any sorcery ritual that stops spells such as Ritual of Spell Shield. No low magic spell, even one contained in an item, can be used to stop this spell."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Quiet Sorcery",
+          "ppCost": 9,
+          "duration": "Instant",
+          "description": [
+            "This spell will temporarily bring down defensive latent sorcery rituals cast directly upon a target character for 5 minutes. If the target has a magic item that is giving them the benefit of some ritual, such as Ritual of Defense, the ritual will not be affected. No ritual magic, even one contained in an item, can be used to stop this spell.",
+            "This spell will be stopped normally by any low magic defense that stops spells such as the Negation, Absorption, or Obscure spells."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Identify Magic",
+          "ppCost": 10,
+          "duration": "Instant",
+          "description": [
+            "This spell will reveal to the caster all the magical properties of an object. Out-of-game, this requires that either the caster sees the item’s card, or that a Marshal has the information to give to the caster. If you have cast an Identify Magic spell on an item, then you know how to use it and can teach someone else how to use it.",
+            "In addition, if cast on a person, the spell will reveal all the information gained by a Know your Magic spell and what rituals are cast upon a person directly and what they do. If the person has a magic item that is giving them the benefit of some ritual, such as Ritual of Defense, the spell will not reveal such.",
+            "This spell will never tell the word to any kind of ward or any other key word an item may have."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Identify Your Curse",
+          "ppCost": 10,
+          "duration": "Instant",
+          "description": "This spell will reveal to the caster the type and effect of all curses upon the targeted character. For example, if the character has been cursed by a Gypsy to stutter and suffers from werewolf lycanthropy, this spell will reveal that the character is a werewolf and stutters because of a Gypsy curse. This spell will not reveal the source of the curse.",
+          "rank": 4
+        },
+        {
+          "name": "Disrupt Your Magical Defenses and Kill You Where You Stand",
+          "ppCost": 21,
+          "duration": "Instant",
+          "description": [
+            "This spell also costs 1 permanent power points",
+            "A character hit with this spell will lose all latent low magic spells – even ones augmented by Warlock skills – and all latent defensive rituals on the character for 5 minutes. The character will be brought to 0 Body Points if they have any latent low magic spells and the character will be brought to the Brink of Death if they have any warlock augmented spell defenses or any defensive latent rituals All these spells must be cast upon the character, ones cast in an item do not count. If a character only suffers damage from other effects that brings them to the Brink of Death – Kill or Life spells for example – they are still brought to the Brink of Death.",
+            "Defensive sorcery rituals that stop spells cast from an item can be used to stop this spell and the character suffers no ill effects. No low magic spell, even one contained in an item, can be used to stop this spell."
+          ],
+          "rank": 5
+        }
+      ]
     }
   ]
 }
