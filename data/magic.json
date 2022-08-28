@@ -152,100 +152,937 @@
         },
         "Some characters are immune to the effects of Bond School spells. The commonly encountered ones are ethereal or incorporeal undead. Others to be sure exist, but the player must learn of these during game play."
       ],
-      "verbalPrefix": "I Create a Magical",
+      "verbalPrefix": "I Create a Magical Seal That Will",
       "spells": [
-
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Attachment",
+          "ppCost": 1,
+          "duration": "10 Minutes",
+          "description": [
+            "This spell attaches an object that weighs no more than 10 pounds to another object. The caster must touch both objects during the casting of the spell. If more than 10 pounds of force is applied to the Attachment, it will break. For example, a bottle could have an Attachment to a staff, but an Attachment could not be used to fix a rope to a wall so a character could swing across a chasm.",
+            "You cannot cast multiple Attachment spells on an object.",
+            "This spell is not a combat spell. Attachment can be represented out- of-game by duct tape, but the caster is responsible for supplying the duct tape to attach the objects."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Pin",
+          "ppCost": 2,
+          "duration": "30 Seconds",
+          "description": [
+            "The spell attaches the right foot of the target character to the ground. The target can pivot on their right foot, but cannot lift it or move it.",
+            "A character can break a Pin with a +3 or more Strength Bonus and taking 5 seconds to complete.",
+            "There is a visible effect to this spell, and it is obvious to any one looking if the character is free or not."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Bind",
+          "ppCost": 5,
+          "duration": "1 Minutesj",
+          "description": [
+            "This spell attaches both of the target’s feet to the ground and both of the target’s arms to their sides. A Bind spell makes both spell casting and combat impossible. A bound character cannot be moved since their feet are attached to the ground, and if they are holding something in their hands, they cannot release it. Another player can remove an item from the target’s hand(s), but doing so requires a +3 or more Strength Bonus and frees the target’s arms. A bound character cannot be given a Killing Blow, provided that the character can still twist around.",
+            "A Bind spell can be partially broken with a +3 or more Strength Bonus. It takes 5 seconds to free either the character’s arms or legs or 10 seconds to free both. If the character uses a Giant Strength spell to free themselves it would require two spells – the act of breaking either the arms or legs free counts as one action.",
+            "There is a visible effect to this spell, and it is obvious to any one looking if the character is free or not."
+          ],
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Lock",
+          "ppCost": 5,
+          "duration": "1 Hour",
+          "description": [
+            "This spell will seal a door, hold an object in place or attach an object to another object. A Lock spell can be represented out-of-game by duct tape, but the caster is responsible for supplying the duct tape to attach the objects.",
+            "This spell will not work on a character. An object cannot be attached to a character and a character cannot be attached to anything.",
+            "A Lock spell can be broken with +3 or more Strength Bonus such as by invoking a Giant Strength spell. If an object under the effects of a Lock spell is destroyed, then the spells ends."
+          ],
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Paralysis",
+          "ppCost": 7,
+          "duration": "5 Minutes",
+          "description": [
+            "This spell completely paralyzes the target character; they cannot move or speak. The only acts a paralyzed character can perform are to move their eyes, blink, or invoke a latent spell. A character may be given a Killing Blow while they are paralyzed.",
+            "Paralyzed characters can be moved as they are not attached to the ground; in addition, their limbs can be moved by some external force such as another character. The target will still be unable to move from their new position. If the paralyzed character is reduced to 0 Body Points or lower, the player should still fall down.",
+            "There is a visible effect to this spell, and it is obvious to any one looking if the character is free or not."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Imprisonment",
+          "ppCost": 9,
+          "duration": "5 Minutes",
+          "description": [
+            "The target character is completely immobilized; they cannot move or speak. They are surrounded by a glowing, skin tight magical prison that protects them from all attacks, spells, or damage until the spell wears off. An Imprisoned character cannot be picked up or moved from the spot where the spell hit them. If the spell affects the character while they are not touching the ground – jumping in mid air, swimming, brachiating, being carried, in a tree, etc. – the character is immediately dropped to the ground under them when the spell hits.",
+            "The Imprisonment spell is not affected by the Dispel Magic or Destroy Magic spells. The effects of alchemical items cannot pass through an Imprisonment. If you cast an Imprisonment on yourself then you cannot remove it; you must wait until the 5 minutes elapse.",
+            "A target is still affected by the Hypnosis skill and other charm like gaze attacks. The Total Power skill will pierce through an Imprisonment, even if the original spell was cast with Total Power.",
+            "There is a visible effect to this spell, and it is obvious to any one looking if the character is free or not."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Free Action",
+          "ppCost": 6,
+          "duration": "Latent or Instant",
+          "description": [
+            "This spell can be used in two different ways. First, it can be used to dispel any spell from the Bonds School when cast on the target character. It will only remove one active spell at a time and the character should call what spell they are dispelling when they cast this spell. If the character does not then the target player can choose what Bonds School spell they want dispelled if they are affected by multiple Bonds School spells.",
+            "The caster can choose to cast this spell as a latent spell defense. When used in this way, this spell defense will stop one spell from the Bonds School. This spell, when used in this manner, cannot be invoked to dispel an already active Bonds School spell."
+          ],
+          "lostMagic": true,
+          "rank": 3
+        },
+        {
+          "name": "a Wall of Paralysis",
+          "ppCost": 9,
+          "duration": "While Concentrating",
+          "description": [
+            "This spell creates a 10 foot by 10 foot by 1 foot wall of magic; if anyone touches or passes through the Wall of Paralysis they are paralyzed and are affected as per the Paralysis spell.",
+            "This spell follows the normal wall spell rules found at the beginning of this chapter."
+          ],
+          "rank": 4,
+          "lostMagic": true
+        },
+        {
+          "name": "this Portal and Dwelling to be Impenetrable",
+          "ppCost": 20,
+          "duration": "12 Hours",
+          "description": [
+            "This spell will magically seal a building or room for 1 hour. No door, window or other exit can be opened and the entire building is indestructible for the duration. Only the caster may pass unhindered through the portals. Anyone else wishing to move through a portal requires a +7 Strength Bonus, non-combinable and the portal will remain open for as long as the character holds it open and can maintain the required Strength Bonus. If a portal is forced in this manner, the spell still stays in effect for the 1 hour duration.",
+            "While this spell is in effect, no attack can pass though any closed portal. If a portal is opened – either by the caster or by force – then any attack can pass through normally. The Dispel Magic and Free Action spells have no effect on this spell, however any sorcerous dispel will end this spell.",
+            "If there is no actual doorway – as with a lean-to, pavilion or archway for example – then the portal requires a +9 Strength Bonus to pass through and the character cannot bring any other character with them, nor can they get assistance from another character to pass through. No attacks can pass through no matter how strong the character is or how much damage attempts to pass the portal; only if the character actually forces their way through, can the spell be breached.",
+            "This spell also costs 1 permanent power point"
+          ],
+          "lostMagic": true,
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "name": "Charms School",
+      "specialRules": [
+        "Any Charm spell can be removed by its caster. The caster must touch the target of the spell and say, “I Release You From (name of spell).” Charm spells do not cease their effects if the caster falls unconscious or is in any stage of their Death Count.",
+        "The Enslave and Dominate spells are incompatible spells. If a character already has one of these spells cast on them and another spell is cast, the spell that uses the greater number of Power Points takes precedence. If a character has one of these spells cast on them and the same spell is cast on them again, the more recently cast spell takes precedence. Also, you cannot command someone to do something they cannot do; for example, you cannot order a character to resist a Speak the Truth spell if they could not normally resist it; you can cast a Resist Suggestion and order the character to use it. Similarly, you cannot order a person to use a Slay skill on someone if they do not have the skill or have already used it during that Tag Cycle.",
+        "Remember, a character can never be forced through the use of these spells to lose permanent pool points, Body Points or skills."
+      ],
+      "verbalPrefix": "I Command You to",
+      "spells": [
+        {
+          "name": "Fumble <right/left hand>",
+          "ppCost": 1,
+          "duration": "Instant",
+          "description": [
+            "This spell causes the target character to drop everything in-game they are holding in a specified hand. The target must let go completely, allowing all the items in that hand to fall to the ground. The caster of the Fumble must specify which hand is affected with an out-of-game comment when the spell packet hits the target; e.g., “I Command You to Fumble… Right Hand”.",
+            "If an item is attached to a character by some means other than a physical grip, then that item is not dropped; for example, a sword that is glued to a character’s hand with a Paste of Stickiness would stay in the character’s hand even though the character releases their grip. The Disarm skill cannot be used as a Retain against the Fumble spell.",
+            "If you are the target of a Fumble spell, then after you have let go of everything you are holding in one hand, you may then bend down and pick it up. You may not bend down, let your hand relax, then immediately grab an item and straighten up. You must let everything in your hand drop, and then bend down to pick it up."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Speak the Truth",
+          "ppCost": 2,
+          "duration": "One question or 5 minutes, whichever comes first",
+          "description": [
+            "This spell causes the targeted character’s answer to the next question the caster – and only the caster – asks to be direct and truthful; the target can choose not to speak, but if they do speak it must be the truthful answer to the caster’s question. If the caster does not ask a question before 5 minutes have elapsed, the spell expires. Only the caster of the spell can ask the question; the target can still respond to questions from others but the target does not have to speak the truth.",
+            "Speak the Truth only lasts for the first sentence of an answer to the question. If the question is phrased in such a way that a simple answer can be given, then the target must state the simple, true answer. If the question is phrased such that only a long answer can be given, then the caster should only trust the first sentence. For example, “Did you kill the Duke?” has a simple answer; “What was your plan to kill the Duke?” may take more than a single sentence to answer."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Be Dazzled",
+          "ppCost": 4,
+          "duration": "5 seconds",
+          "description": "The target character of this spell is affected by a Torso Stun for 5 seconds. The target should count slowly out of game, “One dazzle, two dazzle…” slowly up to five.",
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Resist Suggestion",
+          "ppCost": 5,
+          "duration": "Latent",
+          "description": [
+            "This spell cancels the effect of one spell from the Charms School. It is ineffective against all other forms of mental control, Hypnosis, Dust of Sleep, Fear Affects, Vampire Charm, etc. for example.",
+            "Unlike most latent spells, Resist Suggestion does not have to be announced when it is invoked; there is no characteristic flash of light when this defense is used. A player with a Resist Suggestion spell knows which Charm spell has been cast on them and can decide whether to invoke it based on that information. You must invoke your Resist Suggestion immediately after being hit with the charm spell. You cannot be affected by a Speak the Truth spell then invoke the Resist Suggestion spell after hearing the question being asked and decide not to answer truthfully.",
+            "If a character invokes Resist Suggestion in a manner that is not immediately obvious, they should consult with a Marshal to confirm that the spell was used. For example, if a character uses Resist Suggestion against an Enslave spell but is still pretending to be affected, or if a character resists a Speak the Truth spell during an interrogation, a Marshal should be informed. It is therefore important that the caster of a Resist Suggestion give the player the Power Point tags used to cast the spell so that the player has proof that they could invoke it."
+          ],
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Be Silent and Mute",
+          "ppCost": 6,
+          "duration": "1 Minute",
+          "description": [
+            "The target character of this spell cannot speak. This means the target cannot use any spells, skills or abilities that require an in-game verbal. Remember, the use of latent spells, magic items, and weapon damage does not require the player to speak in-game, and is not affected by this spell. This spell lasts until a Dispel Magic or a Heal Limb spell is cast.",
+            "The target of this spell is still under their own free will and therefore not cut off from their faith based skills."
+          ],
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Fall Asleep",
+          "ppCost": 6,
+          "duration": "5 Minutes",
+          "description": "This spell causes the target character to fall asleep. The character will wake up before the 5 minute duration has elapsed if they take a point of damage. The character may be given a Killing Blow while asleep.",
+          "rank": 3
+        },
+        {
+          "name": "Be Enslaved",
+          "ppCost": 8,
+          "duration": "5 Minutes",
+          "description": [
+            "This spell causes the target character to obey all the caster’s commands. A character affected by an Enslaved spell will commit suicide or attack their friends at the caster’s command. However, the enslaved character will act without emotions or self determination; you should roleplay your enslavement so that it is obvious to everyone that the spell has been cast on your character.",
+            "An enslaved character cannot obey commands that require independent thought or initiative, such as “Solve this riddle for me,” or “Figure out a plan to kill the princess.” The character must do exactly as they are instructed; they cannot initiate conversation, take independent action, or act in any way in their best interests. If asked a question they will answer truthfully for they have no desire to protect themselves. If ordered to attack another character they will do so to the best of their abilities. They can be given contingent commands such as “Kill anyone entering the room,” “Go to the inn and kill the Duke if he is there or wait there and kill him when he enters,” or “Go find the Baron of the Dale and give him this missive.”",
+            "The enslaved character will never attack the caster of this spell while they are still under the spell’s effects.",
+            "After the spell wears off, the character will remember everything that occurred while they were enslaved, including the identity of the caster of the spell."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Be Dominated and Controlled",
+          "ppCost": 12,
+          "duration": "1 Hour",
+          "description": [
+            "This spell causes the target character to obey all the caster’s commands. A character affected by a Dominate spell will otherwise behave normally, except that a dominated character will not harm the caster or cause the caster to be harmed unless the caster commands them to do so. A dominated character is not aware they are under the affects of this spell; if asked with a Speak the Truth spell they will not realize they have been dominated and would correctly answer “No”.",
+            "A dominated character can be commanded to perform tasks that require some thought – “Solve this puzzle” for example – but they cannot be ordered to do something they cannot normally do. You cannot order someone to use a Slay or Assassinate skill if they do not normally have the ability to do so or they have used that skill for the current Tag Cycle.",
+            "The caster can order a character to do something they would normally not do. The caster could order someone to kill their spouse or best friend for example. “Using all your skills, abilities and items to the best of your ability go and kill the Baron of the Dale when I leave this building,” is an acceptable command. The caster can give any number of commands to the dominated character.",
+            "The caster can prompt the dominated character with false information or facts. The caster could, for example, tell the character “The undead outside are not dangerous or evil and will help you if you ask them.” The character would not run or start a fight with the undead when they met them, but would defend themselves if attacked. The dominated character can be told that their best friend is their most hated enemy. No amount of convincing on someone else’s part will change the character’s mind. However, the character will not make up reasons why their best friend is their most hated enemy, and would remember being best friends. The caster can prompt the dominated character with complicated memories to make the false facts more believable to others but the dominated character needs no convincing they simply believe what the caster tells them as the absolute fact.",
+            "Similarly the caster can tell the dominated character to forget facts and events – even to forget skills. However, once the spell ends all the lost memories will return normally.",
+            "After the Dominate spell wears off, the target will remember who cast the spell on them and what they did while dominated. All false facts and information will be remembered as false and the character’s own values and beliefs will be intact."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Be My Soul Slave to Obey My Every Command as I Enslave your Mind and body and Dominate your Soul Forever",
+          "ppCost": 30,
+          "duration": "Event",
+          "description": [
+            "This spell works like a Domination spell with the following differences. First, the spell’s duration is until the end of the current Event and will persist even after the character resurrects. This spell is not detectable by any low magic spell.",
+            "The Sever Magic and Dispel Magic spells work normally.",
+            "This spell also costs 2 permanent power points"
+          ],
+          "rank": 5,
+          "lostMagic": true
+        }
+      ]
+    },
+    {
+      "name": "Death School",
+      "specialRules": [
+        "If a Death spell does damage, it does so directly to a character’s Body Points. Death spells do not affect armor. Death spells that cause damage will heal undead; the undead adds to its Body Points the amount of damage that would normally be done by the spell, up to the character’s starting total. The Kill spell has a special effect on undead and is described below, but note that lesser undead dissolve into dust when they are slain and cannot be restored by these spells. The rest of the non-damaging spells will have no effect on undead."
+      ],
+      "verbalPrefix": "I Call Upon Darkness to",
+      "spells": [
+        {
+          "name": "Feign Death",
+          "ppCost": 1,
+          "duration": "10 Minutes",
+          "description": "This spell will make the target character look pale; their skin will be cold to the touch and their pulse and breath will be unperceivable and to most observations, they will appear to be dead. A Detect Life spell, Assess Your Ailment spell or First Aid will not reveal that the character is alive. Feign Death will allow a character to impersonate an undead; the illusion of death is destroyed if the target character takes any offensive actions or engages in combat, but not if they are attacked.",
+          "rank": 1
+        },
+        {
+          "name": "Cause Harm",
+          "ppCost": 2,
+          "duration": "Instant",
+          "description": "This spell does 6 points of magical direct body damage",
+          "rank": 1
+        },
+        {
+          "name": "Weaken",
+          "ppCost": 4,
+          "duration": "1 Minute",
+          "description": [
+            "This spell causes the target character to deal no more than 1 point of damage with all martial attacks regardless of their Damage Bonus or Strength Bonus. This spell does not affect special weapon attacks like the Slay skill, Assassinate skill, Stun skill, etc. For skills that modify damage, the base weapon damage is always 1. For example, if a weakened character uses a Critical Attack skill, they will deal 2 points of damage. Similarly, a weakened character will only Waylay dealing 1 point of damage.",
+            "A character will lose all Strength Bonuses for the duration of this spell."
+          ],
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Maim",
+          "ppCost": 4,
+          "duration": "Instant",
+          "description": "This spell does 12 points of magical direct body damage.",
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Take Your Sight",
+          "ppCost": 6,
+          "duration": "1 Minute",
+          "description": [
+            "This spell causes the target character to be unable to see for 1 minute or until they are healed. A Heal Limb spell or effect can be used to restore their sight. While blinded a character cannot make any melee attacks unless they have the Blind Fighting skill. They can close their eyes and throw a spell “blind”. They can use their weapons to attempt to block attacks directed at them, so long as their eyes are closed and do not attempt to swing their weapon around wildly. They are able to use any passive defensive skills they have, such as Martial Parry, Critical Parry, Negation spell, etc. Even if a character has the Blind Fighting skill, they cannot use the True Aim or Perfect Aim skills.",
+            "When you role-play the effects of a Take Your Sight spell, you can close your eyes. However, take care if you are on rough terrain or in a room with sharp furniture. It is better to keep your eyes open and be safe than it is to roleplay your character’s blindness convincingly.",
+            "This spell damages the eyes of the target character so, like other damaging spells, the caster cannot remove their own spell nor can any other character dispel these effects, the target character must be healed."
+          ],
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Cause Agony",
+          "ppCost": 5,
+          "duration": "5 Seconds",
+          "description": "This spell causes the target character intense pain for 5 seconds during which time the character must fall to the ground and can take no other actions except to invoke latent spell defenses. This spell can be cured with a Heal Body or Dispel Magic spell.",
+          "rank": 2,
+          "lostMagic": true
+        },
+        {
+          "name": "Drain Life",
+          "ppCost": 6,
+          "duration": "Instant",
+          "description": [
+            "This spell does 12 points of magical direct body damage and heals the caster for the amount of damage done by the spell. If the target had 12 Body Points or more, then 12 Body Points are transferred to the caster; if the target has less than 12 Body Points, then only the amount the target has are transferred. The caster cannot be healed to more than their normal Body Point limit.",
+            "This spell has no effect when cast on an undead character. If an undead character casts this spell, the target takes 12 Body Points of damage, but the undead is not healed.",
+            "The exchange of Body Point tags is mandatory when this spell is used. If this spell is used on an NPC who does not have any Body Point tags, then the NPC must take the Power Point tags used to cast the spell, write down the number of Body Points transferred, and sign their out-of-game name."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Cripple",
+          "ppCost": 6,
+          "duration": "Instant",
+          "description": "This spell does 18 points of magical direct body damage.",
+          "rank": 3
+        },
+        {
+          "name": "Enfeeble Your Mind",
+          "ppCost": 7,
+          "duration": "5 Minutes",
+          "description": [
+            "This spell causes the target character to lose all intelligence; they cannot use any skills, spells, invoke latent spells, invoke magic items or take any defensive actions. An Enfeebled character effectively becomes the village idiot.",
+            "This effect lasts for 5 minutes or until healed with a heal mind effect. The Dispel Magic spell has no effect on this spell."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Incapacitate Your Body",
+          "ppCost": 8,
+          "duration": "Instant",
+          "description": "This spell does 24 points of magical direct body damage.",
+          "rank": 3,
+          "lostMagic": true
+        },
+        {
+          "name": "Kill You and Wreak Havoc Upon Your Soul",
+          "ppCost": 12,
+          "duration": "Instant",
+          "description": [
+            "This spell causes the target character to go to -1 Body Points and to the Brink of Death. The character can be restored to life with the appropriate spells or skills.",
+            "This spell is the equivalent of a Heal Life spell for an undead."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Cast a Wall of Enfeeblement",
+          "ppCost": 9,
+          "duration": "While Concentrating",
+          "description": [
+            "This spell creates a 10 foot by 10 foot by 1 foot wall of magic; if anyone touches or passes through the Wall of Enfeeblement they are affected by an Enfeeblement spell.",
+            "This spell follows the normal wall spell rules found at the beginning of this chapter."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Create a Spectral Weapon",
+          "ppCost": 10,
+          "duration": "Latent, 5 Minutes",
+          "description": "This latent spell is cast upon a weapon, and when invoked, will cause the weapon to swing for direct Body Point damage for 5 minutes. This spell will add no additional damage. The player should call “Body” after the amount of damage they are doing.",
+          "rank": 4
+        },
+        {
+          "name": "Kill Any Who Dare to Cross this Wall of Ash Before Me",
+          "ppCost": 18,
+          "duration": "While Concentrating",
+          "description": [
+            "This spell creates a 10 foot by 10 foot by 1 foot wall of magic; if anyone touches or passes through the Wall of Ash they are affected by a Kill spell.",
+            "This spell follows the normal wall spell rules found at the beginning of this chapter.",
+            "This spell also costs 1 permanent power point"
+          ],
+          "rank": 5
+        },
+        {
+          "name": "Kill You and Hold Your Soul in Agonizing Torment Until You Die",
+          "ppCost": 20,
+          "duration": "Instant, Special",
+          "description": [
+            "This spell affects the target character just like a Kill spell, except their Death Count is reduced by half and the character must roleplay being in agonizing torment for the duration of this spell. During this time, the character can not move themselves from where they fell and can take no other actions. They cannot cast spells, attack, defend, call any latent spell, invoke any magic items, or even speak coherent thoughts.",
+            "A Sever Magic spell cast at the caster or a Dispel Magic spell cast at the target character will not end the torment, however the character can be healed normally.",
+            "This spell alos costs 1 permanent power point"
+          ],
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "name": "Demonology School",
+      "specialRules": [
+        "Cost: 3/3/4/4",
+        "Demonology is a wholly evil school of magic. It allows its practitioners to summon and control demons and offers a limited number of damaging and utility spells.",
+        "When your character learns Demonology, you must carry any costuming and claws for the demons you wish to create and their approved demon Character Card.",
+        "None of the summoning spells will work on Followers of the Light. Additionally, these spells cannot be cast upon ground that has been sanctified to the High Lord or the Mother. If the character affected by a summon demon spell is on sanctified ground to either god when the spell ends, it will fail. Additionally, a Dispel Magic spell will not stop the demon from being summoned, only healing the affected character will save them from their fate.",
+        "If a caster summons a demon with a Demonology spell, they have control over it. For Lesser Demons and Demons which have a character level associated with them, the player should use their character’s card for the demon. The summoned demon does not have any of the faith skills the character had except Servants of Darkness skills which the demon character can use freely without a focus.",
+        "It is important to note that while the demon summoned used the character’s card, it is not the character. Therefore, they should reset all their Tag Skills while playing the NPC and whatever skills are used do not affect the player’s character. The target character’s in- game items can be used by the demon at the caster’s desire. The demon summoned occupies the same place as the character once did, and the demon appears wearing the character’s clothing and equipment.",
+        "If Sever Magic is used on the caster to cancel their control over their demons, they will continue to follow and carry out their last commands. If they did not have any specific commands, then the demon reverts to their normal behavior. If another caster uses a Command Demon spell to issue a command, the original creator may override that command if they are present; the original caster just has to speak for the demon to obey.",
+        "If your character is used to summon a demon, then a death must be recorded on your Character Card when you are resurrected, and they will suffer the normal consequences of the Death System. After the resurrection, your character will remember being tormented in Hell but no specific details.",
+        "All of the demons created in this school, unless noted in the spell description, will last for 1 hour then return to Hell. They do not take anything with them, leaving whatever items they are carrying on the ground where they where destroyed or the spell ended. However, if the character used to summon the demon is on their last death, the demon summoned will remain until killed.",
+        "The summon demon spells use the character’s soul as the sacrifice to bring the demon to this world. The character’s soul goes to Hell and is trapped there – and as a consequence cannot resurrect – until the demon here is destroyed.",
+        "Demonology spells cannot be absorbed to gain Power Points. An Absorption spell will stop the effect, but gives the character no Power Points.",
+        {
+          "type": "header",
+          "content": "The Demonic Pact and Aspect"
+        },
+        "In order to learn Demonology, the character must be taught by a demon capable of teaching this magic. This demon will extract a price for this knowledge, nothing less than their immortal soul. This demonic pact marks the characters soul forever and when the character dies they are guaranteed to spend the rest of eternity in Hell.",
+        "Should this contract with Hell ever be broken, the character is unable to cast Demonology spells until a new pact is made.",
+        "Making the initial pact can be a tricky matter. The character must find a teacher in-game. Demons guard their knowledge most jealously and do not normally allow tomes to be made.",
+        "At the time the pact is signed, the character must choose which aspect of Hell they will follow: fire, ice or undeath. This will directly affect how the character’s spells work. For example, should the character choose fire, then the type of demon they summon is fire and the spells will deal fire damage. Their aspect never changes unless their contract is passed to another and they change the aspect.",
+        "The three <Aspect> verbals would be:",
+        {
+          "type": "list",
+          "items": [
+            "From the Unending and Fiery Pits of Hell I...",
+            "From the Unending and Icy Pits of Hell I...",
+            "From the Unending and Undying Pits of Hell I..."
+          ]
+        }
+      ],
+      "verbalPrefix": "From the Pits of Hell I...",
+      "spells": [
+        {
+          "name": "Detect Demon",
+          "ppCost": [0, 1],
+          "duration": "Instant",
+          "description": "This spell can be cast upon a character or item and will reveal if the character is a Demon or possessed by a Demon. If cast upon an item, it will reveal if that item contains a trapped Demon.",
+          "rank": 1
+        },
+        {
+          "name": "Summon an Imp",
+          "ppCost": 3,
+          "duration": "1 Hour, Special",
+          "description": [
+            "This spell will summon an Imp of the appropriate type depending on the Demonologists Aspect. The character must be in their Death Count for the spell to affect them; if cast upon an undead character or a character who is not at least Bleeding to Death, the spell has no effect and the Power Points are wasted. At the end of the character’s Death Count, their soul is sacrificed to Hell and an Imp will emerge from the dead character’s body. The character’s soul spends a short time in Hell where it is tormented by the denizens of Hell. If the character is healed before the end of their Death Count, the spell ends and the summoning fails. Dispel magic will not stop the spell.",
+            "When the demon is destroyed, banished, or 1 hour passes, then the demon returns to Hell, leaving whatever worldly possessions it had behind. The player may now go to the Healer’s Guild and resurrect. There is no special consequence of their time spent in Hell other than not being able to play, while playing the demon."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Scourge Your Hands",
+          "ppCost": 5,
+          "duration": "Instant",
+          "description": [
+            "This spell does 8 points of damage to the character with the effect listed below depending on the Demonologists Aspect. Additionally, the character must drop whatever is in their hands. They may pick up the item immediately after they drop the items. This is not a charm effect.",
+            {
+              "type": "table",
+              "headers": ["Aspect", "Damage"],
+              "rows": [
+                ["Fire", "8 Magic Fire"],
+                ["Ice", "8 Magic Ice"],
+                ["Undeath", "8 Magic Body*"]
+              ],
+              "footers": ["* Note this does not heal undead."]
+            }
+          ],
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Summon a Demonling",
+          "ppCost": 5,
+          "duration": "1 Hour, Special",
+          "description": [
+            "This spell will summon a Demonling of the appropriate type depending on the Demonologists Aspect. The character must be in their Death Count for the spell to affect them; if cast upon an undead character or a character who is not at least Bleeding to Death, the spell has no effect and the Power Points are wasted. At the end of the character’s Death Count, their soul is sacrificed to Hell and a Demonling will emerge from the dead character’s body. The character’s soul spends a short time in Hell where it is tormented by the denizens of Hell. If the character is healed before the end of their Death Count, the spell ends and the summoning fails. Dispel magic will not stop the spell.",
+            "When the demon is destroyed, banished, or 1 hour passes, then the demon returns to Hell, leaving whatever worldly possessions it had behind. The player may now go to the Healer’s Guild and resurrect. There is no special consequence of their time spent in Hell other than not being able to play, while playing the demon."
+          ],
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Command Lesser Demons",
+          "ppCost": 6,
+          "duration": "1 Hour",
+          "description": "This spell will allow the caster to control all Imps, Demonlings, Hellhounds, and Minor Demons in the sound of their voice. This spell will not override a Dominate Demon spell, a Follower of Lights turn ability, or a Servant of Darkness command ability.",
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Summon a Hell Hound",
+          "ppCost": 7,
+          "duration": "1 Hour, Special",
+          "description": [
+            "This spell will summon a Hell Hound of the appropriate type depending on the Demonologists Aspect. The character must be in their Death Count for the spell to affect them; if cast upon an undead character or a character who is not at least Bleeding to Death, the spell has no effect and the Power Points are wasted. At the end of the character’s Death Count, their soul is sacrificed to Hell and a Hell Hound will emerge from the dead character’s body. The character’s soul spends a short time in Hell where it is tormented by the denizens of Hell. If the character is healed before the end of their Death Count, the spell ends and the summoning fails. Dispel magic will not stop the spell.",
+            "When the demon is destroyed, banished, or 1 hour passes, then the demon returns to Hell, leaving whatever worldly possessions it had behind. The player may now go to the Healer’s Guild and resurrect. There is no special consequence of their time spent in Hell other than not being able to play, while playing the demon.",
+            "Hell Hounds cannot use the items of the character used to summon it."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Cast a Circle of Binding",
+          "ppCost": 7,
+          "duration": "End of Tag Cycle",
+          "description": [
+            "This spell is cast using the same rules as a wall spell, however it must always be a closed 10’ long piece of garland in a roughly circular shape. The caster can make the circle with up to a 20’ piece of garland if they wish.",
+            "Any demon or demon possessed character or item cannot pass out of the circle. They cannot attack, cast spells or use abilities or skills outside the circle. They can affect anything in the circle they wish. Additionally, demons may pass into the circle but not out again. Demons trapped inside the circle cannot affect the circle, but a demon on the outside can.",
+            "The circle will dissipate at the end of the Tag Cycle or if a Dispel Magic is cast upon the circle."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Summon a Minor Demon",
+          "ppCost": 8,
+          "duration": "1 Hour, Special",
+          "description": [
+            "This spell will summon a Lesser Demon of the appropriate type depending on the Demonologists Aspect. The character must be in their Death Count for the spell to affect them; if cast upon an undead character or a character who is not at least Bleeding to Death, the spell has no effect and the Power Points are wasted. At the end of the character’s Death Count, their soul is sacrificed to Hell and a Lesser Demon will emerge from the dead character’s body. The character’s soul spends a short time in Hell where it is tormented by the denizens of Hell. If the character is healed before the end of their Death Count, the spell ends and the summoning fails. Dispel magic will not stop the spell.",
+            "When the demon is destroyed, banished, or 1 hour passes, then the demon returns to Hell, leaving whatever worldly possessions it had behind. The player may now go to the Healer’s Guild and resurrect. There is no special consequence of their time spent in Hell other than not being able to play, while playing the demon."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Hasten your Demise",
+          "ppCost": 10,
+          "duration": "Instant, Special",
+          "description": [
+            "This spell, when cast on a character in their Death Count, cuts their Death Count and current count in half. This can only be cast on a character once per Death Count; it does not stack with itself.",
+            "For example, Zagon and his friends are fighting a Demonologist and his minions. Zagon is reduced to -1 Body Points and falls. The player begins his Death Count and hopes his friends come by to save him. The Demonologist casts a Hasten Your Demise on Zagon. His current Death Count is Bleeding to Death at 40 seconds. After the spell is cast, Zagon’ current Death Count is Bleeding to Death at 20 seconds and only has 10 seconds before he goes to the Brink of Death. After that he will only have 2 and a half minutes at the Brink of Death to get a life effect.",
+            "The spell ends when the character dies or receives appropriate healing. Dispel Magic has no effect on this spell."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Dominate this Demon",
+          "ppCost": 12,
+          "duration": "1 Hour",
+          "description": [
+            "When a demon is affected by this spell, it will obey all the commands given by the caster. This spell will affect all demons, including greater demons, but not Hierarchs. However, intelligent demons cannot be ordered to kill themselves; they will also remember who cast the spell on them and may seek vengeance once the spell has worn off. Unlike the Charm School spells, the affected, intelligent demonic character may attack the caster if they wish unless ordered not to.",
+            "This spell allows the caster to control any demon type regardless of their aspect."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Summon Dark Energies to Power Me",
+          "ppCost": 15,
+          "duration": "Special",
+          "description": [
+            "This spell grants the caster a demonic energy pool of the type listed below. The caster can throw the pool at any rate up to the total of their current points or empower their weapons or claws to swing for +1 for each pool point put into the attack. This requires no verbal to use.",
+            "The pool will fade away after 1 hour if not used.",
+            {
+              "type": "table",
+              "headers": ["Aspect", "Pool"],
+              "footers": ["* Note this does heal undead"],
+              "rows": [
+                ["Fire", "40 Magic Fire Pool"],
+                ["Ice", "40 Magic Ice Pool"],
+                ["Undeath", "40 Magic Body Necromantic Pool*"]
+              ]
+            },
+            "This spell is not stackable with itself."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Summon a Demon to Obey Me",
+          "ppCost": 20,
+          "duration": "1 Hour, Special",
+          "description": [
+            "This spell will summon a Superior Demon of the appropriate type depending on the Demonologists Aspect. The character must be in their Death Count for the spell to affect them; if cast upon an undead character or a character who is not at least Bleeding to Death, the spell has no effect and the Power Points are wasted. At the end of the character’s Death Count, their soul is sacrificed to Hell and a Demon will emerge from the dead character’s body. The character’s soul spends a short time in Hell where it is tormented by the denizens of Hell. If the character is healed before the end of their Death Count, the spell ends and the summoning fails. Dispel magic will not stop the spell.",
+            "When the demon is destroyed, banished, or 1 hour passes, then the demon returns to Hell, leaving whatever worldly possessions it had behind. The player may now go to the Healer’s Guild and resurrect. There is no special consequence of their time spent in Hell other than not being able to play, while playing the demon."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Summon Total Demonic Power to Infuse me with magic",
+          "ppCost": 20,
+          "duration": "End of Tag Cycle",
+          "description": [
+            "This spell draws upon Hell’s infernal power to grant the caster extra Power Points which can only be used to cast other Demonology spells. Every time this spell is cast, the caster gains 30 Power Points. The character can only use unadjusted Power Points to cast this spell, they cannot use Demonic Power Points to cast this spell.",
+            "The character should write the spells name on the back of the Power Point Tags used to cast the spell indicting their increased value."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Banish This Demon Back to the Abyss from Whence it came for a Moon and a Day",
+          "ppCost": 30,
+          "duration": "1 Event",
+          "description": [
+            "This spell will banish any demon back to Hell including Heirarchs for the rest of the current Event and the next Event.",
+            "This spell also costs 2 permanent power points"
+          ],
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "name": "Enchantments School",
+      "specialRules": [
+        "There are no special rules for the Enchantments School."
+      ],
+      "verbalPrefix": "With Pure Magic I Cast a...",
+      "spells": [
+        {
+          "name": "Shock",
+          "ppCost": 1,
+          "duration": "Instant",
+          "description": "This spell does 4 points of magical damage due to lightning",
+          "rank": 1
+        },
+        {
+          "name": "Giant Strength",
+          "ppCost": 2,
+          "duration": "Latent",
+          "description": [
+            "When invoked, this spell grants the character a temporary +3 Strength Bonus, Non-Combinable allowing the character to add +3 to the weapon damage of their next attack, or to perform one act of giant strength for no longer than 15 seconds. If the character normally calls “Two Damage” when they hit, if they invoke a Giant Strength they would call “Five Damage”. If the character fails to hit, they do not use up the Giant Strength spell.",
+            "This spell can never be used to increase the distance a character jumps."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Lightning Shield",
+          "ppCost": 3,
+          "duration": "Latent",
+          "description": "When invoked, this spell will cancel the effects of one Enchantments School spell. The Lightning Shield spell will also negate one blow from a weapon that does normal or magical lighting or electrical damage, but will not stop special damaging martial attacks such as the Slay, Critical Strike, Stun, Assassinate, etc. skills. A Lightning Shield will protect against extreme non-magical lightning or electricity for 5 seconds.",
           "rank": 2
         },
         {
-          "name": "",
-          "ppCost": 0,
-          "duration": "",
-          "description": "",
+          "name": "Lightning Bolt",
+          "ppCost": 4,
+          "duration": "Instant",
+          "description": "This spell does 16 points of magical damage due to lightning.",
           "rank": 2
         },
+        {
+          "name": "Magic Weapon",
+          "ppCost": 4,
+          "duration": "Latent",
+          "description": [
+            "This spell can only be cast on a weapon. If you hold the weapon, you can invoke this spell, which causes the next weapon attack done by the weapon to be magical. The Magic Weapon spell does not add any damage to the blow. The attacker must add, “Magic”, to the damage done by the weapon when invoking the spell; for example, “Two Magic”. The Magic Weapon spell only lasts for one blow, but if an attacker fails to hit their target the spell is not used up. Magic Weapon can be combined with any other combat skill such as Waylay, Slay, Assassinate, Critical Attack, etc.",
+            "This spell can be invoked and used with the Dissection skill to harvest a component from another character. This spell will last for 1 minute, but should the dissection be interrupted, the spell ends and must be recast.",
+            "This spell can never be invoked as a defense to the Shatter or Blast spells, nor does it give the weapon any properties of a magic weapon except what is listed here."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Mighty Shatter <item>",
+          "ppCost": 4,
+          "duration": "Instant",
+          "description": [
+            "This spell will destroy a non-magical object of One-Handed Edge size or smaller. The name of the item that the caster wishes to shatter is an out-of-game comment that the caster says when the spell packet hits a target, for example, “With Pure Magic I Cast a Mighty Shatter… sword.” If the character is carrying more than one weapon in their hands, the caster can specify which weapon or hand is affected; if the caster does not specify then the target can choose which hand is affected.",
+            "The object that is being shattered must be visible to the caster; the caster cannot shatter a spell book completely contained within a pouch even if the caster knows that a spell book is there. This spell will not affect part of an object – a piece of the object that will damage or destroy it by removing the part out-of-game. For example, you could not destroy: the hinge on a box, the branch of a tree, a lock built into a box, the leg of a small stool, the doorknob of a door, etc. You can destroy: a box, a branch on the ground, a Master Lock on a box, a small stool, etc.",
+            "Clothing worn by a player can never be shattered with this spell; this includes: shirts, pants, belts, pouches, hats, shoes, etc. You can destroy jewelry or other things attached to the clothing such as: rings, bangles, necklaces, pins, etc. Armor cannot be shattered by means of this spell. No shield, regardless of size, can be shattered.",
+            "If any weapon or item card was associated with the shattered item, the card should be torn in two. An item that has been shattered is broken into too many pieces to be collected."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Wall of Force",
+          "ppCost": 6,
+          "duration": "While Concentrating",
+          "description": [
+            "This spell creates a 10 foot by 10 foot impenetrable wall. Nothing can pass through the wall, including spells and alchemical items; only clean non-poisoned air is allowed to pass. The Total Power skill will pierce through a Wall of Force, even if the original spell was cast with Total Power.",
+            "This spell follows the normal wall spell rules found at the beginning of this chapter."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Powerful Blast <item>",
+          "ppCost": 6,
+          "duration": "Instant",
+          "description": [
+            "This spell will destroy a non-magical object of door size or smaller. The name of the item that the caster wishes to blast is an out-of-game comment that the caster says when the spell packet hits a target, for example, “With Pure Magic I Cast a Powerful Blast… door” or “With Pure Magic I Cast a Powerful Blast… Polearm.”",
+            "In all other respects, this spell obeys the same rules as the Shatter <item> spell except any shield can be affected by the Blast spell."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Electrocution",
+          "ppCost": 6,
+          "duration": "Instant",
+          "description": "This spell does 24 points of magical damage due to lightning.",
+          "rank": 3
+        },
+        {
+          "name": "Magic Sanctuary",
+          "ppCost": 9,
+          "duration": "While Concentrating",
+          "description": [
+            "This spell creates a skin-tight impenetrable barrier around the caster. The Magic Sanctuary spell protects the caster from all attacks, spells, and alchemical items; and provides the caster with clean air. Neither the Dispel Magic nor Destroy Magic spells can negate this spell. A Magic Sanctuary is a complete protection against the outside world; other characters may not pick up or move the caster, nor may they apply weight to the caster’s arm to make the caster lower it before the caster chooses.",
+            "The caster is still affected by certain attacks. Hypnosis is one such attack. The character can be ordered to drop the Magic Sanctuary. The Total Power skill will pierce through a Magic Sanctuary, even if the original spell was cast with Total Power.",
+            "While a caster maintains a Magic Sanctuary, they may not pick up objects, drop objects, strike with a weapon, drink potions, or cast any spells, even on themselves. The caster can pass through anything that is not actively resisting such as light branches. If someone blocks the caster’s path, the caster cannot move them and cannot be moved by them either. This spell will allow the character to walk through water, blizzards, sandstorms, or even lava unharmed. A caster can move through a free swinging door, but cannot turn a knob or open a latch. The caster cannot affect the outside world with any skills, spells, abilities, magic items, etc while they are maintaining this spell. The caster could not, for example, use gaseous alchemical items or invoke area affect magic items while in a Magic Sanctuary spell.",
+            "A Magic Sanctuary only protects the caster; if someone is touching the caster when the spell is cast, they are not protected as well.",
+            "While they are maintaining a Magic Sanctuary, the player must hold an arm out to their side parallel to the ground, elbow bent up at a right angle, and palm forward. Also, the caster must walk slowly, no faster than one step per second. If the caster drops their arm or moves faster than one step per second, the sanctuary dissipates.",
+            "Like all spells, a Magic Sanctuary does not last beyond the end of an Event."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Powerful and Masterful Strength",
+          "ppCost": 10,
+          "duration": "Latent, 5 Minutes",
+          "description": "This latent spell grants the character a +2 Strength Bonus, Non- Combinable for 5 minutes after the character invokes the spell. This Strength Bonus can be stacked with other Strength Bonuses, even a Giant Strength spell.",
+          "rank": 4
+        },
+        {
+          "name": "Circle of Force to Protect Me",
+          "ppCost": 12,
+          "duration": "While Concentrating",
+          "description": [
+            "This spell creates a 10 foot high, 10 foot radius impenetrable wall. Nothing harmful can pass through the wall, including spells and alchemical items; only clean non-poisoned air is allowed to pass. The Total Power skill will pierce through a Circle of Force, even if the original spell was cast with Total Power. The Circle of Force is centered on the caster and the caster cannot move while maintaining this spell.",
+            "This spell follows the normal rules for wall spells found at the beginning of this chapter."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Haven About Me to Protect Me on My Way",
+          "ppCost": 21,
+          "duration": "While Concentrating",
+          "description": [
+            "This spell creates a 10 foot high, 10 foot radius impenetrable closed cylinder centered on the caster. Nothing harmful can pass through the wall, including spells and alchemical items; this spell will provide clean air enough for everyone inside. The Total Power skill will pierce through a Haven, even if the original spell was cast with Total Power.",
+            "While they are maintaining a Haven, the player must hold both arms out to their sides parallel to the ground, elbows bent up at a right angle, and palms forward. If the caster drops their arm, the spell dissipates. Also, the caster must walk slowly, no faster than one step per second. Unlike Magic Sanctuary, this spell will push characters out of the way and will conform to allow the caster to move through smaller diameter portals. When cast, the caster can specify who is in the initial 10 foot radius; all other characters are pushed out to 10 feet.",
+            "This spell is not affected by Dispel Magic spell.",
+            "This spell also costs 1 permanent power point."
+          ],
+          "rank": 5
+        },
+        {
+          "name": "Electrical Storm to Incinerate All Before Me",
+          "ppCost": 20,
+          "duration": "Instant, Special",
+          "description": [
+            "This spell allows the caster to throw ten bolts of lightning doing 16 points of magical lightning damage each. If the caster moves or takes damage then they will loose whatever bolts of lightning they have not yet thrown. The caster may pivot on their right foot while this spell is active without ending the spell. The caster has the option to throw all the bolts of lightning at once or one at a time or any combination they want.",
+            "This spell also costs 1 permanent power point"
+          ],
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "name": "Healing School",
+      "specialRules": [
+        "If your character knows how to cast any Healing spells, you must be aware of all the logistical responsibilities involved. The necessary tag exchanges are described below, but you should read the Playing the Game Chapter for more details.",
+        "Healing magic that harms undead does double the normal damage. For example, a Heal Person spell that would normally heal for 12 Body Points would do 24 points of direct body damage to the undead character. Like with any spell, the caster should not double the damage when calling the effect of their spell, the player of the undead character will do the appropriate modifications themselves. If a spell does not list a special affect for undead characters, then it has no effect."
+      ],
+      "verbalPrefix": "I Draw Upon the Earth to...",
+      "spells": [
+        {
+          "name": "Detect Life",
+          "ppCost": [0, 1],
+          "duration": "Instant",
+          "description": [
+            "This spell informs the caster of the state of a character’s health. Detect Life can be used to determine if a character is truly dead or just faking it, is Unconscious, Bleeding to Death, Mortally Wounded, at the Brink of Death, or Dead and can be used to determine whether a character is undead. This spell can also be used to determine how hurt a character is. The target character of the spell should state how many Body Points they have lost. This spell cannot reveal a Feign Death spell or if the character has any parasitic or symbiotic life forms in them.",
+            "The Detect Life spell costs no Power Points if the caster is touching the character; the spell costs 1 Power Point if the caster tosses a spell packet at the character.",
+            "This spell costs 1 power point if thrown."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Heal this Person",
+          "ppCost": 1,
+          "duration": "Instant",
+          "description": [
+            "This spell will cure 3 Body Points for every Power Point spent by the caster. When the spell is cast, the caster must state the number of Body Points being cured; for example, “I Draw Upon the Earth to Heal This Person… Fifteen Body Points” cures 15 Body Points and means that the caster spent 5 Power Points. Characters may not be healed above their normal Body Point maximum.",
+            "This spell will damage undead. For every point that would normally be cured, an undead will take 2 Body Points of damage."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Purify Blood",
+          "ppCost": 2,
+          "duration": "Instant",
+          "description": "This spell will undo the effects of most poisons and alchemical items the character is currently affected by, including intoxication. All applicable poisons or alchemical items are removed with one application of this spell.",
+          "rank": 2
+        },
+        {
+          "name": "Assess Your Ailment",
+          "ppCost": 4,
+          "duration": "Instant",
+          "description": [
+            "By means of this spell, the caster can assess a characters condition revealing more than a Detect Life spell. This spell will reveal: if the character is alive, what stage in their Death Count they are at, how many Body Points they are down, if they are poisoned, diseased, and if they are waylaid. It will also reveal how much time has elapsed in the characters Death Count. This spell will also reveal any additional parasitic or symbiotic life forms inhabiting the character. This spell will not reveal more specific information such as what kind of poison or disease is affecting the character.",
+            "For example, Pierre has been paralyzed by some ghouls and is currently Bleeding to Death. Additionally, while he was laying there, a necromancer cast a Cause Disease spell upon him. Nimue casts an Assess Your Ailment spell upon him. Pierre responds by telling Nimue, “I am Bleeding to Death for 30 seconds, poisoned, diseased and down 9 Body Points.” Nimue begins to cast the necessary healing spells to restore Pierre."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Heal This Body",
+          "ppCost": 4,
+          "duration": "Instant",
+          "description": [
+            "This spell will cure most diseases, including the one caused by the Cause Disease and Plague spells. It will also undo the effects of a Paralysis or Weaken spell.",
+            "Heal Body has only one effect each time it is cast; you cannot both cure someone of a disease and paralysis with a single use of the spell."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Heal This Mind",
+          "ppCost": 4,
+          "duration": "Instant",
+          "description": [
+            "This spell will undo the effects of an Enfeeble spell. It may also cure insanity, amnesia, and possession; a Plot Marshal will determine whether the Heal Mind is successful. This spell will also cure the affects of fear, but the caster must be out of Line of Sight with the source of the fear affect before they can cast it on themselves.",
+            "This spell has no affect on the Hypnosis skill, any Charm School spell, Rage skill, or charm like effect.",
+            "Heal Mind has only one effect each time it is cast; you cannot both cure someone of amnesia and of an Enfeeble with a single use of the spell."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Heal this Limb",
+          "ppCost": 5,
+          "duration": "Instant",
+          "description": [
+            "This spell will restore a limb or body part that was severed or incapacitated even the head. A new limb is regenerated; it is not necessary to “re-attach” the severed limb. Heal Limb restores a limb that was damaged with a Stunning Blow. It will also undo the effects of a Take Your Sight spell or a Mute spell. It will not re-grow “dead” body parts like hair.",
+            "Heal Limb has only one effect each time it is cast; you cannot both cure someone of a broken arm and of a Take Your Sight with a single use of the spell."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Heal this Mortal Wound",
+          "ppCost": 6,
+          "duration": "Instant",
+          "description": "This spell will restore a character who is Mortally Wounded, by the Slay or Assassinate skill for example, to 1 Body Point.",
+          "rank": 3
+        },
+        {
+          "name": "Return Your Spirit",
+          "ppCost": 6,
+          "duration": "Permanent",
+          "description": [
+            "This spell will resurrect a character and restore all their Body Points. A substantial portion of the character’s body must be available and the head must be attached; the character’s spirit must be willing to be resurrected. For the Return Spirit spell to work, the caster must be in contact with the body for a full 10 minutes. The Death System must be used to determine whether Return Spirit is successful, and therefore the death must be recorded on the player’s Character Card. Players who cast a Return Spirit spell must use the Power Point tags used in casting the spell to replace any Body Point tags of the target character.",
+            "To cast this spell, you must keep your hand on the target character’s torso for the full 10 minutes. If you are attacked or are forced to run away during the time it takes to cast this spell, then the Power Points are lost and the spell does not work. Out-of-game, you may remove your hand to help the player pick a stone from the resurrection bag, write on Power Point tags, etc.",
+            "Characters restored by Return Spirit suffer the normal consequences of the Death System.",
+            "A character healed by a Return Spirit is restored to the state of health they had when last alive: broken limbs, diseases, amnesia, insanity, intoxication, etc. The Return Spirit spell is not a substitute for any other spell of the Healing school.",
+            "Return Spirit has no effect on an undead. If a character has been turned into a lesser undead and then killed, Return Spirit will not resurrect the character; the player must go to the Healers Guild to be resurrected.",
+            "The difference between this spell and Heal Life is that Return Spirit will work on a body no matter how long the character has been dead, restores the character to full Body Points, and requires use of the death system; Heal Life only works within a limited amount of time, restores the character to 1 Body Point, and does not use the Death System."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Bring this Ghoul to Life",
+          "ppCost": 8,
+          "duration": "Instant",
+          "description": [
+            "This spell will turn a character that has been made into a Ghoul back to life. The character cannot have been a Ghoul longer than 1 hour. The character is at 0 Body Points and will wake up in 5 minutes if left alone.",
+            "Ghouls that were created spontaneously or by means other than casting the Create Ghoul spell on a character are destroyed by this spell. Greater Ghouls and Ghoul Lords are not affected by this spell."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Heal this Life and Reclaim This Spirit",
+          "ppCost": 12,
+          "duration": "Instant",
+          "description": [
+            "This spell will restore a character back to life from the Brink of Death and leaves them at 1 Body Point; the Death System is not used. Heal Life must be cast on the character’s body within 5 minutes – 10 minutes if the character has the Coma skill – of their character going to the Brink of Death. The character’s body must be relatively intact and the head must be attached.",
+            "Heal Life will only work on a character once per day – a period of time from 7am to 7am the next day. When you cast Heal Life on a character, you should write “Life” on their Character Card along with the date, time and your initials; this allows another player to verify whether the character has already been lifed earlier that day. If the spell is cast on a character twice in the same day, the second use has no effect.",
+            "A character restored by a Heal Life is restored to the state of health they had when last alive: broken limbs, diseases, amnesia, insanity, intoxication, etc. The Heal Life spell is not a substitute for any other spell of the Healing school.",
+            "Heal Life is the equivalent of a Kill spell to an undead. If a character has been turned into an undead and then killed, Heal Life will not restore the character.",
+            "The difference between this spell and Return Spirit is that Return Spirit will work on a body no matter how long the character has been dead, restores the character to full Body Points, and requires use of the death system; Heal Life only works within a limited amount of time, restores the character to 1 Body Point, and does not use the Death System.",
+            "This spell cast upon a living character, a character that is Bleeding to Death, or a character who is Mortally Wounded has no effect and does not use up that character’s ability to receive a Life spell for that day."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Purge this Death Slave of Their Necromantic Taint and Restore Their Will",
+          "ppCost": 20,
+          "duration": "Instant",
+          "description": "This spell will turn a character that has been made a Death Slave back to life and at the Brink of Death. They begin their Death Count normally and must receive the appropriate healing in the normal time.",
+          "rank": 4
+        },
+        {
+          "name": "Heal this Person and Restore them to Full Health",
+          "ppCost": 14,
+          "duration": "Instant",
+          "description": [
+            "This spell will totally restore the target character’s Body Points. Additionally, this spell will also act as a Purify Blood, Heal Mind, Heal Body, and Heal Limb spells. Additionally, for the last three effects, all ailments or limbs are restored, not just one as in the spells of the same name.",
+            "This spell will not heal a person’s Body Points if they are past the Bleeding to Death stage, however the rest of the spell will still take affect normally.",
+            "This spell does 50 direct Body Points of damage to a character hurt by the element of Life – such as undead characters. Undead characters still take double damage from this spell, i.e. 100 points of damage."
+          ],
+          "rank": 4
+        }
+      ]
+    },
+    {
+      "name": "Ice School",
+      "specialRules": ["There are no special rules for the Ice School."],
+      "verbalPrefix": "By the North Mist I Form a(n)...",
+      "spells": [
+        {
+          "name": "Ice Dart",
+          "ppCost": 2,
+          "duration": "Instant",
+          "description": "This spell does 8 points of magic damage due to ice.",
+          "rank": 1
+        },
+        {
+          "name": "Frost Brand",
+          "ppCost": 2,
+          "duration": "Latent",
+          "description": "This spell can only be cast on a weapon. If you hold the weapon, you can invoke this spell, which causes the next weapon attack done by the weapon to be ice based. Frost Brand does not make the attack magical and it does not add any damage to the weapon. The attacker declares a blow to be ice based by adding the word “ice” to the damage done by the attack; for example: “Two Ice.” Frost Brand only lasts for one blow, but if an attacker fails to hit their target the spell is not used up. Frost Brand can be combined with any martial skill such as Weapon Proficiencies, Slay, Assassinate, Critical Attack, Waylay, etc.",
+          "rank": 1
+        },
+        {
+          "name": "Ice Cast",
+          "ppCost": 3,
+          "duration": "30 Seconds",
+          "description": [
+            "This spell can be used to immobilize one arm, leg, wing, tail or tentacle. The limb cannot be used for 30 seconds. The ice cast can be broken with a +3 or greater Strength Bonus, Non-Combinable and takes 5 seconds. If the target character is immune to the Pin spell due to their Strength Bonus, they are immune to this spell as well. The caster should state what limb is affected when they cast the spell, “By the North Mist I Form an Ice Cast… right arm,” but the name of the limb is not part of the spell verbal. If the caster does not specify which limb is being frozen, the target character must choose a limb to be immobilized.",
+            "While the limb is encased in ice, any blow on that limb will affect the character normally, leaving the ice cast unharmed. For example, a Stunning Blow to the limb will not shatter the ice cast, but this will incapacitate the limb as per a normal Stunning Blow. The ice itself is magical and therefore a Dispel Magic will remove the Ice Cast spell.",
+            "The ice from this spell sublimates when removed or the spell ends."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Ice Shield",
+          "ppCost": 3,
+          "duration": "Latent",
+          "description": "When invoked, this spell will cancel the effects of one Ice School spell. The Ice Shield spell will also negate one blow from a weapon that does normal or magical ice or water damage but will not stop special damaging martial attacks such as the Slay, Critical Strike, Stun, Assassinate, etc. skills. An Ice Shield will protect against extreme non-magical cold for 5 seconds.",
+          "rank": 2
+        },
+        {
+          "name": "Ice Bolt",
+          "ppCost": 4,
+          "duration": "Instant",
+          "description": "This spell does 16 points of magic damage due to ice.",
+          "rank": 2
+        },
+        {
+          "name": "Preservation",
+          "ppCost": 5,
+          "duration": "While the Caster Maintains Contact with the Target",
+          "description": [
+            "This spell is cast on a character that is Bleeding to Death, Mortally Wounded or at the Brink of Death. While a hand of the caster is touching the target, the target’s Death Count pauses. This spell does not require concentration, just contact between caster and target. Should the caster be rendered unconscious or they remove their hand the spell is broken.",
+            "The maximum number of characters the caster can preserve at once is two."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Spear of Ice",
+          "ppCost": 6,
+          "duration": "Instant",
+          "description": "This spell does 24 points of magic damage due to ice.",
+          "rank": 3
+        },
+        {
+          "name": "Wall of Frost",
+          "ppCost": 6,
+          "duration": "While Concentrating",
+          "description": [
+            "This spell creates a 10 foot by 10 foot by 1 foot wall of frost; if anyone touches or passes through the Wall of Frost spell they take 14 points of magical damage due to ice.",
+            "This spell follows the normal rules for walls described earlier in this chapter."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Artic Wind to Stun You",
+          "ppCost": 10,
+          "duration": "10 Seconds",
+          "description": "This spell causes the targeted character to be Torso Stunned for 10 seconds.",
+          "rank": 4
+        },
+        {
+          "name": "Icy Imprisonment",
+          "ppCost": 10,
+          "duration": "1 Hour",
+          "description": [
+            "This spell will turn a character to ice. This spell can only be cast upon a character that is in their Death Count. This spell only affects the character’s body not their possessions or clothing. While under the effects of this spell, the character is in stasis and their Death Count and all other timed effects – alchemical durations, diseases, Death Slave, etc. – stop. Only normal strength is needed to move the character.",
+            "This spell will end after 1 hour, the caster ends the spell, or a Dispel Magic is cast upon the character."
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Artic Maelstrom to Rend my Enemeies with the Bone Chilling Power of Ice",
+          "ppCost": 20,
+          "duration": "Instant, Special",
+          "description": [
+            "This spell allows the caster to throw 10 bolts of ice doing 16 points of magical ice damage each. If the caster moves or takes damage then they will loose whatever bolts of ice they have not yet thrown. The caster may pivot on their right foot while this spell is active without ending the spell. The caster has the option to throw all the bolts of ice at once or one at a time or any combination they want.",
+            "This spell also costs 1 permanent power point."
+          ],
+          "rank": 5
+        }
       ]
     }
   ]

@@ -1,3 +1,10 @@
 * Common man (page 35/24) - Are there any advantages/disadvantages or are they just super basic with no mods?
 * Combat Mage 2 - The Body points almost have to be wrong
 * Do we need pictures in Wall Spells and Concentration Rules section?
+
+* I probably need to add the differetn verbals for each rank of spells
+* Need to go back through spells and mark individually which ones are lost magic since not all spells of a given rank are in lost magic
+
+* Up to page 69 or so it's probably been about 15 hours of transcribing
+
+* Need to have someone read over spell names, costs, durations, and ranks to double check
