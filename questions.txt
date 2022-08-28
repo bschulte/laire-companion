@@ -8,3 +8,7 @@
 * Up to page 69 or so it's probably been about 15 hours of transcribing
 
 * Need to have someone read over spell names, costs, durations, and ranks to double check
+
+* The copy and pasted double quote character probably needs to be replaced and swapped with escaped quotes
+
+* Are any of the italicized or bolded text things that actually matter to the rule?

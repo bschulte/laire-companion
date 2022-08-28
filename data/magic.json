@@ -142,12 +142,27 @@
         "Characters with an exceptional Strength Bonus are immune to the effects of certain Bonds School spells. Only a Strength Bonus that is combinable counts at all towards determining if a character is immune to a Bonds School spell. Skills, spells and alchemical items that grant a non-combinable Strength Bonus are never considered in the calculations, but skills and spells that grant even a temporary combinable Strength Bonus do count. The table below outlines the required Strength Bonus needed and what spell immunities are gained.",
         {
           "type": "table",
-          "headers": ["Spell Name", "Strength Bonus"],
+          "headers": [
+            "Spell Name",
+            "Strength Bonus"
+          ],
           "rows": [
-            ["Pin", "+2"],
-            ["Bind", "+4"],
-            ["Paralysis", "+6"],
-            ["Imprisonment", "+8"]
+            [
+              "Pin",
+              "+2"
+            ],
+            [
+              "Bind",
+              "+4"
+            ],
+            [
+              "Paralysis",
+              "+6"
+            ],
+            [
+              "Imprisonment",
+              "+8"
+            ]
           ]
         },
         "Some characters are immune to the effects of Bond School spells. The commonly encountered ones are ethereal or incorporeal undead. Others to be sure exist, but the player must learn of these during game play."
@@ -543,7 +558,10 @@
       "spells": [
         {
           "name": "Detect Demon",
-          "ppCost": [0, 1],
+          "ppCost": [
+            0,
+            1
+          ],
           "duration": "Instant",
           "description": "This spell can be cast upon a character or item and will reveal if the character is a Demon or possessed by a Demon. If cast upon an item, it will reveal if that item contains a trapped Demon.",
           "rank": 1
@@ -566,13 +584,27 @@
             "This spell does 8 points of damage to the character with the effect listed below depending on the Demonologists Aspect. Additionally, the character must drop whatever is in their hands. They may pick up the item immediately after they drop the items. This is not a charm effect.",
             {
               "type": "table",
-              "headers": ["Aspect", "Damage"],
-              "rows": [
-                ["Fire", "8 Magic Fire"],
-                ["Ice", "8 Magic Ice"],
-                ["Undeath", "8 Magic Body*"]
+              "headers": [
+                "Aspect",
+                "Damage"
               ],
-              "footers": ["* Note this does not heal undead."]
+              "rows": [
+                [
+                  "Fire",
+                  "8 Magic Fire"
+                ],
+                [
+                  "Ice",
+                  "8 Magic Ice"
+                ],
+                [
+                  "Undeath",
+                  "8 Magic Body*"
+                ]
+              ],
+              "footers": [
+                "* Note this does not heal undead."
+              ]
             }
           ],
           "rank": 2
@@ -656,12 +688,26 @@
             "The pool will fade away after 1 hour if not used.",
             {
               "type": "table",
-              "headers": ["Aspect", "Pool"],
-              "footers": ["* Note this does heal undead"],
+              "headers": [
+                "Aspect",
+                "Pool"
+              ],
+              "footers": [
+                "* Note this does heal undead"
+              ],
               "rows": [
-                ["Fire", "40 Magic Fire Pool"],
-                ["Ice", "40 Magic Ice Pool"],
-                ["Undeath", "40 Magic Body Necromantic Pool*"]
+                [
+                  "Fire",
+                  "40 Magic Fire Pool"
+                ],
+                [
+                  "Ice",
+                  "40 Magic Ice Pool"
+                ],
+                [
+                  "Undeath",
+                  "40 Magic Body Necromantic Pool*"
+                ]
               ]
             },
             "This spell is not stackable with itself."
@@ -853,7 +899,10 @@
       "spells": [
         {
           "name": "Detect Life",
-          "ppCost": [0, 1],
+          "ppCost": [
+            0,
+            1
+          ],
           "duration": "Instant",
           "description": [
             "This spell informs the caster of the state of a character’s health. Detect Life can be used to determine if a character is truly dead or just faking it, is Unconscious, Bleeding to Death, Mortally Wounded, at the Brink of Death, or Dead and can be used to determine whether a character is undead. This spell can also be used to determine how hurt a character is. The target character of the spell should state how many Body Points they have lost. This spell cannot reveal a Feign Death spell or if the character has any parasitic or symbiotic life forms in them.",
@@ -987,7 +1036,9 @@
     },
     {
       "name": "Ice School",
-      "specialRules": ["There are no special rules for the Ice School."],
+      "specialRules": [
+        "There are no special rules for the Ice School."
+      ],
       "verbalPrefix": "By the North Mist I Form a(n)...",
       "spells": [
         {
@@ -1080,6 +1131,588 @@
           "description": [
             "This spell allows the caster to throw 10 bolts of ice doing 16 points of magical ice damage each. If the caster moves or takes damage then they will loose whatever bolts of ice they have not yet thrown. The caster may pivot on their right foot while this spell is active without ending the spell. The caster has the option to throw all the bolts of ice at once or one at a time or any combination they want.",
             "This spell also costs 1 permanent power point."
+          ],
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "name": "Necromancy School",
+      "specialRules": [
+        "Necromancy involves the creation and control of undead. There are different categories of undead: lesser undead are creatures that are relatively easy for necromancers to create, such as those listed in the spells below, or some Sorcery rituals. The lesser undead are: Zombies, Skeletons, Ghouls, Revenants, Specters, Wraiths, Wights, Shadows, Shades, and “Superior” versions of these prior undead. Greater undead are more difficult to create and control and are always intelligent; they are: Death Slaves, Vampires, Death Knights, Death Assassins, Death Mages, Mummies, Liches, and any “Lord” undead such as Zombie Lords or Death Lords.",
+        "There are five types of undead that can be created with magic spells: Zombies, Skeletons, Ghouls, Revenants, and Death Slaves. All other forms of undead are created by ritual magic, which players must learn about in-game or are spontaneously created. When your character learns Necromancy, you must carry any costuming and claws for the undead you wish to create and their approved undead Character Card.",
+        "No undead creation spell can be cast on a body in sunlight. The Create Zombie, Create Skeleton, and Create Revenant spells work in two ways. First the character can cast it on an already dead corpse of the appropriate type. The second method allows the character to cast the spell on a character in their Death Count, “infecting” them with the creation spell. When character reaches the end of their Death Count, they will be raised as the appropriate type of undead.",
+        "If a caster creates an undead with a necromantic spell, they have control over it. The creatures made by Create Zombie, Create Skeleton, Create Ghoul, and Create Revenant are mindless undead; they can obey simple commands for example: “Guard me,” “Give all your possessions to that soldier,” “Walk around this cemetery and attack all living things but me,” but they cannot do anything that requires creative thought or forces them to make a decision, for example, “Establish a defensive perimeter,” “Guard my friends but attack my enemies,” “If I die, carry my body back to the Necromancer’s Guild.”",
+        "All undead are hurt by Heal Person and by Heal Life spells, and can be healed by certain spells of the Death School. Heal Life is never a saving grace for a living character that has been turned into an undead; the only common way an undead character can be brought back to life is through some Healing School spell or to be resurrected at the Healers Guild. There may exist other lost magical spells or sorcery rituals that can bring the character back from being undead.",
+        "If Sever Magic is used on the caster to cancel their control over their undead, they will continue to follow and carry out their last commands. If they did not have any specific commands, then the undead revert to their normal behavior: attack and slay all living things including their creator. If another caster uses a Command Undead to issue a command, the original creator may override that command if they are present; the original caster just has to speak for the undead to obey.",
+        "If your character is turned into an undead, then a death must be recorded on your character card when you are resurrected, and you will suffer the normal consequences of the Death System.",
+        "All of the undead created in this school, unless noted in the spell description, will last for 1 hour then turn to dust. However, if the character is un-resurrectable, the effect is permanent until destroyed. As with all spells, the undead creation spells do not last past the end of an Event, so if a character is undead at the end of an Event, they are not undead at the beginning of the following Event. However, the player must still go to the Healer’s Guild and resurrect normally, unless their character is un- resurrectable."
+      ],
+      "verbalPrefix": "I Control Chaos to...",
+      "spells": [
+        {
+          "name": "Feign Life",
+          "ppCost": 1,
+          "duration": "10 Minutes",
+          "description": "This spell will make an undead character look alive; their skin will be a normal, healthy color and feel warm to the touch; they will appear to have a normal pulse and breath. A Detect Life spell, Assess Your Ailment spell or the First Aid skill will not reveal that the character is dead. Feign Life will only work on undead whose bodies are intact; the skeletal class of undead or non-corporal undead cannot impersonate a living being with this spell.",
+          "rank": 1
+        },
+        {
+          "name": "Cause Disease",
+          "ppCost": 2,
+          "duration": "6 Hours",
+          "description": [
+            "This spell causes the target to contract a deadly disease and immediately loses 1 Body Point and swings 1 point of damage less, then the character will begin to lose an additional 1 Body Point and swing 1 point of damage less every 10 minutes. The character will stop losing Body Points at 1 Body Point and will always swing a minimum of 1 point of damage. The effects of this spell are not cumulative with other Cause Disease spells and the Body Points lost due to this spell cannot be healed until the disease is cured.",
+            "For example, Orion has 10 Body Points and does 4 points of damage with his sword. He is hit with this spell and is not healed right away. After 30 minutes, he has 6 Body Points and swings 1 point of damage. After 80 minutes, he has 1 Body Point and would still swing for 1 point of damage.",
+            "The target will be at the Brink of Death at the end of 6 hours unless a Heal Body spell or similar effect is cast on them."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Create a Zombie",
+          "ppCost": 2,
+          "duration": "Special",
+          "description": [
+            "When cast on a dead body, this spell will turn the corpse into a Zombie. The body must have been dead for less than five days.",
+            "If this spell is cast upon a character in their Death Count, the character is infected with the creation spell and will be turned into a Zombie when the character reaches the end of their Death Count.",
+            {
+              "type": "infoPanel",
+              "header": "Minor Zombie (Lesser Undead)",
+              "rows": [
+                [
+                  "Body Points:",
+                  "15"
+                ],
+                [
+                  "Armor Points:",
+                  "As Worn"
+                ],
+                [
+                  "Power Points:",
+                  "None"
+                ],
+                [
+                  "Strength Bonus:",
+                  "+1, Non-Combinable"
+                ],
+                [
+                  "Damage Bonus:",
+                  "+0"
+                ],
+                [
+                  "Special",
+                  [
+                    "Natural Claws",
+                    "Charm Immunity",
+                    "Alchemical Immunity",
+                    "Immunity: Fear",
+                    "Immunity: Waylay",
+                    "Immunity: Paralysis Touch skill",
+                    "Immunity: Disarm Skill",
+                    "Immunity: Pain Touch Skill",
+                    "Immunity: Venom Touch Skill",
+                    "Harmed by healing magic",
+                    "Double damage from elemental life",
+                    "Healed by elemental death and Necromancy",
+                    "All zombies MUST move and fight slowly. They are unintelligent and can only follow simple commands. They will only attack moving living characters."
+                  ]
+                ],
+                [
+                  "Monster Skills:",
+                  "None"
+                ],
+                [
+                  "Skills:",
+                  "Can never learn skills"
+                ],
+                [
+                  "Alignment:",
+                  "Evil, Dark Lord's Creation"
+                ]
+              ]
+            }
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Command Undead",
+          "ppCost": 3,
+          "duration": "1 Command",
+          "description": "This spell allows the caster to give a single command that will be obeyed by all lesser undead who hear it. The command must be a single sentence, and it must be simple enough for a mindless undead to obey. The command cannot be “Obey my commands” or some similar command. No wishing for more wishes.",
+          "rank": 1
+        },
+        {
+          "name": "Create a Skeleton",
+          "ppCost": 3,
+          "duration": "Special",
+          "description": [
+            "When cast on a skeletal dead body, this spell will turn it into a Skeleton. This spell will work on any corpse regardless of how long it has been dead, the bones of a fresh corpse will tear out of the body leaving the flesh behind.",
+            "If this spell is cast upon a character in their Death Count, the character is infected with the creation spell and will be turned into a Skeleton when the character reaches the end of their Death Count.",
+            {
+              "type": "infoPanel",
+              "header": "Minor Skeleton (Lesser Undead)",
+              "rows": [
+                [
+                  "Body Points:",
+                  "15"
+                ],
+                [
+                  "Armor Points:",
+                  "As Worn"
+                ],
+                [
+                  "Power Points:",
+                  "None"
+                ],
+                [
+                  "Strength Bonus:",
+                  "+1, Non-Combinable"
+                ],
+                [
+                  "Damage Bonus:",
+                  "+0"
+                ],
+                [
+                  "Special",
+                  [
+                    "Natural Claws",
+                    "Charm Immunity",
+                    "Alchemical Immunity",
+                    "Immunity: Fear",
+                    "Immunity: Waylay",
+                    "Immunity: Paralysis Touch skill",
+                    "Immunity: Disarm Skill",
+                    "Immunity: Pain Touch Skill",
+                    "Immunity: Venom Touch Skill",
+                    "Harmed by healing magic",
+                    "Double damage from elemental life",
+                    "Healed by elemental death and Necromancy",
+                    "Skeletons move at normal speed. They are unintelligent and can only follow simple commands. They will only attack moving living creatures."
+                  ]
+                ],
+                [
+                  "Monster Skills:",
+                  "Weapon Skill of Choice"
+                ],
+                [
+                  "Skills:",
+                  "Can never learn skills"
+                ],
+                [
+                  "Alignment:",
+                  "Evil, Dark Lord's Creation"
+                ]
+              ]
+            }
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Rot Flesh",
+          "ppCost": 5,
+          "duration": "Instant",
+          "description": "This spell does 15 points of magical rot damage. If cast on an undead, Rot Flesh will restore 15 Body Points; however, the spell cannot restore destroyed lesser undead.",
+          "rank": 2
+        },
+        {
+          "name": "Wither Limb",
+          "ppCost": 6,
+          "duration": "Instant",
+          "description": [
+            "This spell will cause an arm or leg to wither and become useless. The caster can specify an arm or leg to affect when the spell is cast, however if the caster fails to specify a limb, the target character must choose one to be affected. The target character does not suffer any Body Point loss from this spell.",
+            "The affects of this spell are permanent until healed by a Heal Limb spell. A Dispel Magic spell has no effect on a withered limb."
+          ],
+          "rank": 2
+        },
+        {
+          "name": "Create a Ghoul",
+          "ppCost": 8,
+          "duration": "Special",
+          "description": [
+            "When cast on an Unconscious body, this spell will turn them into a Ghoul. The body must be Unconscious at 0 Body Points. A body that is unconscious solely due to a Waylay or a spell will not be affected by Create Ghoul; a character that is Bleeding to Death, Mortally Wounded or at the Brink of Death will also be unaffected.",
+            {
+              "type": "infoPanel",
+              "header": "Minor Ghoul (Lesser Undead)",
+              "rows": [
+                [
+                  "Body Points:",
+                  "18"
+                ],
+                [
+                  "Armor Points:",
+                  "As Worn"
+                ],
+                [
+                  "Power Points:",
+                  "None"
+                ],
+                [
+                  "Strength Bonus:",
+                  "+1, Non-Combinable"
+                ],
+                [
+                  "Damage Bonus:",
+                  "+2"
+                ],
+                [
+                  "Special",
+                  [
+                    "Natural Claws",
+                    "Paralysis Poisoned Claws, Claws swing for Paralysis poison",
+                    "Charm Immunity",
+                    "Alchemical Immunity",
+                    "Immunity: Fear",
+                    "Immunity: Waylay",
+                    "Immunity: Paralysis Touch skill",
+                    "Immunity: Disarm Skill",
+                    "Immunity: Pain Touch Skill",
+                    "Immunity: Venom Touch Skill",
+                    "Harmed by healing magic",
+                    "Double damage from elemental life",
+                    "Healed by elemental death and Necromancy",
+                    "All Ghouls move at normal speed. They are cunning fighters and can follow multiple simple commands. They will normally only attack living creatures. When left to their own devices, will eat the flesh of their victims."
+                  ]
+                ],
+                [
+                  "Monster Skills:",
+                  "None"
+                ],
+                [
+                  "Skills:",
+                  "Can never learn skills"
+                ],
+                [
+                  "Alignment:",
+                  "Evil, Dark Lord's Creation"
+                ]
+              ]
+            }
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Dominate Undead",
+          "ppCost": 9,
+          "duration": "1 Hour",
+          "description": "When an undead is affected by this spell, it will obey all the commands given by the caster. This spell will affect all undead, including greater undead. However, intelligent undead cannot be ordered to kill themselves; they will also remember who cast the spell on them and may seek vengeance once the spell has worn off. A Dominate Undead spell will work on a Death Slave. Unlike the Charm School spells, the affected, intelligent undead character may attack the caster if they wish.",
+          "rank": 3
+        },
+        {
+          "name": "Shield from Sunlight",
+          "ppCost": 9,
+          "duration": "Until Sundown",
+          "description": "When this spell is cast on an undead, it is no longer harmed or repelled by sunlight. Shield from Sunlight can be cast from the time light first shows in the sky through sunset; it does not work if cast at night.",
+          "rank": 3
+        },
+        {
+          "name": "Cripple You with the Plague",
+          "ppCost": 9,
+          "duration": "5 Minutes",
+          "description": [
+            "This spell causes the target character to be instantly infected with a debilitating, non-contagious plague for 5 minutes or until cured with a Heal Body spell or effect. While under the effects of this spell, the character looks pasty, weak and sickly. They have a fever and feel warm to the touch. The character will swing for 1 point of damage, is reduced to 1 Body Point until the spell ends, cannot use any Advanced Career skill except for Faith skills, and can only move at a normal walking pace.",
+            "At the end of the 5 minutes, if the character is not healed of the plague, they will be brought to the Brink of Death and the spell ends.",
+            "If the character dies from the Plague spell, they will rise up as a Superior Skeleton."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Decay Flesh and Bones",
+          "ppCost": 10,
+          "duration": "Instant",
+          "description": "This spell does 30 points of magical rot damage. If cast on an undead, Decay Flesh and Bones will restore 30 Body Points; however, the spell cannot restore destroyed lesser undead.",
+          "rank": 4
+        },
+        {
+          "name": "Create a Revenant",
+          "ppCost": 12,
+          "duration": "Special",
+          "description": [
+            "When cast on a large corpse, this spell will turn it into a Revenant. Create Revenant requires a substantial portion of the body of a large creature such as: Ogres, Giants, Adult Trolls, Colossal Trolls, Titans, etc.; it does not work on a human body, no matter how tall it is.",
+            "If this spell is cast upon a character in their Death Count, the character is infected with the creation spell and will be turned into a Revenant when the character reaches the end of their Death Count.",
+            {
+              "type": "infoPanel",
+              "header": "Minor Revenant (Lesser Undead)",
+              "rows": [
+                [
+                  "Body Points:",
+                  "60"
+                ],
+                [
+                  "Armor Points:",
+                  "As Worn"
+                ],
+                [
+                  "Power Points:",
+                  "None"
+                ],
+                [
+                  "Strength Bonus:",
+                  "+3"
+                ],
+                [
+                  "Damage Bonus:",
+                  "+1 with claws only"
+                ],
+                [
+                  "Special",
+                  [
+                    "Natural Claws",
+                    "Charm Immunity",
+                    "Alchemical Immunity",
+                    "Immunity: Fear",
+                    "Immunity: Waylay",
+                    "Immunity: Paralysis Touch skill",
+                    "Immunity: Disarm Skill",
+                    "Immunity: Pain Touch Skill",
+                    "Immunity: Venom Touch Skill",
+                    "Harmed by healing magic",
+                    "Double damage from elemental life",
+                    "Healed by elemental death and Necromancy",
+                    "Damage Resistance: Silver",
+                    "All Revenants move at a slow speed, but fight normally. They are cunning fighters and can follow complex commands. They will normally only attack living creatures."
+                  ]
+                ],
+                [
+                  "Monster Skills:",
+                  "Weapon Skill of Choice"
+                ],
+                [
+                  "Skills:",
+                  "Can never learn skills"
+                ],
+                [
+                  "Alignment:",
+                  "Evil, Dark Lord's Creation"
+                ]
+              ]
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Create a Death Slave who Will Obey my Each and Every Whim",
+          "ppCost": 20,
+          "duration": "1 Hour",
+          "description": [
+            "This spell turns a character – with the exception of undead, constructs or other characters as indicated on their Character Card – into a Death Slave, a special form of greater undead. The Death Slave has all the abilities, knowledge, and skills the character had when alive. Death Slaves are completely obedient to their creators, and will obey their creators’ commands with all their intellect and creativity; for example, “Trick your best friend into stealing the Queen’s crown.” Death Slaves know who controls them, but they will not reveal their controller unless the revelation fits in with the controller’s commands.",
+            "The targeted character is brought to full Body Points and all limbs are healed when affected by a Death Slave spell. Even if the character was at the Brink of Death, they will be turned into a Death Slave at full Body Points. Note that this does not use up one of the characters life effects for the day as they are turned into an undead not lifed.",
+            "When the character is brought back to life they recall everything they did during the time they were a Death Slave and they remember who cast the Death Slave spell on them. They retain their memory even if they are killed before their hour of undead existence is over. The character’s death must be recorded on their character card.",
+            "Should the caster die or be affected by a Sever Magic spell, the Death Slave will continue to carry out any orders it was already given; otherwise, it will act according to its own volition. A Dominate Undead will override a creator’s control over their Death Slave.",
+            "Death Slaves have the normal Death Count their character had while alive. A Death Slave will only exist for 1 hour. During that time the character looks obviously undead with pale rotting flesh. After 1 hour, the Death Slave turns to dust, even if they are being persevered by an Icy Preservation spell.",
+            {
+              "type": "infoPanel",
+              "header": "Death Slave (Greater Undead)",
+              "rows": [
+                [
+                  "Body Points:",
+                  "50"
+                ],
+                [
+                  "Armor Points:",
+                  "As Worn"
+                ],
+                [
+                  "Power Points:",
+                  "None"
+                ],
+                [
+                  "Strength Bonus:",
+                  "+2"
+                ],
+                [
+                  "Damage Bonus:",
+                  "+2 with claws only"
+                ],
+                [
+                  "Special",
+                  [
+                    "Natural Claws",
+                    "Charm Immunity",
+                    "Alchemical Immunity",
+                    "Immunity: Fear",
+                    "Immunity: Waylay",
+                    "Immunity: Paralysis Touch skill",
+                    "Immunity: Disarm Skill",
+                    "Immunity: Pain Touch Skill",
+                    "Immunity: Venom Touch Skill",
+                    "Damage Resistance: Silver",
+                    "Harmed by healing magic",
+                    "Double damage from elemental life",
+                    "Healed by elemental death and Necromancy",
+                    "All Death Slaves move and fight normally. They are intelligent and can follow any command"
+                  ]
+                ],
+                [
+                  "Monster Skills:",
+                  "None"
+                ],
+                [
+                  "Skills:",
+                  "Skills character had in life"
+                ],
+                [
+                  "Alignment:",
+                  "Evil, Dark Lord's Creation"
+                ],
+                [
+                  "Costume",
+                  "Special"
+                ]
+              ]
+            }
+          ],
+          "rank": 4
+        },
+        {
+          "name": "Raise all the Dead Who Rest in this Graveyard to Serve my Each and Every Whim",
+          "ppCost": 30,
+          "duration": "Until Destroyed",
+          "description": [
+            "This spell can be cast anywhere, not just a graveyard as the name implies, and will raise 100 lesser undead. The specific undead raised is up to the Plot Committee, but they will be a mix of what is listed below.",
+            {
+              "type": "table",
+              "headers": [
+                "Lesser Undead",
+                "Up to..."
+              ],
+              "rows": [
+                [
+                  "Zombie",
+                  "80%"
+                ],
+                [
+                  "Skeleton",
+                  "60%"
+                ],
+                [
+                  "Ghoul",
+                  "40%"
+                ],
+                [
+                  "Revenant",
+                  "20%"
+                ],
+                [
+                  "Specter",
+                  "10%"
+                ],
+                [
+                  "Wraith",
+                  "10%"
+                ]
+              ]
+            },
+            "The undead are under the control of the caster and will remain until destroyed.",
+            "This spell also costs 2 permanent power points."
+          ],
+          "rank": 5
+        }
+      ]
+    },
+    {
+      "name": "Pyrotechnics School",
+      "specialRules": [
+        "Except for the Match spell, Pyrotechnics spells do not create actual fires. The flames do magical damage and do not actually burn anything; a caster can hurt a character with a Fireball spell, but they cannot use Fireball to set a house on fire."
+      ],
+      "verbalPrefix": "I Summon Forth an Eldritch",
+      "spells": [
+        {
+          "name": "Light",
+          "ppCost": 0,
+          "duration": "Special",
+          "description": [
+            "This spell costs 1 Power Point if Thrown",
+            "This spell causes an object long sword or smaller to glow. This spell has no effect on most characters. Light costs no Power Points if the caster is touching the object or 1 Power Point if the caster throws the spell. The character holding the light spell may extinguish the light by covering it with their hand, but they cannot restore the light again without another Light spell.",
+            "Out-of-game, a small flashlight that must be supplied by the player represents the Light spell for each Light spell cast. If there is no flashlight then the spell will not work. However, if the player casts this spell during the out-of-game daytime, the caster gets one free Light spell without the need for a flashlight. The Light spell lasts until the flashlight’s batteries run out. Even if you have replacement batteries, the Light spell must be recast after the new batteries are installed."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Match",
+          "ppCost": 0,
+          "duration": "Until the Flame Burns Out",
+          "description": [
+            "This spell costs 1 Power Point if Thrown",
+            "This spell causes the tip of a piece of wood to burst into flame. The piece of wood can be no larger than 2 feet by 2 inches by 2 inches. You may light an actual match or torch if a Marshal permits and if it is permitted by the rules of the campsite. Otherwise, you must use some representation of the torch and, if necessary, a Marshal will note that the wood is on fire."
+          ],
+          "rank": 1
+        },
+        {
+          "name": "Flare",
+          "ppCost": 2,
+          "duration": "Instant",
+          "description": "This spell does 8 points of magical damage due to fire.",
+          "rank": 1
+        },
+        {
+          "name": "Fire Brand",
+          "ppCost": 2,
+          "duration": "Latent",
+          "description": "This spell can only be cast on a weapon. If you hold the weapon, you can invoke this spell, which causes the next weapon attack done by the weapon to be fire based. Fire Brand does not make the attack magical and it does not add any damage to the weapon. The attacker declares a blow to be fire based by adding the word “Fire” to the damage done by the attack; for example: “Two Fire.” Fire Brand only lasts for one blow, but if an attacker fails to hit their target the spell is not used up. Fire Brand can be combined with any martial skill such as Weapon Proficiencies, Slay, Assassinate, Critical Attack, Waylay, etc.",
+          "rank": 1
+        },
+        {
+          "name": "Fire Shield",
+          "ppCost": 3,
+          "duration": "Latent",
+          "description": "When invoked, this spell will cancel the effects of one Pyrotechnics spell. Fire Shield will also negate one blow from a weapon that does normal or magical flame damage but will not stop special damaging martial attacks such as the Slay, Critical Strike, Stun, Assassinate, etc. skills. A Fire Shield will protect against extreme non-magical heat such as molten lava for 5 seconds.",
+          "rank": 2
+        },
+        {
+          "name": "Fireball",
+          "ppCost": 4,
+          "duration": "Instant",
+          "description": "This spell does 16 points of magical damage due to fire.",
+          "rank": 2
+        },
+        {
+          "name": "Inferno",
+          "ppCost": 6,
+          "duration": "Instant",
+          "description": "This spell does 24 points of magical damage due to fire.",
+          "rank": 2
+        },
+        {
+          "name": "Wall of Flame",
+          "ppCost": 6,
+          "duration": "While Concentrating",
+          "description": [
+            "This spell creates a 10 foot by 10 foot by 1 foot wall of fire; if anyone touches or passes through the Wall of Flame spell they take 14 points of magical damage due to fire.",
+            "This spell follows the normal rules for walls described earlier in this chapter."
+          ],
+          "rank": 3
+        },
+        {
+          "name": "Dragon's Breath",
+          "ppCost": 8,
+          "duration": "Instant",
+          "description": "This spell does 32 points of magic damage due to fire.",
+          "rank": 3
+        },
+        {
+          "name": "Lava Burst to Burn My Enemies",
+          "ppCost": 12,
+          "duration": "Instant",
+          "description": "This spell does 48 points of magic damage due to fire.",
+          "rank": 4
+        },
+        {
+          "name": "Meteor Swarm to Destroy my Enemies with the Power of Fire",
+          "ppCost": 20,
+          "duration": "Instant, Special",
+          "description": [
+            "This spell also costs 1 permanent power point",
+            "This spell allows the caster to throw 10 balls of fire doing 16 points of magical fire damage each. If the caster moves or takes damage then they will loose whatever balls of fire they have not yet thrown. The caster may pivot on their right foot while this spell is active without ending the spell. The caster has the option to throw all the balls of fire at once or one at a time or any combination they want."
+          ],
+          "rank": 5
+        },
+        {
+          "name": "Volcano to Smite Down my Foes with the Raging Power of the Deep Fires of the Earth",
+          "ppCost": 30,
+          "duration": "Instant, Special",
+          "description": [
+            "This spell also costs 2 permanent power points",
+            "This spell allows the caster to throw 10 balls of fire doing 24 points of magical fire damage each. If the caster moves or takes damage then they will loose whatever balls of fire they have not yet thrown. The caster may pivot on their right foot while this spell is active without ending the spell. The caster has the option to throw all the balls of fire at once or one at a time or any combination they want."
           ],
           "rank": 5
         }
