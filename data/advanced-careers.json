@@ -1,0 +1,362 @@
+[
+  {
+    "name": "Alchemist",
+    "introduction": [
+      "An Alchemist is an individual devoted to understanding and unlocking the secrets of nature and using them to create rare and exotic substances. In addition to a devotion to studying all the available alchemical literature, the basis of the Alchemist consists of tradesman skills, such as refining, distilling, and preparing dissected parts into alchemical components. As the Alchemist advances they learn to combine these trades with their knowledge of the arcane and science to create standard alchemical items from known recipes. Once an Alchemist has advanced well into their career the famous alchemical skills become available, such as the creation of golems. At the apex of their career, after many years of hard work and study the alchemist may be able to achieve rank 5 of their chosen specialty and there by perform research and design their own alchemical items.",
+      "It is truly the rare and almost unheard of alchemist who has achieved rank 6 in any one school of alchemy."
+    ],
+    "rules": [
+      {
+        "type": "header",
+        "content": "Using Alchemical Items"
+      },
+      "Some alchemical items are easily used by anyone, while others require the wielder to be instructed. Any character can use any Potion, Solution, or Poison, so long as it is used in the correct manner. If the character, for example drinks an Oil of Sharpeness they would gain no benefit and would get an upset stomach instead; or if a character used a Healing Potion on a sword the potion would have no effect.",
+      "A character cannot be forced to drink an alchemical item if they are unwilling. They can be charmed or coerced into drinking something however. Characters who are Unconscious, Bleeding to Death, Mortally Wounded or Dying cannot drink alchemical items. Golems and non-corporeal undead cannot drink alchemical items either.",
+      "Although some alchemical items duplicate magical spell effects, these items are not magical themselves. Therefore, detection spells do not detect alchemical items as magical",
+      "Defenses that stop spells such as a Defense, Negation, Reflection, Absorption, and Resist Suggestion spells are ineffective against alchemical items. The Purity spell and Ritual of Alchemy Shield will stop most alchemy. These magical defenses and the Resist Alchemy and Nature’s Purity skills will not stop alchemical items that produce an effect and therefore do not affect the character directly. The following alchemical items are stopped by magical defenses that stop physical attacks: Paste of Binding, Acids, Fire Breath Potion, Sun Water, Paste of Stickiness, and Alchemical Lubricant. Additionally, alchemical items like Oil of Striking, Oil of Mithril Blade, Oil of Fire Blade, and Oil of Armor affect the weapon or armor and are not stopped by these defenses. The Purity spell will not stop any ingested alchemical item. Gases and dusts are not stopped by defensive martial skills, if a character chooses to use one they take the affect of the alchemical item.",
+      "A Purify Blood spell cures or removes all alchemical effects that do not cause damage that affect the character directly. For example, the effects of a Sleep Poison, Paralysis Poison, Silence Poison, Giant Strength Potion, etc. will end if the character is affected by a Purify Blood spell.",
+      "An alchemical item that is thrown like a dust, contact item or gas is used as soon as it is thrown, no matter where it lands or if a character catches the packet. The player must tear about half the tag off the physical representation before throwing the item. A character cannot “prepare” more than one alchemical item ahead of time before throwing them and the character has 1 minute to use the item before it becomes inert. Thrown contact poisons, in order to take affect, must hit a character with no physical Armor Points remaining. Alchemical items in a pouch or pocket are not broken if struck with a weapon. As a general rule, if you find any thrown alchemy on the ground during a big battle, you should assume it is used. This is also true for contact substances that are placed on a weapon or object. If the sword hits the player – not their weapon or shield – the alchemical item is used. If a defense that stops physical attacks is called against the alchemical item, the item is also used. Once any alchemy – thrown or applied – is used it cannot be reused or collected.",
+      "If a weapon or object coated with a poison is touched by bare skin, the poison is expended and the character is affected. If a character is immune to a poison, they cannot apply that poison to their bare hand. While they will not be affected by the poison, it is still expended.",
+      "It is possible to stack a spell and an alchemical item at the same time. As a rule, only one type of alchemical item can be drunk or used at one time. The same is true for alchemical items on objects. In other words, only one Giant Strength potion can be used at one time, or one Oil of Striking. You can use two oils on a weapon so long as they are of different types. If you do mix two like items, both will be destroyed.",
+      "For example, Duncan uses an Oil of Striking +2 and an Oil of Silver Blade on his weapon. Now the weapon will swing for a base of 4 points of damage and with the “Silver” suffix, so “8 Silver” with all of his other bonuses. But if Duncan adds another Oil of Striking – of any strength – all oils of striking are destroyed or an Oil of Mithril Blade or Ghost Blade then all the blade oils are destroyed.",
+      "Alchemical items on an item are used as soon as the item is used. If a person dies and must go to the Healers’ Guild, without their body, all alchemical effects are gone. If an item is shattered or destroyed, all alchemical items on it are destroyed as well. All alchemical items take effect instantly after being administered, unless noted elsewhere.",
+      {
+        "type": "header",
+        "content": "Special Rule of Poisons"
+      },
+      "A poison or other alchemical item that is an ingested substance can be placed in food or drink. Most of the food or drink must be consumed before the item will take effect, for marshaling purposes at least 75% of the food or drink counts as most.",
+      "If a character wants to poison a large container or vessel, such as a cask of ale or a pot of stew, they need to have enough doses of the alchemical substance to dose the entire batch or container.",
+      "For example, Balthazar decides he wants to “spice” things up at the feast one night. He goes to a Marshal and asks how many servings of stew are in the pot in the kitchen. The Marshall rules that the pot holds 25 servings of stew. Balthazar would then need 25 Gypsy Love Poisons to dose the batch, any less and the attempt completely fails and all doses are lost. But Balthazar has been planning this for a long time and has the needed 25 doses of the poison. He sneaks in the kitchen and while Fugazi the Cook is not looking, dumps the poison into the pot, while the Marshal is watching. Now whenever someone finishes their stew they will fall in love with the next person of the opposite sex they see.",
+      "Even though there is a potential for a lot of an alchemical item needed for a container, unless a character has the first rank of the appropriate school, the alchemical item is undetectable.",
+      {
+        "type": "header",
+        "content": "Material Components"
+      },
+      "Alchemical items are produced by following a prescribed recipe. This involves physically and chemically transforming the material components into the desired product by sheer force of will. There are two types of components: common ones, called Reagents, and Rare Components. Reagents are simple, common chemicals and herbs that are used in brewing the item. They are found all over Midlantia: from the Elven forest to the Dwarven mines, from the ocean to the Northern Ice. None of these are difficult to get, nor do they require special skills to collect, but require some one willing to get them, like merchants. The Reagents can be purchased, typically for 5 copper pieces each, from the Alchemist Guild, found while adventuring, or at the Merchants Guild. The second component type, the Rare Component, must be acquired in game.",
+      "In order to properly collect material components, the player must have Dissection for characters, Herbal Lore for plants, and anyone can collect minerals once identified. When gathering material components, a player should write down the nature of the component and have an appropriate witness sign their name and player number. It should then be taken to an Alchemy Marshal or the Treasure Marshal, where a tag will be generated. In game, the Alchemist actually sits down after dissecting and refines, to a certain degree, the component to get from it all he needs to make it useful. For example the Alchemist needs the blood of a Troll. All the blood in the Troll is bled out and the final drops are collected and brought back to the guild. There the Alchemist refines it down to a few useful doses. A player can increase the usefulness of these Rare Components with the Advanced Refining skill.",
+      "A character may never substitute one component for another. If the recipe calls for the Willing Blood of a Paladin, only the Willing Blood of a Paladin may be used. Even if that blood comes from a human, a Solar or a Dragon, it is the same component. If a character wishes to use a different component in a recipe, they must research a new version of that alchemical item. Players should read the section on creating new alchemy for further information.",
+      "Some characters, especially monster types, might be worth more doses of a component being dissected. For example, the character is looking for Essence of a Memory Moss and discovers a creature called the Mother of all Memory Mosses. Instead of the two doses the character would normally get, they will receive four doses from dissecting the character. The Plot Committee will indicate on any special character if they yield more than the normal number of doses, the player does not need to ask. If the NPC’s card does not say it gives more doses, then it does not.",
+      {
+        "type": "header",
+        "content": "Alchemical Tags"
+      },
+      "Alchemical items can only be identified by characters with the appropriate Alchemy skill. Therefore, a character who acquires alchemical items will not know what the item is until it is properly identified. This does not preclude anyone from labeling the item in- game either correctly or incorrectly but the number, and/or description on the LAIRE item tag must be present, correct and whole. An out-of-game tag will be placed on the physical representation for each item. This tag should have the code number for the item; this allows characters with the appropriate skills to identify the item. The character identifying an item should initial the out-of-game tag as proof of a character’s in-game knowledge of the item’s identity with their initials and player number.",
+      "All finished products must be in a vial. A player cannot have their character carry a stack of finished items while they adventure. It is acceptable to have just tags and no vials when a character has their items in its place of storage.",
+      "For example, Pyrrhus has several poisons and potions in his in-game box in his room at the event. He keeps them on a tag ring, not in vials. He decides he wants to sell some about town and use a few others on an adventure. He must place all the tags he is taking from his room into vials; he cannot simply take the tags and carry them on his tag ring.",
+      {
+        "type": "header",
+        "content": "Recipe Books"
+      },
+      "Every alchemist is required to have a recipe book. The alchemist must produce the recipe to the marshal when he makes his alchemical item, including golems. A recipe can be copied as any other text, but must be done in-game. Each recipe must appear on its own piece of paper. This information must appear on the page:",
+      {
+        "type": "list",
+        "items": [
+          "School of Alchemy the item belongs to",
+          "Name of item",
+          "Rank",
+          "Rare component(s)",
+          "Description of the item",
+          "The marshal’s initials and date"
+        ]
+      },
+      "The player may feel free to add other information to the page, such as directions for brewing the potion, but the basic information must be present.",
+      "If the recipe is copied from someone or somewhere, the marshal needs to see the original source and sign and date the new copy. There is effectively no limit to the number of copies an alchemist can have.",
+      {
+        "type": "header",
+        "content": "Producing Alchemical Items"
+      },
+      "All alchemical items must be produced in-game with a marshal present. The player must produce the Reagent Tags, the Rare Component Tags and their copy of the Alchemical Recipe before they begin to brew. The character is limited to the amount of alchemy they can create in one month’s time. The rate of production, in-game production time, and cost is given in the table below.",
+      "An Alchemist receives 5 Production Points per Rank of skill that they know, per school that they know. So a character with Rank 2 Potions will have 10 Production Points for potion creation only and a character with Rank 5 Solutions would have 25 Production Points of solution creation only. The Alchemist gets to renew their Production Points on the first day of the month, regardless of when the LAIRE Event takes place. The character gets their production for each school of Alchemy they know. However, the earned Production Points for each school are not transferable between schools; a player cannot use their Poison Production Points to make Solutions. The points may only be combined when making a Golem. Each alchemical item must be made separately and cannot be created in “batches”. The alchemist does not have to work on their items consecutively, but must complete the item once started. Brewing alchemical items does not require the characters complete concentration. Therefore, they are able to converse, cast spells, etc, however if they are attacked or forced to walk away from their work their brewing automatically fails and all Reagents and Rare Components are lost.",
+      "For example, Terrance with Rank II Solutions, Rank IV Poisons and Rank V Potions has 10 Production Points towards Solutions, 20 Production Points towards Poisons and 25 Production Points towards Poisons. He cannot use his Potion Production Points to make a Solution or Poison.",
+      "A character with the Alchemy Skills must turn in the Rare Component tags and the necessary number of Reagent tags at the beginning of the production to the Alchemy Marshal. The marshal will note on the player’s Character Card the number of Production Points for each school they have expended.",
+      {
+        "type": "table",
+        "title": "Alchemy Production and Cost Table",
+        "headers": [
+          "Rank",
+          "Production Time (Min)",
+          "Production Point Cost",
+          "Number of Reagent Tags (In Guild)",
+          "Number of Reagent Tags (Portable Lab)",
+          "Number of Reagent Tags (On the Road)",
+          "Production Points for a Rank"
+        ],
+        "rows": [
+          [
+            "Rank 2",
+            "5",
+            "2",
+            "2",
+            "4",
+            "8",
+            "10"
+          ],
+          [
+            "Rank 3",
+            "10",
+            "4",
+            "4",
+            "8",
+            "16",
+            "15"
+          ],
+          [
+            "Rank 4",
+            "20",
+            "6",
+            "8",
+            "16",
+            "32",
+            "20"
+          ],
+          [
+            "Rank 5",
+            "30",
+            "8",
+            "16",
+            "32",
+            "64",
+            "25"
+          ],
+          [
+            "Rank 6",
+            "40",
+            "10",
+            "32",
+            "64",
+            "128",
+            "35"
+          ],
+          [
+            "Rank 7",
+            "50",
+            "12",
+            "64",
+            "128",
+            "n/a",
+            "40"
+          ],
+          [
+            "Rank 8",
+            "60",
+            "14",
+            "128",
+            "n/a",
+            "n/a",
+            "45"
+          ],
+          [
+            "Rank 9",
+            "70",
+            "16",
+            "256",
+            "n/a",
+            "n/a",
+            "50"
+          ],
+          [
+            "Rank 10",
+            "80",
+            "18",
+            "512",
+            "n/a",
+            "n/a",
+            "55"
+          ]
+        ]
+      },
+      "There is a chance of failure when making alchemical items. If a character rolls a Failure or a Critical Failure, the major component and all reagents are expended. The chance to fail to make an alchemical item is:",
+      {
+        "type": "list",
+        "items": [
+          "An Alchemist making an alchemical item at the rank they know has a 15% chance of Failure. When creating items below their rank, the Alchemist gains +5% to their roll per rank. See table below.",
+          "An Alchemist making an alchemical item at the rank they know has a 3% chance of Critical Failure. When creating items below their rank, the chance is reduced by 1%. See table below.",
+          "A roll of 100 always fails.",
+          "+5% bonus for doubling the Production Time.",
+          "+5% bonus for using double the number of base reagents."
+        ]
+      },
+      {
+        "type": "image",
+        "fileName": "rank_of_alchemy_school_known.png"
+      },
+      "For example, Terrence from the example above wants to use his Production Points and alchemy skills to make some alchemical items. First, he finds an Alchemy Marshal. Then together they go to the Alchemist’s Guild to brew up his concoctions. First he decides to make three 8 Point Sun Water solutions. He takes three doses of Blood of a Willing Healer, and six reagent tags (2 reagents x 3 solutions). Each solution takes 5 minutes to make. The marshal times each solution and, at the end of each, he asks Terrence to roll percentile dice. Terrence rolls a 37, 24, and a 94. Terrence successfully creates two solutions, and fails at one. The marshal writes out two tags for the successful creations.",
+      "For example, Terrence from the example above wants to use his Production Points and alchemy skills to make some alchemical items. First, he finds an Alchemy Marshal. Then together they go to the Alchemist’s Guild to brew up his concoctions. First he decides to make three 8 Point Sun Water solutions. He takes three doses of Blood of a Willing Healer, and six reagent tags (2 reagents x 3 solutions). Each solution takes 5 minutes to make. The marshal times each solution and, at the end of each, he asks Terrence to roll percentile dice. Terrence rolls a 37, 24, and a 94. Terrence successfully creates two solutions, and fails at one. The marshal writes out two tags for the successful creations.",
+      "Next, Terrence wants to create two gaseous Silence poisons. He takes out two doses of Tongue of a Halfling. Each poison takes 5 minutes, 4 Production Points (2 Production Points x 100%), and 4 reagent tags (2 reagent tags x 100%). A total of 10 minutes, 8 Production Points, and 8 Reagent tags. After each poison is completed the marshal has Terrence roll and he gets a 12 and a 100. The first poison is created successfully, but the last is a flaw. The marshal informs Terrence he takes 4 points of damage. The marshal fills out the tag for the successful creation.",
+      "Lastly, Terrence wants to make a contact Heal Mind potion and a Strength Potion +3 with an extended duration of 10 minutes. Terrence takes out his Darkwood Mushroom and Muscles of a Troll component tags. Also, he counts out 12 reagent tags for the former (8 reagent tags x 50%) and 6 reagent tags for the latter (4 reagent tags x 50%). The potions Terrence wishes to make will cost 9 and 6 Production Points respectively. Once again the marshal times the creation of the potions, 20 minutes for the first and 10 minutes for the second. Terrence rolls a 45 and a 26. The marshal fills out two tags for Terrence and tares up the used component and reagent tags.",
+      "Now Terrence takes his new alchemy and heads out, ready for an adventure. He still has 4 Solution, 12 Poison, and 10 Potion Production Points left he can use later.",
+      {
+        "type": "header",
+        "content": "Modifying Alchemical Items"
+      },
+      "There are three skills a player can have their Alchemist character learn and use to modify the basic alchemical recipes found later in this section. The first is Extend Duration, which increases the duration of some alchemical items. The most a character can increase the duration is two steps down on the following chart. Each level has its own associated cost. The following table outlines the duration times and what it takes to use this skill.",
+      {
+        "type": "image",
+        "fileName": "extend_duration_table.png"
+      },
+      "No alchemical item can have a duration longer than 1 Event.",
+      "The second and third skills the character can use to modify their alchemical items are Make Contact and Make Gaseous. These are two separate skills and are mutually exclusive; the player must choose one or the other when producing their items. Make Contact skill allows the alchemical item to be delivered by touch: a thrown item, placed on an object, or applied to a blade. Make Gaseous skill makes the alchemical item affect everyone in a radius indoors or outdoors. To determine who is affected, the character struck with the gas or the closest player to the gas should stretch their arms out to either side and turn in a circle and anyone in that radius that the player can touch is affected. In the below table, the cost and Production Point increase for using these skills are outlined.",
+      {
+        "type": "table",
+        "title": "Contact and Gaseous Table",
+        "headers": [
+          "Type",
+          "Production Point Increase",
+          "Reagent Tag Increase",
+          "Additional Component"
+        ],
+        "rows": [
+          [
+            "Contact",
+            "+50%",
+            "+50%",
+            "Pitchblende"
+          ],
+          [
+            "Gaseous",
+            "+100%",
+            "+100%",
+            "1 pt. of Acid"
+          ]
+        ]
+      },
+      "For purposes of making gases, any level acid will do and the character can use only one point of it. The Alchemy Marshal will mark off the point on the tag.",
+      "All Production Point and Reagent Tag increases are cumulative. So if an Alchemist wanted to make a gaseous 6 hour Heroism potion it would cost them 24 Production Points (8 Base + 8 for Extend Duration + 8 for Make Gaseous), 48 Reagent Tags (16 Base + 16 for Extend Duration + 16 for Make Gaseous), and 30 minutes in-game.",
+      "No item once made can be changed. Therefore Extend Duration, Make Contact and Make Gaseous must be used at the time of creation and cannot be used on an already existing item. For a full description of Extend Duration, Make Contact and Make Gaseous skills see Chapter 5.",
+      {
+        "type": "header",
+        "content": "Creating a Golem"
+      },
+      "The pinnacle of alchemical mastery is the art of golem crafting. By means of the Create Golem skill, the character is able to animate a golem to serve his needs. The golem has no free will and will obey the commands given to it to the fullest extent of its ability. While the golem is robotic in nature, it does understand the intent of the commands given to it, understanding the will of the creator. It is able to remember any number of commands.",
+      "The golem however is unable to make rational choices. If the golem is ordered to: “Kill anyone who attacks me,” the golem will attack a person who gives a friendly slap. The golem cannot be ordered to “Attack anyone who steals something from this room,” but can be ordered to “Attack anyone who takes anything from this room they did not come in with.” In the latter case the golem will attack a character even if the alchemist gives them something to take with them.",
+      "The golem can never be made to harm the creator, and similarly the creator cannot order the golem to strike them self. The golem can be ordered to listen to the commands of someone else, but the creator’s command will always override anyone else they have given control of the golem to.",
+      "The character must gather the needed components to create the golem before starting to animate the golem. In the case of flesh golems, the alchemist has the required skill to sew the golem together. Wood and stone golems require someone with the appropriate craftsman skill to fashion the golem. The alchemist needs to find someone with Rank 2 of either the Weapon Smith or Armor Smith skill to create the husk needed to animate the golem.",
+      "The creation process ends with the alchemist transfusing all of their blood to the golem thereby delivering a Killing Blow to the character. The alchemist may be healed appropriately. The character will lose a number of Body Points equivalent to the level of golem created until the golem is destroyed. The Body Points must come from the creator and not a potion or spell. This creates the link between creator and golem. The golem must be created in the Alchemist Guild or an equivalently outfitted laboratory.",
+      "Should the golem be destroyed, the creator will know it instantly (or as soon as a marshal can tell the player) and will experience pain as the Body Points return.",
+      "A character who has a golem must find a volunteer to play the golem. Any player can volunteer their own time to play the golem, but they cannot make it part of their NPC duty without a Plot Marshal’s approval. However, if a Marshal has foreknowledge that a golem is present in someone’s room and they send out a group to specifically engage that area, they should send an extra NPC to play the golem.",
+      {
+        "type": "table",
+        "title": "Golem Creation Table",
+        "headers": [
+          "Rank",
+          "Golem",
+          "Creation Time",
+          "Production Points",
+          "Reagent Tags*",
+          "Major Component",
+          "Minor Component**"
+        ],
+        "rows": [
+          [
+            "Rank 1",
+            "Wood",
+            "30 min",
+            "40",
+            "100",
+            "Knot of Wood from Mistwood Tree",
+            "Carved wood Statue Made from Material Worth 5 silver pieces"
+          ],
+          [
+            "Rank 2",
+            "Flesh",
+            "45 min",
+            "50",
+            "200",
+            "Copper Heart (25cp) and 400 points of Lightning Damage",
+            "Embalmed Parts from 4 Creatures"
+          ],
+          [
+            "Rank 3",
+            "Stone",
+            "60 min",
+            "60",
+            "300",
+            "Stone from the Heart of a Bed of Lava",
+            "Carved Stone Statue Made from Material Worth 1 gold piece."
+          ],
+          [
+            "Rank 4",
+            "Iron",
+            "90 min",
+            "70",
+            "400",
+            "Essence of a Level 5 Fire Elemental",
+            "Forged Iron Statue Made from Material Worth 2 gold pieces"
+          ],
+          [
+            "Rank 5",
+            "Steel",
+            "105 min",
+            "80",
+            "500",
+            "Saliva of a Red Drake",
+            "Forged Steel Statue Made from Material Worth 3 gold pieces"
+          ],
+          [
+            "Rank 6",
+            "Mithril",
+            "120 min",
+            "90",
+            "600",
+            "Fire Ruby",
+            "Forged Mithril Statue Made from Material Worth 100 gold pieces"
+          ]
+        ],
+        "footers": [
+          "** Two whole, un-dissected, destroyed golems of the same type can be substituted for the minor component."
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Creating New Alchemical Items"
+      },
+      "Once a character learns Rank 5 in a school of Alchemy, they are able to perform research to create new alchemical items. There are some guidelines that the player should follow and think about when proposing a new item.",
+      {
+        "type": "list",
+        "items": [
+          "Items that heal or cure cannot be made gaseous. The basic premise or in-game justification for this is the process of making an item gaseous – namely adding acid in the final steps – destroys the item or adds too many impurities to the item for it to work.",
+          "There are no “Purify Blood” potions. The only items that do something similar to this are the antidote poisons.",
+          "Alchemical items do not affect magic directly. While there are potions that make you indirectly immune to a magical effect, generally speaking, items that destroy or dispel magic; drain or add Power Points; stop spells; or duplicate special magical effects like Total Power or sorcery rituals are not viable alchemical items.",
+          "The Rare Component should reflect or symbolize the desired alchemical effect. Lizardman scales would be a poor choice for a potion of Fire Breathing.",
+          "As a general rule, each item only has one Rare Component. There are some instances where an item has two Rare Components, as in the case of Dust of Sleep, but the player should limit themselves to one basic Rare Component.",
+          "An item that gives the character more uses or effects from another item is also disallowed. No wishing for more wishes."
+        ]
+      },
+      "There are other considerations, such as game balance, that will take into account when approving the new item.",
+      "Any alchemical item not found in these rules must have a simple description of the effect on the back of the item tag.",
+      "The player is required to make their proposal in writing. proposal must include:",
+      {
+        "type": "list",
+        "items": [
+          "The desired effect of the alchemical item.",
+          "The desired duration of the effect (instant, 10 minutes, 1 hour, etc.)",
+          "The Rare Component needed.",
+          "The proposed school and rank."
+        ]
+      },
+      "After approval, the chance of initial success is 50% after fulfilling these base requirements:",
+      {
+        "type": "list",
+        "items": [
+          "1 silver piece times the rank of the alchemical item.",
+          "The number of doses of Reagents the alchemical item requires.",
+          "10 minutes per rank of in-game roleplaying; then an additional month of out-of-game research for modifying an existing recipe or two months of out-of-game research to create a new recipe.",
+          "A single dose of the Rare Component."
+        ]
+      },
+      "To increase this success chance, the character may spend more time and money:",
+      {
+        "type": "list",
+        "items": [
+          "+5% per extra Event of roleplaying up to a maximum of four extra Events.",
+          "+1% per extra 1 silver piece spent but the maximum chance is 95%.",
+          "+25% bonus for modifying an existing recipe.",
+          "+1% times (Character’s Rank of Alchemy School – Rank of Alchemical Item being Researched)",
+          "Special bonuses assigned by the Plot Committee, which could be either a positive or a negative bonus."
+        ]
+      },
+      "The maximum chance of success is always 95%.",
+      "After submitting the proposal, the player will be informed if the alchemical item will not be allowed in-game or if the character will never be able to make the item. If approved, the character then spends the required time and rolls to determine the success of the research and tries to create the item. If they succeed their research roll but some aspect of the recipe is inappropriate – wrong Rare Component, wrong effect etc – the E-Board will inform the player after they attempt to create their new alchemical item. If they fail the research roll, the player will be informed after they failed to create the new alchemical item that the roll failed and they should try again after researching at least another Event gaining the appropriate bonus, however the character needs not spend more money."
+    ]
+  }
+]

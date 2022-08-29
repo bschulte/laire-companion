@@ -878,6 +878,141 @@
         "specialNotes": [
           "The Build Point costs separated by slashes are the costs for each rank of the Weapon Smith skill."
         ]
+      },
+      "alchemist": {
+        "skills": [
+          {
+            "name": "Alchemy Lore",
+            "cost": 2,
+            "duration": "Constant",
+            "prerequisiteSkill": "Literacy, Herbal Lore",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Potions I-V",
+            "cost": [2, 2, 3, 4, 5],
+            "duration": "Constant",
+            "prerequisiteSkill": "Alchemy Lore",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Poisons I-V",
+            "cost": [2, 2, 3, 4, 5],
+            "duration": "Constant",
+            "prerequisiteSkill": "Alchemy Lore",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Solutions I-V",
+            "cost": [2, 2, 3, 4, 5],
+            "duration": "Constant",
+            "prerequisiteSkill": "Alchemy Lore",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Create Golem I-VI",
+            "cost": [2, 2, 2, 2, 2, 2],
+            "duration": "Constant",
+            "prerequisiteSkill": "2 Rank 5 Alchemy Schools, Embalming",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Dissection",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Alchemy Lore",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Embalming",
+            "cost": 2,
+            "duration": "Special",
+            "prerequisiteSkill": "Alchemy Lore, Dissection",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Identify Components",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Alchemy Lore, Dissection",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Advanced Refining",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Identify Component",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Make Contact",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Any One Rank 3 Alchemy School",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Resist Alchemy",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "Alchemy Lore, Any Two Rank 3 Alchemy School",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Poison Immunity",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Resist Alchemy",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Extend Duration",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Alchemy Lore, Any Rank 4 Alchemy School",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Make Gaseous",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Any Two Rank 4 of an Alchemy School",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Alchemical Focus",
+            "cost": 0,
+            "duration": "Constant",
+            "prerequisiteSkill": "Alchemy Lore, Rank 3 of One School",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Inner Catalyst",
+            "cost": 0,
+            "duration": "Constant",
+            "prerequisiteSkill": "Alchemy Lore, Rank 5 Potions",
+            "purchase": "Once",
+            "tagged": "No"
+          }
+        ],
+        "specialNotes": [
+          "The Build costs separated by slashes are the costs for each rank in the school of Alchemy. For example, the list cost of the Potions School is given as 2/2/3/4/5; this means that the Rank 1 Potions School costs 2 Build, Rank 2 Potions School costs 2 Build, Rank 3 costs 3 Build, Rank 4 costs 4 Build and Rank 5 costs 5 Build."
+        ]
       }
     }
   ],
