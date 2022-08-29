@@ -14,3 +14,4 @@
 * Are any of the italicized or bolded text things that actually matter to the rule?
 
 * For the golem creation table, there doesn't appear to be the first footer for the table
+* A lot of potions have "Instant" duration, but then in the description say they last for the duration of the potion

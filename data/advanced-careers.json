@@ -356,7 +356,1123 @@
         ]
       },
       "The maximum chance of success is always 95%.",
-      "After submitting the proposal, the player will be informed if the alchemical item will not be allowed in-game or if the character will never be able to make the item. If approved, the character then spends the required time and rolls to determine the success of the research and tries to create the item. If they succeed their research roll but some aspect of the recipe is inappropriate – wrong Rare Component, wrong effect etc – the E-Board will inform the player after they attempt to create their new alchemical item. If they fail the research roll, the player will be informed after they failed to create the new alchemical item that the roll failed and they should try again after researching at least another Event gaining the appropriate bonus, however the character needs not spend more money."
+      "After submitting the proposal, the player will be informed if the alchemical item will not be allowed in-game or if the character will never be able to make the item. If approved, the character then spends the required time and rolls to determine the success of the research and tries to create the item. If they succeed their research roll but some aspect of the recipe is inappropriate – wrong Rare Component, wrong effect etc – the E-Board will inform the player after they attempt to create their new alchemical item. If they fail the research roll, the player will be informed after they failed to create the new alchemical item that the roll failed and they should try again after researching at least another Event gaining the appropriate bonus, however the character needs not spend more money.",
+      {
+        "type": "header",
+        "content": "Alchemical Item Lists",
+        "variant": "h1"
+      },
+      "Below are the commonly available items players can find in-game. Players are able to make new items, therefore you should not be surprised to find new things as you play the game.",
+      {
+        "type": "header",
+        "content": "Description Headings"
+      },
+      "Each alchemical item has a description heading that summarizes some of the important information pertaining to each item. Below is an explanation of what each heading indicates.",
+      {
+        "type": "header",
+        "content": "Forms",
+        "variant": "h3"
+      },
+      "There are three forms each alchemical item can take: Ingested, Contact, and Gaseous. Ingested indicates that the substance must be consumed to work. Alchemical items, like Poisons, can be placed into a drink or on food and still function normally. Contact indicates that the Make Contact skill can be used on the item to make it able to be applied to a weapon or object and will take effect if touched. Gaseous indicates that the substance can be turned into a gas with the Make Gaseous skill. Some alchemical items have a Special application method. The player should read the descriptive text to learn more.",
+      {
+        "type": "header",
+        "content": "Duration",
+        "variant": "h3"
+      },
+      "Every alchemical item has a duration. These include Instant, 10 Minutes, 1 Hour, 6 Hours, 24 Hours, or 1 Event.",
+      {
+        "type": "header",
+        "content": "Component",
+        "variant": "h3"
+      },
+      "This is the Rare Component needed to make this item.",
+      "Some components have a descriptor in parentheses juxtaposed to the components name that indicates the amount of that substance that constitutes a dose – the amount of that substance that is needed to make that alchemical item.",
+      {
+        "type": "header",
+        "content": "Yield",
+        "variant": "h3"
+      },
+      "Some Rare Components come from characters. When a player dissects a character, this heading indicates how many usable doses they can get from that character. For a full description on how the Dissection skill works, see the Dissection skill description in Chapter 5.",
+      {
+        "type": "header",
+        "content": "Rarity",
+        "variant": "h3"
+      },
+      "This heading indicates how rare the component is. Advanced Refining skill takes longer on more rare components. This also gives the player a relative idea of how much the component is worth.",
+      {
+        "type": "header",
+        "content": "Using Acids"
+      },
+      "Acids affect corporeal undead normally, but has no effect on non- corporeal undead. The following chart shows how acids affect various substances. Note: metals do not include Mithril or higher, which no known acid will effect. There is no known acid that can affect glass.",
+      {
+        "type": "table",
+        "title": "Acid Effect Table",
+        "headers": ["Rank", "Parchment/Cloth", "Wood/Rope/Leather/Bone", "Metal/Ceramic", "Stone/Gems"],
+        "rows": [
+          ["Rank 2", "4x4x1 in", "1x1x1 in", "N/A", "N/A"],
+          ["Rank 3", "12x12x1 in", "4x4x1 in", "1x1x1 in", "N/A"],
+          ["Rank 4", "24x24x1 in", "12x12x1 in", "4x4x1 in", "1x1x1 in"],
+          ["Rank 5", "36x36x1 in", "24x24x1 in", "12x12x1 in", "4x4x1 in"],
+          ["Rank 6", "4x4x1 ft", "36x36x1 in", "24x24x1 in", "12x12x1 in"],
+          ["Rank 7", "5x5x1 ft", "4x4x1 ft", "36x36x1 in", "24x24x1 in"],
+          ["Rank 8", "6x6x1 ft", "5x5x1 ft", "4x4x1 ft", "36x36x1 in"],
+          ["Rank 9", "7x7x1 ft", "6x6x1 ft", "5x5x1 ft", "4x4x1 ft"],
+          ["Rank 10", "8x8x1 ft", "7x7x1 ft", "6x6x1 ft", "5x5x1 ft"]
+        ]
+      }
+    ],
+    "poisonsSchool": [
+      {
+        "name": "6 Point Poison",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison delivers 6 points of direct body damage.",
+          "Extend Duration has no effect on this poison. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Love Poison",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": "When this poison affects a character, they fall in love with the first member of the opposite sex they see. A Purify Blood spell will remove the effect before the duration expires.",
+        "rank": 2
+      },
+      {
+        "name": "Slow Death",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison will bring the affected character to the Brink of Death after 6 hours, and can be healed normally. A Purify Blood is not needed before the character is lifed; the poison has run its course. After being poisoned, the character begins to feel ill – stomach pains, headache, weakness and a fever – and these symptoms get worse over the 6 hours. If the character is sleeping when affected by this poison, they will wake up after an hour of being affected.",
+          "Extend Duration has no effect on this poison. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Silence Poison",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": "The character affected by this potion is unable to speak and therefore unable to cast spells or use any other skill that requires a verbal. The character is still able to call damage and invoke latent spells, as these actions are out-of-game. The effect can be cured by a Purify Blood spell.",
+        "rank": 2
+      },
+      {
+        "name": "12 Point Poison",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison delivers 12 points of direct body damage.",
+          "Extend Duration has no effect on this poison. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Blindness Poison",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison causes the target character to be blind. They will remain blind for 10 minutes or until a Purify Blood spell is used to cure the poison. While blinded a character cannot make any melee attacks unless they have the Blind Fighting skill. They can close their eyes and throw a spell “blind”. They can use their weapons to attempt to block attacks directed at them, so long as their eyes are closed and do not attempt to swing their weapon. They are able to use any defensive skills or spell defenses they have, such as Master Parry, Crit Parry, or Negation.",
+          "When you roleplay the effects of a Blind Poison, you can close your eyes. However, take care if you are on rough terrain or in a room with sharp furniture. It is better to keep your eyes open and be safe than it is to role-play your character’s blindness convincingly."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Paranoia Poison",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": "The target character becomes paranoid that everyone and everything is out to get them. A Purify Blood spell will end the effect before the duration expires.",
+        "rank": 3
+      },
+      {
+        "name": "Quick Death Poison",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison will bring the affected character to the Brink of Death after 1 hour. They require the normal healing methods for healing a character at the Brink of Death. A Purify Blood is not needed before the character is lifed; the poison has run its course. After being poisoned, the character begins to feel ill – stomach pains, headache, weakness and a fever – and these symptoms get worse over the hour. If the character is sleeping when affected by this poison, they will wake up after 10 minutes of being affected.",
+          "Extend Duration has no effect on this poison."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Antidote",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This antidote will relieve all the effects of any Rank 3 or lower poison and any other toxins or natural poisons that mimic a poison in the poison school.",
+          "Extend Duration has no effect on this poison. This recipe produce 2 alchemical items when made."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Weaken Poison Poison",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison causes the target character to deal no more than 1 point of damage with all martial attacks regardless of their Damage Bonus or Strength Bonus and lose all Strength Bonuses for the duration of this poison.. This poison does not affect special weapon attacks like the Slay skill, Assassinate skill, Stun skill, etc. For skills that modify damage, the base weapon damage is always 1. For example, if a weakened character uses a Critical Attack skill, they will deal 2 points of damage. Similarly, a weakened character will only Waylay dealing 1 point of damage.",
+          "This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "18 Point Poison",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison delivers 18 points of direct body damage.",
+          "Extend Duration has no effect on this poison. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Amnesia Poison",
+        "duration": "Special",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "When the target character is affected by this poison, they will forget everything 10 minutes prior to the poisoning. If a Purify Blood is used within 6 hours of taking the poison, the poison is cured. If Extend Duration is used during creation, then the length of time forgotten is extended; therefore, the Amnesia poison can be made to cause the target to forget everything 1 hour and 6 hours back.",
+          "The Poison will last for three months, including the month it was taken. This is not three Events, so even if the player does not play that character, the time will expire in three months. So, if a character takes the poison in January, it will end at the end of the March Event."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Feeblemind Poison",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": "This poison reduces the target character to a blithering idiot, unable to use any skills, call latent spells, or defend themselves. This effect can be removed with a Purify Blood spell.",
+        "rank": 4
+      },
+      {
+        "name": "Paralysis Poison",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison completely paralyzes the target character; they cannot move or speak. The only acts a paralyzed character can perform are to move their eyes, blink, or invoke a latent spell. A Killing Blow may be delivered while a character is paralyzed.",
+          "Paralyzed characters can be moved as they are not attached to the ground; in addition, their limbs can be moved by some external force such as another player. The target will still be unable to move from their new position."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Rank 4 Antidote Poison",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This antidote will relieve all the effects of any Rank 4 or lower poison and any other toxins or natural poisons that mimic a poison in the poison school.",
+          "Extend Duration has no effect on this poison. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Sleep Poison Poison",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": "This Poison causes a character to sleep for 10 minutes. Unlike the Sleep spell, one point of damage will not awaken the character; rather the character needs to receive the appropriate antidote or a Purify Blood spell.",
+        "rank": 4
+      },
+      {
+        "name": "24 Point Poison",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison delivers 24 points of direct body damage.",
+          "Extend Duration has no effect on this poison.",
+          "This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Forget and Remember Poison",
+        "duration": "Special",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "A character affected by this poison will forget one selected incident, as told by the first person the character comes in contact with, and will remember what is prompted with false memory. If a Purify Blood is used within 6 hours of taking the poison, the poison is cured.",
+          "The Forget and Remember Poison will last for three months, including the month it was taken. This is not three Events, so even if the player does not play that character, the time will expire in three months. So, if a character takes the poison in January, it will end at the end of the March Event.",
+          "When the poison ends, whatever the means, the character will remember both the true memory and the false ones and will know the difference.",
+          "A character cannot be made to forget skills, but they can be made to forget they have those skills. This poison cannot be self induced. The next character who issues the commands to “Forget” and “Remember” are obeyed.",
+          "Extend Duration has no effect on this poison."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Instant Death Poison",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison will bring the affected character to the Brink of Death instantly. They require the normal healing methods for healing a character at the Brink of Death. A Purify Blood is not needed before the character is Lifed; the poison has run its course.",
+          "Extend Duration has no effect on this poison."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Rank 5 Antidote",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This antidote will relieve all the effects of any Rank 5 or lower poison and any other toxins or natural poisons that mimic a poison in the poison school.",
+          "Extend Duration has no effect on this poison. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "30 Point Poison",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This poison delivers 30 points of direct body damage.",
+          "Extend Duration has no effect on this poison."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Rank 6 Antidote",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This antidote will relieve all the effects of any Rank 6 or lower poison and any other toxins or natural poisons that mimic a poison in the poison school.",
+          "Extend Duration has no effect on this poison."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Sleeping Beauty Poison",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "A character affected by this poison will fall into a catatonic sleep. While under the effects of this poison, the character no longer needs nourishment, air, and stops aging. The character is not immune or protected from attacks and is affected normally, even from other alchemical items.",
+          "This poison is cured by a Rank 7 Antidote, Unicorn Pool Water or a Ritual of Absolute Healing only; a Purify Blood spell or similar affect will not awaken the character.",
+          "At the time of creation, a condition that will awaken the character must be chosen. Identifying the poison will not reveal the condition only what type of poison it is. This condition must be approved by the Head of Plot. The condition must be general enough to be possible and cannot be so specific as to be impossible or improbable to discover. Examples of acceptable conditions are: A kiss from a Royal Noble (kings, queens, dukes etc.), the touch of a rose, the tear of a child, etc. Unacceptable conditions are: a slap from Bob, the left toe nail of George the monkey, the target’s own voice, etc.",
+          "Extend Duration has no effect on this poison."
+        ],
+        "rank": 6
+      }
+    ],
+    "potionsSchool": [
+      {
+        "name": "Hang-over Cure",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "When used, this potion will cure a hangover.",
+          "Extend Duration has no effect on this potion. This recipe will produce 3 alchemical items when made."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "6 Point Healing Potion",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion heals 6 Body Points when used.",
+          "Extend Duration has no effect on this potion. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Restore Sight Eye Drops",
+        "duration": "",
+        "forms": [
+          "Special"
+        ],
+        "description": [
+          "This potion will cure blindness, but will not re-grow eyes. This potion cannot be made into a contact or gas version. It must be applied to the eyes and is inherently a contact item.",
+          "Extend Duration has no effect on this potion. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Super Alcohol x3",
+        "duration": "Permanent",
+        "forms": [
+          "Special"
+        ],
+        "description": [
+          "This potion permanently triples the potency of an alcoholic drink. Imbibing this potion directly has no effect; it must be used on an existing alcoholic beverage. This potion cannot be made into a contact or gas version.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Truth Serum 1",
+        "duration": "1 Question, 10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion forces the character to immediately answer the next question directed at the character directly and truthfully with up to a 10 minute answer.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "12 Point Healing Potion",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion heals 12 Body Points when used.",
+          "Extend Duration has no effect on this potion. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Cure Disease Potion",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion will remove all diseases affecting the target. Some diseases may be resistant to the effects of this potion and stronger more specific cures must be found.",
+          "Extend Duration has no effect on this potion. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Endure Condition",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion halves the effects of one condition for the duration of the potion. The conditions that the alchemist can create potions for are fire, water, air, earth, life, death or alchemy (poison, solutions and potions), and in the case of alchemy, it does not affect external damaging alchemy such as acids and pastes. The desired condition must be specified at time of creation and recorded on the item tag.",
+          "In the case of damaging elemental or alchemical effects, the damage is halved. If the effect has a continuing effect, such as an Enfeeblement spell, the duration is halved. For spells which do not affect the character directly, such as Wall of Force, there is no effect.",
+          "This potion does not work against Eldritch attacks. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Heroism Potion",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "This potion will make the character immune to all fear affects for the duration of the potion.",
+        "rank": 3
+      },
+      {
+        "name": "Resist Suggestion",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "The character under the effects of this potion avoids the affects of the next Truth spell or serum. While the latent nature of this potion lasts for the duration of this potion, it can only stop one Truth spell. If a Truth Serum is used, the entire serum is negated. For example, if a Truth Serum 6 is applied to a character, then all six questions are negated. A subsequent use of another Truth Serum will have normal effects.",
+        "rank": 3
+      },
+      {
+        "name": "See Magic Eye Drops",
+        "duration": "",
+        "forms": [
+          "Special"
+        ],
+        "description": [
+          "The character using this potion can see magic (as the spell) for the duration of this potion. This potion cannot be made into a contact or gas version. It must be applied to the eyes and is inherently a contact item.",
+          "This potion will only work if there is a Marshal present."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Stamina Potion +6",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "Using this potion adds +6 Body Points that can be healed.",
+        "rank": 3
+      },
+      {
+        "name": "Strength Potion +3",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "This potion grants the user a +3 Strength Bonus, Non-Combinable which allows one feat of great strength or +3 points of damage for the duration of the potion.",
+        "rank": 3
+      },
+      {
+        "name": "Super Alcohol x6",
+        "duration": "Permanent",
+        "forms": [
+          "Special"
+        ],
+        "description": [
+          "This potion permanently increases the potency of an alcoholic drink six fold. Imbibing this potion directly has no effect; it must be used on an existing alcoholic beverage. This potion cannot be made into a contact or gas version.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Truth Serum 3",
+        "duration": "3 Questions, 10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This forces the target to immediately answer the next three questions directed at the character directly and truthfully with up to a 10 minutes in answer for each question.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "18 Point Healing Potion",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion heals 18 Body Points when used.",
+          "Extend Duration has no effect on this potion.",
+          "This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Bainite Cure",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion will cure a character who has been turned into a Bainite brining them to the Brink of Death. If the character has not completely turned into a Bainite, they will simply be cured with no other ill effects. This potion has no effect on True Bainites.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Fire Potion 16 pts",
+        "duration": "Special",
+        "forms": [
+          "Ingested"
+        ],
+        "description": [
+          "The character using this potion can breathe fire three times for 16 points of fire damage each time. The three attacks must be used within 1 hour, or the character takes the damage of the remaining charges of the potion.",
+          "Extend Duration has no effect on this potion. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Heal Mind Potion",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion will undo the effects of an Enfeeble spell. It may also cure insanity, amnesia, and possession (a Plot Marshal must determine whether the Heal Mind is successful). All mind effects are cured by application of this potion.",
+          "Extend Duration has no effect on this potion. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Stamina Potion +12",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "Using this potion adds +12 Body Points that can be healed.",
+        "rank": 4
+      },
+      {
+        "name": "Strength Potion +6",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "This potion grants the user a +6 Strength Bonus, Non-Combinable which allows one feat of great strength or +6 points of damage for the duration of the potion.",
+        "rank": 4
+      },
+      {
+        "name": "Super Alcohol x9",
+        "duration": "Permanent",
+        "forms": [
+          "Special"
+        ],
+        "description": [
+          "This potion permanently increases the potency of an alcoholic drink six fold. Imbibing this potion directly has no effect; it must be used on an existing alcoholic beverage. This potion cannot be made into a contact or gas version.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Truth Serum 6",
+        "duration": "6 Questions, 10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This forces the target to immediately answer the next six questions directly and truthfully with up to a 10 minutes in answer for each question.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "24 Point Healing Potion",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion heals 24 Body Points when used.",
+          "Extend Duration has no effect on this potion. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Fire Potion 32 pts",
+        "duration": "Special",
+        "forms": [
+          "Ingested"
+        ],
+        "description": [
+          "The character using this potion can breathe fire three times for 32 points of fire damage each time. The three attacks must be used within one hour or the character takes the damage of the remaining charges of the potion.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Restore Limb Potion",
+        "duration": "Instant, Special",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion will instantly mend all broken limbs. In addition, any severed limb can be re-grown in 10 minutes.",
+          "This potion can also re-grow a severed head, but the use of this potion in this manner requires one use of the Battle Surgery skill and will only re-grow the head, not any other limbs. This process takes 10 minutes.",
+          "This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Resist Condition",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion renders the character immune to the effects of one condition for the duration of the potion. These are: fire, water, air, earth, life, death, or alchemical items and effects and in the case of alchemy, this potion has no affect on external damaging alchemy such as acids and pastes. The desired condition must be specified at time of creation and recorded on the item tag.",
+          "The elements you can resist and what the component is, are given in the table below.",
+          {
+            "type": "table",
+            "headers": [
+              "Condition to Resist",
+              "Component"
+            ],
+            "rows": [
+              [
+                "Fire",
+                "Essence of a Fire Elemental"
+              ],
+              [
+                "Water",
+                "Essence of a Water Elemental"
+              ],
+              [
+                "Air",
+                "Essence of a Air Elemental"
+              ],
+              [
+                "Earth*",
+                "Essence of a Earth Elemental"
+              ],
+              [
+                "Life",
+                "Essence of a Life Elemental"
+              ],
+              [
+                "Death",
+                "Essence of a Death Elemental"
+              ],
+              [
+                "Alchemy",
+                "Scaven Stone"
+              ]
+            ],
+            "footers": [
+              "*Resist Condition: Earth makes the character immune to the Bonds School spells and elemental Earth damage attacks and effects, not to physical damage."
+            ]
+          },
+          "This potion will protect the character from spells, effects, magical attacks, and specialty attacks for that element.",
+          "A Scaven Stone has 1 Dose for every 25 Power Points in the stone, rounded down."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Resist Necromancy",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion renders the character immune to the effects of necromancy for the duration of the potion rendering the character immune to the Necromancy School, being turned in to an undead, spell and effects.",
+          "This potion is not stackable with the Resist Condition potion."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Stamina Potion +18",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "Using this potion adds +18 Body Points that can be healed.",
+        "rank": 5
+      },
+      {
+        "name": "Strength Potion +9",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "This potion grants the user a +9 Strength Bonus, Non-Combinable which allows one feat of great strength or +9 points of damage for the duration of the potion.",
+        "rank": 5
+      },
+      {
+        "name": "20 Point Healing Potion",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion heals 20 Body Points when used.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Alchemical Life",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This potion will restore a character back to life from the Brink of Death and leaves them at 1 Body Point; the Death System is not used. Alchemical Life must be used on the character within 5 minutes – 10 minutes if the character has the Coma skill – of their character going to the Brink of Death. The character’s body must be relatively intact and the head must be attached.",
+          "Alchemical Life will only work on a character once per day – a period of time from 7am to 7am the next day. When you use an Alchemical Life on a character, you should write “Alchemical Life” on their character card along with the date, time and your initials; this allows another player to verify whether the character has already been “lifed” earlier that day. If the spell is cast on a character twice in the same day, the second use has no effect.",
+          "Extend Duration has no effect on this poison. This potion is inherently a contact potion."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Doppelganger Potion",
+        "duration": "1 Hour",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion will change the outward appearance of the imbiber into that which is specified at the time of creation. It will only change the race of the imbiber and therefore will not exactly copy a specific character. The imbiber gains none of the special abilities of that race, even physical characteristics. So, if the imbiber is turned into a troll, they will look like a troll, but not gain the trolls strength or vulnerability to fire. If the imbiber is human, for example, and they drink a potion that transforms the imbiber into a human, the potion will have no effect. The imbiber must wear their normal garb/custom, to indicate that their basic appearance has not changed. In addition, the character’s voice is unaffected by the potion. The imbiber will be identifiable to anyone who knew them in their natural form.",
+          "When the potion is created, in addition to the major component, a drop of blood of the creature to be copied is required."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Eye Drops of True Sight",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": "These eye drops grants the user the ability to see the true nature of characters and creatures revealing cloaked undead, possessed people, shaped changed creatures, characters or creatures hiding in shadows, melding with nature, invisible, etc. This potion will not reveal the character’s true nature, i.e. if they are a follower of a faith or if they are good or evil.",
+        "rank": 6
+      },
+      {
+        "name": "Fire Potion 48 pts",
+        "duration": "Special",
+        "forms": [
+          "Ingested"
+        ],
+        "description": [
+          "The character using this potion can breathe fire three times for 48 points of fire damage each time. The three attacks must be used within one hour or the character takes the damage of the remaining charges of the potion.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Remove Curse",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": [
+          "This potion will remove all curses currently affecting the character.",
+          "Extend Duration has no effect on this potion."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Stamina Potion +24",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "Using this potion adds +24 Body Points that can be healed.",
+        "rank": 6
+      },
+      {
+        "name": "Strength Potion +12",
+        "duration": "Instant",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "This potion grants the user a +12 Strength Bonus, Non-Combinable which allows one feat of great strength or +12 points of damage for the duration of the potion.",
+        "rank": 6
+      },
+      {
+        "name": "Superior Stamina Potion +6",
+        "duration": "1 Hour",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "Using this potion adds +6 Body Points that can be healed.",
+        "rank": 6
+      },
+      {
+        "name": "Superior Strength Potion +3",
+        "duration": "10 Minutes",
+        "forms": [
+          "Ingested",
+          "Contact"
+        ],
+        "description": "This potion grants the user a +3 Strength Bonus, Non-Combinable which allows one feat of great strength or +3 points of damage for the duration of the potion.",
+        "rank": 6
+      }
+    ],
+    "solutionsSchool": [
+      {
+        "name": "6 Point Acid",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This alchemical solution will cause 6 points of normal damage to a character. It will not destroy armor if simply thrown at the target. To destroy armor, clothing, items, etc., the player must apply the acid directly. The table at the beginning of this section details the effects of acids on various substances.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "8 Point Sunwater",
+        "duration": "Instant",
+        "forms": [
+          "Contact",
+"Gaseous"
+        ],
+        "description": [
+          "This Solution does 8 points of direct body damage to undead only.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution and cannot be applied to a weapon, only thrown."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "8 Point Moonwater",
+        "duration": "Instant",
+        "forms": [
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This Solution does 8 points of direct body damage to Solars and other good outsiders.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution and cannot be applied to a weapon, only thrown."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Alchemical Lubricant",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description":[  "This Solution covers four square feet and creates a frictionless surface. It is impossible to properly use any item covered in it or walk upon a surface covered with it. This Solution cannot be thrown and must be applied. To represent the area, the player should use tape, garland, or a sheet.",
+        "This alchemical item is inherently a contact substance. This recipe will produce 2 alchemical items when made."],
+        "rank": 2
+      },
+      {
+        "name": "Embalming Oil",
+        "duration": "Instant",
+        "forms": [
+          "Special"
+        ],
+        "description": [
+          "This Solution is used with the Embalming skill to preserve an entire body. Only characters with the Embalming skill can use this Solution correctly.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Oil of Copper Blade",
+        "duration": "10 Minutes",
+        "forms": [
+          "Special"
+        ],
+        "description": [
+          "This Solution coats a weapon with copper for its duration. The character should suffix their damaged called with “…Copper”.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Oil of Silver Blade",
+        "duration": "10 Minutes",
+        "forms": [
+          "Special"
+        ],
+        "description": [
+          "This Solution coats a weapon with silver for its duration. The character should suffix their damaged called with “…Silver”.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Paste of Stickiness",
+        "duration": "Permament",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This Solution covers one square foot of material and has similar effects to an Attachment spell. The effects of a Paste of Stickiness are permanent. The effect can be broken with normal strength, which takes 5 seconds.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Rank 2 Solvent",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This will immediately destroy the effects of a Paste of Stickiness, Alchemical Lubricant, or any lesser adhesive. Once applied, all lesser adhesives affecting the character or item are instantly destroyed.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution.",
+          "This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Smelling Salts",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "Applying this solution to an unconscious character will wake them up. This will wake a character up who has been waylaid, affected by a Dust of Sleep, or under the effects of a Sleep spell. The character must be at 1 Body Point or more.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "12 Point Acid",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This alchemical solution will cause 12 points of normal damage to a character. It will not destroy armor if simply thrown at the target. To destroy armor, clothing, items, etc., the player must apply the acid directly. The table at the beginning of this section details the effects of acids on various substances.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "16 Point Sunwater",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This Solution does 16 points of direct body damage to undead only.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution and cannot be applied to a weapon, only thrown."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "",
+        "duration": "",
+        "forms": [
+          "Contact"
+        ],
+        "description": "",
+        "rank": 2
+      },
+      {
+        "name": "",
+        "duration": "",
+        "forms": [
+          "Contact"
+        ],
+        "description": "",
+        "rank": 2
+      },
+      {
+        "name": "",
+        "duration": "",
+        "forms": [
+          "Contact"
+        ],
+        "description": "",
+        "rank": 2
+      },
+      {
+        "name": "",
+        "duration": "",
+        "forms": [
+          "Contact"
+        ],
+        "description": "",
+        "rank": 2
+      },
+      {
+        "name": "",
+        "duration": "",
+        "forms": [
+          "Contact"
+        ],
+        "description": "",
+        "rank": 2
+      },
+      {
+        "name": "",
+        "duration": "",
+        "forms": [
+          "Contact"
+        ],
+        "description": "",
+        "rank": 2
+      },
+      {
+        "name": "",
+        "duration": "",
+        "forms": [
+          "Contact"
+        ],
+        "description": "",
+        "rank": 2
+      },
+      {
+        "name": "",
+        "duration": "",
+        "forms": [
+          "Contact"
+        ],
+        "description": "",
+        "rank": 2
+      },
     ]
   }
 ]
