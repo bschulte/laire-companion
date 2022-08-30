@@ -1697,6 +1697,148 @@
           "Skills with an “*” require the use of the Warlock’s focus. For all these skills, the character must simply have the focus on their person.",
           "Some skills – those marked as Special in the Purchase column – require an additional prerequisite for multiple purchases. The player should read later in this section for these prerequisites."
         ]
+      },
+      "masterWarrior": {
+        "skills": [
+          {
+            "name": "Armor Efficiency",
+            "cost": 4,
+            "duration": "Constant",
+            "prerequisiteSkill": "Warrior Basic Career SL",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Blind Fighting",
+            "cost": 5,
+            "duration": "Consant",
+            "prerequisiteSkill": "Warrior Basic Career SL, Any Weapon Skill, 1 Master Proficiency",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Feat of Strength",
+            "cost": 3,
+            "duration": "Instant or 15 Seconds",
+            "prerequisiteSkill": "Warrior Basic Career SL, 2 Stamina's",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Master Florentine",
+            "cost": 4,
+            "duration": "Constant",
+            "prerequisiteSkill": "Warrior Basic Career SL, Florentine, 1 Master Proficiency",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Master Parry",
+            "cost": 4,
+            "duration": "Instant",
+            "prerequisiteSkill": "Warrior Basic Career SL, 2 Proficiencies",
+            "purchase": "Multi, Special",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Master Proficiency",
+            "cost": 13,
+            "duration": "Constant",
+            "prerequisiteSkill": "Warrior Basic Career SL, 2 Non-Master Proficiencies",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Shatter Weapon",
+            "cost": 5,
+            "duration": "Instant",
+            "prerequisiteSkill": "Warrior Basic Career SL, 1 Proficiency",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Shield Parry",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Warrior Basic Career SL, 1 Proficiency, Any Shield Skill",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Slay",
+            "cost": 10,
+            "duration": "Instant",
+            "prerequisiteSkill": "Warrior Basic Career SL, 2 Proficiencies",
+            "purchase": "Multi, Special",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Speed",
+            "cost": 6,
+            "duration": "Instant",
+            "prerequisiteSkill": "Warrior Basic Career SL, 2 Proficiencies",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "True Aim",
+            "cost": 6,
+            "duration": "Instant",
+            "prerequisiteSkill": "Warrior Basic Career SL, 1 Proficiency with a Ranged Weapon",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Weapon Accurracy",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "Warrior Basic Career SL, 1 Proficiency",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Weapon Barrier",
+            "cost": 6,
+            "duration": "1 Minute",
+            "prerequisiteSkill": "Weapons Master, 4 Proficiencies",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Weapons Master",
+            "cost": 10,
+            "duration": "Constant",
+            "prerequisiteSkill": "Warrior Basic Career SL, 50 Build Points of Martial Skills",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Channeling",
+            "cost": 10,
+            "duration": "Constant",
+            "prerequisiteSkill": "2 Proficiencies, 30 Power Points, 1st Rank School of Magic to be Channeled",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Expansion",
+            "cost": 3,
+            "duration": "5 Minutes",
+            "prerequisiteSkill": "Channeling",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Redirect Spell",
+            "cost": 7,
+            "duration": "Instant",
+            "prerequisiteSkill": "Channeling",
+            "purchase": "Multi, Special",
+            "tagged": "Yes"
+          }
+        ],
+        "specialNotes": "Some skills, such has Slay and Redirect Spell, require an additional prerequisite for multiple purchases. For example, a character needs two Proficiencies to purchase their first Slay, but they need one Proficiency for each Slay they have. The player should read the skill description in Chapter 5 for a full description of these skills, or later in this section for these prerequisites."
+
       }
     }
   ],
