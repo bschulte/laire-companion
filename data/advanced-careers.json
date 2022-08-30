@@ -4175,5 +4175,21 @@
     "rules": [
       "The Master Thief skill, Critical Backstab, is not used if the character misses their target, if the blow strikes the target character’s shield, or the target character blocks the blow with their weapon. In order for the skill to be used, the character must either strike their target or if the target character uses an appropriate defense either magical or martial."
     ]
+  },
+  {
+    "name": "Assassin",
+    "introduction": [
+      "The roles of the Assassin are numerous and can vary dramatically from person to person. An Assassin can be the good natured scout able to track down foes, or the typical killer for hire whose only allegiance is gold, or even the individual who kills for the thrill. Assassins have access to many skills, some of which are intended to deliver large amounts of damage or even kill in a single strike. They can learn to fight while blind and render a target helpless and paralyzed. Other skills allow the Assassin to strike without error from a distance or find the chink in armor. They have defensive skills as well, namely the legendary Dodge skill, which allows them to get out of most harm’s way. They can learn a repertoire of skills that assist them in applying their trade such as making poisons and learning how to take control of another’s will. The skills an Assassin can learn equip them to fulfill their clandestine operations.",
+      "Regardless of mindset, the Assassin is always a dangerous adversary. While stealth and cunning are their greatest weapons, Assassins can evade most situations others cannot and are skilled enough to hold their own in combat – for a short time at least. While most Master Warriors can dispatch an Assassin easily in single fair combat, it is the Assassin who will be at your back before you are aware of them striking you down before you are able to raise a cry of warning.",
+      "Some of the Assassin’s skills are difficult to perform and others are very situational. The deadliest Assassin is one who uses all their skills wisely and is cunning enough to ensure their victory."
+    ],
+    "rules": [
+      "Below are some special rules pertaining to the Assassin skills.",
+      { "type": "header", "content": "Prerequisites and Skills"},
+      "As was mentioned before, the Assassinate skill has a prerequisite that differs for multiple purchases of this skill; for every Assassinate skill the character wishes to learn, they must have one Assassin Proficiency skill.",
+      "For example, Lascula wants to learn an Assassinate skill. He has already purchased two Assassin Proficiency skills and found a teacher. The following month, Lascula learns another Assassinate skill giving him two. Now if Lascula wishes to learn any more Assassinate skills, he will have to learn another Assassin Proficiency skill.",
+      { "type": "header", "content": "Using Assassin Skills"},
+      "Some Assassin skills are not used if they miss their target, if the blow strikes the target character’s shield, or the target character blocks the blow with their weapon. In order for the skill to be used the character must either strike their target or the target character uses an appropriate defense either magical or martial. The following skills follow this rule: Assassinate, Assassin Strike, Disarm, Paralyze Touch, and Weapon Accuracy."
+    ]
   }
 ]

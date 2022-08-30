@@ -1971,6 +1971,149 @@
           }
         ],
         "specialNotes": ["There are no special notes for the Master Thief Advanced Career Skill List."]
+      },
+      "assassin": {
+        "skills": [
+          {
+            "name": "Master Assassin",
+            "cost": 8,
+            "duration": "Constant",
+            "prerequisiteSkill": "Rogue Skill List, 20 Build Points of Dexterity Skills",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Assassin Proficiency",
+            "cost": 10,
+            "duration": "Constant",
+            "prerequisiteSkill": "Master Assassin Skill",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Assassinate",
+            "cost": 7,
+            "duration": "Instant",
+            "prerequisiteSkill": "2 Assassin Proficiencies",
+            "purchase": "Multi, Special",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Assassin Strike",
+            "cost": 4,
+            "duration": "Instant",
+            "prerequisiteSkill": "1 Assassin Proficiency",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Blind Fighting",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Master Assassin",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Disarm",
+            "cost": 4,
+            "duration": "Instant",
+            "prerequisiteSkill": "Master Assassin",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Dodge",
+            "cost": 10,
+            "duration": "Instant",
+            "prerequisiteSkill": "Rogue Skill List, 4 Unique Dexterity Skills",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Escape",
+            "cost": 4,
+            "duration": "Instant",
+            "prerequisiteSkill": "Dodge",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Hypnosis",
+            "cost": 10,
+            "duration": "30 Minutes",
+            "prerequisiteSkill": "Master Assassin Skill",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Missile Deflection",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "Rogue Skill List",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Paralyze Touch",
+            "cost": 5,
+            "duration": "10 Minutes",
+            "prerequisiteSkill": "Master Assassin Skill",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Resist Truth",
+            "cost": 3,
+            "duration": "Special",
+            "prerequisiteSkill": "Rogue Skill List",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "True Aim",
+            "cost": 6,
+            "duration": "Instant",
+            "prerequisiteSkill": "1 Assassin Proficiency",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Weapon Accuracy",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "1 Assassin Proficiency",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Poisons II-V",
+            "cost": [2, 3, 4, 5],
+            "duration": "Constant",
+            "prerequisiteSkill": "Rank 1 for Rank 2, Previous Rank for 3-5",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Make Contact",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Rank 3 Poisons",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Poison Immunity",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Rogue Skill List, 20 Build Points of Dexterity Skills",
+            "purchase": "Multi",
+            "tagged": "No"
+          }
+        ],
+        "specialNotes": [
+          "The Assassinate Skill requires an additional prerequisite for multiple purchases. A character needs two Assassin Proficiency skills to purchase their first Assassinate skill, and they need one Assassin Proficiency skill for each Assassinate. The player should read the skill description in Chapter 5 for a full description of this skill, or later in this section for these prerequisites."
+        ]
       }
     }
   ],
