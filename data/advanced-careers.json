@@ -4185,10 +4185,16 @@
     ],
     "rules": [
       "Below are some special rules pertaining to the Assassin skills.",
-      { "type": "header", "content": "Prerequisites and Skills"},
+      {
+        "type": "header",
+        "content": "Prerequisites and Skills"
+      },
       "As was mentioned before, the Assassinate skill has a prerequisite that differs for multiple purchases of this skill; for every Assassinate skill the character wishes to learn, they must have one Assassin Proficiency skill.",
       "For example, Lascula wants to learn an Assassinate skill. He has already purchased two Assassin Proficiency skills and found a teacher. The following month, Lascula learns another Assassinate skill giving him two. Now if Lascula wishes to learn any more Assassinate skills, he will have to learn another Assassin Proficiency skill.",
-      { "type": "header", "content": "Using Assassin Skills"},
+      {
+        "type": "header",
+        "content": "Using Assassin Skills"
+      },
       "Some Assassin skills are not used if they miss their target, if the blow strikes the target character’s shield, or the target character blocks the blow with their weapon. In order for the skill to be used the character must either strike their target or the target character uses an appropriate defense either magical or martial. The following skills follow this rule: Assassinate, Assassin Strike, Disarm, Paralyze Touch, and Weapon Accuracy."
     ]
   }
