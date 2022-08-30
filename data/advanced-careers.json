@@ -407,17 +407,77 @@
       {
         "type": "table",
         "title": "Acid Effect Table",
-        "headers": ["Rank", "Parchment/Cloth", "Wood/Rope/Leather/Bone", "Metal/Ceramic", "Stone/Gems"],
+        "headers": [
+          "Rank",
+          "Parchment/Cloth",
+          "Wood/Rope/Leather/Bone",
+          "Metal/Ceramic",
+          "Stone/Gems"
+        ],
         "rows": [
-          ["Rank 2", "4x4x1 in", "1x1x1 in", "N/A", "N/A"],
-          ["Rank 3", "12x12x1 in", "4x4x1 in", "1x1x1 in", "N/A"],
-          ["Rank 4", "24x24x1 in", "12x12x1 in", "4x4x1 in", "1x1x1 in"],
-          ["Rank 5", "36x36x1 in", "24x24x1 in", "12x12x1 in", "4x4x1 in"],
-          ["Rank 6", "4x4x1 ft", "36x36x1 in", "24x24x1 in", "12x12x1 in"],
-          ["Rank 7", "5x5x1 ft", "4x4x1 ft", "36x36x1 in", "24x24x1 in"],
-          ["Rank 8", "6x6x1 ft", "5x5x1 ft", "4x4x1 ft", "36x36x1 in"],
-          ["Rank 9", "7x7x1 ft", "6x6x1 ft", "5x5x1 ft", "4x4x1 ft"],
-          ["Rank 10", "8x8x1 ft", "7x7x1 ft", "6x6x1 ft", "5x5x1 ft"]
+          [
+            "Rank 2",
+            "4x4x1 in",
+            "1x1x1 in",
+            "N/A",
+            "N/A"
+          ],
+          [
+            "Rank 3",
+            "12x12x1 in",
+            "4x4x1 in",
+            "1x1x1 in",
+            "N/A"
+          ],
+          [
+            "Rank 4",
+            "24x24x1 in",
+            "12x12x1 in",
+            "4x4x1 in",
+            "1x1x1 in"
+          ],
+          [
+            "Rank 5",
+            "36x36x1 in",
+            "24x24x1 in",
+            "12x12x1 in",
+            "4x4x1 in"
+          ],
+          [
+            "Rank 6",
+            "4x4x1 ft",
+            "36x36x1 in",
+            "24x24x1 in",
+            "12x12x1 in"
+          ],
+          [
+            "Rank 7",
+            "5x5x1 ft",
+            "4x4x1 ft",
+            "36x36x1 in",
+            "24x24x1 in"
+          ],
+          [
+            "Rank 8",
+            "6x6x1 ft",
+            "5x5x1 ft",
+            "4x4x1 ft",
+            "36x36x1 in"
+          ],
+          [
+            "Rank 9",
+            "7x7x1 ft",
+            "6x6x1 ft",
+            "5x5x1 ft",
+            "4x4x1 ft"
+          ],
+          [
+            "Rank 10",
+            "8x8x1 ft",
+            "7x7x1 ft",
+            "6x6x1 ft",
+            "5x5x1 ft"
+          ]
         ]
       }
     ],
@@ -1273,7 +1333,7 @@
         "duration": "Instant",
         "forms": [
           "Contact",
-"Gaseous"
+          "Gaseous"
         ],
         "description": [
           "This Solution does 8 points of direct body damage to undead only.",
@@ -1300,8 +1360,10 @@
         "forms": [
           "Contact"
         ],
-        "description":[  "This Solution covers four square feet and creates a frictionless surface. It is impossible to properly use any item covered in it or walk upon a surface covered with it. This Solution cannot be thrown and must be applied. To represent the area, the player should use tape, garland, or a sheet.",
-        "This alchemical item is inherently a contact substance. This recipe will produce 2 alchemical items when made."],
+        "description": [
+          "This Solution covers four square feet and creates a frictionless surface. It is impossible to properly use any item covered in it or walk upon a surface covered with it. This Solution cannot be thrown and must be applied. To represent the area, the player should use tape, garland, or a sheet.",
+          "This alchemical item is inherently a contact substance. This recipe will produce 2 alchemical items when made."
+        ],
         "rank": 2
       },
       {
@@ -1402,76 +1464,409 @@
         "rank": 3
       },
       {
-        "name": "",
-        "duration": "",
+        "name": "16 Point Moonwater",
+        "duration": "Instant",
         "forms": [
-          "Contact"
+          "Contact",
+          "Gaseous"
         ],
-        "description": "",
-        "rank": 2
+        "description": [
+          "This Solution does 16 points of direct body damage to Solars and other good outsiders.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution and cannot be applied to a weapon, only thrown."
+        ],
+        "rank": 3
       },
       {
-        "name": "",
-        "duration": "",
+        "name": "Dust of Sleep",
+        "duration": "10 Minutes",
         "forms": [
           "Contact"
         ],
-        "description": "",
-        "rank": 2
+        "description": [
+          "This Solution will render the targeted character asleep for the duration, or until the character takes 1 or more points of damage.",
+          "This alchemical item is inherently a contact substance."
+        ],
+        "rank": 3
       },
       {
-        "name": "",
-        "duration": "",
+        "name": "Paste of Binding",
+        "duration": "10 Minutes",
         "forms": [
           "Contact"
         ],
-        "description": "",
-        "rank": 2
+        "description": [
+          "This Solution covers an entire person with a sticky goo that instantly hardens. The effect is similar to a Bind Spell. The targeted character can free either their arms or legs with a +3 Strength Bonus or more and takes five seconds.",
+          "This alchemical item is inherently a contact substance."
+        ],
+        "rank": 3
       },
       {
-        "name": "",
-        "duration": "",
+        "name": "Oil of Armor +4",
+        "duration": "10 Minutes",
         "forms": [
           "Contact"
         ],
-        "description": "",
-        "rank": 2
+        "description": [
+          "When this Solution is applied to metal or leather armor it increases the armor value by 4 points. These new Armor Points are the first to go after an Armor spell. Though these new Armor Points are not able to be repaired, the standard armor degradation rules apply. Finally, the Armor Points gained cannot be more than the Base Armor Points of the armor when it is fully repaired.",
+          "This solution is only able to be applied to armor and cannot be drunk or made gaseous."
+        ],
+        "rank": 3
       },
       {
-        "name": "",
-        "duration": "",
+        "name": "Oil of Flame Blade",
+        "duration": "10 Minutes",
         "forms": [
           "Contact"
         ],
-        "description": "",
-        "rank": 2
+        "description": [
+          "This Solution will make any weapon it is put on burst into flames and allows the weapon to swing for normal fire damage for the duration. The weapon will shed light as per the Light spell and will also act as a Match spell and can set flammable things on fire.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 3
       },
       {
-        "name": "",
-        "duration": "",
+        "name": "Oil of Striking +1",
+        "duration": "10 Minutes",
         "forms": [
           "Contact"
         ],
-        "description": "",
-        "rank": 2
+        "description": [
+          "Application of this Solution to a weapon increases the base weapon damage by 1 for the duration. The weapon takes on no other special qualities and can still be affected by a Shatter or Blast spell or Shatter skill as normal.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 3
       },
       {
-        "name": "",
-        "duration": "",
+        "name": "Rank 3 Solvent",
+        "duration": "Instant",
         "forms": [
           "Contact"
         ],
-        "description": "",
-        "rank": 2
+        "description": [
+          "This Solution will instantly destroy the effects of a Paste of Binding, giant spider’s web, or any other lesser adhesive. Once applied, all adhesives affecting the character or item are destroyed.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution. This recipe will produce 2 alchemical items when made."
+        ],
+        "rank": 3
       },
       {
-        "name": "",
+        "name": "18 Point Acid",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This alchemical solution will cause 16 points of normal damage to a character. It will not destroy armor if simply thrown at the target. To destroy armor, clothing, items, etc., the player must apply the acid directly. The table at the beginning of this section details the effects of acids on various substances.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "24 Point Sunwater",
+        "duration": "Instant",
+        "forms": [
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This Solution does 24 points of direct body damage to undead only.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution and cannot be applied to a weapon, only thrown."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "24 Point Moonwater",
+        "duration": "Instant",
+        "forms": [
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This Solution does 24 points of direct body damage to Solars and other good outsiders.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution and cannot be applied to a weapon, only thrown."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Dust of Rot",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This Solution will destroy four square feet of non-living organic material, will permanently destroy up to 20 points of leather armor, and has no effect on undead. To destroy leather armor worn by a character, the spell packet must hit the armor.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Oil of Armor +8",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "When this Solution is applied to metal or leather armor it increases the armor value by 8 points. These new Armor Points are the first to go after an Armor spell. Though these new Armor Points are not able to be repaired, the standard armor degradation rules apply. Finally, the Armor Points gained cannot be more than the Base Armor Points of the armor when it is fully repaired.",
+          "This solution is only able to be applied to armor and cannot be drunk or made gaseous."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Oil of Mithril Blade",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This Solution coats a weapon with Mithril for its duration. The character should suffix their damage called with “Mithril”. The weapon takes on no other special qualities and can still be affected by a Shatter or Blast spell or Shatter skill as normal.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Oil of Striking +2",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "Application of this Solution to a weapon increases the base weapon damage by 2 for the duration. The weapon takes on no other special qualities and can still be affected by a Shatter or Blast spell or Shatter skill as normal.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Rank 4 Universal Solvent",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This Solution will instantly destroy any known adhesive. Once applied, all adhesives affecting the character or item are destroyed. In addition, any alchemical substances on weapons, armor, or characters are also destroyed.",
+          "For example, Arthos applies an Oil of Striking +3 and an Oil of Mithril Blade to his normal bastard sword and runs into battle. During the battle, he is disarmed and the enemy applies a Universal Solvent to the weapon. Later when Arthos recovers his sword it is once again a normal bastard sword, no longer under the effects of the potent alchemy.",
+          "To correctly use the Universal Solvent, a character must apply the solvent directly; this alchemical item cannot be thrown.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Wall of Light",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This solution will create a wall of any shape up to 10 feet long. Any undead character that touches or steps through the wall takes 14 points of damage. The wall cannot be destroyed by moving the sands; once placed the wall will last until it expires.",
+          "This solution cannot be made gaseous."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "24 Point Acid",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This alchemical solution will cause 24 points of normal damage to a character. It will not destroy armor if simply thrown at the target. To destroy armor, clothing, items, etc., the player must apply the acid directly. The table at the beginning of this section details the effects of acids on various substances.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "32 Point Sunwater",
+        "duration": "Instant",
+        "forms": [
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This Solution does 32 points of direct body damage to undead only.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution and cannot be applied to a weapon, only thrown."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "32 Point Moonwater",
+        "duration": "Instant",
+        "forms": [
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This Solution does 32 points of direct body damage to Solars and other good outsiders.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution and cannot be applied to a weapon, only thrown."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Dust of Rust",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This solution will destroy four square feet of normal metal, copper, silver, or gold and will permanently destroy up to 20 points of metal armor. To destroy metal armor worn by a character, shields, or weapons, the spell packet must hit the armor, shield, or weapon. Dwarven crafted items are not destroyed.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Oil of Armor +12",
         "duration": "",
         "forms": [
           "Contact"
         ],
-        "description": "",
-        "rank": 2
+        "description": [
+          "When this Solution is applied to metal or leather armor it increases the armor value by 12 points. These new Armor Points are the first to go after an Armor spell. Though these new Armor Points are not able to be repaired, the standard armor degradation rules apply. Finally, the Armor Points gained cannot be more than the Base Armor Points of the armor when it is fully repaired.",
+          "This solution is only able to be applied to armor and cannot be drunk or made gaseous."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Oil of Ghost Blade",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This Solution will make the striking surface of any weapon it is put on ethereal for 10 minutes allowing the weapon to do direct body damage and effect both corporeal and non-corporeal undead for the duration. This Solution does not make the weapon unshatterable, however. While the weapon is under the affect of the Ghost Blade, it will swing for “Ghost”.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Oil of Preservation",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This Solution will, when applied to a character in their Death Count, stop their count for the duration of this solution. When the duration ends, the character’s Death Count continues. This solution has no effect on a character not in their Death Count.",
+          "This solution is inherently contact and cannot be made gaseous."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Oil of Stone to Flesh",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This solution will restore a character who as been turned to stone by any means: Medusa’s or Basilisk’s Gaze, Druid Flesh to Stone spell, Sorcery, a curse, etc.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Oil of Striking +3",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "Application of this Solution to a weapon increases the base weapon damage by 3 for the duration. The weapon takes on no other special qualities and can still be affected by a Shatter or Blast spell or Shatter skill as normal.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "30 Point Acid",
+        "duration": "Instant",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This alchemical solution will cause 30 points of normal damage to a character. It will not destroy armor if simply thrown at the target. To destroy armor, clothing, items, etc., the player must apply the acid directly. The table at the beginning of this section details the effects of acids on various substances.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "40 Point Sunwater",
+        "duration": "Instant",
+        "forms": [
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This Solution does 40 points of direct body damage to undead only.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution and cannot be applied to a weapon, only thrown."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "40 Point Moonwater",
+        "duration": "Instant",
+        "forms": [
+          "Contact",
+          "Gaseous"
+        ],
+        "description": [
+          "This Solution does 40 points of direct body damage to Solars and other good outsiders.",
+          "This alchemical item is inherently a contact substance. Extend Duration has no effect on this solution and cannot be applied to a weapon, only thrown."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Oil of Armor +16",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "When this Solution is applied to metal or leather armor it increases the armor value by 16 points. These new Armor Points are the first to go after an Armor spell. Though these new Armor Points are not able to be repaired, the standard armor degradation rules apply. Finally, the Armor Points gained cannot be more than the Base Armor Points of the armor when it is fully repaired.",
+          "This solution is only able to be applied to armor and cannot be drunk or made gaseous."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Oil of Striking +4",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "Application of this Solution to a weapon increases the base weapon damage by 4 for the duration. The weapon takes on no other special qualities and can still be affected by a Shatter or Blast spell or Shatter skill as normal.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Oil of Magic Blade",
+        "duration": "10 Minutes",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "This Solution coats a weapon allowing it to swing for magic for its duration. The character should suffix their damage called with “Magic”. The weapon takes on no other special qualities and can still be affected by a Shatter or Blast spell or Shatter skill as normal.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Superior Oil of Armor +4",
+        "duration": "1 Hour",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "When this Solution is applied to metal or leather armor it increases the armor value by 4 points. These new Armor Points are the first to go after an Armor spell. Though these new Armor Points are not able to be repaired, the standard armor degradation rules apply. Finally, the Armor Points gained cannot be more than the Base Armor Points of the armor when it is fully repaired.",
+          "This solution is only able to be applied to armor and cannot be drunk or made gaseous."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Superior Oil of Striking +1",
+        "duration": "1 Hour",
+        "forms": [
+          "Contact"
+        ],
+        "description": [
+          "Application of this Solution to a weapon increases the base weapon damage by 1 for the duration. The weapon takes on no other special qualities and can still be affected by a Shatter or Blast spell or Shatter skill as normal.",
+          "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
+        ],
+        "rank": 6
       },
     ]
   }
