@@ -1867,7 +1867,7 @@
           "This solution is only able to be applied to a weapon and cannot be drunk or made gaseous."
         ],
         "rank": 6
-      },
+      }
     ]
   },
   {
@@ -1898,13 +1898,31 @@
       },
       {
         "type": "table",
-        "headers": ["Spell Rank", "Cost per Power Point"],
+        "headers": [
+          "Spell Rank",
+          "Cost per Power Point"
+        ],
         "rows": [
-          ["Rank I", "1 copper piece"],
-          ["Rank II", "2 copper piece"],
-          ["Rank III", "3 copper piece"],
-          ["Rank IV", "4 copper piece"],
-          ["Rank V", "1 gold piece"]
+          [
+            "Rank I",
+            "1 copper piece"
+          ],
+          [
+            "Rank II",
+            "2 copper piece"
+          ],
+          [
+            "Rank III",
+            "3 copper piece"
+          ],
+          [
+            "Rank IV",
+            "4 copper piece"
+          ],
+          [
+            "Rank V",
+            "1 gold piece"
+          ]
         ]
       },
       "During the scribing of the scroll, the Magic Marshal should inform the player when they have reached half of the required time, three- fourths of the required time, full time, and finally double time. The player may use this information in-game to help them determine when they want to stop the scribing. The player must always complete the full verbal for the spell, but they may choose to speed up or slow down their performance affecting their time bonus accordingly.",
@@ -1912,38 +1930,1521 @@
       {
         "type": "table",
         "title": "Scroll Creation Base Table",
-        "headers": ["Die Roll", "Result"],
+        "headers": [
+          "Die Roll",
+          "Result"
+        ],
         "rows": [
-          ["01-05", "The spell being scribed is cast upon the scrivener. The scroll disappears."],
-          ["06-15", "The scroll disappears"],
-          ["16-85", "The scroll is successfully created."],
-          ["86-95", "The scroll is successfully scribed, and it cost only half (rounded up) the normal number of Power Points to create the scroll."],
-          ["96-100", "The scroll is successfully scribed, and it cost no Power Points to create the scroll."],
+          [
+            "01-05",
+            "The spell being scribed is cast upon the scrivener. The scroll disappears."
+          ],
+          [
+            "06-15",
+            "The scroll disappears"
+          ],
+          [
+            "16-85",
+            "The scroll is successfully created."
+          ],
+          [
+            "86-95",
+            "The scroll is successfully scribed, and it cost only half (rounded up) the normal number of Power Points to create the scroll."
+          ],
+          [
+            "96-100",
+            "The scroll is successfully scribed, and it cost no Power Points to create the scroll."
+          ]
         ]
       },
       {
         "type": "table",
         "title": "Scroll Creation Modifier Table",
-        "headers": ["Modifier", "Description"],
+        "headers": [
+          "Modifier",
+          "Description"
+        ],
         "rows": [
-          ["-1", "For every Power Point in the spell being scribed."],
-          ["+2", "For every rank of the school of magic of the spell that the scrivener knows."],
-          ["-5", "For taking less than the normal amount of time to scribe the scroll, down to 75% of the normal amount."],
-          ["-10", "For taking less than 75% of the normal amount of time to scribe the scroll, down to 50% of the normal amount."],
-          ["Fail", "For taking less than 50% of the normal amount of time."],
-          ["+5", "For taking double the amount of time to scribe the spell."],
-          ["-5", "For using any kind of ordinary blank paper."],
-          ["+0", "For using parchment paper."],
-          ["+5", "For using vellum."],
-          ["+5", "For embedding double the normal amount of coinage into the paper used for scribing the scroll."],
-          ["+0", "For scribing the spell as required."],
-          ["+1", "For using a real quill and ink to scribe the spell."],
-          ["+1 to +5", "For exceptional roleplay while scribing the scroll."],
-          ["Fail", "For making a mistake in the spell’s verbal."]
+          [
+            "-1",
+            "For every Power Point in the spell being scribed."
+          ],
+          [
+            "+2",
+            "For every rank of the school of magic of the spell that the scrivener knows."
+          ],
+          [
+            "-5",
+            "For taking less than the normal amount of time to scribe the scroll, down to 75% of the normal amount."
+          ],
+          [
+            "-10",
+            "For taking less than 75% of the normal amount of time to scribe the scroll, down to 50% of the normal amount."
+          ],
+          [
+            "Fail",
+            "For taking less than 50% of the normal amount of time."
+          ],
+          [
+            "+5",
+            "For taking double the amount of time to scribe the spell."
+          ],
+          [
+            "-5",
+            "For using any kind of ordinary blank paper."
+          ],
+          [
+            "+0",
+            "For using parchment paper."
+          ],
+          [
+            "+5",
+            "For using vellum."
+          ],
+          [
+            "+5",
+            "For embedding double the normal amount of coinage into the paper used for scribing the scroll."
+          ],
+          [
+            "+0",
+            "For scribing the spell as required."
+          ],
+          [
+            "+1",
+            "For using a real quill and ink to scribe the spell."
+          ],
+          [
+            "+1 to +5",
+            "For exceptional roleplay while scribing the scroll."
+          ],
+          [
+            "Fail",
+            "For making a mistake in the spell’s verbal."
+          ]
         ]
       },
       "For example, Siona wants to make a Life spell scroll. He spends 15 minutes scribing the spell’s verbal onto a piece of vellum procured from the Guild of Arcane Lore and used 12 silver pieces to charge the dish. Siona tells the marshal he is finished and they calculate the roll needed to succeed. -12% for the Power Point Penalty, +8% for knowledge of the Healing School, +0% for time taken - Siona needs to have taken 24 minutes to gain the bonus, +5% for using vellum paper, and finally +2% for good roleplaying during the scribing of the scroll. That gives Lisa Tomaszewski a total of +3%, which means the player must roll a 13 or higher to succeed.",
       "A player may substitute a pre-generated scroll for their hand written one once they have completed scribing the scroll successfully. In this case, the Power Points are stapled to this new scroll and the old hand written one should be torn up."
-    ]
-  }
+    ],
+    "sorceryRules": [
+      {
+        "type": "header",
+        "content": "Learning and Scribing Rituals"
+      },
+      "In order for a character to read or write a ritual, that character must know the Sorcery Lore skill. No rolls are made to copy a ritual from one source to another, but a Magic Marshal must sign the new copy and the copying must be performed in-game. However, once a character has a copy of a ritual, they may make as many copies of that ritual as they wish; even mechanically reproducing them in between Events. All of these copies must be signed by a Magic Marshal.",
+      "Every in-game ritual must have the following out-of-game information:",
+      {
+        "type": "list",
+        "items": [
+          "Ritual Name",
+          "Rank",
+          "Alignment",
+          "Temporary Power Point Cost",
+          "Permanent Power Point Cost",
+          "Casting Time",
+          "Duration",
+          "Component List",
+          "Marshal Signature"
+        ]
+      },
+      "Additionally, the ritual must have the in-game description of the roleplaying steps needed to cast the ritual.",
+      {
+        "type": "header",
+        "content": "Casting a Ritual"
+      },
+      "The player must actually perform a magical ritual in-game. The fundamental rule on how the ritual is written and performed is that any other player who witnesses the ritual is aware that a ritual is being performed. Ideally, a player performing a ritual should not take time out for any out-of-game activity, for example meal breaks, while they perform the ritual.",
+      "The player is responsible for supplying their own props and making sure that all cards, tags, labels, etc., are available. For example, a player who casts a Ritual of Warding must have the item tag for the ritual component and the yellow duct tape, glow rope, garland, or some other representation of the Ward.",
+      "The ritual fails if the primary caster is distracted while they perform the ritual. A caster can be distracted if they are interrupted by any of the means that can interrupt the casting of a normal spell. In addition, if while performing the ritual the caster is affected by any spell that affects the movement of their body, like a Paralysis spell, the freedom of their mind, like an Enslavement spell or the Hypnosis skill, or if the caster simply stops performing the ritual then the ritual fails and all components used up to that point and the listed temporary Power Points are lost.",
+      "If a caster other than the primary caster is distracted or leaves the ritual, the primary caster is responsible for covering their temporary and permanent Power Points. Additionally, any Knowledge Bonus from that caster is lost.",
+      "If a participant in the ritual is distracted, as opposed to the caster, then the ritual is not interrupted. However, the penalty for having a participant in the ritual still applies and any Knowledge Bonus is lost. For example, if a caster is performing a Ritual of Circle of Protection and is investing a participant as a part of the ritual, then if the participant is distracted or leaves the ritual, the participant’s investiture is canceled.",
+      "If the target of a ritual – be it either a character or item – is removed from the ritual, the ritual automatically fails. The target does not need to concentrate during the ritual; attempting to harm or distract the target does not interfere with the ritual unless the target is removed or destroyed.",
+      "At the end of the ritual, the player must roll on the Ritual Success Table (see page 103). The roll on this table determines whether the ritual succeeds or fails.",
+      "The key components necessary to cast the ritual are used up at half the casting time (50% Casting Time) and cannot be used in another ritual again. Additionally, the components disappear at the end of the ritual; there are some exceptions to this rule and noted in the ritual itself. If a ritual is interrupted, then any components used up to that point are expended and those not yet used are unaffected.",
+      "During the casting of any ritual, a Magic Marshal must be present. The Magic Marshal will make sure that an appropriate ritual is being performed, and will supervise the final die roll that determines the result of the ritual.",
+      "Every character that can perform sorcery must have an in-game ritual spell book to cast a ritual. This ritual book will normally be prepared under the supervision of the character’s instructor in sorcery. A character must review the casting of any ritual in a ritual book before or during the ritual itself. If a character loses their ritual book in- game, they must recover it, re-create it, or find another before they can perform rituals again.",
+      "Some rituals cost permanent Power Points in addition to temporary Power Points. If a ritual is performed, the caster loses both the permanent and temporary Power Points whether the ritual succeeds or fails at the end of the ritual. If a caster spends permanent Power Points, the Magic Marshal will write the loss on the back of the player’s Character Card, and will make sure the player removes the permanent Power Point loss from the player’s tags for the rest of the Event. Any Permanent Power Point loss is permanent, even if the ritual is later dispelled or the item created is destroyed. The only exception is investiture, if the character is de-invested or the circle is destroyed, the Power Point is returned to the character.",
+      "If, at the end of a ritual, the caster does not have enough Power Points to cast the ritual, the ritual fails, no Power Points are lost, and components not dispersed are not expended. For rituals that have a variable number of Power Points or are to embed a spell or ritual into an item, the spells or rituals are only embedded which the caster has Power Points for. For example, if a character attempts to embed ten Life spells into an item but only has enough Power Points for the Ritual of Embedding and five Life spells, then only five will be embedded.",
+      "The Magic Marshal is responsible for providing a watch, percentile dice, pen and the rules. However, the prudent player will have these supplies in case the marshal forgets something.",
+      {
+        "type": "header",
+        "content": "Additional Casters in a Ritual"
+      },
+      "All rituals have a primary caster, usually just referred to as the caster, but the primary caster can have help casting a ritual. Up to two other casters, always referred to as assistant casters, can assist the primary caster for a total of three characters casting one ritual. Only the primary caster must have the minimum rank in Sorcery required to cast the Ritual. The primary caster must have the ritual in their ritual book. Each assistant caster must know at least Sorcery Rank 1 and must put in a minimum of one-quarter (round down, minimum 1) of the ritual’s temporary Power Point cost towards the ritual, but the ritual’s temporary Power Point cost must be paid in full after all tallies. Assistant casters can follow all steps of the ritual as outlined by the primary caster’s copy of the ritual, but must perform the minimum role-playing requirements for casting a ritual. This does not lower the time taken in the ritual, nor does it increase the number of components. Any caster in the ritual may volunteer any permanent Power Point loss if required by the ritual, but the primary caster is responsible for any permanent Power Point cost, if any, not covered by the other casters.",
+      "The Success Roll is made by the primary caster of the ritual. The Knowledge Bonus treats assistant casters as participants except they receive a +2% for being involved instead of the -2% for participants. All successes and penalties are treated equally among the casters.",
+      "During the ritual, an assistant caster may attempt to wrest control of the ritual from the primary caster if they know the rank of sorcery of the ritual being casted. Whoever has the most current Power Points – before subtracting for the Power Points lost to the ritual – wins control, and if the primary caster loses they become an assistant caster.",
+      "After a ritual is completed, any contest for control of the ritual will result in the primary caster winning control, the caster – or investee – with the highest current Power Points wins if the primary caster is not involved. Two groups of casters or investees vying for control total their current collective Power Point totals and the group with the highest amount wins. If there is a tie, then the status quo is maintained.",
+      "The primary caster must choose to accept a caster into the casting of their ritual; a caster must also be willing or made to be willing to help cast the ritual. A character cannot simply walk into a ritual and make themselves part of the ritual.”",
+      {
+        "type": "header",
+        "content": "Additional Participants in a Ritual"
+      },
+      "A ritual may have as many participants as is needed, required or desired. These participants may not donate any temporary Power Points to the casting of the ritual, but may donate permanent Power Points as they wish. The caster must choose to accept a participant into the casting of their ritual; a participant must also be willing or made to be willing to be part of a ritual. A character cannot simply walk into a ritual and make themselves part of the ritual. If a ritual is to be cast upon a person, they are not considered to be a participant; they are the target.",
+      {
+        "type": "header",
+        "content": "Target of the Ritual"
+      },
+      "The target of the ritual is never considered a component. The exception is the various undead creation rituals, in which case, the body of the target is considered a component and should the ritual fail, the body is destroyed, For purposes of determining when this “component” is used, the target body is always used at the culmination of the ritual. There is no other effect on the character and the player can choose to resurrect if they are able.",
+      {
+        "type": "header",
+        "content": "Duration of Rituals"
+      },
+      "All rituals have a duration listed in the rituals description. Some rituals have an instant effect or only last for a short time such as a Tag Cycle. Others may last until the end of the current Event. Other rituals will last for months or may even be permanent. The duration starts when the ritual ends. For example, if the ritual was completed at 6:50 pm and only lasted a Tag Cycle, then the ritual will end in 10 minutes. Similarly, if a ritual with a duration of 1 Event was completed at noon on the Sunday of an Event, then the ritual ends when game is called, a few hours later.",
+      {
+        "type": "header",
+        "content": "Creating Magic Items, Invokable versus Castable"
+      },
+      "Any time you cast a ritual on an item, unless noted in the ritual’s description, it becomes unbreakable. No amount of Strength Bonus, no low magic spell, no amount of damage, and all but the most powerful attacks of Dragons or Hierarchs can break a magic item. However, if the ritual ends or is dispelled in some way, then the item reverts back to its original properties; so if it was breakable before, it will be breakable again.",
+      "Just because a magic item is magical, does not mean it will swing for magic if it is a weapon. The ritual cast upon the weapon must explicitly state that the weapon will swing for magic. For example, casting a Ritual of Embedding on a normal sword will make that sword unbreakable, but it still swings for normal damage.",
+      "Rituals that make magic items that cast spells – Ritual of Minor Item Creation, Ritual of Item Creation, Ritual of Embedding, etc. – need to be declared either Invokable or Castable and recorded on the item card at the time of creation. All spells in that item must be either all Invokable or all Castable, you cannot mix the two.",
+      "To use a Castable item, the character should prefix the name of the spell with, “From this mystic item, I cast a…” For example, to invoke a wand with embedded Castable Fireball spells, the character would say, “From this mystic item, I cast a Fireball spell.”",
+      "For spells that are listed with a duration of Latent, an Invokable spell can be called to stop an attack, but cannot be cast upon another character. A Castable spell can be cast upon any character, but unless it has been already cast, cannot be invoked to stop an attack.",
+      "For example, Dextralyn casts a Ritual of Embedding and embeds three Invulnerability spells and decides to make them Invokable. Later she is attacked and invokes the three Invulnerability spells one right after another. Once more, Dex creates an item with three Invulnerability spells in it, but makes them Castable. Now she can cast those spells on herself, but can still only have one Invulnerability on her at a time and can give them out to others.",
+      "Non-latent spells – spells with a duration or are Instant – must also be declared as Invokable or Castable. For these spells, Invokable means that the spell can be delivered by touch from the item or caster, but cannot be thrown. This effect is in addition to any martial damage or skill that is normally used with a weapon. So, a long sword with an embedded Fireball spell would do 16 points of magic fire and 2 points of damage. Castable means that the spell can be thrown normally but cannot be touch cast from the item.",
+      "For example, Thomas embeds three Fireball spells into a long sword and declares them Invokable. Later, he can now invoke a Fireball spell and strike someone with the sword to cause the effect. Had Thomas made the item Castable, he would not be able to strike his opponents with the sword, but could throw the Fireballs from the item.",
+      "If the Latent or non-Latent spells are Castable, the character can still touch a character, even themselves, with a spell packet and deliver the spell.",
+      "If a character uses a magic item that lets the caster cast a spell and has a permanent Power Point cost associated with it the character invoking the item must pay the permanent Power Point cost each time the spell is cast.",
+      {
+        "type": "header",
+        "content": "Creating Magic Items - Ritual Limit"
+      },
+      "No item can have more than four rituals cast upon it at any one time. This does not include the Ritual of Permanency. Therefore, a sword can have a Ritual of Elemental Magic Weapon, Ritual of Spell Shield, Ritual of Defense and Ritual of Attunement cast upon it. A Ritual of Permanent Embedding counts as one of these rituals even though a Ritual of Permanency is not needed to make it permanent. Also, once any type of ritual or effect is made permanent on an item that item may not have any more such rituals cast upon it.",
+      "This rule cannot be circumvented by casting rituals on one item then making it part of the whole then casting rituals on the whole item. For example, a character cannot cast four rituals into a gem then have that gem forged into a sword and casting four more rituals on the sword. However, it is acceptable to have separate items attached or contained in one place. For example, a character can place a number of magic charms on a necklace, and wear the necklace; but the necklace cannot be attuned to attune all the items on the necklace simultaneously as well.",
+      {
+        "type": "header",
+        "content": "Undead Creation Rituals"
+      },
+      "Unlike the undead creation spells of the Necromancy school, the undead created by a ritual can last longer than one Event. The player of the undead character is therefore obligated to play the creature until it is destroyed, or until two months, not two events have passed since the ritual was cast. Only when the undead creature is gone can the player’s character be resurrected.",
+      "These rituals can be cast on a dead body or on a living character by delivering a Killing Blow at the end of the ritual. This ritual requires the body of the character to be turned into the undead character, the body of a different character cannot be substituted, ever. Should the ritual fail, and all components consumed, then the dead body is destroyed. If a living character was the target of this type of ritual, then there is no added effect and the character should continue their Death Count normally.",
+      "Undead creation rituals have an instantaneous effect and therefore cannot be dispelled with a Thaumaturgy School spell or any destroy sorcery spell. The appropriate ritual must be used to turn the character back or the undead character must be destroyed to end the ritual effect.",
+      {
+        "type": "header",
+        "content": "Components"
+      },
+      "The common component of all rituals is Ritual Powder. This powder is normally available from the Sorcerers’ Guild, Merchants’ Guild, or other in-game sources. Ritual Powder is measured by the “thimble”, using a standard thimble size. There are two types of Ritual Powder, White Ritual Powder (WRP) and Black Ritual Powder (BRP). White Ritual Powder must be used in white rituals and Black Ritual Powder must be used in dark rituals. White or Black Ritual Powder can be used in neutral rituals and can be mixed in any combination.",
+      "Other components may be listed for the ritual. These components must be collected by the character. They can sometimes find them at the Sorcerer’s Guild. Other guilds may also be able to provide the components needed by the Sorcerer. It is up to the character to locate and acquire the needed components.",
+      "A character may never substitute one component for another. If the ritual calls for the Willing Blood of a Paladin, only the Willing Blood of a Paladin may be used. Even if that blood comes from a human, a Solar or a Dragon, it is the same component. If a character wishes to use a different component in a ritual, they must research a new version of that ritual. Players should read the section on creating new Sorcery for further information.",
+      "Some characters, especially monster types, might be worth more doses of a component being dissected. For example, the character is looking for Essences of a Memory Moss and discovers a creature called the Mother of all Memory Mosses. Instead of the two doses the character would normally get, they will receive four doses from dissecting the character. The Plot Committee will indicate on any special character if they yield more than the normal number of doses, the player does not need to ask. If the NPC’s card does not say it gives more doses, then it does not.",
+      {
+        "type": "header",
+        "content": "Creating New Rituals"
+      },
+      "Sorcery is the magic of creating magic. To this end, it is possible to create new rituals not listed in these rules. Below is a guideline for creating new rituals. All new rituals attempted through the use of these guidelines will only be permitted in-game with Rules Committee’s approval. Approval of any new sorcery ritual does not guarantee that the sorcery ritual will be successful. Approval only means that the Sorcerer has been authorized to make the attempt, after which the results of the ritual will be made known as per the use of the standard Ritual Success Table with all of the appropriate modifiers.",
+      {
+        "type": "table",
+        "headers": [
+          "Rank",
+          "Power Point Cost",
+          "Casting Time",
+          "Components"
+        ],
+        "rows": [
+          [
+            "Rank 1",
+            "5-15",
+            "5-15 Minutes",
+            "Ritual Powder (1-2 Doses), 1 Basic Component, 1-2 Common Components"
+          ],
+          [
+            "Rank 2",
+            "15-25",
+            "10-20 Minutes",
+            "Ritual Powder (1-3 Doses), 1 Basic Component, 1 Common Components, 1 Uncommon Component"
+          ],
+          [
+            "Rank 3",
+            "25-35",
+            "20-30 Minutes",
+            "Ritual Powder (3-5 Doses), 1 Basic Component, 1 Common Components, 1 Uncommon Component, 1 Rare Component"
+          ],
+          [
+            "Rank 4",
+            "35-45",
+            "30-40 Minutes",
+            "Ritual Powder (4-6 Doses), 1 Basic Component, 1 Common Components, 1 Uncommon Compnent, 1 Rare Component, 1 Very Rare Component"
+          ],
+          [
+            "Rank 5",
+            "45-60",
+            "40-50 Minutes",
+            "Ritual Powder (5-8 Doses), 1 Basic Component, 1 Common Components, 1 Uncommon Component, 1 Rare Component, 1 Very Rare Component, 1 Unique Component"
+          ]
+        ]
+      },
+      "Generally speaking, no ritual Rank 5 or lower requires a permanent Power Point cost unless it lasts longer than 1 Event or has a permanent effect.",
+      "The Plot Committee has the final say on what components fit into each category such as common, rare, etc. Players are required to make their Ritual proposal in writing. This proposal must include:",
+      {
+        "type": "list",
+        "items": [
+          "The desired effect of the ritual.",
+          "The desired duration of the effect.",
+          "A list of the proposed components needed.",
+          "The proposed rank, Power Point cost, and time to cast.",
+          "The exact roleplaying steps to be used, along with any in-",
+          "game special effects that would be expected."
+        ]
+      },
+      "After approval, the character’s chance of initial success is 50% after fulfilling these base requirements:",
+      {
+        "type": "list",
+        "items": [
+          "1 silver piece times the rank of the ritual.",
+          "The number of doses of Ritual Powder the ritual requires.",
+          "10 minutes of in-game roleplaying equal to the rank of the ritual during the first Event of research. Then an additional month of out-of-game research when modifying an existing ritual or two months of out-of-game research for a new ritual.",
+          "A single dose of each component."
+        ]
+      },
+      "To increase this success chance, the character may spend more time and money:",
+      {
+        "type": "list",
+        "items": [
+          "+5% per extra event of role-playing up to a maximum of four extra Events.",
+          "+1% per extra 1 silver piece spent.",
+          "+25% bonus for modifying an existing ritual.",
+          "+5% times (Character’s Rank of Sorcery – Rank of Ritual being Researched)",
+          "Special bonuses assigned by the Plot Committee, which could be either a positive or a negative bonus."
+        ]
+      },
+      "Maximum chance of success is always 95%.",
+      "After submitting the proposal, the Rules Committee will inform the player if the ritual will not be allowed in game or if the caster will never be able to cast the ritual. If approved, the character then spends the required time and rolls to determine the success of the research and tries to cast the ritual. If they succeed their research roll but the Rules Committee feels some aspect of the ritual is inappropriate – the Casting Time too short, wrong component, too little or too many Power Points etc – they will inform the player after they attempt to cast their new ritual, but with those changes, the ritual is learned. If they fail the research roll, the Rules Committee will inform the player after they failed to cast the new ritual that the roll failed and they should try again after researching at least another Event gaining the appropriate bonus, however the character cannot, and needs not, spend more money.",
+      {
+        "type": "header",
+        "content": "Aligned Sorcery"
+      },
+      "Most Sorcerers are neutral or Gray Sorcerers, owing allegiance to no greater power. However, there are Sorcerers who have dedicated themselves to service of the High Lord or Dark Lord. All Sorcerers start out as Gray Sorcerers, and later in their careers may choose to serve one of the two opposing sides. There are advantages and disadvantages to being a White or Dark Sorcerer. The player should see the Follower of Light and Servant of Darkness Advanced Careers for more information about these Sorcerers.",
+      "All rituals have one of five alignments: white only, white, neutral, dark, and dark only. A neutral or Gray Sorcerer may cast white, neutral, and dark rituals. A White Sorcerer may cast neutral, white, and white only rituals and may never cast dark or dark only rituals. Concordantly, a Dark Sorcerer may cast neutral, dark, and dark only rituals and may never cast white or white only.",
+      "White Sorcerers must use White Ritual Powder and cannot ever use Black Ritual Powder in their rituals. Dark Sorcerers must use Black Ritual Powder for dark and dark only rituals and can use either Black or White Ritual Powder in the casting of their neutral rituals. Gray Sorcerers can use White or Black Ritual Powder to cast neutral rituals, but must use White Ritual Powder for white rituals and Black Ritual Powder for dark rituals."
+    ],
+    "ritualRules": [
+      {
+        "type": "table",
+        "title": "Ritual Success Base Table",
+        "headers": [
+          "Die Roll"
+        ],
+        "rows": [
+          [
+            "01-03",
+            "Caster(s) and all participants immediately go to the Brink of Death. Anyone watching the ritual goes to -1 Body Points. The ritual fails."
+          ],
+          [
+            "04-10",
+            "Caster(s) and all participants immediately go to the Brink of Death. The ritual fails."
+          ],
+          [
+            "11-20",
+            "Caster(s) and all participants immediately go to -1 Body Points. The ritual fails."
+          ],
+          [
+            "21-30",
+            "The ritual fails, but the caster(s) and any participants are unharmed."
+          ],
+          [
+            "31-50",
+            "The ritual succeeds but is flawed. The Magic Marshal will roll on a Ritual Flaw Table and inform the caster(s) of the results."
+          ],
+          [
+            "51-120",
+            "The ritual succeeds."
+          ],
+          [
+            "121-140",
+            "The ritual succeeds. In addition, one ritual component (chosen at random by the Magic Marshal) is not expended by performing the ritual. If the caster(s) of the ritual has dispersed† all the components and there is nothing that can be saved, then the caster(s) loses only half the temporary Power Points needed to cast the ritual."
+          ],
+          [
+            "141-150",
+            "The ritual succeeds. In addition, none of the ritual components are expended by performing the ritual. If the caster(s) of the ritual has dispersed† all the components and there is nothing to be saved, then the caster(s) loses no temporary Power Points to cast the ritual."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ritual Success Modifier Tables",
+        "headers": [
+          "Modifier",
+          "Description"
+        ],
+        "footers": [
+          "Only one modifier applies"
+        ],
+        "rows": [
+          [
+            "+20",
+            "1st Rank Ritual"
+          ],
+          [
+            "+15",
+            "2nd Rank Ritual"
+          ],
+          [
+            "+10",
+            "3rd Rank Ritual"
+          ],
+          [
+            "+5",
+            "4th Rank Ritual"
+          ],
+          [
+            "0",
+            "5th Rank Ritual"
+          ],
+          [
+            "-5",
+            "6th Rank Ritual"
+          ],
+          [
+            "-10",
+            "7th Rank Ritual"
+          ],
+          [
+            "-15",
+            "8th Rank Ritual"
+          ],
+          [
+            "-20",
+            "9th Rank Ritual"
+          ],
+          [
+            "-25",
+            "10th Rank Ritual"
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ritual Success Modifier (Time Bonus)",
+        "headers": [
+          "Modifier",
+          "Description"
+        ],
+        "footers": [
+          "Only one modifier applies"
+        ],
+        "rows": [
+          [
+            "-10",
+            "For taking less than the required time to cast the ritual, down to 75% of the normal time."
+          ],
+          [
+            "-20",
+            "For taking less than 75% of the normal amount of time to cast the ritual, down to 50% of the required time."
+          ],
+          [
+            "+5",
+            "For taking more than the required time to cast the ritual from 150% to 200% of the required time."
+          ],
+          [
+            "+10",
+            "For taking more than the required time to cast the ritual over 200% of the required time."
+          ],
+          [
+            "Fail",
+            "For taking less than 50% of required time to cast the ritual."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ritual Success Modifier (Knowledge Bonus)",
+        "headers": [
+          "Modifier",
+          "Description"
+        ],
+        "rows": [
+          [
+            "+0.5",
+            "For each 4th rank in a school of magic that the caster(s) knows."
+          ],
+          [
+            "+1",
+            "For each 5th rank in a school of magic that the caster(s) knows."
+          ],
+          [
+            "+5",
+            "For each Rank of Sorcery that the caster(s) knows."
+          ],
+          [
+            "+2",
+            "For each assistant caster in the ritual."
+          ],
+          [
+            "-2",
+            "For each participant (not the target) in the ritual, apart from the caster(s)."
+          ],
+          [
+            "+0.25",
+            "For each 4th rank in a school of magic that an assistant caster or participant knows."
+          ],
+          [
+            "+0.5",
+            "For each 5th rank in a school of magic that an assistant caster or participant knows."
+          ],
+          [
+            "+1",
+            "For each Rank of Sorcery that an assistant caster or participant knows."
+          ],
+          [
+            "-1",
+            "For every Build Point the caster(s) and participant(s) has spent on Warlock skills."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ritual Success Modifier (Component Bonus)",
+        "headers": [
+          "Modifier",
+          "Description"
+        ],
+        "rows": [
+          [
+            "+1 to +5",
+            "Components that come from characters gain a +5 freshness bonus in the month they are collected. For every month after, bonus decreases by 1 down to 0. Herbal components gain a bonus of +1 in the month they are collected. This bonus lasts 3 months. All other components gain no freshness bonus. Only the best bonus for the component (not doses) is gained, regardless of the number of doses. The total freshness bonus for all components is +10."
+          ],
+          [
+            "+10",
+            "For using double the amount of Ritual Powder to perform the ritual."
+          ],
+          [
+            "-10",
+            "For using less than the required amount of Ritual Powder down to 75% of the required amount."
+          ],
+          [
+            "-20",
+            "For using less than 75% of the required amount of Ritual Powder down to 50% of the required amount."
+          ],
+          [
+            "-40",
+            "For using less than 50% of the required amount of Ritual Powder, down to 25% of the required amount."
+          ],
+          [
+            "Fail",
+            "For using less than 25% of the required amount of Ritual Powder down to no Ritual Powder at all."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Ritual Success Modifier (Perfomance Bonus)",
+        "headers": [
+          "Modifier",
+          "Description"
+        ],
+        "rows": [
+          [
+            "+0",
+            "For doing the ritual as written, and using tags or empty vials for a physical representation."
+          ],
+          [
+            "+1 to +5",
+            "For performing a ritual well enough for any one to easily tell and for exceptional roleplay."
+          ],
+          [
+            "+0.5",
+            "For each component in the ritual the player has the appropriate physical representation for, not per dose."
+          ],
+          [
+            "Fail",
+            "For not performing the ritual at all."
+          ]
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Timing, Marshalling, and Performance Bonus"
+      },
+      "During the casting of a ritual, the Magic Marshal should inform the player when they have reached half of the required time, three- fourths of the required time, full time, then time and a half, and finally double time. The player may use this information in-game to help them determine when they want to stop the ritual. The player must always complete the full ritual as written, but they may choose to speed up or slow down their performance affecting their Time Bonus accordingly.",
+      "Additionally, the Magic Marshal may inform the player during the casting of the ritual that they have made a mistake by telling them “The ritual is getting harder to cast” or “An error was made.” Similarly if the caster does something to warrant a bonus, the marshal may tell the caster “The ritual got easier to cast” or “Good roleplay.” The marshal will be trained in the proper way to do this, but the player should be ready for these comments.",
+      {
+        "type": "header",
+        "content": "Ritual Flaw Tables"
+      },
+      "If a ritual is flawed, the results of the ritual are not what the caster expected. Sometimes the ritual turns out better than the caster expected; sometimes there is some defect in the ritual’s result.",
+      "Each ritual has its own ritual flaw table. The flaw tables are maintained by the Senior Magic Marshals. They are altered from time to time, to prevent the players from becoming too familiar with the different ritual flaw possibilities. Therefore, whenever a ritual is performed, the Magic Marshal must ask a Senior Magic Marshal for a flaw table for that ritual. Typically, the flaw tables are kept in sealed envelopes; if the ritual is not flawed, then the envelope is not opened. If the ritual is flawed, only the Magic Marshal should open the envelope, read the table, and perform the die roll that determines the exact nature of the flaw.",
+      "Sometimes a ritual’s flaw will be obvious. For example, if a Ritual Circle turns out to be a Circle of Fire; sometimes the flaw will be obvious only to the caster – the ritual cost double the number of temporary Power Points – sometimes the flaw can only be detected over time. Regardless of the flaw, the flaw will always be revealed by an Identify Magic spell."
+    ],
+    "rituals": [
+      {
+        "name": "Ritual of Elemental Energy 1",
+        "description": [
+          "This ritual charges the caster with the energy of a particular element. After performing this ritual, the caster can throw an infinite number of bursts of elemental energy. Each burst of energy causes the amount of damage listed in the table below; the caster throws a spell packet and states the amount of damage followed by the type of damage; “Four Fire” for example. Only one spell packet can be thrown at a time. This damage is physical and therefore can be blocked by shields and any defense that stops physical attacks, such as the Invulnerability spell, but not by the Negation spell.",
+          "The type of damage associated with each element is:",
+          {
+            "type": "table",
+            "headers": [
+              "Element",
+              "Effect"
+            ],
+            "rows": [
+              [
+                "Fire",
+                "4 Normal Fire"
+              ],
+              [
+                "Water",
+                "4 Normal Ice"
+              ],
+              [
+                "Air",
+                "4 Normal Lightning"
+              ],
+              [
+                "Earth",
+                "4 Normal Damage"
+              ],
+              [
+                "Life",
+                "4 Normal Healing"
+              ],
+              [
+                "Death",
+                "4 Normal Body"
+              ]
+            ]
+          },
+          "Note that healing damage does not heal the target, however, undead who are effected by normal damage will take double damage.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Elemental Energy 1.",
+          "If this ritual were to become permanent, it would give the caster the ability to invoke this ritual once per Event; the charge would last for 1 hour."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Elemental Weapon",
+        "description": [
+          "This ritual allows the caster to instill any weapon with the power of one of the elements, which then allows the wielder to gain an elemental damage bonus to the weapon. For example, in the case of fire, the wielder would call “Damage Fire.” This damage is not magical.",
+          "The type of damage associated with each element is:",
+          {
+            "type": "table",
+            "headers": [
+              "Element",
+              "Effect"
+            ],
+            "rows": [
+              [
+                "Fire",
+                "Normal Fire"
+              ],
+              [
+                "Water",
+                "Normal Ice"
+              ],
+              [
+                "Air",
+                "Normal Lightning"
+              ],
+              [
+                "Earth",
+                "+1 Normal Damage"
+              ],
+              [
+                "Life",
+                "Normal Healing"
+              ],
+              [
+                "Death",
+                "-1 Normal Body"
+              ]
+            ]
+          },
+          "For example, if an ordinary sword which normally does 2 points of damage is enchanted with elemental life, the wielder would call “Two Healing” when they used the weapon. Note that healing damage does not heal the target, however, undead who are effected by normal damage will take double damage.",
+          "If a Ritual of Permanency is cast on a weapon enchanted with the Ritual of Elemental Weapon, then the weapon will keep its continual elemental property, but it will not strike as a magical weapon.",
+          "A weapon of any quality is needed for this ritual and is the target of the ritual. Only one Ritual of Elemental Weapon can be cast upon a weapon at the same time. If a second ritual is cast, it will automatically fail. When this ritual is successfully cast on a weapon, it becomes unbreakable."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Magic Staff Creation",
+        "description": [
+          "This ritual prepares a normal staff to accept all the other Magic Staff rituals. Upon successful completion of this ritual, the caster’s staff will be unbreakable and affect things with Damage Resistance: Mithril. The character should suffix the damaged called with “Mithril”. Only this staff gains this benefit and only the caster gains the benefit of the damage type modifier.",
+          "This ritual can be cast only on a staff, no other weapon substitutions are allowed. Only the caster can gain the benefits of this ritual. The caster may only have one caster’s staff at a time. If this ritual is cast upon a second staff, the first is destroyed and all Power Points, components, and rituals placed on that staff are lost forever."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Magic Transfer",
+        "description": [
+          "This ritual allows the Power Points from any number of willing individuals to be transferred temporarily into a single spell caster. A character under the effects of an Enslavement or Domination spell or other mind controlling effect is not considered “willing”, but a character that is coerced by threat or promise or trickery would be. A spell caster can gain more than their normal maximum of Power Points using this ritual, however it does not change their maximum Power Point stat. The recipient of the Power Points does not have to be the caster of the ritual.",
+          "The recipient of the transferred Power Points has them until the end of the current Tag Cycle. If they are not all used by then, they are lost.",
+          "The person casting the ritual must have enough Power Points to cast the ritual; these Power Points cannot come from the Power Points received by casting this ritual. The people who are allowing their Power Points to be transferred must all be willing and must have unspent points available for the transfer."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Power Staff",
+        "description": [
+          "This ritual allows the caster’s staff to be used in place of the gem component of the Ritual of Storing. The maximum number of Power Points that can be stored in the caster’s staff are 1/4 of the caster’s total number of Power Points.",
+          "This ritual must be cast upon the caster’s staff created in the Ritual of Magic Staff Creation. The caster’s staff is the target of the ritual. This ritual can only be cast once on the caster’s staff."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Rune Crafting",
+        "description": [
+          "This ritual causes a rune of power to be inscribed on an object. When active, a rune constantly “watches” for any moving character within a 5 foot radius; when it sees one, the rune goes off, releasing its effect. The effects of the rune depend on its shape; an experienced Sorcerer can look at a rune and determine what its effects are from the rune’s design.",
+          "The Ritual of Rune Crafting involves inscribing the rune perfectly on the desired object with magical rune powder represented out-of-game by a piece of green chalk. The rune must be at least three inches tall , in the same proportions, orientation, and should be inscribed on a relatively flat surface. When a rune is first scribed, it is inactive; the scrivener must activate it in order for the rune to produce its effect.",
+          "Once active, a rune will go off if it sees a moving character move within 5 feet; if a rune cannot see you, then it will not go off. This means that a rune can be scribed on the inner lid of a box, on an inside page of a book, on the inner sill of a door, or in a totally dark room; the rune will not go off unless a moving character is visible within a 5 foot radius.",
+          "Additionally, the object the rune is scribed on must be stationary once the rune is activated. Should the entire object be intentionally moved after the rune is traced or fully active, it will go off, even if it is inside the object, such as a box, out to its full radius. For example, a character scribes a rune on one of the pages of a book. If the book is opened it will not go off, even if the page it is on is turned. However, if someone lifts the book, the rune will activate. If the rune was scribed on the inside bottom of a box and then covered, lifting the lid will not set the rune off, lifting its coverings will.",
+          "When a rune goes off, everyone within a 5 foot radius of the rune experiences its effect. The effects of a rune are magical in nature, so a defense that stops spells will protect against the effects of the rune; a Reflection or Absorption spell will protect against a rune’s effects, but a rune’s magic will not be reflected or absorbed. Normally a rune vanishes once it goes off.",
+          "When the Rune is scribed, the scrivener can embed additional “uses” of the rune’s effect into the rune. Up to a total of three uses can be in inscribed into one rune. If a multiple-use rune goes off, it will wait 3 seconds, then go off again if it still sees a moving character. Once a rune has gone off for the last time, it vanishes.",
+          "If a Ritual of Permanency is cast on a rune, it will remain scribed on the object after it has gone off. The rune will remain active, and resets itself after 5 minutes. If a multi use rune is permanencied, then each charge is reset after 5 minutes.",
+          "Cautious Sorcerers may inscribe more than one rune on a single object. If two different runes are activated simultaneously, characters experience their effects simultaneously and one defense against spells is required per effect.",
+          "The caster should (out-of-game) write the a description of the rune’s effects and its key word on a piece of paper, and place the paper and the Power-Point tags used to cast the rune in an envelope marked “Marshal Notes”. This envelope should be taped near the object on which the rune is scribed so a Marshal can properly supervise the rune’s activation."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Sanctification",
+        "description": [
+          "This ritual allows the Sorcerer to sanctify a dead character against being raised as an undead. This ritual is attached to the character’s soul, not the body. So, if the body is destroyed, the ritual will remain in effect. This ritual must be cast on the last body the character had.",
+          "The character will be laid to rest and no necromancy or sorcery that creates undead will work on the character. The ritual may be dispelled by a ritual that dispels sorcery and must be cast on the body before any ritual or necromancy is cast. If the target of a successful sanctification resurrects, then the Ritual of Sanctification ends."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Specter Creation",
+        "description": [
+          "This ritual turns a character into a Specter, an incorporeal lesser undead creature. The Specter is under the control of the caster of the ritual.",
+          "The player of the character who died must now play the newly- created undead creature. When the Specter is reduced to zero or less Body Points, the undead body dissolves into dust. The player takes one Death on their character card and may now go to the Healer’s Circle to have their spirit resurrected.",
+          "Specter lasts until destroyed or two months – the month the ritual was cast and the following month – if the target character can resurrect. If the character is un-resurrectable, then this ritual is permanent until the Specter is destroyed."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Storing",
+        "description": [
+          "This ritual allows Power Points to be temporarily stored in a gem or an item which contains a gem. These Power Points may be used later by the caster or by another person. Any gems used to store Power Points must be legitimate in-game items approved by the Treasure Manager.",
+          "When this ritual is successfully cast on a gem, it becomes unbreakable. It cannot be destroyed by Shatter, Blast, or similar spells or abilities. When the enchantment wears off, the gem becomes breakable again.",
+          "A gem or item containing a gem must be worth 1 silver piece per Power Point to be stored. This ritual can be cast multiple times on the same gem up to maximum of the value of the gem.",
+          "No more than 25 Power Points can be stored in any one gem."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Warding",
+        "description": [
+          "This ritual magically protects an area for the duration of the ritual. The area of effect may be any one building or room within a building. A building is defined in-game as any structure – man made or natural – that has at least three walls and a roof. Out-of-game, “lesser” structures that are defined as buildings can be warded. For example, a pavilion at an Event is deemed to be the Armory by the Magic Marshal, this structure would be wardable by the character.",
+          "When a ward is cast, it embeds itself in the walls, floor, and ceiling of the warded area; even if the physical structure is damaged, the ward will remain. After it is created, the ward’s caster can lower the entire ward by touching it and willing it down; when the caster ceases to touch the ward, it automatically goes up again. Any thing over the ward that is not over a designated portal when the caster raises the ward is ejected from the warded area in the direction it entered. A lowered ward will stay down if anything is placed across the ward’s boundary; when the boundary is no longer blocked, the ward goes up again.",
+          "When the caster creates a ward, they may designate entrances in the ward. A random word chosen by the caster at the time of the ritual will cause an entrance to open when the word is spoken at an audible level in front of the entrance. This word will not affect any of the other entrances to the ward unless it is spoken loudly enough so that it can be heard at another entrance. When the word is spoken, the entrance will lower momentarily; it will stay open as long as anyone or anything more than a pound is placed in the opening. When an entrance is no longer blocked, it closes automatically.",
+          "Each designated entrance must be indicated on the Martial Notes, along with the ward word. To indicate the presence of a ward, the caster should place garland, yellow duct tape, glow rope, or some other suitable indication of a ward at each entrance to the structure.",
+          "Ward rituals of the same type do not stack, therefore two Rituals of Warding cannot be caste on the same building or room, but a room can have a Ritual of Warding Versus Life and a Ritual of Warding. Wards of the same type can share one common wall."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Warding Versus Life",
+        "description": [
+          "This ritual acts exactly as the Ritual of Warding save that living beings as well as weapons or spells cast by living beings can not pass through. Undead and spells and weapons of the Undead can pass through the ward as if it were not there.",
+          "Ward rituals of the same type do not stack, therefore two Rituals of Warding Versus Life cannot be caste on the same building or room, but a room can have a Ritual of Warding Versus Life and a Ritual of Warding. Wards of the same type can share one common wall."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Warding Versus Undead",
+        "description": [
+          "This Ritual acts exactly as the Ritual of Warding save that undead beings as well as weapons or spells cast by undead beings can not pass through. Living beings and spells and weapons of the living can pass through the ward as if it were not there.",
+          "Ward rituals of the same type do not stack, therefore two Rituals of Warding Versus Undead cannot be caste on the same building or room, but a room can have a Ritual of Warding Versus Undead and a Ritual of Warding. Wards of the same type can share one common wall."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Purity Shield",
+        "description": [
+          "This ritual provides the recipient with a magical shield that will protect them from any alchemical effect, ingested or otherwise. After the alchemy shield is invoked to protect the recipient, it resets itself after 5 minutes.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Purity Shield.",
+          "The player should call “Ritual of Purity” when they invoke this defense."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Armor",
+        "description": [
+          "This ritual creates a sorcerous defense that protects a character by granting them 20 Armor Points. No real armor needs to be worn for this ritual to protect the character. After the Ritual of Armor is expended; it resets itself after 5 minutes or if not completely damaged, it will reset itself 5 minutes after the last point of damage is taken.",
+          "This ritual is not stackable, combinable, linkable, wearable or usable with itself. For example, if you have two items such as rings, each with one of these rituals upon it, you cannot use both items to gain a +40 Armor Points, ever.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Armor."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Defense",
+        "description": [
+          "This ritual creates a sorcerous defense that protects a character as an Invulnerability spell and will stop a Kill spell – even one augmented by Warlockery. After the Ritual of Defense is expended; it resets itself after 5 minutes.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Defense.",
+          "The player should call “Ritual of Defense” when they invoke this defense."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Greater Elemental Weapon",
+        "description": [
+          "This ritual allows the caster to instill any weapon with the power of one of the six elements, which then allows the wielder to gain a magical and elemental Damage Bonus to the weapon.",
+          "The type of damage associated with each element and the damage bonus is:",
+          {
+            "type": "table",
+            "headers": [
+              "Element",
+              "Effect"
+            ],
+            "rows": [
+              [
+                "Fire",
+                "+1 Magical Fire"
+              ],
+              [
+                "Water",
+                "+1 Magical Ice"
+              ],
+              [
+                "Air",
+                "+1 Magical Lightning"
+              ],
+              [
+                "Earth",
+                "+2 Mithril Damage"
+              ],
+              [
+                "Life",
+                "+1 Magical Healing"
+              ],
+              [
+                "Death",
+                "+0 Magical Body"
+              ]
+            ]
+          },
+          "For example, if an ordinary sword is enchanted to be an Earth Magic sword, then the wielder would call “Four Damage” when they used the weapon. If the weapon was a metal other than iron; the player should call that instead, the character would call “Four Mithril” if the weapon was mithril. Note that healing damage does not heal the target, however, undead who are effected by normal damage will take double damage.",
+          "When this ritual is successfully cast on a weapon, it becomes unbreakable. Only one of these rituals can be cast on a weapon at a time. If a second ritual is cast, it will automatically fail.",
+          "If a Ritual of Permanency is cast on a weapon enchanted with a Ritual of Greater Elemental Weapon, then the weapon will become a permanent elemental weapon. Only one Ritual of Greater Elemental Weapon can be cast on a weapon at one time. If a second ritual is upon the weapon it will automatically fail."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Elemental Protection I",
+        "description": [
+          "This Ritual allows the recipient to ignore the effects of one element for 5 minutes and can be invoked any time during the Event, once per Tag Cycle, in which it was cast. The following table outlines what the character is protected from; this includes magical effects from spells:",
+          {
+            "type": "table",
+            "headers": [
+              "Element",
+              "Protection"
+            ],
+            "rows": [
+              [
+                "Fire",
+                "Fire Damage"
+              ],
+              [
+                "Water",
+                "Ice Damage"
+              ],
+              [
+                "Air",
+                "Lightning Damage"
+              ],
+              [
+                "Earth",
+                "Bonds Spells, Petrification Attacks"
+              ],
+              [
+                "Life",
+                "Healing Damage"
+              ],
+              [
+                "Death",
+                "Death Damage"
+              ]
+            ]
+          },
+          "This will only protect the character from the damaging effects of the element. Special martial skills such as the Stun, Disarm, Shatter Weapon, Slay skills, etc. are not stopped by this ritual. Eldritch attacks are not stopped by this ritual. This ritual cannot be invoked as a defense to an attack.",
+          "The player should call “No Effect” when struck with the appropriate attack."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Feign Life",
+        "description": "When this ritual is cast on an undead, the undead will appear to all senses as the living breathing person they where in life. The undead will even appear to bleed if struck. A Detect Life spell or First Aid skill will detect the undead as alive. However, if the undead is immune to a class of weapons or spells, then no effect will show. The Detect Undead skill will detect the undead under the effects of this ritual. Also note that this ritual does not grant any extra abilities to the undead. This ritual will not protect the undead from sunlight.",
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Health",
+        "description": [
+          "This ritual charges a living character with the power of life. The effect doubles the Body Point stat of the recipient for the rest of the Event. This ritual will not double the effects of other rituals, spells, or alchemy. These new Body Points are healed normally.",
+          "Only one Ritual of Health may be cast on a character at a time, any additional castings of this ritual will automatically fail."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Investiture",
+        "description": [
+          "This ritual allows a previously-invested member of a circle to invest a new member, despite the fact that the investor may not have created the circle. The caster is in effect magically sponsoring the new member into the circle. The new member can, after the ritual is complete, raise and lower the circle.",
+          "The character to be invested in the circle must give up one permanent Power Point. This Power Point has to come from the character and cannot be given by another. Should the character be de-invested or the circle they are invested in is destroyed, the character will regain their lost Power Point."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Permanent Magic Transfer",
+        "description": [
+          "This ritual allows one or more willing spell casters to permanently transfer Power Points to the recipient. A character under the effects of an Enslavement or Domination spell or other mind controlling effect is not considered “willing”. This ritual functions exactly like the Transfer Magic ritual except that the Power Points are transferred permanently.",
+          "The permanent Power Point donor must be Level 5 and can only donate up to a maximum of 20% of the donor’s total Power Points. Additionally, the recipient character cannot have more Power Points than they could learn.",
+          "As with all permanent Power Point loss, the character must be completely willing. So, not only are characters under a mind controlling effect not willing, but those coerced in any manner are also not willing characters. Forcing a character with the threat of personal death or the death of another are examples of coercion."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Necromancy Shield",
+        "description": [
+          "This ritual provides the recipient with a magical spell defense that will protect them from any necromantic spell or attack, including spells augmented by Warlock skills such as the Total Power skill. After the necromancy shield is invoked it is expended and it resets after 5 minutes.",
+          "This Ritual will go off against the first necromancy spell or ritual if the recipient is unconscious, or otherwise rendered unable to use a spell defense.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Necromancy Shield.",
+          "The player should call “Necromancy Shield” when they invoke this defense."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Raise Graveyard",
+        "description": [
+          "When this ritual is cast, the Sorcerer will raise 150 lesser undead. The specific undead raised is up to the Plot Committee, but they will be a mix of what is listed below.",
+          {
+            "type": "table",
+            "headers": [
+              "Lesser Undead",
+              "Up to..."
+            ],
+            "rows": [
+              [
+                "Zombie",
+                "80%"
+              ],
+              [
+                "Skeleton",
+                "60%"
+              ],
+              [
+                "Ghoul",
+                "40%"
+              ],
+              [
+                "Revenant",
+                "20%"
+              ],
+              [
+                "Specter",
+                "10%"
+              ],
+              [
+                "Wraith",
+                "10%"
+              ]
+            ]
+          },
+          "The undead are under the control of the caster and will remain until destroyed."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Remove Curse",
+        "description": "This ritual removes all curses from one target individual or object, which must be present in the ritual.",
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Spell Shield",
+        "description": [
+          "This ritual provides the recipient with a magical shield that can protect them from any magical spell or effect including spells augmented with Warlock abilities such as the Total Power skill, Nature Magic, Spell Singing, and sorcery rituals rank 5 or lower. After the spell shield is invoked to protect against a spell, the shield is expended; it resets itself after 5 minutes.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Spell Shield.",
+          "The player should call “Spell Shield” when they invoke this defense."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of True Undead Control",
+        "description": [
+          "This ritual allows the caster to control any lesser undead within a 50 foot radius and that are within Line of Sight. This radius moves with the caster. Lesser undead which are given commands will continue to follow those commands after they leave the radius of control unless directly controlled by another character. Undead within 10 feet of the caster of this ritual may not be controlled by anyone else; the ritual’s power suppresses the power of any other Necromancy spell. Should two Rituals of True Undead Control come in conflict, then the closer caster wins. Follower of the Light and Servant of Darkness skills that effect undead will override this ritual until the caster is able to re-establish control.",
+          "All undead in the area of effect are under the caster’s control as long as the undead are inside the area of effect. The caster may give any number commands during this time. Should someone else control the undead, turn the undead or new undead enter the area, the caster must re-invoke the ritual to gain control.",
+          "The effects of this ritual last till the end of the current Tag Cycle. If Ritual of Permanency is cast, then this ritual is effective all the time.",
+          "In order to use this ritual, the caster should call “Invoke Ritual of True Undead Control”."
+        ],
+        "rank": 2
+      },
+      {
+        "name": "Ritual of Dispel Lesser Sorcery",
+        "description": [
+          "This ritual dispels all active low magic spells – even ones augmented with Warlockery, all Nature Magic spells and all Spell Singing spells on the target character or item; or any one Ritual below 3rd Rank. Spells that create an effect and are no longer active such as undead created by the Necromancy School or ritual are not affected by this ritual.",
+          "The caster of the ritual should declare the ritual being dispelled, however if the caster fails to do so then the target, if it is able to, must chose an available ritual to be dispelled. For example, a character has a permanent Ritual of Faith Shield and a temporary Ritual of Alchemy Shield and Spell Shield. This ritual is cast upon that character, but no ritual is specified by the caster. The target player has to choose either the Alchemy or Spell Shield; they cannot choose the permanent Faith Shield as this is not a viable target of the ritual."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Ritual of Divine Blessing",
+        "description": [
+          "This white ritual, when cast on a character, will grant the benefits listed below. The character can only be affected by one Ritual of Divine Blessing at a time. The effects of this ritual are stackable with a Ritual of Health, but the effects are not cumulative; the Ritual of Health only doubles the character’s Body Point stat and this ritual adds to the final number. This is also true for Power Points, this ritual will add the bonus after any other modifiers.",
+          "This ritual makes the following additions to the target character:",
+          {
+            "type": "list",
+            "items": [
+              "Immunity to Fear",
+              "Increases Body Points by +25",
+              "Increases Power Points by +25",
+              "Increases Strength Bonus by +1"
+            ]
+          },
+          "This ritual, while cast upon a character, is focused though an item that has been blessed and imbued with Faith Points. The item must be worth at least 10 silver pieces and is not consumed in the ritual. The recipient must be wearing the item to receive the benefits of the ritual. If the item is removed and later recovered and worn, the character once more gain the benefits of the ritual as long as the duration has not expired. No other character can gain the benefits of this ritual by wearing the item."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Ritual of Elemental Energy 2",
+        "description": [
+          "This ritual charges the caster with the energy of a particular element. After invoking this ritual, the invoker can throw an infinite number of bursts of elemental energy. The damage and type of damage is given in the table below; the caster throws a spell packet and states the amount of damage followed by the type of damage; “Eight Fire.” Only one spell packet can be thrown at a time. This damage is physical and therefore can be blocked by shields and an Invulnerability spell but not a Negation spell.",
+          "The type of damage associated with each element is:",
+          {
+            "type": "table",
+            "headers": [
+              "Element",
+              "Effect"
+            ],
+            "rows": [
+              [
+                "Fire",
+                "8 Normal Fire"
+              ],
+              [
+                "Water",
+                "8 Normal Ice"
+              ],
+              [
+                "Air",
+                "8 Normal Lightning"
+              ],
+              [
+                "Earth",
+                "10 Normal Damage"
+              ],
+              [
+                "Life",
+                "8 Normal Healing"
+              ],
+              [
+                "Death",
+                "6 Normal Body"
+              ]
+            ]
+          },
+          "Note that healing damage does not heal the target, however, undead who are effected by normal damage will take double damage.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Elemental Energy 2.",
+          "If this ritual were to become permanent, it would give the caster the ability to “charge up” with elemental energy once per Event; the charge would last for 1 hour."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Ritual of Embedding",
+        "description": [
+          "This ritual allows a spell or ritual to be embedded within an object or item. The spells or rituals to be embedded must be cast on the item during the ritual the number of times you want the item to contain the spell. Only spells of the same school of magic can be embedded into the same item.",
+          "There is a difference between permanently embedding a ritual into an item and making that ritual permanent. The permanent Power Point cost listed in various rituals are the cost should a Ritual of Permanency be cast. To permanently embed a spell, the Ritual of Permanent Embedding is used, not this ritual. To permanently embed a ritual, the Ritual of Permanent Ritual Embedding should be used.",
+          "Also note that there is a difference between, for example, casting a Ritual of Enchantment on an item and embedding a Ritual of Enchantment into an item. The former causes a weapon to become magical. The latter causes the ritual to be stored into an item from which it can be invoked later to enchant a weapon.",
+          "No more than four rituals, or up to ten charges of any combination of spells from the same school, may be embedded in one item. They must all be cast into the item during one ritual. Only one Ritual of Embedding or Permanent Embedding may be cast on any one item. Additionally, you many not cast another Ritual of Embedding to “recharge” an item that does not have four rituals or ten spells in it already.",
+          "Spells cast into an item need to be declared and recorded on the item card to be either Invokable or Castable. A Ritual of Permanency does not have to be cast on this item to make it permanent. This ritual cannot be used to make other rituals permanently embedded; a Ritual of Permanent Ritual Embedding must be used instead.",
+          "The spells to be embedded can come from the caster or anther character who has to be either a participant or caster in the ritual; it cannot come from an item or scroll. If two or more sorcerers are casting this ritual together, one or both of them can cast some or all of the spells into the item. The exception to this is lost magic. In order to embed a lost spell into an item, the Sorcerer casting the ritual must know the spell being embedded and must use twice the amount of Mummy Dust normally required.",
+          "Any low magic spell or spells embedded into an item must all be declared either Invokable or Castable, not some combination.",
+          "This ritual cannot be made permanent even with a Ritual of Permanency.",
+          "The item to contain the spells must be a LAIRE in-game item with a number and any value over 1 silver piece for embedded spells or rituals. It the item is made Invokable, the ritual requires double the normal amount of Mummy Dust. This is in addition to added amount needed for embedding lost spells."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Ritual of Item Ward",
+        "description": [
+          "When this ritual is cast on a book or container, no larger than 10 cubic feet, it becomes unbreakable, unmovable and unable to be opened when closed. When the ritual is cast the character has the option of giving the object a ward word which cannot be changed once set. The ward can be lowered, and the object opened, by speaking the ward word or the caster touching the object and willing the ward down. Once turned off, the ward will remain down so long as the object remains open. Closing the item automatically activates the Item Ward. While the object is opened, it may be moved as normal until it is closed. If the item is closed it will immediately drop to the ground.",
+          "Any item placed within the container must allow the container to close. Any pages of a book originally present when the ritual is cast are warded; any new paper or items placed inside the book are only warded when the book is closed.",
+          "If a Ritual of Permanent Ritual Embedding is cast with this ritual, and the item is neither a book nor container, then that item becomes known as a Guardian or Watcher. This item has slightly different properties; the owner may place the Watcher on a container or book of the appropriate size and invoke the ritual. The object becomes warded – along with the Watcher – as if the Ritual of Item Ward was cast upon it. The Watcher can be removed and the object opened if the ward word or original caster touches the Watcher and wills the ritual down. The Watcher can then be placed on another object and ward that book or container.",
+          "A small piece of tinsel or yellow duct tape should be placed on the container or book and the appropriate Marshal Notes must accompany the book or container. Only one Ritual of Item Ward can be cast upon the same object. You can place a book that has been warded inside a box that has been warded."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Ritual of Lesser Attunement",
+        "description": [
+          "This ritual makes an item attuned to the body of the user such that the item must remain on their person. The item must remain in physical contact with the user or an item in contact with the user for example, a scabbard, a pouch, a gloved hand, etc. If the attuned item is in contact with the user through another item, and that item is broken, then the attuned item immediately returns to the user. If the user is resurrected in a Healer’s Circle, they will resurrect with the item in their hand.",
+          "The ritual requires the presence of the person the item is to be attuned to and a small quantity of that person’s “blood.” More than one person may be attuned to an item using this ritual. Any number of people may be attuned, but only specific individuals not variable groups can be attuned. All the characters to be attuned to the item must be a present at the ritual.",
+          "Even if a character becomes unresurrectable, the attuned item will remain with the body. If the body is ever destroyed, then the item attunes itself to the ground at that spot. If there is another character the item is attuned to, that character may come and take the item from either the body or the ground. At Plot’s discretion, the attunement may be broken or shifted and the item brought back in-game if the player has not played that character for more than 1 year.",
+          "When this ritual is cast on an item, it becomes unbreakable. It cannot be destroyed by Shatter, Blast, Giant Strength, or similar skills or abilities. When the attunement wears off, the item returns to its normal status. For this ritual, both the item and the user are the targets of this ritual, and should the ritual fail and all components expended, the item and user are unaffected."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Ritual of Minor Item Creation",
+        "description": [
+          "This ritual allows the caster to place up to three spells of Rank 1 and no more than 3 Power Points per spell into an item. All the spells must be from the same school and can be invoked once each per Tag Cycle.",
+          "Spells cast into the item need to be declared and recorded on the item card to be either Invokable or Castable. This ritual cannot be combined with any other ritual except any Ritual of Attunement.",
+          "The spells to be embedded can come from the caster or anther character who has to be either a participant or caster in the ritual; it cannot come from an item or scroll. If two or more sorcerers are casting this ritual together, one or both of them can cast some or all of the spells into the item. ne or both of them can cast some or all of the spells into the item. The exception to this is lost magic. In order to embed a lost spell into an item, the Sorcerer casting the ritual must know the spell being embedded and must use twice the amount of Mummy Dust normally required.",
+          "The item to be enchanted must be worth 5 silver pieces per charge. It the item is made Invokable, the ritual requires double the normal amount of Mummy Dust. This is in addition to added amount needed for embedding lost spells."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Ritual of Permanent Storing",
+        "description": [
+          "This ritual allows Power Points to be permanently stored in a gem or an item which contains a gem. These Power Points may be used later by the caster or by another person. Any gems used to store Power Points must be legitimate in-game items approved by the Treasure Manager. The Power Points stored will renew at the beginning of every Tag Cycle.",
+          "When this ritual is successfully cast on a gem, it becomes unbreakable. It cannot be destroyed by Shatter, Blast, or similar spells or abilities. When the enchantment ends, the gem becomes breakable again.",
+          "If the permanent Power Points stored in the gem are used for permanent Power Point costs in any way, then the Power Points come out at a 6 for 1 ratio.",
+          "For example, Garric wants to make a gem with 30 permanent Power Points. The gem would need to be worth at least 90 silver pieces, would cost 150 temporary Power Points, 10 permanent Power Points, and take 60 minutes to cast. Later he uses the gem to cast a Ritual of Permanency and needs 4 permanent Power Points. The gem now has6 permanent Power Points left in it.",
+          "A gem or item containing a gem must be worth 3 silver pieces per Power Point to be stored.",
+          "A character can become attuned to the item if they choose to during this ritual. The person to be attuned, the item they will be attuned to, and a small quantity of that person’s blood must be present during the ritual. For rules concerning attunements, see the Ritual of Attunement.",
+          "No more than 25 Power Points can be stored in any one gem."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Ritual of Undead Enhancement 1",
+        "description": [
+          "This ritual enhances the racial abilities of the undead upon which it is cast. This is a permanent augmentation. An undead may only be enhanced by this ritual once; any subsequent castings have no additional affect.",
+          "The ritual will make the following enhancements to an undead:",
+          {
+            "type": "list",
+            "items": [
+              "Increase Damage Resistance by one level",
+              "Increase Body Points by +25",
+              "Increase Strength Bonus by +1"
+            ]
+          },
+          "This ritual augments the target, as such cannot be dispelled and does not count as one of the four rituals a character can have cast on themselves."
+        ],
+        "rank": 3
+      },
+      {
+        "name": "Ritual of Armor Enchantment",
+        "description": [
+          "This ritual creates an enchanted suit of armor that has an increased number of Base Armor Points, i.e. not including the Real Bonus, Armor Efficiency skill, or Oils of Armor. This ritual can be cast on a complete suit of armor, increasing the value of each piece. This ritual can be cast on just one piece of armor, increasing just that one piece. Any combination of armor – leather, ring mail, chain mail, etc. – can be used in this ritual and in any combination of pieces; however, only one specific per location piece can be enchanted at a time. You could, for example, enchant a plate helm, chain mail cuirass, a right leather bracer, and soft leather leggings. However you could not put another helm or another piece of chest armor into the ritual. Only one of them will be enchanted. Since there is only one bracer, another bracer can be added.",
+          "The armor will always retain some of its protective qualities and will always have 25% of its Base Armor Points after spending 5 minutes resetting the armor after a battle. This is not stackable with the Armor Efficiency skill. Lastly, the armor will degrade at 2 Armor Points instead of the normal 3 Armor Points.",
+          "For example, Aberele wants to enchant Dunkin’s armor. He has several pieces of armor totaling 20 Armor Points. The armor is Enchantment Quality and after casting the ritual, the armor is worth 30 Armor Points and will always have at least 8 Armor Points after he rests his armor after a battle.",
+          "The armor can be worn separately, all together, or by separate characters. The Armor Points will degrade following the above armor rules and will need to be repaired normally when they run out.",
+          {
+            "type": "table",
+            "headers": [
+              "Material",
+              "Armor Bonus"
+            ],
+            "rows": [
+              [
+                "Normal Armor",
+                "+25%"
+              ],
+              [
+                "Enchantment Quality, Elven, or Dwarven Crafted",
+                "+50%"
+              ],
+              [
+                "Mithril",
+                "+100%"
+              ],
+              [
+                "Special Alloy (Adamantine, etc.)",
+                "+150%"
+              ]
+            ]
+          },
+          "If a character participates in the ritual, they can become attuned to all the armor pieces. For rules concerning attunements, see the Ritual of Attunement.",
+          "When this ritual is successfully cast on a piece of armor, it becomes unbreakable but not undamageable. It cannot be destroyed by Shatter, Blast, Giant Strength, or similar spells or abilities. When the enchantment wears off, the armor returns to its base metal again."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Attunement",
+        "description": [
+          "This ritual makes an item attuned to the body of the user such that the item must remain on their person. The item must remain in physical contact with the user or an item in contact with the user for example, a scabbard, a pouch, a gloved hand, etc. If the attuned item is in contact with the user through another item, and that item is broken, then the attuned item immediately returns to the user. If the user is resurrected in a Healer’s Circle, they will resurrect with the item in their hand.",
+          "The ritual requires the presence of the person the item is to be attuned to and a small quantity of that person’s blood. More than one person may be attuned to an item using this ritual, all of whom must be present during the entire ritual. Any number of people may be attuned, but only specific individuals not variable groups can be attuned. The person(s) to be attuned are targets of the ritual.",
+          "Even if a character becomes unresurrectable, the attuned item will remain with the body. If the body is ever destroyed, then the item attunes itself to the ground at that spot. If there is another character the item is attuned to, that character may come and take the item from either the body or the ground. At Plot’s discretion, the attunement may be broken or shifted and the item brought back in-game if the player has not played that character for more than 1 year.",
+          "When this ritual is cast on an item, it becomes unbreakable. It cannot be destroyed by Shatter, Blast, Giant Strength, or similar skills or abilities. When the attunement wears off, the item returns to its normal status. For this ritual, both the item and the user are the targets of this ritual, and should the ritual fail and all components expended, the item and user are unaffected."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Aura of Death",
+        "description": "When this ritual is cast, the recipient can invoke the Death Touch skill in a 10’ radius. All normal defenses for the normal Death Touch skill will protect the affected characters. This may be used once per Tag Cycle.",
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Aura of Life",
+        "description": "When this ritual is cast, the recipient can invoke the Life skill in a 10’ radius. All normal defenses for the normal Life skill will protect the affected characters. The character will not fall unconscious. This may be used once per Tag Cycle.",
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Circle of Protection",
+        "description": [
+          "This ritual creates a magical circle of protection preventing anything but clean air from passing through. No attacks of any kind will penetrate the circle, similarly, the Hypnosis skill, racial charms, Warlock augmented spells, any other sorcerous rituals or effects or alchemical gasses will not penetrate the circle. Extra planar travel – such as a Ritual of Leaving – either into or out of the circle is permitted. The circle is controlled by the caster who can never be de- invested from the circle. Any character that has been invested in the circle can use the Ritual of Investiture to invest another character.",
+          "The Circle can encompass an entire structure and stands 10 feet from the structure or can be free-standing, either way the circle cannot be larger than 100 yard radius. The boundary of a circle cannot intersect an object. A circle is in fact a closed cylinder, with top and bottom, at least 10 feet high and no more than 100 feet high; it is not possible to bypass its protection by going through the floor or ceiling.",
+          "While casting this ritual, the caster may invest other participants if they so desire. The invested characters must be present, count as participants, and must still spend 1 permanent Power Point.",
+          "The circle can be raised and lowered only by the caster or other invested members. The player should call loudly enough to be heard “Circle Down” or “Circle Up”. This is an out-of-game comment. Placing any person or object on a lowered circle will not prevent the circle from rising. Any person must choose to either fall into or out of the circle. Any item falls out of the circle by default. The character must be within Line of Sight of the circle to control it. The character must be in-game and present to control the circle.",
+          "There are sometimes situations where two or more people invested in a circle may have a conflict of wills over whether the circle is raised or lowered. To resolve such a conflict, total the unspent Power Points on each side of the conflict; the side with greatest number of unspent points wins. If both sides have exactly the same number of unspent Power Points, then the status quo prevails: if the circle was up it stays up, if it was down it stays down.",
+          "The caster of the ritual is responsible for providing a garland, glow rope, or other out-of-game representation of the Circle of Protection.",
+          "Casting the Ritual of Permanency upon a circle of protection requires the full, 4 charge, version of permanency to be cast."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Death",
+        "description": [
+          "This ritual turns a character into a Death Knight, Death Mage, or Death Assassin, a skeletal greater undead creature. The Death Knight, Death Mage, or Death Assassin is under the control of the caster of the ritual.",
+          "-The player of the character who died must now play the newly- created undead creature. The greater undead follows all the normal rules for their Death Count, however should they die, their body turns to dust. The player takes one Death on their character card and may now go to the Healer’s Circle to have their spirit resurrected.",
+          "Unlike the undead creation spells of the Necromancy school, the undead created by this ritual can last longer than one Event. The player of the undead character is therefore obligated to play the creature until it is destroyed, or until two months, not two events have passed since the ritual was cast. Only when the undead creature is gone can the player’s character be resurrected.",
+          "This ritual can be cast on a dead body or on a living character by delivering a Killing Blow at the end of the ritual. This ritual requires the body of the character to be turned into a Death Knight, Death Mage, or Death Assassin, the body of a different character cannot be substituted. Should the ritual fail, and all components consumed, then the dead body is destroyed. If a living character was the target of this ritual, then there is no added effect and the character should continue their Death Count normally.",
+          "Death Knight, Death Mage, or Death Assassin last until destroyed or two months – the month the ritual was cast and the following month – if the target character can resurrect. If the character is un- resurrectable, then this ritual is permanent until the undead is destroyed."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Domination",
+        "description": [
+          "This ritual dominates a character as per the Dominate spell. This ritual lasts until the end of the current event and cannot be dispelled with a low magic spell. This ritual is not stopped by any low magic spell defense and persists even if the person is resurrected.",
+          "While under the affects of this ritual, the character may use an Iron Will skill to regain their own will for 10 minutes, after which time they are once more under the affects of this ritual.",
+          "This ritual cannot be made permanent. This ritual over rides any Charm School spell or skill. Greater charms such as Possession, Vampiric Charm, Demonic Charm, or Draconic Charm supersede this ritual. This ritual has no effect on characters immune to charms or Domination."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Elemental Protection II",
+        "description": [
+          "This ritual allows the recipient to ignore the effects of one element for 1 hour and can be invoked any time during the Event in which it was cast. The following table outlines what the character is protected from, this includes magical effects from spells:",
+          {
+            "type": "table",
+            "headers": [
+              "Element",
+              "Protection"
+            ],
+            "rows": [
+              [
+                "Fire",
+                "Fire Damage"
+              ],
+              [
+                "Water",
+                "Ice Damage, Water Breathing"
+              ],
+              [
+                "Air",
+                "Lightning Damage"
+              ],
+              [
+                "Earth",
+                "Bonds Spells, Petrification Attacks"
+              ],
+              [
+                "Life",
+                "Healing Damage"
+              ],
+              [
+                "Death",
+                "Death Damage"
+              ]
+            ]
+          },
+          "This will protect the character from the damaging effects of the element. Special martial skills augmented by that element such as the Stun, Disarm, Shatter Weapon, Slay skills, etc. are stopped by this ritual. Eldritch attacks are not stopped by this ritual. This ritual cannot be invoked as a defense to an attack."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Enchantment",
+        "description": [
+          "This ritual creates an enchanted weapon that does magical damage; the weapon has a bonus that depends on the type of material used in creating the weapon:",
+          {
+            "type": "table",
+            "headers": [
+              "Material",
+              "Damage Bonus"
+            ],
+            "rows": [
+              [
+                "Normal weapon",
+                "+0"
+              ],
+              [
+                "Enchantment Quality, Elven, or Dwarven Crafted",
+                "+1"
+              ],
+              [
+                "Mithril",
+                "+2"
+              ],
+              [
+                "Special Alloy (Adamantine, etc.)",
+                "+3"
+              ],
+              [
+                "Gem Weapon",
+                "+5"
+              ]
+            ]
+          },
+          "While it cannot be used as a weapon, a dissection dagger can be enchanted. It allows the user to dissect creatures with Damage Resistance: Magic.",
+          "If a character participates in the ritual, they can become attuned to the weapon. For rules concerning attunements, see the Ritual of Attunement. This ritual is not combinable with Rituals of Elemental Weapon and Greater Elemental Weapon, nor can this ritual be stacked with itself or any other type on weapon crafting augment. Once a weapon has one of these rituals upon it, all subsequent rituals cast automatically fail.",
+          "When this ritual is successfully cast on a weapon, it becomes unbreakable. It cannot be destroyed by Shatter, Blast, Giant Strength, or similar spells or abilities. When the enchantment wears off, the weapon becomes breakable again."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Item Creation",
+        "description": [
+          "This ritual allows the caster to place two spells of Rank 3 or lower from the same school of magic and each spell no more than 12 Power Points into a piece of jewelry. Each spell can be invoked once per Tag Cycle.",
+          "Spells cast into an item need to be declared and recorded on the item card to be either Invokable or Castable. This ritual cannot be combined with any other ritual except any Ritual of Attunement.",
+          "The spells to be embedded can come from the caster or another character who has to be either a participant or caster in the ritual; it cannot come from an item or scroll. If two or more sorcerers are casting this ritual together, one or both of them can cast some or all of the spells into the item. The exception to this is lost magic. In order to embed a lost spell into an item, the Sorcerer casting the ritual must know the spell being embedded and must use twice the amount of Mummy Dust normally required.",
+          "A character can become attuned to the item if they choose to during this ritual. The person to be attuned, the item they will be attuned to, and a small quantity of that person’s blood must be present during the ritual. For rules concerning attunements, see the Ritual of Attunement.",
+          "The item to be enchanted must be worth 20 silver pieces. It the item is made Invokable, the ritual requires double the normal amount of Mummy Dust. This is in addition to added amount needed for embedding lost spells."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Protection from Sunlight",
+        "description": "This ritual is cast upon an undead character to protect them from the effects of sunlight. This ritual cannot be stacked with itself.",
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Re-Attunement",
+        "description": [
+          "This ritual will shift the target of an active attunement ritual to a new target character of the casters choosing. Both the current target character and new target’s physical bodies must be present for the ritual to work. This ritual will only work if both characters are willing or unresurrectable.",
+          "An item can only be re-attuned to a single character with this ritual. If other characters were originally attuned to the item, then they are still attuned after the ritual is completed. In essence, one character is assuming the attunement of another.",
+          "The duration of this ritual is the remainder of the duration of the original attunement. If the original attunement was permanent, this one will be also.",
+          "Once an attunement has been shifted, it follows the rules for the Ritual of Attunement with the exceptions stated above."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Undead Enhancement 2",
+        "description": [
+          "This ritual enhances the racial abilities of the undead upon which it is cast. This is a permanent augmentation. An undead may only be enhanced by this ritual once; any subsequent castings have no additional affect. This ritual can only be cast upon an undead character that has already been augmented by the Ritual of Undead Enhancement 1.",
+          "The ritual will make the following enhancements to an undead:",
+          {
+            "type": "list",
+            "items": [
+              "Increase Damage Resistance by one additional level",
+              "Increase Body Points by +25",
+              "Increase Strength Bonus by +1",
+              "Increase Power Points by +25",
+              "One more use of their special primary ability. For example,",
+              "Death Assassins get one more Assassinate, Death Knights get one more Slay, and Death Mages get +20 Power Points, etc."
+            ]
+          },
+          "This ritual augments the target, as such cannot be dispelled and does not count as one of the four rituals a character can have cast on themselves."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Wight Creation",
+        "description": [
+          "This ritual turns a body that is dead or on the brink of death into a Wight, a incorporeal creature that can only be affected by Mithril or Magical weapons. The Wight is under the control of the caster of this Ritual. The Wight is fearsome in its ability to steal a skill from a defeated (immobile, unconscious, sleeping, dying) foe. If the Wight is destroyed, then it leaves behind a Wight Stone that contains the stolen skill. This skill may be used by anyone possessing the stone (with the exception of Faith skills in the hands of a non or other Faith character). If the character who lost the skill acquires the Wight Stone that contains his skill, he can simply reabsorb the skill by willing it back.",
+          "Unlike the undead-creation spells of the Necromancy school, the undead created by this ritual can last longer than one event. The player of the undead character is therefore obligated to play the creature until it is destroyed, or until two months (not two events) have passed since the ritual was cast. Only when the undead creature is gone can the player’s character be resurrected.",
+          "A Wight is a Greater Undead. White Ritual Powder may not be substituted in this Ritual."
+        ],
+        "rank": 4
+      },
+      {
+        "name": "Ritual of Absolute Healing",
+        "description": "This ritual heals the target character, whose body or heart must be present, of ALL ailments. The character is resurrected if dead, automatically drawing a white marble but otherwise follows all normal rules for resurrections. If the character has only a red marble left, this ritual will not resurrect the character. This ritual will not resurrect a character that is over 20th Level or is un-resurrectable. The ritual also restores the character to their full Body Points including any lost permanently due to magic effects but not Golem Creation, removes all curses, heals all limbs, restores all senses even to someone born that way, cures insanity both natural and magical, and cures all diseases affecting the character. This ritual has no effect on an undead. This ritual will not return Build Points or skills lost by any means.",
+        "rank": 5
+      },
+      {
+        "name": "Ritual of Break Attunement",
+        "description": [
+          "This ritual will destroy any one active attunement on an item on a target character’s body. The target character must be present for the ritual to work. This ritual will only work if the target character is willing or unresurrectable.",
+          "If any other characters share in the attunement being broken, then they also lose their attunement once the ritual is cast."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Ritual of Dispel Sorcery",
+        "description": [
+          "This ritual dispels all active low magic spells – even ones augmented with Warlockery, all Nature Magic spells and all Spell Singing spells on the target character or item; or any one Ritual below Rank 5. Rituals that have been permanencied with Ritual of Permanency cannot be dispelled with this ritual. Spells that create an effect and are no longer active such as undead created by the Necromancy School or ritual are not affected by this ritual.",
+          "The caster of the ritual should declare the ritual being dispelled, however if the caster fails to do so then the target, if it is able to, must chose an available ritual to be dispelled. For example, a character has a permanent Ritual of Faith Shield and a temporary Ritual of Alchemy Shield and Spell Shield. This ritual is cast upon that character, but no ritual is specified by the caster. The target player has to choose either the Alchemy or Spell Shield; they cannot choose the permanent Faith Shield as this is not a viable target of the ritual."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Ritual of Elemental Energy 3",
+        "description": [
+          "This ritual charges the caster with the energy of a particular element. After performing this ritual, the caster can throw an infinite number of bursts of elemental energy. Each burst of energy causes elemental damage according to the table below; the caster throws a spell packet and states the amount of damage followed by the type of damage; for example, “Sixteen Fire.” Only one spell packet can be thrown at a time. This damage is physical and therefore can be blocked by shields and an Invulnerability Spell, but not a Negation Spell.",
+          "The type of damage associated with each element is:",
+          {
+            "type": "table",
+            "headers": [
+              "Element",
+              "Effect"
+            ],
+            "rows": [
+              [
+                "Fire",
+                "16 Normal Fire"
+              ],
+              [
+                "Water",
+                "16 Normal Ice"
+              ],
+              [
+                "Air",
+                "16 Normal Lightning"
+              ],
+              [
+                "Earth",
+                "20 Normal Damage"
+              ],
+              [
+                "Life",
+                "16 Normal Healing"
+              ],
+              [
+                "Death",
+                "12 Normal Body"
+              ]
+            ]
+          },
+          "Note that healing damage does not heal the target, however, undead who are effected by normal damage will take double damage.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Elemental Energy 3.",
+          "If this ritual were to become permanent, it would give the caster the ability to “charge up” with elemental energy once per Event; the charge would last for 1 hour."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Ritual of Elemental Summoning",
+        "description": [
+          "This ritual allows the caster to summon a level five Fire, Water, Air, Earth, Life or Death Elemental who will perform any number of tasks for the caster. Any task not completed in the 90 minute duration will be left undone and the elemental will return to it home plane. If the Ritual of Elemental Summoning is made permanent, then it may be summoned once per Event by the caster.",
+          "A specific elemental can be summoned if the caster has its essence. The control the caster has over the elemental is similar to the control over an undead – the elemental knows it has been summoned and is under the casters control and while it must obey the caster it must only obey the letter of the order.",
+          "Note: A Plot Marshal must be informed before this ritual is performed so that they may get an NPC to play the elemental."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Ritual of Faith Shield",
+        "description": [
+          "This ritual protects the character from the effects of faith skills, spells and abilities from the Follower of the Light, Druid and Servant of Darkness skill lists. Additionally, one charge of this ritual will stop the effects of a White or Dark ritual, however, the character must be conscious to invoke this ritual. For purposes of determining if the skill is used, consider this ritual the same as an Invulnerability spell; so Death Touch skill is stopped and the skill is used, but a Destroy Undead skill is blocked and the skill is not used.",
+          "After the faith shield is invoked to protect against an attack, the shield is expended and resets itself after 5 minutes. This ritual has three charges and each one takes 5 minutes to reset. For example, if a character uses one charge then 3 minutes later uses another, the first charge will reset 2 minutes later and next one 3 minutes later.",
+          "This ritual will not block other spells or skills – Slay skill, Inferno spell, etc – from a follower of a faith, but will stop an attack augmented with their power. For example, a Dark Paladin who charges their weapon with their Wounding Pool, or a Druid using their Elemental Pool to swing their element can have the attack stopped by this ritual.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Faith Shield.",
+          "The player should call “Faith Shield” when they invoke this defense."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Ritual of Leaving",
+        "description": [
+          "With this ritual the caster creates a magical 5 foot wide by 10 foot high gate. The gate leads to the location where the ritual was originally cast. This ritual can be placed upon the caster, another character, or cast into an item.",
+          "The gate opens when the caster calls upon the power of the ritual (invokes the ritual). The caster must spend 15 seconds laying down a 5 foot long piece of garland indicating the opening of the portal. The character can be interrupted in the same ways the casting of a spell is interrupted. If the character is interrupted, the portal fails to open and the charge is not expended.",
+          "The gate may be opened anywhere the caster chooses with the following limitations: the gate must be vertical and the size and shape of the gate will conform to the available space. The gate automatically closes when the caster has passed through it, therefore the caster cannot be followed into the gate. Up to two other characters – so long as they can fit through the gate – or up to 600 lbs of material may go through the gate before the caster. Players should put on white headbands and go to the location where the ritual was cast immediately.",
+          "The caster may choose to close the gate at any time. Regardless, the gate will close in 30 minutes if the caster does not go through or chooses to close it. If the caster is still in their Death Count, they can be dragged through the gate. If three people go through before the caster, then the gate closes. The gate is one way and has only one face. Once the caster invokes the ritual, that side is the doorway; the opposite side is impassible and appears as a solid glowing wall. Any character attempting to pass through the wrong side of the portal will simply be stopped as if they tried to pass through a solid wall.",
+          "If this ritual is made permanent, then the caster can invoke the ritual once per Tag Cycle."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Ritual of Permanency",
+        "description": [
+          "This ritual makes another ritual permanent. This ritual has no effect on those rituals that have a duration of Instant or Permanent, or that specify in the ritual’s description that they cannot be made permanent.",
+          "A single Ritual of Permanency can make up to four rituals permanent on a single character or item. For each ritual made permanent more of certain components are required. These components are listed as “x” doses per ritual in the following component chart. For example, if an item has a Ritual Greater Elemental Weapon- Fire, a Ritual of Attunement, Ritual of Spell Shield and Ritual of Defense on it, only one Ritual of Permanency is necessary to make all of them permanent.",
+          "Once rituals have been made permanent on an item, no other permanency rituals may be cast on that item.",
+          "Casting a Ritual of Permanency costs not only the permanent Power Points for this ritual but the permanent Power Points listed in each individual ritual. For the above example, the caster would have to expend: 3 for the Permanency, 5 for Greater Elemental Weapon, 5 for the Spell Shield, 5 for the Defense and 4 for the Attunement, a total of 22 permanent Power Points.",
+          "This ritual can not be parentally embedded with the Ritual of Permanent Ritual Embedding.",
+          "A character can become attuned to the item if they choose to during this ritual. The person to be attuned, the item they will be attuned to, and a small quantity of that person’s blood must be present during the ritual. For rules concerning attunements, see the Ritual of Attunement.",
+          "The item that will have the rituals permanencied must already have the rituals cast and must be worth at least 10 silver pieces per ritual."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Ritual of Permanent Embedding",
+        "description": [
+          "This ritual allows a spell(s) to be permanently embedded within an object or item. The spell(s) to be embedded must be cast on the item during the ritual the number of times you want the item to contain the spell. Only spells of the same school of magic can be embedded into the same item.",
+          "The item may have no more than ten charges. No more than five charges of one spell may be embedded in the item. Any combination of spells from the same school may be embedded in one item. They must all be cast into the item during one ritual. Only one Ritual of Embedding or Permanent Embedding may be cast on any one item.",
+          "Spells cast into an item need to be declared and recorded on the item card to be either Invokable or Castable. A Ritual of Permanency does not have to be cast on this item to make it permanent. This ritual cannot be used to make other rituals permanently embedded; a Ritual of Permanent Ritual Embedding must be used instead.",
+          "The spells to be embedded can come from the caster or another character who has to be either a participant or caster in the ritual; it cannot come from an item or scroll. If two or more sorcerers are casting this ritual together, one or both of them can cast some or all of the spells into the item. The exception to this is lost magic. In order to embed a lost spell into an item, the Sorcerer casting the ritual must know the spell being embedded and must use twice the amount of Mummy Dust normally required.",
+          "A character can become attuned to the item if they choose to during this ritual. The person to be attuned, the item they will be attuned to, and a small quantity of that person’s blood must be present during the ritual. For rules concerning attunements, see the Ritual of Attunement.",
+          "The item that will have the spells permanencied must be worth at least 2.5 silver pieces per Power Point in all the spells. For example, an item with five Life spells would have to be worth 150 silver pieces. If the item is made Invokable, the ritual requires double the normal amount of Mummy Dust. This is in addition to added amount needed for embedding lost spells."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Ritual of Obliteration",
+        "description": [
+          "This ritual tears the soul from the body and sends it into the void forever. The process is remarkably painful to the victim and should be roleplayed accordingly. All of the character’s marbles become black and they are permanently un-resurrectable. The character is unable to ever be turned into an undead of any type by any means.",
+          "While the ritual is being cast, the ritual holds the target character in place and they cannot move until the ritual is ended. If the ritual fails or is interrupted, the character is free to act and suffers no ill effects.",
+          "This ritual cannot be embedded with Ritual of Embedding or Ritual of Permanent Ritual Embedding."
+        ],
+        "rank": 5
+      },
+      {
+        "name": "Ritual of Undead Enhancement 3",
+        "description": [
+          "This ritual enhances the racial abilities of the undead upon which it is cast. This is a permanent augmentation. An undead may only be enhanced by this ritual once; any subsequent castings have no additional affect. This ritual can only be cast upon an undead character that has already been augmented by the Ritual of Undead Enhancement 3.",
+          "The ritual will make the following enhancements to an undead:",
+          {
+            "type": "list",
+            "items": [
+              "Increase the Damage Resistance by one additional level with a maximum of Damage Resistance: Magic",
+              "Increase the Body Points by +25",
+              "Increase the Strength Bonus by +1",
+              "Increase the Power Points by +25",
+              "Increases the number of Resist ability by one or give the undead one use of the Resist ability",
+              "One more use of their special primary ability. For example, Death Assassins get one more Assassinate, Death Knights get one more Slay, and Death Mages get +20 Power Points, etc"
+            ]
+          },
+          "This ritual augments the target, as such cannot be dispelled and does not count as one of the four rituals a character can have cast on themselves."
+        ],
+        "rank": 1
+      },
+      {
+        "name": "Ritual of Dwarven Rune Carving",
+        "description": [
+          "This ritual will enchant a weapon with various Dwarven runes. Each rune has a different effect listed below. This ritual must be cast upon the weapon at the time of creation and the weapon needs to be Enchantment Quality or better. The casting time listed below is in addition to the crafting time for the weapon. No more than four runes may be placed on a single weapon.",
+          "When this ritual is successfully cast on a weapon, it becomes unbreakable. It cannot be destroyed by Shatter, Blast, Giant Strength, or similar spells or abilities. Should the enchantment end, the weapon will return to its base properties."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Ritual of Greater Attunement",
+        "description": [
+          "This ritual makes an item attuned to a group of users such that the item must remain on their person. The item must remain in physical contact with one of the users or an item in contact with the user for example, a scabbard, a pouch, a gloved hand, etc. If the attuned item is in contact with a user through another item, and that item is broken, then the attuned item immediately returns to the user. If the user is resurrected, they will resurrect with the item in their hand.",
+          "A group for this ritual is defined as any discernable and identifiable group or family of people. Examples of acceptable groups are: The Dukes of Avalon, The Nobles of Avalon, The Knight of Avalon, The Members of the Healer’s Guild, The Doomwalkers, The Knights of Dundrezdon or even the Citizens of Avalon. The group can be of any number.",
+          "While the item is attuned to one member of the group another member may not take the item away, unless that member is at the Brink of Death. In order to pass the item from one character to another character in the group, both characters must be willing. If the character holding the item dies, one of the following can happen. The character can take the item with them and resurrect, or the item will immediately go to the nearest other member of the group that is within line of sight of the character, or if no other member of the group is present, the item will embed itself into the ground or nearest object and remain there unmovable until a suitable member comes by to claim it.",
+          "Any member of a group that is removed from that group by a character or agency with the authority to do so immediately loses the item they are attuned to. The item will go to the person of authority if they are in line of sight or to the ground or nearest object if that person is not present. For example, the Duke of Avalon declares one of his nobles – who has an item attuned to the Nobles of Avalon – stripped of his titles. The Duke has the authority to remove the noble’s title and the item will either go to the Duke if he is present or to the ground if he is not. Another example, a sword is attuned to any Follower of the Light, at one point the current barer of the sword falls from grace. The sword will drop to the ground, since the High Lord – the agency with the authority to do so – has removed them from the group and they obviously cannot bear the weapon.",
+          "It is possible to make a group of one, “Myself and any one I designate.” The character would be able to pass the item off to anyone they want so long as both are willing. There is one caveat to this type of attunement. The character who now holds the sword is the “Myself” in the description and can pass the item off to anyone they want and the original character is no longer in the group and cannot take the item back unless they are willingly given it by the current barer. The caster of this particular attunement is always considered to be part of the group.",
+          "The ritual requires the presence of a person from the group the item is to be attuned to and a small quantity of that person’s blood.",
+          "Unlike other types of attunements, if a character dies and there are no other living members of the group, the item will sit and wait until such time as a character meeting the qualifications comes and claims the item.",
+          "When this ritual is cast on an item, it becomes unbreakable. It cannot be destroyed by Shatter, Blast, Giant Strength, or similar skills or abilities. When the attunement wears off, the item returns to its normal status. For this ritual, both the item and the user are the targets of this ritual, and should the ritual fail and all components expended, the item and user are unaffected."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Ritual of Greater Defense",
+        "description": [
+          "This ritual creates a sorcerous defense that protects a character as an Invulnerability spell and will stop a Kill spell – even one augmented by Warlockery. After the Ritual of Greater Defense is expended; it resets itself after 5 minutes. This ritual has three charges and each one takes 5 minutes to reset. For example, if a character uses one charge then 3 minutes later uses another, the first ritual will reset in 2 minutes and next one in 3 minutes.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Greater Defense."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Ritual of Greater Spell Shield",
+        "description": [
+          "This ritual provides the recipient with a magical shield that can protect them from any magical spell (including spells augmented with Warlock abilities such as Total Power). After the spell shield is invoked to protect against a spell, the shield is expended and resets itself after 5 minutes. This ritual has three charges and each one takes 5 minutes to reset. For example, if a character uses one charge then 3 minutes later uses another, the first ritual will reset in 2 minutes and next one in 3 minutes.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Greater Spell Shield."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Ritual of Greater True Undead Control",
+        "description": [
+          "This ritual allows the caster to control any undead – lesser or greater – within a 50 foot radius or that are within line of sight. This radius moves with the caster. Undead which are given commands will continue to follow those commands after they leave the radius of control unless directly controlled by another character. Undead within 10 feet of the caster of this ritual may not be controlled by anyone else; the ritual’s power suppresses the power of any other Necromancy spell. Should two Rituals of True Undead Control come in conflict, then the closer caster wins. Follower of the Light and Servant of Darkness skills that effect undead will override this ritual until the caster is able to re-establish control.",
+          "In order to use this ritual, the caster should call “Invoke Ritual of Greater True Undead Control”. All undead in the area of effect are under the caster’s control as long as the undead are inside the area of effect. The caster may give any number commands during this time. Should someone else control the undead, turn the undead or new undead enter the area, the caster must re-invoke the ritual to gain control."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Ritual of Dragon Hide",
+        "description": [
+          "This ritual gives the character Damage Resistance: Silver and a 8 Threshold for 1 hour once ever Tag Cycle. The character can invoke the ritual anytime during the Tag Cycle. If this ritual is cast upon an item then the ritual has a duration of 3 Events, otherwise the ritual is permanent once cast.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Dragon Hide."
+        ],
+        "rank": 6
+      },
+      {
+        "name": "Ritual of Strength",
+        "description": [
+          "This ritual permanently augments the target character with a +3 Strength Bonus. If the ritual caster is the target of this ritual, it has a duration of Permanent. If this ritual is cast upon another character or an item then the ritual has a duration of 3 Events. This ritual is not stackable with itself.",
+          "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Strength."
+        ],
+        "rank": 6
+    }
+  ]
+      }
 ]
