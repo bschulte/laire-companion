@@ -1838,7 +1838,139 @@
           }
         ],
         "specialNotes": "Some skills, such has Slay and Redirect Spell, require an additional prerequisite for multiple purchases. For example, a character needs two Proficiencies to purchase their first Slay, but they need one Proficiency for each Slay they have. The player should read the skill description in Chapter 5 for a full description of these skills, or later in this section for these prerequisites."
-
+      },
+      "masterThief": {
+        "skills": [
+          {
+            "name": "Critical Backstab",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "Rogue Basic Career SL, 2 Backstabs",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Distraction",
+            "cost": 4,
+            "duration": "10 Seconds",
+            "prerequisiteSkill": "Trap Dodge",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Dodge",
+            "cost": 10,
+            "duration": "Instant",
+            "prerequisiteSkill": "Rogue Basic Career SL, 4 Unique Dexterity Skills",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Escape",
+            "cost": 4,
+            "duration": "Instant",
+            "prerequisiteSkill": "Dodge",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Master Set Traps",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Quick Disarm, Set Trap 4",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Master Waylay",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Waylay, 20 BP in Dexterity Skills",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Missle Deflection",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "Rogue Basic Career SL",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Pick Pockets",
+            "cost": 4,
+            "duration": "Constant",
+            "prerequisiteSkill": "Speed Search",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Poison Immunity",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Rogue Basic Career SL, 20 Build Points of Dexterity Skills",
+            "purchase": "Multi",
+            "tagged": "No"
+          },
+          {
+            "name": "Quick Disarm Trap",
+            "cost": 5,
+            "duration": "Instant",
+            "prerequisiteSkill": "Rogue Basic Career SL, Disarm Trap, Trap Dodge",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Quick Pick Locks",
+            "cost": 5,
+            "duration": "Instant",
+            "prerequisiteSkill": "Rogue Basic Career SL, Pick Locks, Trap Dodge",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Resist Truth",
+            "cost": 3,
+            "duration": "Special",
+            "prerequisiteSkill": "Rogue Basic Career SL",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Set Trap 5",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Set Trap 4",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Speed Search",
+            "cost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "Rogue Basic Career SL, Evaluate Item",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Trap Dodge",
+            "cost": 4,
+            "duration": "Instant",
+            "prerequisiteSkill": "Rogue Basic Career SL, Set Trap Rank 3",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Tight Rope Walker",
+            "cost": 4,
+            "duration": "Constant",
+            "prerequisiteSkill": "Rogue Basic Career SL, Climb",
+            "purchase": "Once",
+            "tagged": "No"
+          }
+        ],
+        "specialNotes": ["There are no special notes for the Master Thief Advanced Career Skill List."]
       }
     }
   ],
