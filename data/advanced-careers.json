@@ -1869,5 +1869,81 @@
         "rank": 6
       },
     ]
+  },
+  {
+    "name": "Sorcerer",
+    "introduction": [
+      "Practitioners of the high magic of sorcery cast magic through a complex set of steps called a ritual. Through advanced study of the arcane arts, a Sorcerer uses their knowledge to shape and bend magic to their will. As the Sorcerer gains more knowledge, the complexity and potency of the rituals they can cast also increases. A Sorcerer forces their will upon the universe through the practicing of their art. Unlike low magic, rituals are more powerful and last longer.",
+      "These spell casters are able to make permanent magical effects, whether on a person or upon an item. Magic swords, items of defense and items capable of storing raw power and spells are among some of the effects a Sorcerer can create.",
+      "A Sorcerer who has mastered their trade is truly a frighteningly powerful person, but there is a drawback to all this power. The Sorcerer must prepare their magic ahead of time, taking up to several hours to cast the rituals. Given the time, resources and will, there is little a powerful, accomplished Sorcerer cannot achieve.",
+      "Few people who study sorcery advance past the third rank of sorcery. There are those dedicated and accomplished practitioners who learn the fourth and even harder, fifth rank of sorcery. Finally, a practitioner who studies and works for years and years may be able to learn Sorcery Rank 6 and become one of the exceptionally rare individuals to ever do so."
+    ],
+    "scrollRules": [
+      "All scrolls are written in the Magic language with English characters. Below are the rules for creating scrolls.",
+      {
+        "type": "header",
+        "content": "Creating Scrolls"
+      },
+      "All scrolls must be made in-game and they must be made with the aid of a Ritual Dish of Scroll Creation. A Magic Marshal must be present out-of-game to verify that a scroll has been created properly. The Marshal will stamp and sign the scroll when it is created.",
+      "To create a scroll, a character must do the following:",
+      {
+        "type": "list",
+        "items": [
+          "All scrolls must be created using a Ritual Dish of Scroll Creation and cost the character a number of coins per Power Point in the spell as given in the table below. All spells cost a minimum of 1 Power Point to scribe, even ones with a 0 Power Point cost. The coins used in the creation of a scroll can be any type of coinage so long as the total value equals what is listed in the chart. In-game, the coins will dissolve into the dish and charge it making it ready for use. Out-of-game, the coins will go to the Magic Marshal.",
+          "Place a piece of paper, parchment, or vellum into the dish. In-game, the coins will be woven into the threads of the paper, making it suitable for the scribing of a spell.",
+          "The player must then write the spell’s verbal on the paper. While they do this, they may not consult any out-of-game “cheat sheet” of the spell’s verbal, however, they may consult an in-game spell book. The process of scribing the scroll takes 1 minute per Power Point of the spell. If the character is interrupted while scribing the scroll, the Power Points are lost and the scroll disappears. A player cannot stop scribing a scroll halfway through and then start again later.",
+          "When the time for scribing the scroll has elapsed, the player must roll on the Scroll Creation Success Table (see below) to see if the scroll was scribed successfully. A Magic Marshal, who will also make sure that the spell’s verbal was written correctly, must witness this roll.",
+          "The player must take the Power Points used to cast the spell and have them stapled to the scroll, have the Magic Marshal stamp both the scroll and the Power Point tags with the appropriate stamp, and sign and date the scroll out- of-game."
+        ]
+      },
+      {
+        "type": "table",
+        "headers": ["Spell Rank", "Cost per Power Point"],
+        "rows": [
+          ["Rank I", "1 copper piece"],
+          ["Rank II", "2 copper piece"],
+          ["Rank III", "3 copper piece"],
+          ["Rank IV", "4 copper piece"],
+          ["Rank V", "1 gold piece"]
+        ]
+      },
+      "During the scribing of the scroll, the Magic Marshal should inform the player when they have reached half of the required time, three- fourths of the required time, full time, and finally double time. The player may use this information in-game to help them determine when they want to stop the scribing. The player must always complete the full verbal for the spell, but they may choose to speed up or slow down their performance affecting their time bonus accordingly.",
+      "Use the following tables to calculate the chance for success in creating a scroll. The character should use percentile dice to determine the success or failure of their work. Treat an effective percentile die roll plus modifier of less than 01 as 01 and treat a roll of greater than 100 as 100.",
+      {
+        "type": "table",
+        "title": "Scroll Creation Base Table",
+        "headers": ["Die Roll", "Result"],
+        "rows": [
+          ["01-05", "The spell being scribed is cast upon the scrivener. The scroll disappears."],
+          ["06-15", "The scroll disappears"],
+          ["16-85", "The scroll is successfully created."],
+          ["86-95", "The scroll is successfully scribed, and it cost only half (rounded up) the normal number of Power Points to create the scroll."],
+          ["96-100", "The scroll is successfully scribed, and it cost no Power Points to create the scroll."],
+        ]
+      },
+      {
+        "type": "table",
+        "title": "Scroll Creation Modifier Table",
+        "headers": ["Modifier", "Description"],
+        "rows": [
+          ["-1", "For every Power Point in the spell being scribed."],
+          ["+2", "For every rank of the school of magic of the spell that the scrivener knows."],
+          ["-5", "For taking less than the normal amount of time to scribe the scroll, down to 75% of the normal amount."],
+          ["-10", "For taking less than 75% of the normal amount of time to scribe the scroll, down to 50% of the normal amount."],
+          ["Fail", "For taking less than 50% of the normal amount of time."],
+          ["+5", "For taking double the amount of time to scribe the spell."],
+          ["-5", "For using any kind of ordinary blank paper."],
+          ["+0", "For using parchment paper."],
+          ["+5", "For using vellum."],
+          ["+5", "For embedding double the normal amount of coinage into the paper used for scribing the scroll."],
+          ["+0", "For scribing the spell as required."],
+          ["+1", "For using a real quill and ink to scribe the spell."],
+          ["+1 to +5", "For exceptional roleplay while scribing the scroll."],
+          ["Fail", "For making a mistake in the spell’s verbal."]
+        ]
+      },
+      "For example, Siona wants to make a Life spell scroll. He spends 15 minutes scribing the spell’s verbal onto a piece of vellum procured from the Guild of Arcane Lore and used 12 silver pieces to charge the dish. Siona tells the marshal he is finished and they calculate the roll needed to succeed. -12% for the Power Point Penalty, +8% for knowledge of the Healing School, +0% for time taken - Siona needs to have taken 24 minutes to gain the bonus, +5% for using vellum paper, and finally +2% for good roleplaying during the scribing of the scroll. That gives Lisa Tomaszewski a total of +3%, which means the player must roll a 13 or higher to succeed.",
+      "A player may substitute a pre-generated scroll for their hand written one once they have completed scribing the scroll successfully. In this case, the Power Points are stapled to this new scroll and the old hand written one should be torn up."
+    ]
   }
 ]
