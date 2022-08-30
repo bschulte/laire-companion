@@ -1535,9 +1535,64 @@
             "prerequisiteSkill": "Sorcery Rank 9",
             "purchase": "Once",
             "tagged": "No"
-          },
+          }
         ],
         "specialNotes": "There are no special notes for the Sorcery Skill List."
+      },
+      "spellSinger": {
+        "skills": [
+          {
+            "name": "Spell Singer",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Literacy",
+            "purchase": "Once",
+            "Tagged": "No"
+          },
+          {
+            "name": "Spell Singing Points*",
+            "cost": 1,
+            "duration": "",
+            "prerequisiteSkill": "Spell Singer",
+            "purchase": "Multi",
+            "Tagged": "Yes"
+          },
+          {
+            "name": "Spell Singing",
+            "cost": [
+              4,
+              4,
+              4,
+              4,
+              4
+            ],
+            "duration": "",
+            "prerequisiteSkill": "Spell Singer, Special",
+            "purchase": "Multi",
+            "Tagged": "No"
+          },
+          {
+            "name": "Echo",
+            "cost": 6,
+            "duration": "10 Minutes",
+            "prerequisiteSkill": "Spell Singing Rank 3",
+            "purchase": "Multi",
+            "Tagged": "Yes"
+          },
+          {
+            "name": "Extend Spell Song",
+            "cost": 4,
+            "duration": "While Sung",
+            "prerequisiteSkill": "Spell Singing Rank 4",
+            "purchase": "Once",
+            "Tagged": "No"
+          }
+        ],
+        "specialNotes": [
+          "*1.5SSP for 1 BP",
+          "The prerequisite for Spell Singing Rank 1 is Spell Singer. For each subsequent Rank of Spell Singing, the prerequisite is the previous rank. Therefore, Spell Singing Rank 5 has a prerequisite of Spell Singing Rank 4. In addition, the character must also have the appropriate number of Spell Singing Points, much like low magic.",
+          "There are a maximum of five ranks for Spell Singing that a character can purchase, each costing 4 Build Points."
+        ]
       }
     }
   ],

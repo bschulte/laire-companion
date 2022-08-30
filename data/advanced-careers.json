@@ -3444,7 +3444,288 @@
           "The caster can choose to cast this ritual upon themselves, upon another character, or upon an item. If cast on themselves or another character there is no in-game representation of the ritual. If this ritual is cast upon an item, a temporary item card must be made to indicate the magical nature of the item. As with other rituals that create magical items, the item is indestructible so long as the ritual lasts. A Ritual of Embedding is not needed to make an item with a Ritual of Strength."
         ],
         "rank": 6
-    }
-  ]
       }
+    ]
+  },
+  {
+    "name": "Spell Singer",
+    "introduction": [
+      "Spell Singing is an arcane mystical art. It draws its power from the tension between Law and Chaos – the constant pull and opposition of these two universal forces and the universal harmony created by this dance of the universe. While not exactly a high magic in the way Sorcery and Warlockery are - for it does not draw its power from the same source as low magic - it still requires its practitioners to understand arcane concepts necessary to wield this magic. The power behind Spell Singing is magic, but not from the same source that other arcane casters draw upon.",
+      "The Spell Singers themselves are creatures of balance. They must maintain an inner balance between the universal and divine powers of the universe. This prevents them from “picking a side” and therefore cannot become – and subsequently, cannot learn skills from – Followers of the Light, Druids, Servants of Darkness, Sorcerers or Warlocks. They can live their lives as lawfully or chaotically, good or wickedly as they wish so long as they do not pledge their lives to these sides and do not learn any of the skills off these Advanced Career skill lists.",
+      "In times past, the Spell Singer has been the messenger of the Lorelei, their voice amongst the mortal races; fulfilling their masters desire to maintain the balance between good and evil in their eternal struggle against one another. The Lorelei have lost their hold over this magic and it is now up to mortals alone to govern its use and teaching."
+    ],
+    "rules": [
+      {
+        "type": "header",
+        "content": "Buying Spell Singing"
+      },
+      "In order to purchase a rank of Spell Singing, the character must have a certain number of Spell Singing Points indicated by the table below:",
+      {
+        "type": "table",
+        "headers": [
+          "Rank",
+          "Character Level",
+          "Spell Singing Points"
+        ],
+        "rows": [
+          [
+            "1",
+            "5th",
+            "3"
+          ],
+          [
+            "2",
+            "7th",
+            "25"
+          ],
+          [
+            "3",
+            "9th",
+            "50"
+          ],
+          [
+            "4",
+            "11th",
+            "75"
+          ],
+          [
+            "5",
+            "13th",
+            "100"
+          ]
+        ]
+      },
+      "Note that the Spell Singer skill gives the character 3 Spell Singing Points, thereby satisfying the prerequisite for Spell Singing Rank 1.",
+      "When a character purchases a rank of Spell Singing, they do not automatically gain all the knowledge of all the songs in that rank, rather, the character must be taught each song individually. The teacher would then sign the character’s songbook indicating they have taught the character that song and the player needs then have the song approved and signed off by a Plot Marshal.",
+      {
+        "type": "header",
+        "content": "Using Spell Singing"
+      },
+      "The harmony of balance sings to each person uniquely, so each song is unique to each Spell Singer. Every character that learns Spell Singing must create a song for each of their spells. While the effects of these spells are the same for each character, the character will personalize it for themselves. A Spell Singer can teach and share another Spell Singer one of their individualized songs from their song book. The character does not need the Teach skill and needs to sign the Spell Singer’s song book to verify they have taught them the song. If the player wants to create an individualized song for their character, they need to work with a Spell Singer teacher, and have their new song approved by the teacher and a Magic Marshal.",
+      "The length of the song is determined by its rank: fifteen syllables for a Rank 1 song and an additional five syllables for each additional rank. Therefore, a Rank 5 song would have thirty five syllables. A song can be longer than this, but must meet these minimum requirements. The song should be descriptive of its effects and players hearing the song should be readily able to know what the song does. These songs must be approved by Magic Marshal before they are used. The player should call the effect at the end of the song indicating not only the effect but also the completion of the song.",
+      "All Spell Singing spells take effect at the end of the song. Some songs must be continuously sung in order to maintain the effect. Should the Spell Singer be forced to stop singing or take any damage when casting or while maintaining the effect, the spell ends. The Spell Singer may move, fight, take or use offensive or defensive actions or skills while maintaining their songs. The player may stop singing to call out-of-game effects or invoke spells, call martial defenses, or use abilities that do not require an in-game verbal. However, the Spell Singer must sing enough of their song so it is clear to everyone they are still singing a song.",
+      "Spell Songs will not bypass wards or circles or affect a character protected by a Magic Sanctuary or Imprisonment spell. Further, the Spell Singer cannot affect anyone else while inside a Magic Sanctuary spell or anyone outside a ward or circle they are in.",
+      "All Spell Songs affect their targets without the need to hit them with a spell packet. The Spell Singer needs an Unobstructed Line of Sight to affect their target. Additionally, the character needs to be able to see their target when they start and finish their song and the target must be able to hear the song. If a character is running past some trees while the song is sung, they are still affected by the spell, but should the character run behind a building, out of sight, or behind some semi-transparent obstacle, the song fails and the Spell Singing Points are still expended.",
+      "The target player must be able to hear the song, if the character is deaf – either naturally or because they have caused themselves to be deaf – the song still takes effect. Deafness is not a defense. If the player fails to hear the song because their attention is otherwise occupied elsewhere they are still affected by the song, however, if the player is far enough away or the Spell Singer not loud enough to reach the player the song fails. As a general rule, if there is someone else near the target that heard the song, the spell will take affect.",
+      "Spell Singing is a magical spell effect; therefore defenses that stop spells – Negation, Spell Shield, Outlander Resist, etc. – will defend the character against these spells. In the case of Reflection the song is stopped but not reflected back to the caster and for Absorption the song is stopped, but an Absorption does not gain the character any Spell Singing Points from the spell, even if they are themselves a Spell Singer. A character may use the Dodge skill to stop a Spell Song. Additionally, a character cannot use the Redirect Spell skill to redirect or stop a spell song.",
+      "The Dispel Magic and Sever Magic spells work on Spell Singing same as with low magic spells. See the description of these spells in Chapter 3 in the Thaumaturgy School.",
+      {
+        "type": "header",
+        "content": "The Songbook"
+      },
+      "Each Spell Singer must maintain a songbook. This acts as a focus for their ability to sing their songs. The character must always have their songbook on their person, for without it, they will be unable to use their magic. Though the character may have as many songbooks as they wish, they all must be in-game – even if the Spell Singer is an NPC – and contain all the songs the character will use, and the character can only sing the songs in their book. While the character may refer to the book in-game to sing their songs, they do not have to. The spell book must be at least 3 inches by 5 inches.",
+      {
+        "type": "header",
+        "content": "Losing the Song"
+      },
+      "Should a character with Spell Singing skills ever learn skills of the proscribed Advanced Career Skill Lists, they can no longer use any of their songs until they remove the knowledge and put themselves back into balance. They are not able to re-spend the build and the skills and corresponding Body Points remain on their card."
+    ],
+    "spellSongs": [
+      {
+        "name": "Will'o'Wisp",
+        "duration": "Special",
+        "cost": 0,
+        "rank": 1,
+        "description": [
+          "This song summons a small, non-combative lesser Will’o’Wisp that will help to light the way for the singer. Combat of any kind near the Will’o’Wisp will frighten it away. Similarly, the Will’o’Wisp will not fly away from the singer to investigate anything. The Will’o’Wisp cannot speak or communicate with anyone in any way and will not go with anyone else.",
+          "To represent the light shed by the Will’o’Wisp, the singer should use a small flash light."
+        ]
+      },
+      {
+        "name": "Feat of Heroes",
+        "duration": "Latent",
+        "cost": 2,
+        "rank": 1,
+        "description": [
+          "When invoked, this spell grants the character a temporary +3 Strength Bonus, Non-Combinable allowing the character to add +3 to the weapon damage of their next attack, or to perform one act of giant strength for no longer than 15 seconds. If the character normally calls “Two Damage” when they hit, if they invoke a Feat of Heroes they would call “Five Damage”. If the character fails to hit, they do not use up the Feat of Heroes spell.",
+          "This song can be combined with a normal Giant Strength spell and other Strength Bonuses.",
+          "The player must call “Feat of Heroes” when invoking this spell."
+        ]
+      },
+      {
+        "name": "Heal",
+        "duration": "Instant",
+        "cost": 1,
+        "rank": 1,
+        "description": [
+          "1 Spell Singing Point per 2 Body Points",
+          "By means of this song the Spell Singer is able to heal a character that has lost Body Points, is Bleeding to Death, or Unconscious. It has no effect on a character that is Mortally Wounded or on the Brink of Death. The Spell Singer spends 1 Spell Singing Point per 2 Body Points of healing and can spend as many Spell Singing Points as they wish up to the current number they have.",
+          "Note, this spell is not from the element of life and will heal undead, demons, elementals, and even Golems."
+        ]
+      },
+      {
+        "name": "Confusion",
+        "duration": "While Sung",
+        "cost": 3,
+        "rank": 1,
+        "description": "One character targeted by this charm song will become confused and disoriented while the Spell Singer continues to sing their song. The target may not do anything except stagger around for the duration of this song. They may not fight, flee, cast spells, call latent spell defenses or invoke magic items. This effect ends if the target character takes any damage or if the caster stops singing or is interrupted."
+      },
+      {
+        "name": "Inspire",
+        "duration": "Latent, 10 Minutes",
+        "cost": 3,
+        "rank": 1,
+        "description": "This song will give the recipient a +1 Damage Bonus for 10 minutes. This song is latent and can be invoked any time until the end of the current Event."
+      },
+      {
+        "name": "Injure",
+        "duration": "Instant",
+        "cost": 1,
+        "rank": 2,
+        "description": [
+          "1 Spell Singing Point per 2 Body Points, Variable",
+          "This song causes 2 points of direct, magical body damage for every 1 Spell Singing Point expended. This damage affects all characters, even undead.",
+          "The singer can spend as many Spell Singing Points they wish up to their current number. This song cannot be used to deliver a Killing Blow."
+        ]
+      },
+      {
+        "name": "Wake",
+        "duration": "Instant",
+        "cost": 3,
+        "rank": 2,
+        "description": "By means of this song, the Spell Singer can awaken a character that is asleep or Unconscious. This song will work on a character who is sleeping due to a spell, Sleep Poison or Dust of Sleep or who has been rendered Unconscious by a Waylay. In the later case, the character must have at least 1 Body Point to wake up. If the character is at zero or negative Body Points, this spell will have no affect."
+      },
+      {
+        "name": "Vocalize",
+        "duration": "Latent or Instant",
+        "cost": 3,
+        "rank": 2,
+        "description": [
+          "This song can be cast upon a person to protect them from any attack that would affect their ability to speak, for example a Silent and Mute spell or a Silence Poison. This song will last until invoked or until the end of the current Event.",
+          "This song can also be used to cure a person who is unable to speak whether they are under the affects of some magical spell or alchemy or are naturally mute. In the latter case, a Plot Marshal will determine if the song works."
+        ]
+      },
+      {
+        "name": "Repulse",
+        "duration": "While Sung and Concentrating",
+        "cost": 4,
+        "rank": 2,
+        "description": [
+          "This song will repel one character back 10 feet away from the Spell Singer. As long as the Spell Singer continues to sing, the target cannot approach within 10 feet of the singer. The target cannot push the caster away from them. The target can still attack the singer with ranged attacks and spells.",
+          "To represent the singer’s concentration, the player must hold their arm parallel to the ground with palm facing the target.",
+          "This is a magical force and cannot be over come with strength. This song can be echoed with the Echo skill, but the character must still maintain concentration."
+        ]
+      },
+      {
+        "name": "Resist Spell Song",
+        "duration": "Latent",
+        "cost": 4,
+        "rank": 2,
+        "description": [
+          "This song protects the character from one spell song. It will also protect the character from the sonic attacks of screecher moss, sirens, banshees, gargoyles, and other characters that have a sonic attack. This song will last until invoked or until the end of the current Event.",
+          "A character may have only either a Resist Spell Song or a Harmonize upon them at one time, they do not stack."
+        ]
+      },
+      {
+        "name": "Harmonize",
+        "duration": "Latent",
+        "cost": 5,
+        "rank": 3,
+        "description": [
+          "This latent song will negate any sonic attack directed at the character. Additionally, the character adds the Spell Singing Points used to cast the song to their own. If this song is cast upon a character that does not have the Spell Singing Points skill, the sonic attack is stopped but no Spell Singing Points are gained.",
+          "Should Harmonize be used to stop an area effect spell song, or a sonic attack from a creature, the character does not gain any Spell Singing Points but the song effect is still negated.",
+          "A character may have only either a Resist Spell Song or a Harmonize upon them at one time, they do not stack."
+        ]
+      },
+      {
+        "name": "Silence",
+        "duration": "While Sung",
+        "cost": 6,
+        "rank": 3,
+        "description": "The target character of this charm song cannot speak. This means the target cannot cast any spells, use any scrolls or use any skill that requires an in-game verbal. Any defense that would stop Charm School spells will also stop this affect. Remember: the use of latent spells, magic items, and weapon damage does not require the player to speak in-game, and is not affected by this spell. This spell can end early when a Vocalize, Dispel Magic or Heal Limb spell or similar effect is cast upon the target."
+      },
+      {
+        "name": "Sleep",
+        "duration": "While Sung",
+        "cost": 6,
+        "rank": 3,
+        "description": "This song is a charm affect that causes the target to fall asleep and will remain asleep for as long as the singer continues to sing. Any defense that would stop the Charm School Sleep spell will also stop this affect. The target can be woken up if they receive one or more points of damage."
+      },
+      {
+        "name": "Freedom",
+        "duration": "Instant",
+        "cost": 7,
+        "rank": 3,
+        "description": "This song will free a character from the affects of any Bond School spell, Paralysis Touch, or Paste of Binding. This spell song will not work on mundane restraints."
+      },
+      {
+        "name": "Fear",
+        "duration": "While Sung",
+        "cost": 10,
+        "rank": 4,
+        "description": [
+          "This charm song causes all living characters that can hear and are in Line of Sight of the Spell Singer to run away in fear. This effect lasts as long as the singer continues to sing. If the affected characters run away and can no longer hear or no longer have Line of Sight with the Spell Singer they no longer have to run. If the character returns to the area of affect they must once again flee until they cannot see or hear the singer or the singer stops.",
+          "While feared, the character cannot take any offensive actions and can only use defensive martial skills, invoke latent defensive spells or invoke defensive magic items. While a Heal Mind spell or similar effect will cure the character, they may not cast the spell upon themselves until they are out of Line of Sight from the Spell Singer.",
+          "If the Echo skill is used with this song, only those originally affected are feared for 10 minutes."
+        ]
+      },
+      {
+        "name": "Heroism",
+        "duration": "While Sung",
+        "cost": 14,
+        "rank": 4,
+        "description": [
+          "With this song, the Spell Singer can lift the morale of those who fight on their side. Everyone within the sound of the singer’s voice and sight of the Spell Singer gains a +2 Damage Bonus and +9 Body Points that are healable.",
+          "If a character moves away from the singer but later returns they once again receive the benefit of this song, however they only gain the Body Point modifier once, if they move back into the area, they must be healed back the Body Point bonus.",
+          "This song is combinable with the affects of an Inspire song."
+        ]
+      },
+      {
+        "name": "Remove Curse",
+        "duration": "Instant",
+        "cost": 14,
+        "rank": 4,
+        "description": "By means of this song the Spell Singer is able to remove all curses upon the target character."
+      },
+      {
+        "name": "Free Your Mind",
+        "duration": "Instant",
+        "cost": 15,
+        "rank": 4,
+        "description": "This song will remove all charm and charm like affects from the target character. This includes: Charm School spells, Vampiric Domination, Hierarch and Draconic Charms, Forget and Remember poison, Amnesia poison, Hypnosis, Satyr and Faun Charms, etc."
+      },
+      {
+        "name": "Repel True",
+        "duration": "While Sung",
+        "cost": 15,
+        "rank": 5,
+        "description": [
+          "This song forces all characters 10 feet away from the singer. This is a magical force and cannot be over come with strength. Once the singer completes the song, they may designate those that the song will not affect but only once at the time of completion and only for those present.",
+          "Any character affected by this song cannot attack the singer so long as they maintain this spell. Additionally, the Spell Singer cannot take any violent actions while maintaining this spell.",
+          "A defense that stops spells will negate this song if the target character invokes their defense when they are in the original area. They can move freely from that point on, entering and leaving the area of affect. However, characters that are not in the original area of affect cannot use a defense that stops spells to later enter the area.",
+          "This Spell Song cannot be combined with the Echo skill and this song cannot be dispelled."
+        ]
+      },
+      {
+        "name": "Haven",
+        "duration": "10 Minutes",
+        "cost": 20,
+        "rank": 5,
+        "description": [
+          "This song causes all hostile actions in the sound of the singer’s voice to cease. While this song is in affect, anyone entering the area is similarly affected. This area is static and does not move. This song does not compel the affected characters to remain in the area and they are able to leave when they wish.",
+          "No violent actions can enter the havened area, so even if a character leaves the area, they still cannot attack anyone within the Haven. Theft of any kind is considered a violent action so pick pocketing, looting a body or even picking up an item off the ground that does not belong to you is not allowed.",
+          "There is no defense to this song – even the Resist Ability, once sung the affect will remain until the duration has expired and cannot be dispelled. Even the singer is affected by this spell."
+        ]
+      },
+      {
+        "name": "Destroy Being",
+        "duration": "Instant",
+        "cost": 20,
+        "rank": 5,
+        "description": "Any character this song is sung to will be forced to the Brink of Death by the power of this melody. All characters are affected by this spell whether they take damage from Death magic or Healing magic. Characters that would normally take damage from a Life or Kill spell will take that damage instead. Inanimate objects or constructs, such as golems but not undead, are not affected by this spell. The target character can be healed as per the normal healing rules."
+      },
+      {
+        "name": "Legend Life",
+        "duration": "Instant",
+        "cost": 24,
+        "rank": 5,
+        "description": [
+          "This song will heal a character that is at the Brink of Death and bring them to 1 Body Point. The Death System is not used when this spell is sung. This song works regardless of any other types of life affects the character has received that day with the exception of a Legend Life.",
+          "This song has the power to bring a person back from un-death, but it can only reverse the effects of the Necromancy school and only on undead created less than 1 hour. Sorcerously created undead are not affected at all by this spell.",
+          "This song cannot be cast on a person unless they are at the Brink of Death. Unlike other types of life effects, the target player can refuse the life. The Spell Singing Points are used and the character’s Death Count continues.",
+          "Once a character has received a Legend Life, they cannot receive any other types of life until 7:00am."
+        ]
+      }
+    ]
+  }
 ]
