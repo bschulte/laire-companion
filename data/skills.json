@@ -1547,7 +1547,7 @@
             "duration": "Constant",
             "prerequisiteSkill": "Literacy",
             "purchase": "Once",
-            "Tagged": "No"
+            "tagged": "No"
           },
           {
             "name": "Spell Singing Points*",
@@ -1555,7 +1555,7 @@
             "duration": "",
             "prerequisiteSkill": "Spell Singer",
             "purchase": "Multi",
-            "Tagged": "Yes"
+            "tagged": "Yes"
           },
           {
             "name": "Spell Singing",
@@ -1569,7 +1569,7 @@
             "duration": "",
             "prerequisiteSkill": "Spell Singer, Special",
             "purchase": "Multi",
-            "Tagged": "No"
+            "tagged": "No"
           },
           {
             "name": "Echo",
@@ -1577,7 +1577,7 @@
             "duration": "10 Minutes",
             "prerequisiteSkill": "Spell Singing Rank 3",
             "purchase": "Multi",
-            "Tagged": "Yes"
+            "tagged": "Yes"
           },
           {
             "name": "Extend Spell Song",
@@ -1585,13 +1585,117 @@
             "duration": "While Sung",
             "prerequisiteSkill": "Spell Singing Rank 4",
             "purchase": "Once",
-            "Tagged": "No"
+            "tagged": "No"
           }
         ],
         "specialNotes": [
           "*1.5SSP for 1 BP",
           "The prerequisite for Spell Singing Rank 1 is Spell Singer. For each subsequent Rank of Spell Singing, the prerequisite is the previous rank. Therefore, Spell Singing Rank 5 has a prerequisite of Spell Singing Rank 4. In addition, the character must also have the appropriate number of Spell Singing Points, much like low magic.",
           "There are a maximum of five ranks for Spell Singing that a character can purchase, each costing 4 Build Points."
+        ]
+      },
+      "warlock": {
+        "skills": [
+          {
+            "name": "Killing Blow Magic",
+            "cost": 2,
+            "duration": "Constant",
+            "prerequisiteSkill": "Mage Basic Career SL, 4th Rank of Any School",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Recover Power*",
+            "cost": 2,
+            "duration": "Instant",
+            "prerequisiteSkill": "Mage Basic Career SL, 4th Rank of Any School",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Spell Binding*",
+            "cost": 4,
+            "duration": "6 Hours",
+            "prerequisiteSkill": "Mage Basic Career SL, 4th Rank of Any School",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Spell Holding*",
+            "cost": 4,
+            "duration": "5 Minutes",
+            "prerequisiteSkill": "Mage Basic Career SL, 4th Rank of Any School",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Spell Immunity",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Mage Basic Career SL, 4th Rank of Any School",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Concentration",
+            "cost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "Any 3 Warlock Skills",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Double Cast*",
+            "cost": 5,
+            "duration": "Instant",
+            "prerequisiteSkill": "Any 3 Warlock Skills",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Double Power*",
+            "cost": 5,
+            "duration": "Instant",
+            "prerequisiteSkill": "Any 3 Warlock Skills",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Overlay*",
+            "cost": 6,
+            "duration": "Instant",
+            "prerequisiteSkill": "Any 3 Warlock Skills",
+            "purchase": "Multi, Special",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Perfect Aim*",
+            "cost": 6,
+            "duration": "Instant",
+            "prerequisiteSkill": "Any 3 Warlock Skills",
+            "purchase": "Multi, Special",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Speed Cast*",
+            "cost": 7,
+            "duration": "Instant",
+            "prerequisiteSkill": "Any 3 Warlock Skills",
+            "purchase": "Multi, Special",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Total Power*",
+            "cost": 10,
+            "duration": "Instant",
+            "prerequisiteSkill": "Any 3 Warlock Skills",
+            "purchase": "Multi, Special",
+            "tagged": "Yes"
+          }
+        ],
+        "specialNotes": [
+          "Skills with an “*” require the use of the Warlock’s focus. For all these skills, the character must simply have the focus on their person.",
+          "Some skills – those marked as Special in the Purchase column – require an additional prerequisite for multiple purchases. The player should read later in this section for these prerequisites."
         ]
       }
     }

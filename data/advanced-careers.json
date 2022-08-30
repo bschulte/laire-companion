@@ -3727,5 +3727,54 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Warlock",
+    "introduction": [
+      "The Warlock is the quintessential battle mage. Through a complex ceremony, a Warlock becomes attuned to the power of magic, which allows them to alter the very fabric of magic itself. A Warlock is a practitioner of high magic; trained to use low magic to its fullest potential. Warlocks use the power of magic in a chaotic manner; they are not wielders of chaos. It is in how they use their low magic, in a personal and individual way that denotes their alleged tie to chaos.",
+      "On the battlefield, a Warlock’s magic is seldom matched, and rarely defeated. Off the battlefield, the Warlock’s skills and knowledge are valuable and coveted. Some Warlocks believe all this power comes with a price…",
+      "A proficient Warlock is able to augment low magic in order to increase its effectiveness. Some of the more popular feats of a Warlock involve punching through any low magic spell defense, casting a spell without reciting a verbal, doubling the damage or duration of spells, and casting a spell at a target without throwing a spell packet.",
+      "The Warlocks in Avalon have formed themselves into a tight group called the Warlock Circle harking back to the old days when all Warlocks were part of a circle. However, not all Warlocks are members of this circle and some “rogue” Warlocks practice their art outside the domain of the Circle.",
+      "While the Avaolnian Warlock Circle professes to be good and are supposedly dedicated to the protection of Avalon, rumors persist of a dark conspiracy tied to the Warlock's sinister history. It is also spoken of in the quiet voices of the existence of an evil Circle of Warlocks that serve their old masters still.",
+      "The Avalonian Warlock Circle conducts an initiation ceremony to their circle called the Awakening Ceremony. What goes on during this ceremony is a secret that a character must learn about in-game."
+    ],
+    "rules": [
+      "Use of a Warlock skill does not change the Power Point cost of a spell. For the skill Double Power, the character pays the normal Power Point cost. For the skill Double Cast, the character pays the Power point cost of both spells.",
+      "Warlock skills can be combined together. The prefix associated with each skill must be included in the spell verbal, but the order in which they are used does not matter, for example: “With Total Power, Double Power, Double Cast Dragon’s Breath Spell”. The one exception to this is the Total Power and Perfect Aim skills, which can never be combined with the exception of special cases, such as higher beings and characters with Plot approved perks.",
+      "Sometimes Warlock skills are not lost if they do not take affect. The Spell Binding, Double Cast, Double Power, Overlay, Perfect Aim, and Total Power skills are not used if you err in their verbal, take damage or miss the target, but the Power Points are still lost. If the attack is stopped by a defense that stops spells, the skills are used and the Recover Power skill cannot be used. Recover Power, Speed Cast, and Spell Holding are used as soon as they are invoked, so if the character errs in their verbal, takes damage or misses the target, these skills are lost.",
+      "The eyes of the Warlock will glow with the color of the type of magic being used whenever the Warlock uses a Warlock skill. If a Warlock casts a latent spell, then the eyes of the target will glow when the latent spell is invoked.",
+      "Only spells cast by the character can be augmented with their warlock skills. Spells invoked from items or read from scrolls cannot be augmented with any Warlock skills. Skills such as Concentration which have a constant effect always work while casting, invoking, or reading a spell.",
+      {
+        "type": "header",
+        "content": "Prerequisites and Skills"
+      },
+      "The Overlay, Perfect Aim, Speed Cast, and Total Power skills share a common prerequisite. The character needs to have 15 Power Points per each skill per each purchase. For example, a character with 75 Power Points can have any combination of skills and purchases totaling five. They could have five Overlay skills or one Overlay skill, two Speed Cast skills, and two Total Power skills. Another example, a character could have two Perfect Aim skills, two Speed Cast skills and one Total Power skill. The rest of the skills on this list do not count toward this multiple purchase limit.",
+      {
+        "type": "header",
+        "content": "The Warlock Focus"
+      },
+      "Warlocks require a focus to use all of their abilities except the Spell Immunity, Killing Blow Magic, and Concentration skills. The Warlock focus is universal and can be used by any character. A player may have as many foci as they wish. Warlock focus, though used with magical skills, are not themselves magical and they do not detect as magical. They can be broken by any means, magical or normal. The can be identified with the Identify Component skill or by any Warlock touching one. The focus can be used a faith focus but cannot have any sorcery rituals cast upon them.",
+      "The player can acquire a focus by making one themselves, purchasing one in-game from the Merchant’s Guild, or otherwise finding one in-game.",
+      "To make one in-game, the character has to collect the required components in-game and perform a 20 minute ceremony. The character needs to know how to create the focus in-game. Once a character has learned 3 lesser Warlock skills they have the knowledge needed to create their own focus. Below is the list of components needed to create a focus.",
+      {
+        "type": "list",
+        "items": [
+          "Item worth at least 5 sp",
+          "A ruby worth 1 gp",
+          "1 dose Red Casting Powder",
+          "1 dose fresh spring water",
+          "1 dose red swamp rose flower (whole flower)",
+          "9 strands of red hair",
+          "1 drop of blood from the Warlock creating the focus"
+        ]
+      },
+      "A Warlock can still use their Warlockery without a focus; however, doing so brings them to the Brink of Death, but the spell still goes off.",
+      {
+        "type": "header",
+        "content": "Red Casting Powder"
+      },
+      "Red Casting Powder can be used instead of the Warlock focus to use Warlock skills if the focus is not available. Red Casting Powder is measured in doses, each dose being approximately one thimble full. A single dose can be used to cast a single spell augmented by any number of Warlock skills.",
+      "For example, Turlock lost his focus to a pick- pocket and as the thief tries to make his escape, Turlock decides to stop him, permanently. He has Red Casting Powder on him and casts his spell, “With Perfect Aim, Double Cast, Kill Spell”. The thief calls out the appropriate defenses and continues to run. Undaunted, Turlock tries again and casts another spell, “With Perfect Aim, Kill Spell”. This time the thief is done for and Turlock collects his stolen property. He has used a total of four of his Warlock skills to cast the first spell and two Warlock skills for the second, but still only used one dose of Red Casting Powder each time."
+    ]
   }
 ]
