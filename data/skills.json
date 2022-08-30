@@ -56,11 +56,26 @@
       {
         "name": "Sword and Board Fighter 1",
         "skills": [
-          { "cost": 10, "name": "Warrior Basic Career Skill List" },
-          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
-          { "cost": 5, "name": "Shield Skill" },
-          { "cost": 5, "name": "Critical Attack" },
-          { "cost": 2, "name": "First Aid" }
+          {
+            "cost": 10,
+            "name": "Warrior Basic Career Skill List"
+          },
+          {
+            "cost": 2,
+            "name": "Weapon Skill: One-Handed Edge"
+          },
+          {
+            "cost": 5,
+            "name": "Shield Skill"
+          },
+          {
+            "cost": 5,
+            "name": "Critical Attack"
+          },
+          {
+            "cost": 2,
+            "name": "First Aid"
+          }
         ],
         "bodyPoints": 10,
         "powerPoints": 0
@@ -68,11 +83,26 @@
       {
         "name": "Sword and Board Fighter 2",
         "skills": [
-          { "cost": 10, "name": "Warrior Basic Career Skill List" },
-          { "cost": 2, "name": "Weapon Skill: One-Handed Blunt" },
-          { "cost": 5, "name": "Shield Skill: Large Shield" },
-          { "cost": 4, "name": "Disarm" },
-          { "cost": 4, "name": "Stamina" }
+          {
+            "cost": 10,
+            "name": "Warrior Basic Career Skill List"
+          },
+          {
+            "cost": 2,
+            "name": "Weapon Skill: One-Handed Blunt"
+          },
+          {
+            "cost": 5,
+            "name": "Shield Skill: Large Shield"
+          },
+          {
+            "cost": 4,
+            "name": "Disarm"
+          },
+          {
+            "cost": 4,
+            "name": "Stamina"
+          }
         ],
         "bodyPoints": 11,
         "powerPoints": 0
@@ -80,10 +110,22 @@
       {
         "name": "Florentine Fighter 1 teller",
         "skills": [
-          { "cost": 10, "name": "Warrior Basic Career Skill List" },
-          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
-          { "cost": 3, "name": "Florentine" },
-          { "cost": 10, "name": "+1 Weapon Proficiency: One-Handed Edge" }
+          {
+            "cost": 10,
+            "name": "Warrior Basic Career Skill List"
+          },
+          {
+            "cost": 2,
+            "name": "Weapon Skill: One-Handed Edge"
+          },
+          {
+            "cost": 3,
+            "name": "Florentine"
+          },
+          {
+            "cost": 10,
+            "name": "+1 Weapon Proficiency: One-Handed Edge"
+          }
         ],
         "bodyPoints": 10,
         "powerPoints": 0
@@ -91,12 +133,30 @@
       {
         "name": "Florentine Fighter 2",
         "skills": [
-          { "cost": 10, "name": "Warrior Basic Career Skill List" },
-          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
-          { "cost": 3, "name": "Florentine" },
-          { "cost": 4, "name": "Disarm" },
-          { "cost": 2, "name": "First Aid" },
-          { "cost": 4, "name": "Stamina" }
+          {
+            "cost": 10,
+            "name": "Warrior Basic Career Skill List"
+          },
+          {
+            "cost": 2,
+            "name": "Weapon Skill: One-Handed Edge"
+          },
+          {
+            "cost": 3,
+            "name": "Florentine"
+          },
+          {
+            "cost": 4,
+            "name": "Disarm"
+          },
+          {
+            "cost": 2,
+            "name": "First Aid"
+          },
+          {
+            "cost": 4,
+            "name": "Stamina"
+          }
         ],
         "bodyPoints": 11,
         "powerPoints": 0
@@ -104,9 +164,18 @@
       {
         "name": "Two-Handed Weapon Fighter 1",
         "skills": [
-          { "cost": 10, "name": "Basic Career Skill List" },
-          { "cost": 4, "name": "Weapon Skill: Bastard Edge" },
-          { "cost": 10, "name": "+1 Weapon Proficiency: Bastard Edge" }
+          {
+            "cost": 10,
+            "name": "Basic Career Skill List"
+          },
+          {
+            "cost": 4,
+            "name": "Weapon Skill: Bastard Edge"
+          },
+          {
+            "cost": 10,
+            "name": "+1 Weapon Proficiency: Bastard Edge"
+          }
         ],
         "bodyPoints": 9,
         "powerPoints": 0
@@ -114,10 +183,22 @@
       {
         "name": "Two-Handed Weapon Fighter 2",
         "skills": [
-          { "cost": 10, "name": "Basic Career Skill List" },
-          { "cost": 4, "name": "Weapon Skill: Two-Handed Edge" },
-          { "cost": 5, "name": "Critical Attack" },
-          { "cost": 4, "name": "Disarm" }
+          {
+            "cost": 10,
+            "name": "Basic Career Skill List"
+          },
+          {
+            "cost": 4,
+            "name": "Weapon Skill: Two-Handed Edge"
+          },
+          {
+            "cost": 5,
+            "name": "Critical Attack"
+          },
+          {
+            "cost": 4,
+            "name": "Disarm"
+          }
         ],
         "bodyPoints": 9,
         "powerPoints": 0
@@ -127,12 +208,30 @@
       {
         "name": "Combat Mage 1",
         "skills": [
-          { "cost": 10, "name": "Mage Basic Career Skill List" },
-          { "cost": 1, "name": "Enchantments School" },
-          { "cost": 1, "name": "Bonds School" },
-          { "cost": 2, "name": "Pyrotechnics School" },
-          { "cost": 2, "name": "Weapon Skill: Quarter Staff" },
-          { "cost": 9, "name": "Power Points" }
+          {
+            "cost": 10,
+            "name": "Mage Basic Career Skill List"
+          },
+          {
+            "cost": 1,
+            "name": "Enchantments School"
+          },
+          {
+            "cost": 1,
+            "name": "Bonds School"
+          },
+          {
+            "cost": 2,
+            "name": "Pyrotechnics School"
+          },
+          {
+            "cost": 2,
+            "name": "Weapon Skill: Quarter Staff"
+          },
+          {
+            "cost": 9,
+            "name": "Power Points"
+          }
         ],
         "bodyPoints": 5,
         "powerPoints": 17
@@ -140,12 +239,30 @@
       {
         "name": "Combat Mage 2",
         "skills": [
-          { "cost": 10, "name": "Mage Basic Career Skill List" },
-          { "cost": 1, "name": "Enchantments School" },
-          { "cost": 2, "name": "Ice School" },
-          { "cost": 1, "name": "Bonds School" },
-          { "cost": 0, "name": "Weapon Skill: Small Weapon" },
-          { "cost": 10, "name": "Power Points" }
+          {
+            "cost": 10,
+            "name": "Mage Basic Career Skill List"
+          },
+          {
+            "cost": 1,
+            "name": "Enchantments School"
+          },
+          {
+            "cost": 2,
+            "name": "Ice School"
+          },
+          {
+            "cost": 1,
+            "name": "Bonds School"
+          },
+          {
+            "cost": 0,
+            "name": "Weapon Skill: Small Weapon"
+          },
+          {
+            "cost": 10,
+            "name": "Power Points"
+          }
         ],
         "bodyPoints": 18,
         "powerPoints": 15
@@ -153,11 +270,26 @@
       {
         "name": "Healer",
         "skills": [
-          { "cost": 10, "name": "Mage Basic Career Skill List" },
-          { "cost": 2, "name": "Auras School" },
-          { "cost": 2, "name": "Healing School" },
-          { "cost": 2, "name": "First Aid" },
-          { "cost": 9, "name": "Power Points" }
+          {
+            "cost": 10,
+            "name": "Mage Basic Career Skill List"
+          },
+          {
+            "cost": 2,
+            "name": "Auras School"
+          },
+          {
+            "cost": 2,
+            "name": "Healing School"
+          },
+          {
+            "cost": 2,
+            "name": "First Aid"
+          },
+          {
+            "cost": 9,
+            "name": "Power Points"
+          }
         ],
         "bodyPoints": 5,
         "powerPoints": 17
@@ -165,12 +297,30 @@
       {
         "name": "Scholarly Mage",
         "skills": [
-          { "cost": 10, "name": "Mage Basic Career Skill List" },
-          { "cost": 2, "name": "Ice School" },
-          { "cost": 1, "name": "Thaumaturgy School" },
-          { "cost": 4, "name": "Literacy: Common" },
-          { "cost": 1, "name": "Read Magic" },
-          { "cost": 7, "name": "Power Points" }
+          {
+            "cost": 10,
+            "name": "Mage Basic Career Skill List"
+          },
+          {
+            "cost": 2,
+            "name": "Ice School"
+          },
+          {
+            "cost": 1,
+            "name": "Thaumaturgy School"
+          },
+          {
+            "cost": 4,
+            "name": "Literacy: Common"
+          },
+          {
+            "cost": 1,
+            "name": "Read Magic"
+          },
+          {
+            "cost": 7,
+            "name": "Power Points"
+          }
         ],
         "bodyPoints": 5,
         "powerPoints": 14
@@ -180,28 +330,69 @@
       {
         "name": "Mugger",
         "skills": [
-          { "cost": 10, "name": "Rogue Basic Career Skill List" },
-          { "cost": 0, "name": "Weapon Skill: Small Weapon" },
-          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
-          { "cost": 5, "name": "Waylay" },
-          { "cost": 6, "name": "Backstab" },
-          { "cost": 2, "name": "First Aid" }
+          {
+            "cost": 10,
+            "name": "Rogue Basic Career Skill List"
+          },
+          {
+            "cost": 0,
+            "name": "Weapon Skill: Small Weapon"
+          },
+          {
+            "cost": 2,
+            "name": "Weapon Skill: One-Handed Edge"
+          },
+          {
+            "cost": 5,
+            "name": "Waylay"
+          },
+          {
+            "cost": 6,
+            "name": "Backstab"
+          },
+          {
+            "cost": 2,
+            "name": "First Aid"
+          }
         ],
         "bodyPoints": 6,
         "powerPoints": 0
       },
-
       {
         "name": "Burglar",
         "skills": [
-          { "cost": 10, "name": "Rogue Basic Career Skill List" },
-          { "cost": 0, "name": "Weapon Skill: Small Weapon" },
-          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
-          { "cost": 3, "name": "Florentine" },
-          { "cost": 2, "name": "Pick Locks" },
-          { "cost": 2, "name": "Disarm Traps" },
-          { "cost": 4, "name": "Evaluate Item" },
-          { "cost": 2, "name": "First Aid" }
+          {
+            "cost": 10,
+            "name": "Rogue Basic Career Skill List"
+          },
+          {
+            "cost": 0,
+            "name": "Weapon Skill: Small Weapon"
+          },
+          {
+            "cost": 2,
+            "name": "Weapon Skill: One-Handed Edge"
+          },
+          {
+            "cost": 3,
+            "name": "Florentine"
+          },
+          {
+            "cost": 2,
+            "name": "Pick Locks"
+          },
+          {
+            "cost": 2,
+            "name": "Disarm Traps"
+          },
+          {
+            "cost": 4,
+            "name": "Evaluate Item"
+          },
+          {
+            "cost": 2,
+            "name": "First Aid"
+          }
         ],
         "bodyPoints": 6,
         "powerPoints": 0
@@ -209,13 +400,34 @@
       {
         "name": "Assassin in Training",
         "skills": [
-          { "cost": 10, "name": "Rogue Basic Career Skill List" },
-          { "cost": 0, "name": "Weapon Skill: Small Weapon" },
-          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
-          { "cost": 5, "name": "Waylay" },
-          { "cost": 2, "name": "Herbal lore" },
-          { "cost": 4, "name": "Literacy: Common" },
-          { "cost": 2, "name": "Poison Lore" }
+          {
+            "cost": 10,
+            "name": "Rogue Basic Career Skill List"
+          },
+          {
+            "cost": 0,
+            "name": "Weapon Skill: Small Weapon"
+          },
+          {
+            "cost": 2,
+            "name": "Weapon Skill: One-Handed Edge"
+          },
+          {
+            "cost": 5,
+            "name": "Waylay"
+          },
+          {
+            "cost": 2,
+            "name": "Herbal lore"
+          },
+          {
+            "cost": 4,
+            "name": "Literacy: Common"
+          },
+          {
+            "cost": 2,
+            "name": "Poison Lore"
+          }
         ],
         "bodyPoints": 6,
         "powerPoints": 0
@@ -223,13 +435,34 @@
       {
         "name": "Scout",
         "skills": [
-          { "cost": 10, "name": "Rogue Basic Career Skill List" },
-          { "cost": 0, "name": "Weapon Skill: Small Weapon" },
-          { "cost": 2, "name": "Weapon Skill: One-Handed Edge" },
-          { "cost": 2, "name": "Weapon Skill: Thrown Weapon" },
-          { "cost": 3, "name": "Florentine" },
-          { "cost": 5, "name": "Waylay" },
-          { "cost": 2, "name": "Pick Locks" }
+          {
+            "cost": 10,
+            "name": "Rogue Basic Career Skill List"
+          },
+          {
+            "cost": 0,
+            "name": "Weapon Skill: Small Weapon"
+          },
+          {
+            "cost": 2,
+            "name": "Weapon Skill: One-Handed Edge"
+          },
+          {
+            "cost": 2,
+            "name": "Weapon Skill: Thrown Weapon"
+          },
+          {
+            "cost": 3,
+            "name": "Florentine"
+          },
+          {
+            "cost": 5,
+            "name": "Waylay"
+          },
+          {
+            "cost": 2,
+            "name": "Pick Locks"
+          }
         ],
         "bodyPoints": 6,
         "powerPoints": 0
@@ -249,7 +482,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "One-Handed Edge",
             "onListCost": 2,
@@ -259,7 +491,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "One-Handed Blunt",
             "onListCost": 2,
@@ -269,7 +500,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Bastard Sword",
             "onListCost": 4,
@@ -279,7 +509,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Bastard Blunt",
             "onListCost": 4,
@@ -289,7 +518,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Two-Handed Edge",
             "onListCost": 4,
@@ -299,7 +527,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Two-Handed Blunt",
             "onListCost": 4,
@@ -309,7 +536,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Quarterstaff",
             "onListCost": 2,
@@ -319,7 +545,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Spear",
             "onListCost": 3,
@@ -329,7 +554,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Polearm",
             "onListCost": 5,
@@ -339,7 +563,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Thrown Weapon",
             "onListCost": 2,
@@ -349,7 +572,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Bow",
             "onListCost": 3,
@@ -359,7 +581,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Crossbow",
             "onListCost": 4,
@@ -369,7 +590,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Shield",
             "onListCost": 5,
@@ -379,7 +599,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Florentine",
             "onListCost": 3,
@@ -389,7 +608,6 @@
             "purchase": "Once",
             "tagged": "No"
           },
-
           {
             "name": "Weapon Proficiency",
             "onListCost": 10,
@@ -399,7 +617,6 @@
             "purchase": "Multi",
             "tagged": "No"
           },
-
           {
             "name": "Critical Attack",
             "onListCost": 5,
@@ -409,7 +626,6 @@
             "purchase": "Multi",
             "tagged": "Yes"
           },
-
           {
             "name": "Disarm",
             "onListCost": 4,
@@ -419,7 +635,6 @@
             "purchase": "Multi",
             "tagged": "Yes"
           },
-
           {
             "name": "Stunning Blow",
             "onListCost": 6,
@@ -437,7 +652,6 @@
           "All weapons gain the benefit of the character’s Strength Bonus except Crossbows. Bows count as two-handed weapons."
         ]
       },
-
       "mage": {
         "skills": [
           {
@@ -460,113 +674,237 @@
           },
           {
             "name": "Auras School",
-            "onListCost": [2, 2, 2, 2, 4],
-            "offListCost": [5, 6],
+            "onListCost": [
+              2,
+              2,
+              2,
+              2,
+              4
+            ],
+            "offListCost": [
+              5,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [3, 4]
+            "lostRanks": [
+              3,
+              4
+            ]
           },
           {
             "name": "Bonds School",
-            "onListCost": [1, 2, 2, 2, 4],
-            "offListCost": [3, 6],
+            "onListCost": [
+              1,
+              2,
+              2,
+              2,
+              4
+            ],
+            "offListCost": [
+              3,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [3, 4]
+            "lostRanks": [
+              3,
+              4
+            ]
           },
           {
             "name": "Charms School",
-            "onListCost": [1, 2, 2, 2, 4],
-            "offListCost": [3, 6],
+            "onListCost": [
+              1,
+              2,
+              2,
+              2,
+              4
+            ],
+            "offListCost": [
+              3,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [4]
+            "lostRanks": [
+              4
+            ]
           },
           {
             "name": "Death School",
-            "onListCost": [1, 2, 2, 2, 4],
-            "offListCost": [3, 6],
+            "onListCost": [
+              1,
+              2,
+              2,
+              2,
+              4
+            ],
+            "offListCost": [
+              3,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [4]
+            "lostRanks": [
+              4
+            ]
           },
           {
             "name": "Demonology",
-            "onListCost": [3, 3, 4, 4, 6],
-            "offListCost": [7, 9],
+            "onListCost": [
+              3,
+              3,
+              4,
+              4,
+              6
+            ],
+            "offListCost": [
+              7,
+              9
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [4]
+            "lostRanks": [
+              4
+            ]
           },
           {
             "name": "Enchantments School",
-            "onListCost": [1, 2, 2, 2, 4],
-            "offListCost": [3, 6],
+            "onListCost": [
+              1,
+              2,
+              2,
+              2,
+              4
+            ],
+            "offListCost": [
+              3,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [3, 4]
+            "lostRanks": [
+              3,
+              4
+            ]
           },
           {
             "name": "Healing School",
-            "onListCost": [2, 2, 2, 2, 4],
-            "offListCost": [5, 6],
+            "onListCost": [
+              2,
+              2,
+              2,
+              2,
+              4
+            ],
+            "offListCost": [
+              5,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [4]
+            "lostRanks": [
+              4
+            ]
           },
           {
             "name": "Ice School",
-            "onListCost": [2, 2, 2, 2, 4],
-            "offListCost": [5, 6],
+            "onListCost": [
+              2,
+              2,
+              2,
+              2,
+              4
+            ],
+            "offListCost": [
+              5,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [4]
+            "lostRanks": [
+              4
+            ]
           },
           {
             "name": "Necromancy School",
-            "onListCost": [2, 2, 2, 2, 4],
-            "offListCost": [5, 6],
+            "onListCost": [
+              2,
+              2,
+              2,
+              2,
+              4
+            ],
+            "offListCost": [
+              5,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [4]
+            "lostRanks": [
+              4
+            ]
           },
           {
             "name": "Pyrotechnics School",
-            "onListCost": [2, 2, 2, 2, 4],
-            "offListCost": [5, 6],
+            "onListCost": [
+              2,
+              2,
+              2,
+              2,
+              4
+            ],
+            "offListCost": [
+              5,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [4]
+            "lostRanks": [
+              4
+            ]
           },
           {
             "name": "Thaumaturgy School",
-            "onListCost": [1, 2, 2, 2, 4],
-            "offListCost": [3, 6],
+            "onListCost": [
+              1,
+              2,
+              2,
+              2,
+              4
+            ],
+            "offListCost": [
+              3,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "See special notes",
             "purchase": "Multi",
             "tagged": "No",
-            "lostRanks": [4]
+            "lostRanks": [
+              4
+            ]
           },
           {
             "name": "Small Weapon",
@@ -593,13 +931,37 @@
           "The prerequisites for purchasing the next rank of a school is given in the table below:",
           {
             "type": "table",
-            "headers": ["Rank", "Character Level", "Power Points"],
+            "headers": [
+              "Rank",
+              "Character Level",
+              "Power Points"
+            ],
             "rows": [
-              ["1", "1st", "3"],
-              ["2", "3rd", "25"],
-              ["3", "5th", "50"],
-              ["4", "7th", "75"],
-              ["5", "9th", "100"]
+              [
+                "1",
+                "1st",
+                "3"
+              ],
+              [
+                "2",
+                "3rd",
+                "25"
+              ],
+              [
+                "3",
+                "5th",
+                "50"
+              ],
+              [
+                "4",
+                "7th",
+                "75"
+              ],
+              [
+                "5",
+                "9th",
+                "100"
+              ]
             ]
           }
         ]
@@ -671,8 +1033,16 @@
           },
           {
             "name": "Set Trap",
-            "onListCost": [1, 2, 3, 4],
-            "offListCost": [3, 6],
+            "onListCost": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "offListCost": [
+              3,
+              6
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "Disarm Trap",
             "purchase": "Once",
@@ -804,7 +1174,12 @@
           },
           {
             "name": "Weapon Smith",
-            "onListCost": [4, 6, 8, 10],
+            "onListCost": [
+              4,
+              6,
+              8,
+              10
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "None",
             "purchase": "Multi",
@@ -891,7 +1266,13 @@
           },
           {
             "name": "Potions I-V",
-            "cost": [2, 2, 3, 4, 5],
+            "cost": [
+              2,
+              2,
+              3,
+              4,
+              5
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "Alchemy Lore",
             "purchase": "Multi",
@@ -899,7 +1280,13 @@
           },
           {
             "name": "Poisons I-V",
-            "cost": [2, 2, 3, 4, 5],
+            "cost": [
+              2,
+              2,
+              3,
+              4,
+              5
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "Alchemy Lore",
             "purchase": "Multi",
@@ -907,7 +1294,13 @@
           },
           {
             "name": "Solutions I-V",
-            "cost": [2, 2, 3, 4, 5],
+            "cost": [
+              2,
+              2,
+              3,
+              4,
+              5
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "Alchemy Lore",
             "purchase": "Multi",
@@ -915,7 +1308,14 @@
           },
           {
             "name": "Create Golem I-VI",
-            "cost": [2, 2, 2, 2, 2, 2],
+            "cost": [
+              2,
+              2,
+              2,
+              2,
+              2,
+              2
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "2 Rank 5 Alchemy Schools, Embalming",
             "purchase": "Multi",
@@ -1013,6 +1413,131 @@
         "specialNotes": [
           "The Build costs separated by slashes are the costs for each rank in the school of Alchemy. For example, the list cost of the Potions School is given as 2/2/3/4/5; this means that the Rank 1 Potions School costs 2 Build, Rank 2 Potions School costs 2 Build, Rank 3 costs 3 Build, Rank 4 costs 4 Build and Rank 5 costs 5 Build."
         ]
+      },
+      "sorcerer": {
+        "skills": [
+          {
+            "name": "Create Scroll",
+            "cost": 5,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Read Magic",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Lore",
+            "cost": 2,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Create Scroll, 4th Rank of Any School",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Dissection",
+            "cost": 5,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Lore",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Identify Components",
+            "cost": 3,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Lore, Dissection",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Cosmic Focus",
+            "cost": 0,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Rank 1",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Rank 1",
+            "cost": 8,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Lore",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Rank 2",
+            "cost": 10,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Rank 1",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Rank 3",
+            "cost": 10,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Rank 2",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Rank 4",
+            "cost": 10,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Rank 3",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Rank 5",
+            "cost": 10,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Rank 4",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Rank 6",
+            "cost": 10,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Rank 5",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Rank 7",
+            "cost": 15,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Rank 6",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Rank 8",
+            "cost": 20,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Rank 7",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Rank 9",
+            "cost": 25,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Rank 8",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Sorcery Rank 10",
+            "cost": 30,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Sorcery Rank 9",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+        ],
+        "specialNotes": "There are no special notes for the Sorcery Skill List."
       }
     }
   ],
@@ -1189,23 +1714,103 @@
     "Mithril Crafting allows the character to make a piece of chain mail, light plate, or heavy plate armor out of Mithril. This increases the Base Armor Points by 50%, the armor degrades after taking damage by 2 Armor Points instead of the normal 3 Armor Points, and makes the armor indestructible and nothing short of an Eldritch attack will destroy the armor. However, this does not mean the armor cannot be damaged during a fight. The same rules apply for Mithril armor, but the suit itself cannot be destroyed. Mithril ore is mined like any other ore and smelted into bars; however unlike mundane metals, once forged into something, Mithril can never be re-forged. There are different types of Mithril – normal Mithril, Starfire Mithril, Moonfire Mithril, and Sunfire Mithril. All these different types of metals work the same as standard Mithril when made into a suit of armor."
   ],
   "armorCraftingTimes": {
-    "headers": ["Armor Type", "SL, RL, RM", "CM", "LP, HP"],
+    "headers": [
+      "Armor Type",
+      "SL, RL, RM",
+      "CM",
+      "LP, HP"
+    ],
     "rows": [
-      ["Base Time", "20", "30", "40"],
-      ["Helmet, Full", "4", "6", "8"],
-      ["Helmet, Partial", "4", "6", "8"],
-      ["Helmet, Cap", "2", "3", "4"],
-      ["Neck", "2", "3", "4"],
-      ["Shoulders", "2", "3", "4"],
-      ["Breast Plate", "4", "6", "8"],
-      ["Back Plate", "4", "6", "8"],
-      ["Upper Arms", "2", "3", "4"],
-      ["Elbows", "2", "3", "4"],
-      ["Lower Arms", "2", "3", "4"],
-      ["Groin", "2", "3", "4"],
-      ["Upper Legs", "2", "3", "4"],
-      ["Knees", "2", "3", "4"],
-      ["Lower Legs", "2", "3", "4"]
+      [
+        "Base Time",
+        "20",
+        "30",
+        "40"
+      ],
+      [
+        "Helmet, Full",
+        "4",
+        "6",
+        "8"
+      ],
+      [
+        "Helmet, Partial",
+        "4",
+        "6",
+        "8"
+      ],
+      [
+        "Helmet, Cap",
+        "2",
+        "3",
+        "4"
+      ],
+      [
+        "Neck",
+        "2",
+        "3",
+        "4"
+      ],
+      [
+        "Shoulders",
+        "2",
+        "3",
+        "4"
+      ],
+      [
+        "Breast Plate",
+        "4",
+        "6",
+        "8"
+      ],
+      [
+        "Back Plate",
+        "4",
+        "6",
+        "8"
+      ],
+      [
+        "Upper Arms",
+        "2",
+        "3",
+        "4"
+      ],
+      [
+        "Elbows",
+        "2",
+        "3",
+        "4"
+      ],
+      [
+        "Lower Arms",
+        "2",
+        "3",
+        "4"
+      ],
+      [
+        "Groin",
+        "2",
+        "3",
+        "4"
+      ],
+      [
+        "Upper Legs",
+        "2",
+        "3",
+        "4"
+      ],
+      [
+        "Knees",
+        "2",
+        "3",
+        "4"
+      ],
+      [
+        "Lower Legs",
+        "2",
+        "3",
+        "4"
+      ]
     ],
     "footers": [
       "Abbreviations stand for: Soft Leather, Ridged Leather, Ring Mail, Chain Mail, Light Plate and Heavy Plate respectively."
