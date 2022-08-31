@@ -878,6 +878,1038 @@
       ]
     },
     {
+      "name": "Disarm Trap",
+      "buildCost": [
+        2,
+        6
+      ],
+      "tagged": "No",
+      "skillType": "Dexterity",
+      "prerequisites": "None",
+      "skillList": "Rogue Basic Career Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "With this skill, a character may attempt to disarm traps the character comes across while playing the game. This skill does not allow the character to automatically disarm a trap, the player must actually disarm the trap they find during game play.",
+        "Without this skill, any character that attempts to disarm a trap will automatically set it off, even if the player successfully disarmed the trap. Any character can detect any trap they can see in-game; this skill is not required to detect traps."
+      ]
+    },
+    {
+      "name": "Dissection",
+      "buildCost": 5,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Alchemy Lore or Sorcery Lore",
+      "skillList": "Alchemist, Sorcerer",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to take and preserve a body part from a dead or immobile character. Using this skill takes 1 minute and the character should roleplay cutting or removing the body part as appropriate. Additionally, the character needs to use a dissection knife to use this skill; no other tools or items can be used.",
+        "Normally, any body part taken from a character dissipates after 5 minutes. However, if the body part was removed and preserved by someone with the Dissection skill, the body part does not dissipate. If the character is healed or resurrected, the character is whole and intact even if a portion of its body is preserved elsewhere.",
+        "When you start to remove an internal organ, bones or blood, you deliver a Killing Blow in the first three seconds of starting the dissection. You cannot use First Aid, Battle Surgery, Icy Preservation spell, or other means that stop a Death Count while you are Dissecting a part from a character.",
+        "This skill allows a character to collect components from various characters. However, you can only collect the same component once from the same character per month.",
+        "For example, Adriana needs the unwilling heart of a Paladin for her Dark Sorcery. She captures Rynn and dissects his heart, then casts a Life spell on him. She can take his heart again if she wishes but it would not be useable in her ritual; only the first heart is worth anything.",
+        "Only one component can be taken from the same character per Event, regardless of how many characters are dissecting the body. If multiple characters dissect the same body, then the first one to finish is the only one who gains a usable component. They could take the heart, muscles, or blood but only the first one finished would be a valid component.",
+        "This skill is used to extract components from a character. It can never be used to preserve a whole character or body. If a part is dissected that contains other components, those components are null and useless."
+      ]
+    },
+    {
+      "name": "Distraction",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Trap Dodge",
+      "skillList": "Master Thief",
+      "purchase": "Multi",
+      "duration": "10 Seconds",
+      "description": [
+        "This skill allows the character to distract another character for 10 seconds. While distracted, the character cannot take any offensive action or theft against the target character. The target character cannot be Killing Blowed. Should the distracted character be attacked or any violent action takes place within 10 feet of them the character is no longer distracted.",
+        "The targeted character should roleplay being distracted by something for the duration of this skill.",
+        "To use this skill the character needs to hit the target character with a spell packet and call “Distraction”. This skill cannot be combined with the True Aim skill. This charm like skill can be stopped by an Iron Will or a use of the Hypnosis skill used defensively. This is not stopped by martial or magical defenses that stop physical attacks. The target of this skill is aware that they have been distracted by the character."
+      ]
+    },
+    {
+      "name": "Divination",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "By taking 10 minutes of in-game roleplay, the character is able to see into the beyond and divine the fate of a character. This skill is rather unreliable, not all predictions come true and those that do, rarely the way the characters expected. Once the diviner is finished with their reading, they should write down their prediction on a sheet of paper and hand it to a Plot Marshal. The Plot Marshal, at their own discretion and under no obligation, may or may not act on the information and should they chose to act, they are under no obligation to use it the way the character would wish or think.",
+        "Knowing this skill allows the character to use any divination tools they wish to, for example: tarot cards, dice, bones, tea leaves, crystal balls, palm reading, etc."
+      ]
+    },
+    {
+      "name": "Dodge",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List, 4 Unique Dexterity Skills",
+      "skillList": "Assassin, Master Thief",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill will allow a character to avoid any one magical or physical attack, even from surprise. If the attack is an area affect attack, this skill does not allow the character to move to avoid the area of affect.",
+        "The character may dodge an attack even while encumbered, for example when carrying a body or other heavy items. The character may also dodge when blinded or unable to see the attacker or the attack. However, the character cannot dodge an attack if they are immobilized in any way, or if they intentionally touch or pick up an item or person. This includes areas or parts of a structure that a character intentionally touches. A character is considered immobile if they are affected by a Pin, Bind, Paralysis, Imprisonment spell or similar effect or if they are held by another character. A character in a Magic Sanctuary spell must drop the sanctuary in order to dodge.",
+        "The character must call “Dodge” when they use this skill. This skill is always used once called."
+      ]
+    },
+    {
+      "name": "Double Cast",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Arcane",
+      "prerequisites": "Any 3 Warlock Skills",
+      "skillList": "Warlock",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows a character to cast two identical spells at the same time. The caster must pay the Power Point cost for each spell and use two purchases of every Warlock skill they use in the casting. However the character only needs one use of the Speed Cast skill. The caster must use both hands within the normal 5 second limit after saying the verbal; the spell packets do not have to be thrown simultaneously, and the caster may transfer a spell packet from one hand to another during this time. It is not possible to augment only one of the spells with a Warlock skill. This skill can only be used with a spell cast by the character and not when invoked from an item or read from a scroll.",
+        "One defense that stops spells must be used for each spell, even if both spells are directed against the same target. This is true even when using a Dodge skill to stop the attack.",
+        "For example, Lascula is fighting some Sea Elves and one of them attacks him, casting a spell “With Perfect Aim, Double Cast Death Slave Spell”. Lascula calls “Dodge, Dodge” and moves behind a large rock. The Warlock can no longer see him. After the fight, the players hand over their tags and Lascula needs to give two Dodge skill tags, one for each of the Death Slave spells cast at him with the Double Cast skill.",
+        "To use this skill, the caster must have nothing but a spell packet in each hand, and prefix the spell verbal with “Double Cast…”"
+      ]
+    },
+    {
+      "name": "Double Power",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Arcane",
+      "prerequisites": "Any 3 Warlock Skills",
+      "skillList": "Warlock",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows the character to double the numerical effect of either: twice the damage, twice the size, or twice the effect of any spell. This does not change the cost in Power Points of the spell. For example, a Double Power Dragon’s Breath spell would do 64 points of magical fire damage and cost 8 Power Points. This skill can only be used with a spell cast by the character and not when invoked from an item or read from a scroll.",
+        "For the spell to be doubled, it must involve a numeric quantity. For example: Double Power Armor spell grants 6 points of armor, Double Power Fortitude spell has an 8 Threshold, Double Power Blast spell would destroy a door twice as large, a Double Power Wall of Force spell would be 20 feet by 20 feet, a Double Power Lock spell would require a Strength Bonus of +6, etc. This skill does not increase the duration or number of uses of a spell.",
+        "The use of this skill is indicated by prefixing the spell verbal by “Double Power…”"
+      ]
+    },
+    {
+      "name": "Druid",
+      "buildCost": 5,
+      "tagged": "No",
+      "skillType": "Faith",
+      "prerequisites": "Herbal Lore, Requires Plot Approval",
+      "skillList": "Druid",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill makes the character a Druid and gives the character access to the Druid Advanced Career Skill List.",
+        "With this skill, the character gains a limited immunity to necromancy. The character is immune to any undead creation spell in the Necromancy School. Damaging spells from that school still effects the character normally and a Death Slave spell effects the character as a Kill spell would. Undead creating sorcery rituals effect the character, but they are at half power, in other words, half the normal Body Points, Power Points, Strength Bonus, skills, etc. and is wracked with constant pain and agony.",
+        "This skill also allows the Druid to communicate with animals and plants at will. The Druid’s words are understandable to the people around them, but the responses from the plant or animal are not. The animals or plants are not automatically friendly or benevolent towards the Druid.",
+        "This ability will work on some “monsters” that are natural creations of the Mother. The player must learn about these in-game. For plants or animals not played by an NPC, a Marshal is required to use this skill. If none is available, the plant or animal has nothing to say."
+      ]
+    },
+    {
+      "name": "Dwarven Resist",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Racial",
+      "prerequisites": "None",
+      "skillList": "None",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill will stop any poison or disease that affects the character.",
+        "This skill is not latent and the character has to call this skill when they are affected by a poison or disease. If a character has another defense against the effect they must call their Dwarven Resist skill first. If a character is out of Dwarven Resist skill uses for that Tag Cycle they do not have to call another defense against the poison or disease effect.",
+        "The character must call “Dwarven Resist” when they use this skill. This skill will not work if the character is unconscious."
+      ]
+    },
+    {
+      "name": "Echo",
+      "buildCost": 6,
+      "tagged": "Yess",
+      "skillType": "Arcane",
+      "prerequisites": "Spell Singing Rank 3",
+      "skillList": "Spell Singer",
+      "purchase": "Multi",
+      "duration": "10 Minutes",
+      "description": [
+        "By means of this skill, the Spell Singer is able to change the duration of any spell song from “While Sung” to “10 Minutes”.",
+        "For this skill, the Spell Singer must create two lines that are prefixed to the Spell Singer’s song they want to Echo. When the song is completed the player should call the name of the song and “Echo”. For example, if the character is using Echo on their Sleep song, the player would call “Sleep Echo”."
+      ]
+    },
+    {
+      "name": "Elemental Attunement",
+      "buildCost": 4,
+      "tagged": "No",
+      "skillType": "Faith",
+      "prerequisites": "2 Elemental Pool",
+      "skillList": "Druid",
+      "purchase": "Special",
+      "duration": "Constant",
+      "description": [
+        "When the character learns the Elemental Pool skill, they gain one element of their choice that they can use with their pool. This skill allows them to attune themselves to one new element each time this skill is purchased.",
+        "This skill can only be purchased five times. Also, each purchase of this skill counts as a new master level skill."
+      ]
+    },
+    {
+      "name": "Elemental Pool Points",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Druid",
+      "skillList": "Druid",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "Once this skill is purchased, the character gains an Elemental Pool. For each purchase of this skill, the character gains 20 Elemental Pool Points. The character may use this to deal magical damage of the type given in the table below. The character must choose one element from the table below when the skill is purchased. Later, the character can learn the Elemental Attunement skill to learn to wield more elements from the table below.",
+        {
+          "type": "table",
+          "headers": [
+            "Element",
+            "Opposite",
+            "Effect"
+          ],
+          "rows": [
+            [
+              "Air",
+              "Earth",
+              "Lightning Damage"
+            ],
+            [
+              "Earth",
+              "Air",
+              "Earth Damage"
+            ],
+            [
+              "Fire",
+              "Water",
+              "Fire Damage"
+            ],
+            [
+              "Water",
+              "Fire",
+              "Ice Damage"
+            ],
+            [
+              "Life",
+              "Death",
+              "Healing Damage"
+            ],
+            [
+              "Death",
+              "Life",
+              "Body Damage"
+            ]
+          ]
+        },
+        "The character may use this pool to throw the elemental damage at a rate of one EPP for one point of damage up to the maximum of the character’s current pool total. The character may use this skill to increase the damage of their weapon strikes in addition to changing the type of damage to the element called upon. The character may use any amount of their available Elemental Pool to increase their damage on a one for one basis.",
+        "For example, Kjellian is fighting a pack of undead that is normally only affected by silver weapons or better and some trolls. Having only normal weapons and swinging 3 points of damage, he uses seven points of his Elemental Pool with each swing calling upon elemental Life when striking the undead and elemental Fire when attacking the Trolls. He now swings 10 points of damage and calls “10 Magic Fire” or “10 Magic Life”. Kjellian can use more of his Elemental Pool with each attack to increase his damage accordingly.",
+        "The character can also use their Elemental Pool to protect themselves and others from an elemental attack. The character can place a latent Elemental Protection that will stop any one elemental attack on a character for 15 EPPs. It will stop any elemental damage – even one augmented by a Warlock skill or damage suffixed with “Eldritch”, any spell from an elemental school, or damage from a physical elemental attack. The defense will not stop effects from physical attacks, for example: Slay, Assassinates, Disarms, Stuns (but it does stop the damage), etc. The Druid does not need to specify what the element is when the protection is granted and the Elemental Protection does not stack with itself.",
+        "Finally, the Druid may cast Nature Magic from their Elemental Pool in addition to no normal Power Points. It costs a number of EPPs equal to twice the listed Power Point cost.",
+        "This skill requires the use of a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill. Additionally the character must include the element called upon in the verbal when used as an attack. This skill can be delivered by touch or through a weapon. If delivered through a weapon, the targeted character must be struck, and unlike Channeled spells, weapons and shields will stop the attack. If the character misses their target or the target uses a martial skill to stop the attack, the skill is not used."
+      ]
+    },
+    {
+      "name": "Elemental Quintessence",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Nature Magic Rank 3",
+      "skillList": "Druid",
+      "purchase": "Once",
+      "duration": "1 Hour",
+      "description": [
+        "When this skill is purchased, the character embraces the elemental power of nature and gains the ability to call upon one element (chosen when the skill is purchased) and merge with it, transforming their body into a partial elemental. All armor and items worn are unchanged in the new form.",
+        "When a character transforms, they must drop to their hands and knees for 1 minute to roleplay the shift. During this time, the character puts on the appropriate costuming for the elemental which must at least be a mask and a tabard. The character can be attacked and harmed during this time and no skills or abilities can be used. The Druid may call latent spell defenses or invoke spell defenses from items, however. Taking damage will not interrupt the transformation unless the Druid is rendered unconscious or worse. If the character is interrupted, they do not use the skill for that Tag Cycle.",
+        "When transformed, the Druid gains the following abilities:",
+        {
+          "type": "list",
+          "items": [
+            "+20 Elemental Pool Points",
+            "Deals 2 points of damage for each EPP used when using",
+            "their embraced element.",
+            "Claws always swing the embraced element and magic",
+            "One special ability from the table below",
+            "Immunity to all charm effects",
+            "Immunity to Fear"
+          ]
+        },
+        "They also suffer the following detriments while shape shifted:",
+        {
+          "type": "list",
+          "items": [
+            "The character becomes somewhat non-corporeal and loses the ability to wield weapons or shields."
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Element",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Air",
+              "Thunder and Lightning x3"
+            ],
+            [
+              "Earth",
+              "Flesh to Stone/Stone to Flesh x2"
+            ],
+            [
+              "Fire",
+              "Total Power Lava Burst x2"
+            ],
+            [
+              "Water",
+              "Arctic Wind x3"
+            ],
+            [
+              "Life",
+              "Elemental Life x2"
+            ],
+            [
+              "Death",
+              "Elemental Death x2"
+            ]
+          ]
+        },
+        "For air, earth, fire, an water, the abilities are stopped by defenses that stop spells (including absorption which gives the appropriate Power Points). For life and death, the abilities are physical effects and are stopped by any magical defense that stops a physical attack. The abilities require no verbals and the player should suffix the spell effects with the word “…Spell”.",
+        "While in their quintessence form, the character appears as their character with aspects of the element. The character gains no special movement powers.",
+        "The change normally lasts 1 hour, but the character may change back to their natural form at will. If while in the quintessence form, the character is brought to the Brink of Death, they are forced back into their natural form.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill.",
+        "The character may only purchase Aspect of the Beast or Elemental Quintessence, not both. Once learned this skill cannot be unlearned in order to purchase the other skill."
+      ]
+    },
+    {
+      "name": "Elven Resist",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Racial",
+      "prerequisites": "None",
+      "skillList": "None",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill will stop the following charm effects: any Charm School spell even if augmented with the Total Power skill, any charm effect Spell Song, any charm effect Nature Magic spell, sorcery charm effect and friendship charm effects. This skill will not stop the Hypnosis skill, Vampiric Domination, alchemical items, demonic charms or draconic Charms.",
+        "This skill is not latent and the character has to call this skill when they are affected by one of the listed effects. If a character has another defense against the charm effect they must call their Elven Resist skill first. If a character is out of Elven Resist skill uses for that Tag Cycle they do not have to call another defense against the charm affect.",
+        "This skill will not work if the character is unconscious."
+      ]
+    },
+    {
+      "name": "Embalming",
+      "buildCost": 2,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Alchemy Lore, Dissection",
+      "skillList": "Alchemist",
+      "purchase": "Once",
+      "duration": "Special",
+      "description": [
+        "By use of this skill, the character is able to permanently preserve a corpse whole unlike Dissection, which only allows a character to preserve only parts of a creature. The body does not dissipate while it is being embalmed. The body can still be healed from the Brink of Death by the usual means, embalming does not end a character’s Death Count. Body parts of an Embalmed creature cannot be used as components except for golem creation.",
+        "In order to use this skill, the body must be at the Brink of Death or Dead, the character must use Embalming Oil, and take 5 minutes in- game."
+      ]
+    },
+    {
+      "name": "Empower Evil",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Dark Paladin, Compel Greater Undead",
+      "skillList": "Servant of Darkness",
+      "purchase": "Multi",
+      "duration": "Latent",
+      "description": [
+        "This skill allows the character to empower an intelligent lesser undead, a greater undead, any demon, or a Servant of Darkness to resist one Follower of the Light destroy skill, turn skill, Heal Wounds skill, or Heal Life skill. Additionally the Empower Evil skill will stop one Servant of Darkness Pain skill, Envenom skill, Death Touch skill, control skill, or Wounding skill. Empower Evil is latent and non-stackable.",
+        "This skill requires the use of the character’s focus and a verbal which must be at least 5 syllables not including the skills name and must contain the name of the skill.",
+        "The character must call “Empower Evil” when they invoke this skill."
+      ]
+    },
+    {
+      "name": "Escape",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Dodge",
+      "skillList": "Assassin, Master Thief",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows the character to skillfully escape from normal mundane bonds, restraints or ropes that bind their arms or legs. This skill will not allow the character to escape from magical or alchemical bindings, being held by another character, or being paralyzed. Only one use of this skill is needed to free both the character’s arms and legs.",
+        "The character must call “Escape” when they use this skill. The player may, if they wish, call a hold to remove the bonds."
+      ]
+    },
+    {
+      "name": "Evaluate Item",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "After spending 1 minute in-game examining an item, the character can tell how much it is worth in-game. Every in-game LAIRE item has a number engraved on it. The character can consult an Evaluate Item List to determine its value. The character cannot tell if an item is magical or not, nor can they identify an alchemical item or component with this skill.",
+        "There is an out-of-game logistical limitation to this skill. If there is no Evaluate Item List available, the attempt fails."
+      ]
+    },
+    {
+      "name": "Evisceration",
+      "buildCost": 6,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Battle Surgery, Autopsy, Dissection",
+      "skillList": "None",
+      "purchase": "Once",
+      "duration": "Special",
+      "description": [
+        "This skill allows the character to painfully disfigure or alter certain body parts on an immobilized character without killing them. This causes pain until the character has been healed. Spells from the Healing School will undo the effects of this skill unless the user of this skill uses the appropriate amount of Moonwater to create an aberration. Any character with this skill can undo any Evisceration performed by another character without the aid of magic, but Sunwater is still necessary to undo an aberration. Characters with the Evisceration skill or Rank 1 Solutions skill can recognize the presence of Moonwater and in what quantity it appears on the character.",
+        "Acts of Evisceration are limited by what can be roleplayed in-game or represented through props and make-up. A character cannot, for example, reattach someone’s legs on backwards and expect them to walk. Such extreme acts render limbs useless and cause pain, nothing more. Evisceration does allow the user of the skill to open up a character as if surgery were being performed. Limbs and minor organs can be removed. Characters can be impaled and other extreme forms of torture can be used. This skill does not allow the user to remove or damage the most vital organs (heart, lungs, etc.) Such acts render an immediate Killing Blow. This skill also does not allow the user to seamlessly transplant body parts with other characters. There are additional requirements and limits to Grafting and these are described below.",
+        "To create an aberration, a Plot Marshal must approve the creation of any aberration. The character needs to spend 30 minutes in-game roleplaying this skill and use the amount of Moonwater listed in the table below. The character must fill out an Aberration Card (obtained from Plot) detailing the injuries that have been inflicted and the dosage of Moonwater used. This card must be approved and signed by a Plot Marshal and the target character must carry this card with them. A character can only work on one character at a time and only one character can use this skill on the target character at a time. The character must spend the full 30 minutes to use this skill. If they are interrupted or stop, the attempt fails and they must start over again from the beginning.",
+        "To cure an aberration, an equal amount of Sunwater must be used before the character can be healed. Alternatively, a character with the Heal Wounds skill can heal an aberration by using a number of Healing Pool Points equal to the amount of Moonwater used.",
+        "The types of aberrations the character can create and the amount of Moonwater needed are given in the table below. A character using more than the listed Moonwater has no additional affect.",
+        {
+          "type": "table",
+          "headers": [
+            "Effect",
+            "Amount of Moonwater per Effect"
+          ],
+          "rows": [
+            [
+              "Festering Wounds",
+              "8"
+            ],
+            [
+              "Impaling",
+              "16"
+            ],
+            [
+              "Lobotomy",
+              "24"
+            ],
+            [
+              "Grafting",
+              "32"
+            ]
+          ]
+        },
+        "Festering Wounds leave open, unhealable wounds on the target character. Up to three Festering Wounds can be created on one character. Each Festering Wound lowers the characters Body Point total by 10%, rounded down.",
+        "A character can be Impaled by use of this skill. No object larger than a polearm can be used to impale the character. While impaled, the character is at half their Body Point total. If the impaled object is removed, the character is Mortally Wounded and can still be healed, however they will still be at half their Body Point total until properly healed.",
+        "Lobotomizing a character removes a portion of their brain. The target character is affected as if under an Enfeeblement spell. The target character’s memories are never affected by use of the skill.",
+        "A character can Graft a body part from one character onto another. Extra limbs, such as a third arm or leg, cannot be added. Wings or tails added are vestigial and do not function. Physical racial abilities such as Claws or gills can be granted to the target character. Immunities, vulnerabilities, skills, powers, knowledge, etc., cannot be transferred. A maximum of a +1 Strength Bonus can be gained by use of this skill.",
+        "If an aberration dies and resurrects in the Healers Guild without their body, all aberrations are healed and the character resurrects normally."
+      ]
+    },
+    {
+      "name": "Extend Duration",
+      "buildCost": 5,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Alchemy Lore, Any One Rank 4 of Potions, Poisons, or Solutions",
+      "skillList": "Alchemist",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the Alchemist to increase the duration of an alchemical item. This skill must be used at the time of creation and cannot be used after the alchemical item is made. Using this skill increases the number of Production Points and Reagent Tags needed. Below is a table that outlines these cost increases.",
+        "An alchemical item can never increase its duration by more than two levels and can never last longer than an Event. Whether this skill works on an alchemical item is noted in the item’s description.",
+        {
+          "type": "header",
+          "content": "Time Increments"
+        },
+        {
+          "type": "list",
+          "items": [
+            "Instant",
+            "10 Min",
+            "1 Hour",
+            "6 Hours",
+            "24 Hours",
+            "1 Event"
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "+",
+            "Production Point Increase",
+            "Reagent Tag Increase"
+          ],
+          "rows": [
+            [
+              "+1 Level",
+              "+50%",
+              "+50%"
+            ],
+            [
+              "+2 Level",
+              "+100%",
+              "+100%"
+            ]
+          ],
+          "footers": [
+            "Note: “Level” refers to how many time increment increases you make. Going from 10 Min to 1 Hour is +1 Level; going to 6 Hours is +2 Levels."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
       "name": "",
       "buildCost": 1,
       "tagged": "No",
