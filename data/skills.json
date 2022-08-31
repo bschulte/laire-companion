@@ -1,0 +1,991 @@
+{
+  "introduction": [
+    "A heading that summarizes some of the important information pertaining to that skill precedes each description listed in this chapter. Below is a summary of the various items found in the headings in this chapter.",
+    {
+      "type": "header",
+      "content": "Build Cost"
+    },
+    "This is the cost in Build Points the character must spend to learn the skill. Some skills have an on-list and off-list cost. These costs are denoted by two numbers separated by a slash with the following convention: <On-List Cost>/<Off-List Cost>.",
+    {
+      "type": "header",
+      "content": "Purchase"
+    },
+    "This heading indicates how many times a character can purchase this skill. “Once” indicates that the skill is a continuous or constant skill and is usable whenever the player wants. “Multi” indicates that the skill can be purchased as many times as the character wants. Rarely, some skills are only purchasable a limited number of times; this is indicated with a number followed by “Times”, for example “3 Times”.",
+    {
+      "type": "header",
+      "content": "Tagged"
+    },
+    "Some skills are usable a limited number of times per Tag Cycle per purchase and require a tag from logistics. The Slay skill, for example, can only be used once per Tag Cycle per purchase. These skills are denoted with “Yes”. Skills that can be used as often as the character wishes or make a permanent change to the character and need no tag are marked with a “No”. For example, a Literacy skill allows the character to read that language whenever they wish, or the Coma skill permanently changes the character’s Death Count.",
+    {
+      "type": "header",
+      "content": "Duration"
+    },
+    "Certain skills have a duration once activated or “Called”, others have an instantaneous effect. Skills are either denoted by “Instant”, a time – 5 Minutes, 1 Hour – or “Constant” for those skills than can be used whenever the character is able. Some skills are listed as “Latent”can be used on a character to be invoked later. Some of these skills can be called as a defense to an attack or invoked for a duration giving the character some bonus effect. The player should read the description carefully to determine how exactly these skills work.",
+    {
+      "type": "header",
+      "content": "Skill Type"
+    },
+    "Each skill is classified by the type of skill it is. These classifications determine the Body Points gained for each skill. For example, Nature’s Child is classified as a Faith skill and the character gains 1.0 Body Points (5 BP x 0.2) for that skill.",
+    {
+      "type": "header",
+      "content": "Prerequisite"
+    },
+    "Many skills, especially Advanced Career Skills, have prerequisites to purchasing them. These prerequisites must be met before the character can purchase the skill. Remember, in the case of Advanced Career Skills the character must be Level 5 to purchase those skills off the Advanced Career Skill Lists.",
+    "Additionally, any prerequisite that is encompassed in another skill counts towards the prerequisite. For example, Master Florentine requires the Warrior Basic Career Skill List and Florentine; but if the character learns Weapons Master they do not need the Florentine skill to learn Master Florentine, Weapons Master effectively gives them the Florentine skill.",
+    {
+      "type": "header",
+      "content": "Skill List"
+    },
+    "This heading denotes on what Skill List or lists the skill can be found. If there is no Skill List associated with a skill, then a character needs a specific teach skill in order to teach that skill. These skills are denoted by “None” under this heading."
+  ],
+  "skills": [
+    {
+      "name": "Advanced Refining",
+      "buildCost": 5,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Identify Component",
+      "skillList": "Alchemist",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "With this skill a character is able to get two doses out of one component. The time it takes depends on the rarity of the component. Below is a table that outlines how long it takes to double a component.",
+        {
+          "type": "table",
+          "headers": [
+            "Rarity",
+            "Time (Minutes)"
+          ],
+          "rows": [
+            [
+              "Common",
+              "1"
+            ],
+            [
+              "Un-Common",
+              "5"
+            ],
+            [
+              "Rare",
+              "10"
+            ],
+            [
+              "Very Rare",
+              "15"
+            ]
+          ]
+        },
+        "When a character uses this skill the marshal should note that the component was doubled by placing a “D” on the tag. Reagents cannot be doubled, only Major Components.",
+        "Once doubled, a component cannot be used in sorcery rituals, even if both halves of the component are used. A component that has been doubled cannot be doubled again."
+      ]
+    },
+    {
+      "name": "Advanced Strength",
+      "buildCost": 10,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "Superior Strength",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": "This skill turns the non-combinable Strength Bonus of the Superior Strength skill to a combinable Strength Bonus."
+    },
+    {
+      "name": "Alchemy Lore",
+      "buildCost": 2,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Literacy, Herbal Lore",
+      "skillList": "Alchemist",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to recognize alchemical reagents. This is the basic Alchemy skill and grants the character the ability to brew, distill, mix, and perform the other basic skills needed to create alchemical items. It does not grant the character the ability to actually make anything; a separate skill is required for that. Alchemy Lore is required to read and identify alchemical recipes in-game."
+      ]
+    },
+    {
+      "name": "Alchemical Focus",
+      "buildCost": 0,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Alchemy Lore, Rank 3 of Any School",
+      "skillList": "Alchemist",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This Alchemist only skill allows the character to make use of Alchemist only alchemical items that are categorized as Alchemical Focus."
+      ]
+    },
+    {
+      "name": "Armor Efficiency",
+      "buildCost": 4,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List",
+      "skillList": "Master Warrior",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "Normally, after every battle, a character wearing armor will lose 3 Armor Points after spending 5 minutes resetting their armor. With the purchase of this skill, the character gains two advantages. The first grants the character one-quarter their starting Armor Points (rounded up) added to their starting Armor Points. This includes the Real Armor Bonus.",
+        "The second ensures that the character will always have one-quarter their starting Armor Points after resetting their armor. The character must still spend the 5 minutes in-game resetting their armor after a battle to gain this benefit.",
+        "Torso armor must be worn to use this skill. The character may remove the other parts of their armor: their helmet, greaves, gauntlets, etc. but still has to wear their torso armor.",
+        "For example, Sir Derrick has a chain mail shirt, studded leather vambraces, and light plate greives totaling 15 Armor Points. With this skill he gains a bonus of +4 Armor Points totaling 19 Armor Points. After a battle he adjusts his armor and is now at 16 Armor Points. Over the course of the event his armor is lowered to 5 Armor Points. Once more Sir Derrick gets into a battle, but at the end of this battle when he resets his armor he will have 4 Armor Points, the minimum he can have with this skill.",
+        "This skill does not augment magical Armor Points such as those from an Armor spell, an alchemical item, magic items, or rituals."
+      ]
+    },
+    {
+      "name": "Armor Smith",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Multi",
+      "duration": "Special",
+      "description": [
+        "Each purchase of this skill allows the character to repair 6 Armor Points of cloth, leather, or metal armor. It takes the character 5 minutes to repair up to 6 Armor Points; so if a character has three purchases of this skill, it will take them 5 minutes to repair 1 to 6 Armor Points, 10 minutes to repair 7 to 12 Armor Points, and 15 minutes to repair 13 to 18 Armor Points. The character may break up their repair points any way they wish up to their maximum number of repair points.",
+        "This skill is not used if the character is inside an armory when repairing armor.",
+        "This skill will also allow the character to make a new piece of armor. For every purchase of this skill, the character can make a piece of leather or metal armor worth up to 6 Armor Points; so a character with three purchases of this skill can make a piece of leather or metal armor worth up to 18 Armor Points.",
+        "Four purchases of the Armor Smith skill is needed for Elven Crafting, Dwarven Crafting, Bone Crafting, and Enchantment Quality. Five purchases of the Armor Crafting skill is needed for Mithril Crafting.",
+        "For full details on creating armor see the description under the Miscellaneous Skill List in Chapter 2."
+      ]
+    },
+    {
+      "name": "Aspect of the Beast",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Shapeshift, Compel Mother's Children",
+      "skillList": "Druid",
+      "purchase": "Once",
+      "duration": "1 Hour",
+      "description": [
+        "When this skill is purchased, the character embraces the animalistic power of nature and gains the ability to call upon their guardian animal totem and merge with it, transforming their body into a bipedal version of the character’s guardian totem animal. All armor and items worn are unchanged in the new form.",
+        "When a character transforms, they must drop to their hands and knees or crouch for 1 minute to roleplay the shift. During this time, the character puts on the appropriate costuming for the animal which must be at least a mask and a tabard approved by Plot. The character can be attacked and harmed during this time and no skills or abilities can be used. The Druid may call latent spell defenses or invoke spell defenses from items, however. Taking damage will not interrupt the transformation unless the Druid is rendered unconscious or worse. If the character is interrupted, they do not use the skill for that Tag Cycle.",
+        "When transformed, the Druid gains the following abilities:",
+        {
+          "type": "list",
+          "items": [
+            "+20 Body Points",
+            "+1 Strength Bonus",
+            "+1 Damage Bonus with their claws only",
+            "One special ability based on the type of totem (see table below)",
+            "Immunity to all charm effects",
+            "Immunity to Fear",
+            "May still use their Druid skills, even Nature Magic"
+          ]
+        },
+        "They also suffer the following detriments while shapeshifted:",
+        {
+          "type": "list",
+          "items": [
+            "They cannot speak common and therefore cannot use any skills, spells, powers, or items that require a verbal, but can understand what others are saying, and can be understood by Druids."
+          ]
+        },
+        {
+          "type": "table",
+          "headers": [
+            "Category (Examples)",
+            "Special Ability"
+          ],
+          "rows": [
+            [
+              "Insects (Ants, Beetles)",
+              "20 Natural Armor, Acid Spit, 18 points of damage x2"
+            ],
+            [
+              "Bears",
+              "+10 Body Points, +1 Strength Bonus, non-combinable"
+            ],
+            [
+              "Canines (Wolves, Hyenas)",
+              "+1 Damage Bonus, Master Parry, Track by Scent"
+            ],
+            [
+              "Felines (Lions, Tigers)",
+              "+1 Damage Bonus, Critical Attack, Track by Scent"
+            ],
+            [
+              "Primates, Equines",
+              "+1 Damage Bonus, Feat of Strength Skill x2"
+            ],
+            [
+              "Reptiles (Snakes, Lizards, Testudines)",
+              "10 Natural Armor, Threshold of 2 (stackable), Poison Spit: Blindness"
+            ],
+            [
+              "Scorpions",
+              "20 Natural Armor, Poison Spit: 24 Point Damage x2"
+            ],
+            [
+              "Spiders",
+              "10 Natural Armor, Webbing x3"
+            ]
+          ]
+        },
+        "The character must receive approval from the Plot Director for their totem animal and the final category benefits. If a character has a totem that is not represented in the above table, the closest match will be assigned.",
+        "While in their aspect, the character appears as a half animal half man version. The character gains no special movement powers or the ability to walk on four (or more) legs.",
+        "While in animal form, the character may use their Druid skills and Nature Magic spells. They still need to say the appropriate verbal but, in-game, the characters around them do not understand what they are saying. Also, they may use any latent spell normally.",
+        "When the character changes back to their natural form and they are down Body Points, the bonus Body Points the character gains from changing are the first to be lost. Therefore, if the character normally has 20 Body Points and uses this skill they would have 45 Body Points. If the character was down 18 Body Points when they changed back, they would be at 20 Body Points – the normal for their natural form. Willingly changing back to their natural form takes the character however long it takes to remove their costume.",
+        "The change normally lasts 1 hour, but the character may change back to their natural form at will. If while in the animal form, the character is brought to the Brink of Death, they are forced back into their natural form.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill.",
+        "The character may only purchase Aspect of the Beast or Elemental Quintessence, not both. Once learned this skill cannot be unlearned in order to purchase the other skill."
+      ]
+    },
+    {
+      "name": "Assassinate",
+      "buildCost": 7,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "2 Assassin Proficiency Skills",
+      "skillList": "Assassin",
+      "purchase": "Multi, Special",
+      "duration": "Instant",
+      "description": [
+        "This skill allows a character to strike down a target character with one strike. The target character needs to be surprised or incapacitated such as being Torso Stunned, paralyzed, asleep, etc. The character hit with this skill is Mortally Wounded and requires the appropriate healing. This skill ignores armor and does not damage it. The character must strike the arm between the elbows and the shoulders, or the body between the shoulders and the knees of the target character. The character must call “Assassinate” after the blow is delivered followed by any special damage modifiers, such as “Magic”, “Silver”, etc. Unlike other skills, this skill only requires the character to call the effect loud enough for the target to hear. However, anyone who hears the word “assassinate” is aware of the attack.",
+        "Only non-blunt weapons gained with the Master Assassin skill can be used to assassinate a target character.",
+        "The character using this skill needs to surprise their target. As a general rule, if the target character is surprised by the attack, the assassinate works. The most common way to achieve surprise is by attacking from behind, but a character need not do that. They can walk up to their target, shake their hand and assassinate them with their other. This skill cannot be used if the character is fighting their target. The character may assassinate someone if they are fighting another opponent, however. Even if the target turns their back and runs, you can assassinate them, however the attack still has to be a surprise.",
+        "A character must have one Assassin Proficiency skill per Assassinate skill they wish to purchase, after the first purchase. So, a character that wants three Assassinate skills must have three Assassin Proficiency skills.",
+        "This skill is not used if the character misses their target or the attack is blocked. If they succeed in striking their target or if the target calls an appropriate defense the skill is used."
+      ]
+    },
+    {
+      "name": "Assassin Proficiency",
+      "buildCost": 10,
+      "tagged": "No",
+      "skillType": "Dexterity",
+      "prerequisites": "Master Assassin Skill",
+      "skillList": "Assassin",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "For each purchase of this skill a character gains a Damage Bonus with all Master Assassin weapons according to the table below.",
+        {
+          "type": "table",
+          "headers": [
+            "Weapon Type",
+            "Damage Bonus"
+          ],
+          "rows": [
+            [
+              "Small, Thrown, One-Handed, and Crossbows",
+              "+1"
+            ],
+            [
+              "Bows",
+              "+1.5"
+            ]
+          ]
+        },
+        "Note: The bow bonus is rounded down so one purchase give a +1 Damage Bonus and two purchases give a +3 Damage Bonus.",
+        "This skill may be combined with other Damage Bonuses. The Assassin Proficiency skill is not hand specific."
+      ]
+    },
+    {
+      "name": "Assassin Strike",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "1 Assassin Proficiency",
+      "skillList": "Assassin",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows the character to double their weapon damage for one swing. The player should double the amount of damage their character is swinging including base weapon damage, Damage Bonus, Strength Bonus, alchemical effects, or magic bonuses. This attack does not need to be from surprise or behind. Any defense that stops physical attacks will stop this skill.",
+        "The character is able use multiple purchases of this skill to increase the amount of damage in one attack, increasing the multiplier by one for each additional tag used. There is no limit to the number of Assassin Strike skills the character can use in one attack.",
+        "For example, Silk has five purchases of the Assassin Strike skill. He decides to use one use of this skill against a foe. He normally swings 10 points of damage with his sword, and calls “20 Strike” when he hits with this skill. Later on that Tag Cycle, Silk again decides to use his Assassin Strike skill, but this time he needs to be sure to take down his foe. He decides to use his remaining four Assassin Strike tags for five times his base damage. He makes his attack and strikes his opponent calling “50 Strike,” felling his opponent easily.",
+        "The character using this skill should suffix his normal damage with “…Strike”.",
+        "This skill is not used if the character misses their target or the attack is blocked. If they succeed in striking their target or if the target calls an appropriate defense the skill is used. This skill does not double any additional damage from the Heal Wounds skill, Wounding skill, or Elemental Pool Points."
+      ]
+    },
+    {
+      "name": "Autopsy",
+      "buildCost": 2,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Battle Surgery",
+      "skillList": "Master Miscellaneous",
+      "purchase": "Once",
+      "duration": "Instant",
+      "description": [
+        "This skill allows a character to determine the cause of death of a character in their Death Count or a corpse. This skill will tell if the cause of death is from a Slay, Assassinate, poison, general damage, magical effect, the spell and its school, etc. It can tell what type of weapon was used, but not what specific weapon it was.",
+        "A character can only Autopsy one character at a time. The use of this skill requires the character to concentrate while they are using this skill. The player should look at the character they are using this skill on and can only talk and invoke Latent spells while autopsying someone. If the use of this skill is interrupted by either taking damage or the character choosing to stop, the attempt fails. If the character wishes to try to autopsy again they must start from the beginning.",
+        "This skill does not stop a character’s Death Count, nor can their Death Count be stopped by any means and still use this skill. For example, a character cannot use Battle Surgery skill to stop the Death Count.",
+        "This skill takes 1 minute to use."
+      ]
+    },
+    {
+      "name": "Backstab",
+      "buildCost": [
+        6,
+        12
+      ],
+      "tagged": "No",
+      "skillType": "Dexterity",
+      "prerequisites": "Waylay",
+      "skillList": "Rogue Basic Career Skill List",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "When this skill is purchased the character gains a +1 Damage Bonus to all their attacks from behind with any weapon. This skill is hand specific and the character must choose whether to apply the Damage Bonus to either their right or left hand when they purchase this skill. The character must be approximately 90 degrees behind their target to be considered behind them. The character cannot reach their arms around the target to gain their Damage Bonus.",
+        "This skill is stackable with itself and all Backstabs learned are cumulative. So a Backstab +4 would allow the character to cause 6 points of damage with their long sword."
+      ]
+    },
+    {
+      "name": "Bark Skin",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Pass Without a Trace",
+      "skillList": "Druid",
+      "purchase": "Multi",
+      "duration": "30 Minutes",
+      "description": [
+        "This skill calls upon the strength and toughness of the trees to make the character stronger, adding 12 Body Points to the character that can be healed. These extra points are the first Body Points lost when the character is damaged.",
+        "To use this skill, the character must touch a living, healthy, normal, non-sentient tree with bark.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Battle Blessing",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Paladin",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "30 Minutes",
+      "description": [
+        "This skill will make the character immune to the special attacks of undead and demon kind. The character will take full damage, but un- augmented by special effects. The Paladin cannot be paralyzed, diseased, life-drained, feared, or affected by any other ability from these creatures.",
+        "For example, Nilrick uses his Battle Blessing skill before he goes into battle against some undead. He will still take the damage the ghouls are causing but will not be paralyzed. Additionally, the wraiths he is fighting will not swing for direct Body Points with their attacks. During the fight Nilrick falls and a Wight attempts to drain some of his life force but the Battle Blessing skill will prevent the attempt from succeeding.",
+        "This is not a defense to any Servant of Darkness skills or spells from these characters.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Battle Surgery",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Miscellaneous",
+      "prerequisites": "First Aid",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Multi",
+      "duration": "Special",
+      "description": [
+        "For every purchase of this skill, the character can spend 1 minute to restore Body Points to a character. The character may use this skill any time they wish on any living character, including themselves. For every purchase of this skill the character can restore 10 Body Points. No matter how many Body Points restored, the character need only take 1 minute to use this skill. The character can restore any amount of Body Points they wish with this skill up to their maximum amount. To use this skill in this manner requires the character to have bandages to wrap the character in. One area of the body per use of this skill (or per 10 Body Points restored) is required. The player using this skill is responsible for providing the bandages. The target character must keep the bandages on for at least 10 minutes. If the bandages are removed or fall off before the 10 minutes are up, the Body Points healed with this skill are lost and the use of this skill is still expended.",
+        "A character can only be battle surgeried by one character at a time and a character can only battle surgery one character at a time. The use of this skill requires the character to concentrate while they are using this skill. The player should look at the character they are using this skill on and can only talk and invoke Latent spells while battle surgering someone.",
+        "One complete use of this skill can be used to indefinitely stabilize a living character who is Mortally Wounded or at the Brink of Death. The character should place their hand on the character’s torso and call “Battle Surgery”. As long as the character maintains contact, the target character’s Death Count stops.",
+        "The bandage is in-game, does not have to be purchased, must be white, and must be larger than 2 feet by 3 inches. The character must either have their hand on the target character or be bandaging to use this skill."
+      ]
+    },
+    {
+      "name": "Blind Fighting",
+      "buildCost": 5,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "1 Master Proficiency or 1 Assassin Proficiency",
+      "skillList": "Master Warrior, Assassin",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill enables a blinded character to engage in hand to hand combat; without this skill a character may not engage in combat while blinded. This skill does not imply the ability to see. A character using this skill is assumed to be fighting by \"feel\" and sound, and can only respond to a hand to hand attack and cannot initiate combat with a foe that they cannot perceive. Once combat starts, the character can continue until the target leaves the combat entirely or out runs the player.",
+        "This skill cannot be used – ever – to detect invisible characters, but can be used to attack invisible characters that attack first."
+      ]
+    },
+    {
+      "name": "Claws",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Faith",
+      "prerequisites": "Druid",
+      "skillList": "Druid",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This ability allows the character to turn one or both hands into claws and allows them to use an approved LAIRE claw in combat dealing 1 point of magical damage with each blow. The claws are part of the character's body and may not be coated with poison as doing so would poison the character. Even if the character were immune to the poison, the poison would be expended when applied. The character’s claws take damage and any damage dealt to the claws is taken from the character’s Body Points.",
+        "Damage Bonuses and special weapon attacks, like the Slay, Stun, Waylay, Assassinate, etc. skills, with the exception of the Speed skill and Inspire and Heroism spell songs, may not be used with the Claws skill. However, the character’s Strength Bonus does add to the damage.",
+        "Claws always swing for magic damage. The character has the option of using their Elemental Pool Points to increase the amount and type of damage dealt.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Channeling",
+      "buildCost": 10,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "2 Proficiency Skills, 30 Power Points, 1st Rank School of Magic to be Channeled",
+      "skillList": "Master Warrior",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows a character to channel a school of magic through their weapon. For the character’s strike, the weapon acts as a spell packet so one only needs to contact the target, their weapon, or shield for the spell to take effect. The full spell verbal for the spell must be recited and the casting can be interrupted normally, however the character can cast the spell with their weapon in hand for that school only. The channeled spell costs the normal amount of Power Points.",
+        "Upon learning this skill the character loses the ability the to throw the spells from that school of magic, they are limited to channeling them only. The character can only cast damaging spells from that school and they lose the ability to cast non-damaging spells. The character may cast some latent spells in that school by touch with their weapon upon anyone.",
+        "Channeling a spell replaces the normal damage the weapon would do, even if the typical weapon damage is more than the spell’s damage. Channeling strikes cannot be combined with any specialty martial attacks including the Speed skill. Channeling strikes also cannot be combined with any Warlock skills except the Concentration and Speed Cast skills.",
+        "The character can channel through any weapon of quality, even a magic weapon. Normal weapons and temporarily alloyed weapons will not work. Any attempt to channel a spell using a normal weapon fails and the Power Points are expended. In the special case of weapons enchanted with an element, only that element can be channeled.",
+        "If a character misses their target, they can continue to try and strike their target until they connect with a blow or 5 seconds elapses. If the character accidentally strikes the ground or some other inanimate object, the spell is lost. If a Dodge skill is used to defend the target from the attack, the spell is lost. Martial defenses, such as the Critical Strike or Master Parry skills, cannot be used to stop the effects of the channeled spell; however, it can be used to take the effects of the spell for another character.",
+        "The character can learn to channel other elemental schools of magic, but these must be learned separately and cost no additional Build Points.",
+        "Only Low Magic Schools can be learned to be channeled, therefore, Spell Songs and Nature Magic cannot be channeled. This skill can only be used with a spell cast by the character and not when invoked from an item or read from a scroll."
+      ]
+    },
+    {
+      "name": "Cleric",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Faith",
+      "prerequisites": "Plot Approval, First Aid",
+      "skillList": "Follower of the Light",
+      "puchase": "Once",
+      "duration": "Constant",
+      "description": "This skill grants the character a limited immunity to necromancy. The character is immune to any undead creation spell in the Necromancy School. Damaging spells from that school still effect the character normally and a Death Slave spell brings the character to the Brink of Death. Undead creating sorcery rituals effect the character, but they are at half power, in other words, half the normal Body Points, Power Points, Strength Bonus, Skills, etc. and is wracked with constant pain and agony. After the end of the current Event in which the undead was created, the player can choose to end their character’s undead torment whenever they want, even if the character is on their last death."
+    },
+    {
+      "name": "Climb",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Dexterity",
+      "prerequisites": "None",
+      "skillList": "Master Miscellaneous",
+      "puchase": "Once",
+      "duration": "Special",
+      "description": [
+        "This skill has only one use, to overcome obstacles encountered during game play which do not physically exist. It cannot be used to climb over a stone wall if the stone wall is there out-of-game, but if the Marshal only describes the wall or if the wall is only represented by a tarp, string or other such out-of-game item, then the character can use this skill. The Marshal will have final say as to whether the character successfully uses this skill. It typically takes the character 10 seconds to climb 20 feet, although the character can climb any height with this skill.",
+        "This skill can never be used to enter or exit combat, nor can it be used to attack from trees, roofs or other out of reach locations. A character absolutely cannot stand next to a tree and say they have climbed the tree and attack other characters. Ever."
+      ]
+    },
+    {
+      "name": "Cloak Undead",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Dark Cleric",
+      "skillList": "Servant of Darkness",
+      "puchase": "Multi",
+      "duration": "6 Hours",
+      "description": [
+        "For 6 hours, this skill will cloak any corporeal undead making them appear to be alive. The Detect Life spell, First Aid skill, or Detect Undead skill will reveal the character as being alive. The character will look as they did in life and will appear to have flesh, be warm to the touch and otherwise appear to be a living breathing character. The undead will even appear to bleed if struck. However, if the undead is immune to a class of weapons or spells, then no effect will show. This skill will also protect the character from sunlight for the duration of this skill.",
+        "This skill provides no protection from damage and will not work on incorporeal undead such as Wraiths or Specters.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill.verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Coma",
+      "buildCost": 7,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "None",
+      "skillList": "Master Miscellaneous",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "When a character purchases this skill they permanently change their Death Count, effectively doubling the amount of time the character has at each stage. Therefore, it takes them 2 minutes to Bleed to Death, are Mortally Wounded for 2 minutes, and will be at the Brink of Death for 10 minutes. This skill does not affect how long they are Unconscious, when they are at 0 Body Points, or Waylaid; it is still 5 minutes.",
+        "If another character uses the First Aid skill or a Detect Life spell, in addition to receiving their Death Count status, they will know the character has the Coma skill."
+      ]
+    },
+    {
+      "name": "Compel Greater Undead",
+      "buildCost": 6,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Control Lesser Undead",
+      "skillList": "Servant of Darkness",
+      "puchase": "Multi",
+      "duration": "30 Minutes",
+      "description": [
+        "This skill allows the character to bend any single undead or demon of any type within hearing range and line of sight to their will for 30 minutes. The targeted character will do exactly what the user commands; care should be taken that these commands are explicit since the target character may carry out the letter but not the spirit of the command. After the duration of this ability expires, the undead may seek revenge for being controlled, depending on its personality and the nature of the commands given. If given a command within the designated time period, the undead must attempt to accomplish and complete the command to the best of its ability, within the duration of this skill. If the duration should expire, all incomplete commands are forfeit, and the target character is free to react of its own free will. This skill can be used as a counter to the Follower of the Light turn skills. This skill can only be countered by a Follower of the Light skill, Servant of Darkness skill, or sorcery; necromancy or abilities will not counter this ability. A character cannot use this skill on themselves.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Compel Mother’s Children",
+      "buildCost": 8,
+      "tagged": "Faith",
+      "skillType": "Druid",
+      "prerequisites": "Purchase:",
+      "skillList": "Duration:",
+      "puchase": "Multi",
+      "duration": "30 Minutes",
+      "description": [
+        "This skill uses the Druid’s influence and tie to nature to compel all natural animals within hearing range or Line of Sight of the character to obey their commands for 30 minutes. When the skill’s duration ends, all incomplete commands are forfeit, and the animals will return to their own will and react according to their nature. This skill can be countered by sorcery or any other spell or ability that charms the animal.",
+        "This skill is not a charm effect and only works on characters with the Animal type on their card (see LAIRE’s Codex of Monstrous Creatures).",
+        " This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill. "
+      ]
+    },
+    {
+      "name": "Concentration",
+      "buildCost": 6,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Any 3 Warlock Skills",
+      "skillList": "Warlock",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows a character to cast spells while they are taking damage. Once purchased, this skill is always in affect. This skill does not protect a character from taking damage; it only allows them to ignore the damage for the purpose of casting spells. Concentration does not prevent a character from being paralyzed, knocked unconscious, affected by a Bind spell, or otherwise rendered physically unable to cast spells."
+      ]
+    },
+    {
+      "name": "Control Lesser Undead",
+      "buildCost": 6,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Dark Cleric",
+      "skillList": "Servant of Darkness",
+      "puchase": "Multi",
+      "duration": "30 Minutes",
+      "description": [
+        "Any lesser undead and lesser demons within hearing range or Line of sight of the character must obey all the character’s commands for 30 minutes. If the duration should expire, all incomplete commands are forfeit, and the undead will return to their own will and react according to their nature. This skill can be used as a counter to the Follower of the Light turn skills. This skill can only be countered by a Follower of the Light skill, Servant of Darkness skill, or sorcery; necromancy or abilities will not counter this skill. A character cannot use this skill on themselves.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Control Undead Horde",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Compel Greater Undead",
+      "skillList": "Servant of Darkness",
+      "puchase": "Multi",
+      "duration": "30 Minutes",
+      "description": [
+        "All undead and all demons within hearing range or Line of Sight of the character must obey their commands for 30 minutes. Greater Undead will act as if affected by the Compel Undead skill. If the duration should expire, all incomplete commands are forfeit, and the undead will return to their own will and react according to their nature. This skill can be used as a counter to the Follower of the Light turn skills. This skill can only be countered by a Follower of the Light skill, Servant of Darkness, or sorcery; necromancy or abilities will not counter this ability. A character cannot use this skill on themselves.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Cosmic Focus",
+      "buildCost": 0,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Rank 1 Sorcery",
+      "skillList": "Sorcerer",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This Sorcerer only skill allows the character to access rituals that are categorized as Cosmic Focus rituals."
+      ]
+    },
+    {
+      "name": "Courage",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Master Miscellaneous",
+      "purchase": "Multi",
+      "duration": "5 Minutes",
+      "description": [
+        "When a character learns this skill, they may resist the effects of any and all fear abilities, spells or effects for 5 minutes. This skill will also resist the use of the Interrogate skill.",
+        "The player should call “Courage” when they invoke this skill and when affected by any additional fear effects during the skill’s duration."
+      ]
+    },
+    {
+      "name": "Craftsman Skills",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "This set of skills allows a character to create in-game commodities not covered elsewhere in these rules. The character needs to pay 100% of the production cost only, not the 110% non-craftsman must pay to the Treasure Manager obtain the item. The Treasure Manager will then give the character a tag for their product.",
+        "A player may never charge in-game money for an out-of-game physical representation of the commodity, but may charge out-of- game money for it.",
+        "For example, Juno the Baker wishes to sell her brownies in-game. The player pays the production cost to treasure and receives her tags. Now she can charge the going rate of 1 cp and $0.50 per brownie, she may not charge extra in- game money for the actual brownie.",
+        "The list of approved craftsman skills is listed below. If a character wishes to have a skill not listed below the new skill must be approved by the normal process of adding a new skill to the game.",
+        {
+          "type": "table",
+          "headers": [
+            "Craftsman Skill",
+            "Description"
+          ],
+          "rows": [
+            [
+              "Brewer",
+              "Allows the character to make any flavor of beer, ale, or lager"
+            ],
+            [
+              "Vintner",
+              "Allows the character to make any flavor of wine, mead, or sparkling wine."
+            ],
+            [
+              "Distiller",
+              "Allows the character to make any flavor of brandy, whiskey, or hard spirit"
+            ],
+            [
+              "Cook",
+              "Allows the character to make any kind of food including desserts and candy."
+            ],
+            [
+              "Gem Cutter",
+              "Allows the character to cut a gem into two gems of any value each with a combined worth of 10% less than the original. Each time a gem is cut, the total value is reduced by 10%."
+            ],
+            [
+              "Jewler",
+              "Allows the character to combine refined metals and/or gems into jewelry. There is no net increase in the value of the piece of jewelry. Costume jewelry or jewelry with no in-game intrinsic value can be made for free."
+            ]
+          ]
+        },
+        "For a player’s character, there is never any net profit in making any of the above commodities; the raw material cost is the intrinsic value of the product. It is assumed the character does not have the time, resources or production facilities to make profitable merchandise."
+      ]
+    },
+    {
+      "name": "Create Golem",
+      "buildCost": 2,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Embalming, Two Rank 5 of Potions, Poisons, or Solutions",
+      "skillList": "Alchemist",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to create golems. Create Golem Rank 1 allows the character to identify golems and other types of automatons after 1 minute of examination.",
+        "For the full rules on how to create golems and how they work in- game, see Chapter 4."
+      ]
+    },
+    {
+      "name": "Create Scroll",
+      "buildCost": 5,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Read Magic",
+      "skillList": "Sorcerer",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to create Scrolls. For the complete rules on creating scrolls in-game, see the beginning of the Sorcery Advanced Career in Chapter 4.",
+        "Note, all scrolls are written in the Magic language with English characters."
+      ]
+    },
+    {
+      "name": "Critical Attack",
+      "buildCost": [
+        5,
+        10
+      ],
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Any Weapon Skill",
+      "skillList": "Warrior Basic Career Skill List",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill doubles the total damage – Base Damage, Damage Bonus, Strength Bonus, alchemy, etc. – done by a weapon for one attack. This skill is not weapon or hand specific and can be used with any weapon the character has an appropriate Weapon Skill for. This skill cannot be combined with itself ever. The player should suffix the damage they call with the word “Crit”.",
+        "For example, Corvale has Weapon Proficiency +3 with One-Handed Edge weapons. Additionally, he uses a +3 Giant Strength potion and a Giant Strength spell giving him a +6 Strength Bonus for one swing. The sword he is using has been enchanted for magical elemental fire with a Damage Bonus of +1. All together he would swing “12 Magic Fire” but he decides to use his Critical Attack skill and now he would call “24 Magic Fire Crit” for one attack.",
+        "Additionally, the character can use his Critical Attack skill to block one martial attack which can either be damage, Critical Attack, Disarm, Stunning Blow, or Critical Backstab skills. The character may block ranged physical attacks but not those that have been used with the True Aim skill. Faith skills, spells or abilities cannot be blocked or stopped with this skill.",
+        "A character can use this skill to parry even if it is delivered from behind, but not if from a surprise attack; therefore it is impossible to parry the Waylay skill. It is also possible to parry an attack directed against someone else as long as they are within weapons length.",
+        "The character can choose to block a spell with this skill for another person; however they will take the effect of the spell and must call the appropriate defense against spells if they wish not to take the spell’s effect. The character may not block a spell that has been augmented with the Perfect Aim skill.",
+        "To use this skill as a parry the player should call “Crit Parry”.",
+        "When this skill is used offensively, it is not used if the character misses their target or the attack is blocked. If they succeed in striking their target or if the target calls an appropriate defense, the skill is used. This skill is always used once used to parry an attack. This skill does not double any additional damage from the Heal Wounds skill, Wounding skill, or Elemental Pool Points."
+      ]
+    },
+    {
+      "name": "Critical Backstab",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List, 2 Backstabs",
+      "skillList": "Master Thief",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows the character to double their weapon damage for one swing when attacking from behind. The player should double the amount of damage their character is swinging including base weapon damage, Damage Bonus, Strength Bonus, alchemical affects or magic bonuses. The character must be approximately 90 degrees behind their target to be considered behind them. The character cannot reach their arms around the target to use their Critical Backstab skill. A Critical Backstab does not have to be delivered from surprise. This skill can be used with the Waylay skill to double the damage of the Waylay skill. The player should suffix the damage they call with the word “Crit”.",
+        "This skill is not used if the character misses their target or the attack is blocked. If they succeed in striking their target or if the target calls an appropriate defense, the skill is used.",
+        "This skill does not double any additional damage from the Heal Wounds skill, Wounding skill, or Elemental Pool Points."
+      ]
+    },
+    {
+      "name": "Dark Blessing",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "2 Wounding Skill Purchases",
+      "skillList": "Servant of Darkness",
+      "purchase": "Multi",
+      "duration": "10 Minutes",
+      "description": [
+        "This skill allows the character to bless Servants of Darkness, Dark Acolytes, and non-mortal beings of evil (such as Hierarchs, Demons, and undead) with a +1 Strength Bonus and immunity to fear. This skill is non-latent and will last for 10 minutes from time of blessing. If this skill is used on an unaligned person, a Follower of Light or a being of good, the skill is used but it will have no effect. This skill cannot be stacked with itself, but will stack with other Strength Bonuses.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Dark Cleric",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Faith",
+      "prerequisites": "Plot Approval",
+      "skillList": "Servant of Darkness",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill grants the character a limited immunity to necromancy. The character is immune to any undead creation spell in the Necromancy School. Damaging spells from that school still effect the character normally and a Death Slave spell will bring the character to the Brink of Death. Undead creating sorcery rituals affect the character normally."
+      ]
+    },
+    {
+      "name": "Dark Paladin",
+      "buildCost": 2,
+      "tagged": "No",
+      "skillType": "Faith",
+      "prerequisites": "Plot Approval, Cleric of Darkness",
+      "skillList": "Servant of Darkness",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill makes the character permanently immune to all fear affects.",
+        "This skill can be purchased in the same month as the Dark Cleric skill."
+      ]
+    },
+    {
+      "name": "Dark Sorcerer",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Faith",
+      "prerequisites": "Plot Approval, Rank 3 Sorcery",
+      "skillList": "Servant of Darkness",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to cast dark only rituals, gives the character a +5% Casting Bonus to all dark and dark only rituals and doubles the caster and participants’ Knowledge Bonus for ranks of Necromancy School known.",
+        "For more information, see the sections on the Servant of Darkness Advanced Career and Sorcerer Advanced Career."
+      ]
+    },
+    {
+      "name": "Darkwood Ranger",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Miscellaneous",
+      "prerequisites": "Tracking",
+      "skillList": "Master Miscellaneous",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to move through the Darkwood Forest unmolested by its denizens by knowing the safe paths to travel and how not to alert the creatures that live there. If the character wishes, they can lead a group of no more than seven other characters safely through at one time.",
+        "It does not give the character any special knowledge of what might live in the forest or where anything in the forest is, just how to navigate safely through it.",
+        "The more intelligent, free willed creatures in the forest are not fooled and can choose to act when they see the character normally. Additionally, these Darkwood creatures do not take kindly to intruders and usually act to kill anyone with this skill they find wandering where they are not supposed to be."
+      ]
+    },
+    {
+      "name": "Death Touch",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Venom Touch",
+      "skillList": "Servant of Darkness",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill causes the targeted character to go the Brink of Death. Also, the Death Touch skill can be reversed to life any evil character – Servant of Evil, Greater Undead, any demon, etc. If used in this way, it takes 1 minute to invoke and the character falls unconscious for 10 minutes. Note, when this skill is used as a life effect, the target character does not stop their Death Count.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill. This skill can be delivered by touch or through a weapon. If delivered through a weapon, the targeted character must be struck, and unlike Channeled spells, weapons and shields will stop the attack. If the character misses their target or the target uses a martial skill to stop the attack, the skill is not used. If the attack is stopped by a Resist Evil or Life skill or a magical defense that stops physical attacks the skill is used."
+      ]
+    },
+    {
+      "name": "Decapitate",
+      "buildCost": 15,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "2 Slays, Continuous +5 Strength Bonus",
+      "skillList": "None",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill works just like the Slay skill with the following exceptions. First the target character’s head is severed and is assumed to land near the character’s body. Second, the character is not Mortally Wounded, but is at the Brink of Death. Lastly, this skill cannot be used as a parry to an attack. The character must call “Decapitate” after the blow is delivered, followed by any special damage modifiers, such as “Magic”, “Silver”, etc.",
+        "This skill requires the character to have a +5 Strength Bonus to learn and use. This can either be a natural racial bonus or from some other source, such as a magic item. However, the Strength Bonus must be a continuous bonus, not one that has a duration or is invoked for a duration. Therefore, things such as a Strength Potion does not count towards this prerequisite."
+      ]
+    },
+    {
+      "name": "Destroy Lesser Undead",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Paladin, Detect Undead",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill will destroy any lesser undead or lesser demon by touch or through a weapon. This skill can be blocked by a magical defense against physical attacks and the Destroy Lesser Undead skill is used. A martial parry skill will block the attack but the Destroy Lesser Undead skill is not used.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Destroy Undead",
+      "buildCost": 7,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Destroy Lesser Undead",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill will destroy any undead or demon of any type by touch or through a weapon. The targeted character is completely destroyed and turns to dust if corporeal or vanishes if non-corporeal. Demons or Hierarchs are brought to the Brink of Death and instantly banished to their home plane leaving their worldly possessions behind. The Paladin is brought to the Brink of Death after successful use of this skill.",
+        "Unlike other skills, this skill is not used if it is stopped by any defense that stops physical attacks and the Paladin suffers no ill effects. If stopped by an Empowerment skill, this skill is used and the Paladin suffers no ill affects. However, if this skill is blocked by an innate Resist ability, the skill is used and the Paladin is brought to the Brink of Death.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Detect Lie",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Cleric",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill will test the veracity of the last statement made by another character. To use this skill, the character should call a Hold, privately ask the target player if they are lying, then call the Lay On. The skill is undetectable in-game to bystanders and the target character. However, a character with the Lie skill can use their skill as a defense. This is the only defense to this skill.",
+        "The veracity of the statement is based on what the player, not the character, knows is the truth. Therefore, if the character is intentionally lying or lying under compulsion (charm effect, Forget and Remember poison, etc), they are lying and will detect as such. Even if the character’s perception of the truth is skewed, the skill will detect the statement as a lie.",
+        "For example, a character does not believe it is murder to kill Halflings. After killing Kay, Scanlon asks the character if they killed Kay. The character says no, and Scanlon uses his Detect Lie skill to test the truthfulness of the statement. While the character does not believe killing Halflings is murder, the player must tell Scanlon that he is lying.",
+        "The player should not draw upon out-of-game knowledge their character should not know about when judging the truthfulness of their answer.",
+        "For example, Susan helped a Plot Marshal set up an ambush down the road. The marshal decides to make her the bait, an innocent farmer’s wife who is being chased by a Lesser Troll the brigands have dominated. The farmer’s wife screams for help and Calandris and his friends hear the call for help and investigate. Calandris asks the farmer’s wife if this is a trap, and she answers no. Calandris uses his Detect Lie skill and learns the farmer’s wife is not lying. While Susan knows there is a trap planned for the characters, her NPC is ignorant of the trick.",
+        "If a character is lied to and later tells people the lie believing it to be the truth, he will not detect as lying.",
+        "For example, while on an adventure Constantine meets a Dark Paladin who says he killed Squire Scanlon and shows him is tabard. Believing the Dark Paladin, Constantine runs to Avalon to get help. Suspecting this may be a trap, Juhani uses her Detect Lie skill to test the veracity of his statement. The skill reveals Constantine is not lying and they go off to find the Dark Paladin. Along the way they meet Squire Scanlon who is alive and well and is looking for his missing tabard.",
+        "In the above example, Constantine was not attempting to lie to Juhani, even though he was wrong and Squire Scanlon was alive, the skill still revealed he was telling the truth.",
+        "This skill requires no verbal to use."
+      ]
+    },
+    {
+      "name": "Detect Undead",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Cleric",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows the character to sense if another character is undead, demonic, draconic, or other higher power by looking at them. This skill can only be stopped by the Cloak Undead skill. If used against a character who is currently possessed, this skill will reveal this fact and the nature of the possessing character.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Disarm",
+      "buildCost": [
+        4,
+        8
+      ],
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Any Weapon Skill or Master Assassin",
+      "skillList": "Warrior Basic Career Skill List, Assassin",
+      "purchase": "Multi",
+      "duration": "5 Seconds",
+      "description": [
+        "A character can use this skill to disarm another character’s weapon or any other item held in that arm. If the target character is using a one- handed edge or smaller weapon then the character can strike the targets arm or weapon, but if the character is using a bastard or two handed weapon then they must strike one arm to disarm the opponent. The character must call “Disarm” after the blow is delivered followed by any special damage modifiers, such as “Magic”, “Silver”, etc.",
+        "A character that has been disarmed must drop what is in that arm and cannot use that arm for 5 seconds. They cannot pick up their weapon nor do any other in-game action with that arm for 5 seconds. The character should drop their weapon at their feet; they cannot throw the weapon behind them or to another character.",
+        "If the item in the character’s hand is attuned to the character, then the character does not have to drop the item, but they still cannot use that arm for the full 5 seconds. An Attachment spell or a Paste of Stickiness will not prevent the character from losing the weapon in their hand.",
+        "This skill can be used with ranged attacks. The character must still hit the arms to disarm someone. If the True Aim skill is used, then it is assumed to hit where needed to disarm an opponent.",
+        "Shields cannot be disarmed if wielded, but if the character is simply holding the shield then it can be disarmed by striking that arm.",
+        "This skill can be used to parry a Disarm skill. It cannot be used to parry any other martial attack or for another character. The character should call “Retain” when they use this skill to stop a disarm attempt.",
+        "When this skill is used offensively, it is not used if the character misses their target or the attack is blocked. If they succeed in striking their target or if the target calls an appropriate defense the skill is used. This skill is always used once used to parry a Disarm skill."
+      ]
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+    {
+      "name": "",
+      "buildCost": 1,
+      "tagged": "No",
+      "skillType": "",
+      "prerequisites": "",
+      "skillList": "",
+      "purchase": "",
+      "duration": "",
+      "description": []
+    },
+  ]
+}
