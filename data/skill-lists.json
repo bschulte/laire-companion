@@ -2410,6 +2410,245 @@
           "Skills with an “F” require the use of the Druid’s focus. The character must simply have the focus on their person to gain access to these skills.",
           "The Nature Magic skill is purchased in ranks. Each rank costs the listed Build Points. The character must have 2 purchases of the Elemental Pool skill per rank."
         ]
+      },
+      "servantOfDarkness": {
+        "skills": [
+          {
+            "name": "Dark Cleric",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Plot Approval",
+            "purchase": "Once",
+            "tagged": "No"
+          } ,
+          {
+            "name": "Cloak Undead (V,F)",
+            "cost": 5,
+            "duration": "6 Hours",
+            "prerequisiteSkill": "Dark Cleric",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Control Lesser Undead (V,F)",
+            "cost": 6,
+            "duration": "30 Minutes",
+            "prerequisiteSkill": "Dark Cleric",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Compel Greater Undead (V,F)",
+            "cost": 6,
+            "duration": "30 Minutes",
+            "prerequisiteSkill": "Control Lesser Undead",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Control Undead Horde (V,F)",
+            "cost": 10,
+            "duration": "30 Minutes",
+            "prerequisiteSkill": "Compel Greater Undead",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Dark Blessing (V,F)",
+            "cost": 3,
+            "duration": "10 Minutes",
+            "prerequisiteSkill": "2 Wounding",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Lie",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "Dark Cleric",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Wounding (*,V)",
+            "cost": 5,
+            "duration": "Instant",
+            "prerequisiteSkill": "Dark Cleric",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Dark Paladin",
+            "cost": 2,
+            "duration": "Constant",
+            "prerequisiteSkill": "Plot Approval, Dark Cleric",
+            "purchase": "Once",
+            "tagged": "No"
+          } ,
+          {
+            "name": "Death Touch (*,V,F)",
+            "cost": 10,
+            "duration": "Instant",
+            "prerequisiteSkill": "Venom Touch",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Empower Evil (V,F)",
+            "cost": 5,
+            "duration": "Latent",
+            "prerequisiteSkill": "Dark paladin, Dark Blessing",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Greater Magic Weapon (V,F)",
+            "cost": 5,
+            "duration": "30 Minutes",
+            "prerequisiteSkill": "Dark Paladin",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Immunity to Charm",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Dark Paladin",
+            "purchase": "Multi",
+            "tagged": "No"
+          } ,
+          {
+            "name": "Pain Touch (*,V,F)",
+            "cost": 6,
+            "duration": "5 Minutes",
+            "prerequisiteSkill": "Dark Paladin, 2 Wounding",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Sever Soul (*,V,F)",
+            "cost": 4,
+            "duration": "Instant",
+            "prerequisiteSkill": "Death Touch",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Unlife",
+            "cost": 8,
+            "duration": "Special",
+            "prerequisiteSkill": "Dark Paladin, Cloak Undead",
+            "purchase": "Once",
+            "tagged": "No"
+          } ,
+          {
+            "name": "Venom Touch (*,V,F)",
+            "cost": 8,
+            "duration": "5 Minutes",
+            "prerequisiteSkill": "Pain Touch",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          } ,
+          {
+            "name": "Dark Sorcerer",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Plot Approval, Rank 3 Sorcery",
+            "purchase": "Once",
+            "tagged": "No"
+          } 
+        ],
+        "specialNotes": [
+          "Skills with an asterisk (*) can be delivered by either touch or channeled through a weapon. No extra skill is required to deliver these skills through a weapon. A Dark Paladin cannot channel through two weapons, therefore if a character strikes an opponents weapon or shield, there is no effect and the skill is not used.",
+          "Skills with a “V” require a verbal to use. If the character is unable to speak – such as being under the effect of a Silent and Mute spell – they are unable to use these skills. The verbal must be at least 5 syllables, not counting the skills name but can be anything the player wishes, and must contain some reasonably recognizable version of the skill’s name in the verbal. For example, “By the might of Bazmodeous, I stricken you with pain”, would be an acceptable verbal for the Pain Touch skill. Simply using the name of the skill is not an acceptable verbal.",
+          "Skills with an “F” require the use of the Dark Paladin’s focus. For controlling and compelling skills, the focus must be held up, but for the rest, the character must simply have the focus on their person.",
+          "All skills listed as affecting “undead” effect demons as well. For example, Control Undead Horde will also work as a Control Demonic Horde. The player need not call anything differently."
+        ]
+      },
+      "masterMiscellaneous": {
+        "skills": [
+          {
+            "name": "Autopsy",
+            "cost": 2,
+            "duration": "Instant",
+            "prerequisiteSkill": "Battle Surgery",
+            "puchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Climb",
+            "cost": 3,
+            "duration": "Special",
+            "prerequisiteSkill": "None",
+            "puchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Coma",
+            "cost": 7,
+            "duration": "Constant",
+            "prerequisiteSkill": "None",
+            "puchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Courage",
+            "cost": 3,
+            "duration": "5 Minutes",
+            "prerequisiteSkill": "None",
+            "puchase": "Multi",
+            "tagged": "yes"
+          },
+          {
+            "name": "Darkwood Ranger",
+            "cost": 3,
+            "duration": "Contstant",
+            "prerequisiteSkill": "Tracking",
+            "puchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Interrogate",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "None",
+            "puchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Iron Will",
+            "cost": 10,
+            "duration": "Instant",
+            "prerequisiteSkill": "None",
+            "puchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Jump",
+            "cost": 3,
+            "duration": "Special",
+            "prerequisiteSkill": "None",
+            "puchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Swim",
+            "cost": 3,
+            "duration": "Special",
+            "prerequisiteSkill": "None",
+            "puchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Tracking",
+            "cost": 6,
+            "duration": "Constant",
+            "prerequisiteSkill": "none",
+            "puchase": "Once",
+            "tagged": "No"
+          }
+        ],
+        "specialNotes": ["There are no special rules for the Master Miscellaneous Skill List."]
       }
     }
   ],

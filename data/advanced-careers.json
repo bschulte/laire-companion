@@ -4579,5 +4579,136 @@
         ]
       }
     ]
+  },
+  {
+    "name": "Servants of Darkness",
+    "introduction": [
+      "Those players looking to play a Servant of Darkness should keep in mind a few things. First, Avalon is a good and lawful society. This means that the in-game Duchy of Avalon does not condone its citizens to follow the Dark Lord, and therefore worship of the Dark Lord in any way is against the law. While this does not mean a player cannot play a Dark Cleric, Dark Paladin, or Dark Sorcerer, it does mean that in-game actions have in in-game consequences. If you make the choice to play one of these character types you must be prepared that you may not be able to play your character openly in town and should you get caught, your character may be killed or banished making you a fugitive. A player therefore should think very carefully before becoming a Servant of Darkness.",
+      "All that is dark and evil comes from the Dark Lord; the wellspring of malevolence, necromancy, evil and all things vile in the universe. The Dark Lord is one of the three divine forces of the LAIRE game world, along with the Mother and the High Lord. The Dark Lord seeks to spread death, destruction, evil, suffering and misery throughout the world. The Dark Lord's rival is the High Lord and their eternal struggle has raged throughout time and continues to this day carried on by his servants the Dark Cleric, the Dark Paladin, and the Dark Sorcerer, from all of whom the Dark Lord brooks no disobedience and demands complete servitude",
+      "The Dark Lord has many minions at his command: the mortal creatures his servants the Hierarchs created, - the goblins, orcs, trolls, ogres and many, many more - demons and other minions of Hell, and the undead. It is because of the undead that the Followers of the Mother of find themselves at odds with the Servants of Darkness. It however does not end there. The Dark Lord's minions and servants frequently destroy life where they find it, and the Servants of the Mother are there to protect nature.",
+      "The Dark Cleric fills the role of insurgent, spreading lies and corruption amongst the people where they live. They lead their followers, teaching them the ways of the Dark Lord. They find any and all ways to spread the evil of the Dark Lord and foster their own dark desires.",
+      "Dark Paladins are the shining beacon of darkness, the open antagonists of the Dark Lord. They are the champions of evil; ever seeking the downfall of those who follow the ideals of the High Lord, destroy, oppress, and rule the common man, and ever seeking to spread their master’s evil.",
+      "Dark Sorcerers are divine practitioners of sorcery, adept in the high arcane arts of sorcery as well as servants of the Dark Lord. Their task is to help and support those who fight on the side of evil with their potent magics, for not only are they able to cast all the neutral rituals, but the potent dark rituals some of which are only available to the Dark Sorcerer. The Dark Sorcerer’s role is mainly to strengthen and help those who fight on the side of evil.",
+      "There are three primary worlds or Planes of Existence in our game. Most of the action takes place on Midlantia, the Mother’s home. The Elysian Fields is the home of the High Lord and Hell is the home of the Dark Lord.",
+      "Perhaps the first test a player faces is finding a teacher. Characters wishing to follow this faith should seek out the Dark Clerics and Dark Paladins and find out in-game what it really means to be a Servant of Darkness. As with all Advanced Skill Lists, a character should be fifth level and at least third to learn the skills associated with the Dark Lord’s Faith. Any race that has free will can become a Servant of Darkness. Characters such as goblins, orcs, trolls and other creatures that do not have free will cannot follow any faith. A character can only follow one faith at one time; therefore a character cannot become a Follower of the Light or a Druid while they are still a Servant of Darkness."
+    ],
+    "rules": [
+      "A character can only be a follower of one faith; therefore a character may only be a Druid, a Follower of the High Lord or a Servant of the Dark Lord. They may only purchase skills off of one of these three lists.",
+      "There are many other aspects a player should know about before embarking on this Advanced Career.",
+      {
+        "type": "header",
+        "content": "The Laws"
+      },
+      "Dark Clerics, Dark Paladins and Dark Sorcerers must follow certain rules in order to maintain their skills and faith. These are the laws set down by the Dark Lord to his servants. There may be other in-game rules set down by the other in-game organizations that the character may be asked to follow, but these are the ones set down by the Dark Lord and the character can lose access to their skills should they break one of them.",
+      {
+        "type": "header",
+        "content": "Dark Clerics"
+      },
+      {
+        "type": "list",
+        "items": [
+          "A Dark Cleric must be evil. Forever shall they be bound to the will of the Dark Lord and ever foster his ideals and precepts.",
+          "A Dark Cleric must destroy good whenever possible and prudent. Dark Clerics are not called upon to fight on the front lines of the war against the light, but they are required to seek its destruction by whatever means is available to them.",
+          "A Dark Cleric may never willingly commit a truly selfless act, they may however feign goodness in order to fool others and ingratiate themselves with those they seek to corrupt and destroy.",
+          "A Dark Cleric must always obey the Dark Lord and those who bear his word. Sometimes there may be those who will lie and claim they were given sovereignty over the Dark Cleric. It is up to the Dark Cleric to determine the validity of this claim, but should they choose wrongly, they will be punished accordingly."
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Dark Paladins"
+      },
+      {
+        "type": "list",
+        "items": [
+          "A Dark Paladin must be evil. Forever shall they be bound to the will of the Dark Lord and ever foster his ideals and precepts. A Dark Paladin must be overtly evil, a shining beacon of darkness and evil. Dark Paladins are the ultimate champions of evil and must act accordingly.",
+          "A Dark Paladin must destroy good whenever possible and prudent. Dark Paladins are called upon to fight on the front lines of the war against the light, and they are required to seek its destruction.",
+          "A Dark Paladin may never willingly commit a selfless act, even to feign goodness in order to fool others and ingratiate themselves.",
+          "A Dark Paladin must always obey the Dark Lord and those who bear his word. Sometimes there may be those who will lie and claim they were given sovereignty over the Dark Paladin. It is up to the Dark Paladin to determine the validity of this claim, but should they choose wrongly, they will be punished accordingly."
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Dark Sorcerers"
+      },
+      {
+        "type": "list",
+        "items": [
+          "A Dark Sorcerer must be evil. Forever shall they be bound to the will of the Dark Lord and ever foster his ideals and precepts.",
+          "A Dark Sorcerer must always exact a price, be it coin or some other self serving fee, in exchange for any dark ritual they cast on another.",
+          "A Dark Sorcerer may never willingly commit a truly selfless act, they may however feign goodness in order to fool others and ingratiate themselves with those they seek to corrupt and destroy.",
+          "A Dark Sorcerer must always obey the Dark Lord and those who bear his word. Sometimes there may be those who will lie and claim they were given sovereignty over the Dark Sorcerer. It is up to the Dark Sorcerer to determine the validity of this claim, but should they choose wrongly, they will be punished accordingly."
+        ]
+      },
+      {
+        "type": "header",
+        "content": "What is Evil?"
+      },
+      "The quick and easy answer to this: selfishness. This is a broad answer. Evil is the man who kills his brother’s fiancé on the day of their wedding for she did not return his love. Evil is the man who kills his mother and father to inherit their title. Evil is the women who sacrifices a village to the Dark Lord to summon a demon to this world to be used in her conquest of others. Evil is a women who seduces a man only to kill him on their honeymoon for his magic sword. Evil is finding and practicing new and more depraved ways of torturing a person to not only enjoying witnessing their suffering but to be able to boast of the skills to others.",
+      "These examples are what is expected of a Servant of Darkness. The Dark Lord does not award his gifts to practitioners of petty evil. Stealing a few coppers from the bar in the inn and trying to claim the gifts of the Dark Lord will earn you nothing less then scorn, ridicule and a one way trip to the Healer’s Guild.",
+      {
+        "type": "header",
+        "content": "Honor and the Servants of Darkness"
+      },
+      "Some could argue that honor is the purview of those that follow the High Lord, but it is possible to be a Servant of Darkness and be honorable.",
+      {
+        "type": "header",
+        "content": "The Dark Cleric and Dark Paladin Focus"
+      },
+      "Every Dark Cleric and Dark Paladin must have a focus to use their faith skills. All skills in the Dark Cleric and Dark Paladin Skill List Table denoted with an “F” require a focus. Dark Sorcerers also require a focus of sorts, their ritual book acts as their focus.",
+      "The focus can be any item of any value, either in-game such as a piece of numbered jewelry or a weapon of quality, or in-play. When a character completes the necessary in-game requirements and learns the Cleric of Darkness and/or Dark Paladin skills, they must choose a focus. The character can have only one focus at a time and should they loose their focus it must be recovered. If the focus is destroyed or lost beyond any hope of recovery, they may create a new one. The player must find out in-game how to do this.",
+      {
+        "type": "header",
+        "content": "The Cardinal Oath"
+      },
+      "Every Servant of Darkness needs to make a Cardinal Oath. This oath helps to direct the character along their chosen course. The oath can be anything appropriate and is subject to Plot approval. Some examples of Cardinal Oaths taken by characters in the past are:",
+      {
+        "type": "list",
+        "items": [
+          "To kill the innocent.",
+          "To destroy all Paladins.",
+          "To spread the taint of necromancy.",
+          "To destroy all Solars."
+        ]
+      },
+      "This is not an exhaustive list, but should give the player some ideas as to what is expected.",
+      {
+        "type": "header",
+        "content": "The Quest"
+      },
+      "All Servants of the Dark Lord need to complete a quest before they can become Dark Clerics, Dark Paladins, or Dark Sorcerers. Though this quest can come to the character from various in-game sources, ultimately it is the Plot Committee who decides when a character is ready to be quested and sets down the specific quest the character must complete. Successful completion of this quest satisfies the “Plot Approval” requirement to learn the Dark Cleric, Dark Paladin, and Dark Sorcerer skills.",
+      {
+        "type": "header",
+        "content": "Special Servants of Darkness Skill Rulues"
+      },
+      "All characters that have Dark Cleric or Dark Paladin skills or is a Dark Sorcerer must follow their respective laws. This skill set is subject to plot approval and can be taken away or denied access to for failing to follow these rules. Should a character lose access to their skills, they must find a way to atone for their transgression in-game.",
+      "In addition, as with other faith lists, should a Dark Paladin or Dark Cleric lose their free will by a spell or skill, they no longer have access to their Servant of Darkness tagged skills. This only applies to charm-like effects that gives the wielder control over the target as is the case with Enslavement, and Dominate spells; Hypnosis; Demonic Charm, etc. Effects such as Silent and Mute, Bedazzle, Speak the Truth, etc. that do not control the character do not cause them to lose access from their faith skills. When the charm ends the character can once again use their abilities.",
+      "The following Servant of Darkness skills: Pain Touch, Wounding, Death Touch, and Venom Touch are not used should the player miss their target. If the target character calls a martial defense of any kind the skill is stopped but not used. If the attack takes effect or a spell defense that stops physical attacks is used, the skill is used up for that Tag Cycle.",
+      {
+        "type": "header",
+        "content": "Speecial Dark Sorcerer Rules"
+      },
+      "Once a character learns Rank 3 Sorcery skill, they have the option of remaining a Gray Sorcerer or choosing a side. Those that choose to follow the Dark Lord become Dark Sorcerers.",
+      "The Dark Sorcerer gains certain benefits for aligning themselves with evil. First, they receive a +5% bonus to all dark rituals. Second, they are able to cast the rituals restricted to Dark Sorcerers; those rituals that are dark only. Finally, they gain double the knowledge bonus for the ranks of the Necromancy School known for themselves, other casters, and participants in all rituals.",
+      "However, there are some disadvantages. They are no longer able to cast white rituals and must use Black Ritual Powder in their dark rituals. In addition, those who receive the benefit of a dark ritual become beholden to the Laws of a Dark Sorcerer and the Dark Sorcerer’s Cardinal Oath while they are under the affects of the ritual. Should the person break any of these Laws, they immediately lose the benefit of the ritual, are immediately brought to the Brink of Death, and drop to 1 Body Point max for the remainder of the Event and cannot be healed by any means. The Dark Sorcerer who cast the dark ritual can no longer cast any dark only rituals, no longer receives their +5% bonus, and drops to 1 Body Point max for the remainder of the Event and cannot be healed by any means.",
+      {
+        "type": "header",
+        "content": "Losing Faith"
+      },
+      "Sometimes a Dark Cleric, Dark Paladin or Dark Sorcerer may break their laws – either accidentally or on purpose. Doing so causes the character to no longer be able to use some or all of their skills and spells. A Plot Marshal will determine what effect breaking their laws has on the character’s faith skills. In-game, the character must find a way to atone for their transgression if they wish to regain their access to their skills.",
+      "Sometimes a Dark Cleric, Dark Paladin or Dark Sorcerer commits an act they can never atone for or renounces their faith; they fall from grace. These characters lose access to their skills and cannot re- spend their Build Points, but their Body Points are unaffected. A character can choose to follow a new path, choose to be a Druid or High Lord. If they are accepted by one of these paths, their skills are removed from their card, their Body Points gained from Servant of Darkness skills are lost, and they can then use these unspent, refunded Build Points to purchase skills off the other two lists. A Dark Sorcerer can choose to remain a Gray Sorcerer or become a White Sorcerer. Either way, the character does not lose the ranks of Sorcery they already have learned.",
+      "A character can only change faiths once ever and can never go back to their old faith. Equally, a character can only have skills from one faith at one time ever."
+    ]
+  },
+  {
+    "name": "Master Miscellaneous",
+    "introduction": [
+      "The skills on the Master Miscellaneous Skills list are available to all characters regardless of their Advanced Career. They are the equivalent of the master level of the basic miscellaneous skills.",
+      {
+        "type": "header",
+        "content": "Learning Master Miscellaneous Skills"
+      },
+      "Any character can learn a Master Miscellaneous skill, but they all require the teacher to have a teach skill. Any Advanced Career teach skill will do and the character needs to have the skill.",
+      "For example, Garric has the Teach Alchemy skill and also has the Courage and Coma skills. He is able to teach any character, not just Alchemists, the Courage and Coma skills."
+    ]
   }
 ]
