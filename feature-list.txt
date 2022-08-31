@@ -4,3 +4,4 @@
 * Character builder
 * Posting character sheets
 * Event journal
+* Rule testing and feedback

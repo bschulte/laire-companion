@@ -1970,7 +1970,9 @@
             "tagged": "No"
           }
         ],
-        "specialNotes": ["There are no special notes for the Master Thief Advanced Career Skill List."]
+        "specialNotes": [
+          "There are no special notes for the Master Thief Advanced Career Skill List."
+        ]
       },
       "assassin": {
         "skills": [
@@ -2088,7 +2090,12 @@
           },
           {
             "name": "Poisons II-V",
-            "cost": [2, 3, 4, 5],
+            "cost": [
+              2,
+              3,
+              4,
+              5
+            ],
             "duration": "Constant",
             "prerequisiteSkill": "Rank 1 for Rank 2, Previous Rank for 3-5",
             "purchase": "Multi",
@@ -2113,6 +2120,152 @@
         ],
         "specialNotes": [
           "The Assassinate Skill requires an additional prerequisite for multiple purchases. A character needs two Assassin Proficiency skills to purchase their first Assassinate skill, and they need one Assassin Proficiency skill for each Assassinate. The player should read the skill description in Chapter 5 for a full description of this skill, or later in this section for these prerequisites."
+        ]
+      },
+      "followerOfLight": {
+        "skills": [
+          {
+            "name": "Cleric",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Plot Approval, First Aid",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Heal Wounds (*,V)",
+            "cost": 5,
+            "duration": "Instant",
+            "prerequisiteSkill": "Cleric",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Heal Life (*,V,F)",
+            "cost": 10,
+            "duration": "Instant",
+            "prerequisiteSkill": "2 Heal Wounds",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Detect Undead (V,F)",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "Cleric",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Turn Lesser Undead (V,F)",
+            "cost": 5,
+            "duration": "30 Minutes",
+            "prerequisiteSkill": "Detect Undead",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Repel Undead (V,F)",
+            "cost": 5,
+            "duration": "Special",
+            "prerequisiteSkill": "Turn Lesser Undead",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Turn Undead Horde (V,F)",
+            "cost": 8,
+            "duration": "30 Minutes",
+            "prerequisiteSkill": "Repel Undead",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Detect Lie",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "Cleric",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Holy Blessing (V,F)",
+            "cost": 3,
+            "duration": "10 Minutes",
+            "prerequisiteSkill": "2 Heal Wounds",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Paladin",
+            "cost": 2,
+            "duration": "Constant",
+            "prerequisiteSkill": "Plot Approval, Cleric of Light",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Battle Blessing (V,F)",
+            "cost": 4,
+            "duration": "30 Minutes",
+            "prerequisiteSkill": "Paladin",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Resist Evil",
+            "cost": 5,
+            "duration": "Instant",
+            "prerequisiteSkill": "Paladin",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Destroy Lesser Undead (*,V,F)",
+            "cost": 3,
+            "duration": "Instant",
+            "prerequisiteSkill": "Paladin, Detect Undead",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Destroy Undead (*,V,F)",
+            "cost": 7,
+            "duration": "Instant",
+            "prerequisiteSkill": "Destoy Lesser",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Greater Magic Weapon (V,F)",
+            "cost": 5,
+            "duration": "30 Minutes",
+            "prerequisiteSkill": "Paladin",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Immunity to Charm",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Paladin",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "White Sorcerer",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Plot Approval, Rank 3 Sorcery",
+            "purchase": "Once",
+            "tagged": "No"
+          }
+        ],
+        "specialNotes": [
+          "Skills with an asterisk (*) can be delivered by either touch or channeled through a weapon. No extra skill is required to deliver these skills through a weapon. A Paladin cannot channel through thier weapon and their opponents, therefore if a character strikes an opponents weapon or shield, there is no effect and the skill is not used.",
+          "Skills with a “V” require a verbal to use. If the character is unable to speak – such as being under the effect of a Silent and Mute spell – they are unable to use these skills. The verbal must be at least 5 syllables, not counting the skill’s name, but can be anything the player wishes, and must contain some reasonably recognizable version of the skill’s name in the verbal. For example, “By the will of the High Lord, I Turn Lesser Undead”, would be an acceptable verbal for the Turn Lesser Undead skill. Simply using the name of the skill is not an acceptable verbal.",
+          "Skills with an “F” require the use of the Cleric’s or Paladin’s focus. For turning skills, the focus must be held up, but for the rest the character must simply have the focus on their person.",
+          "All skills listed as effecting “undead” effect demons as well. For example, Destroy Lesser Undead will also work as a Destroy Lesser Demon. The player need not call anything differently."
         ]
       }
     }

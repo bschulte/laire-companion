@@ -4197,5 +4197,129 @@
       },
       "Some Assassin skills are not used if they miss their target, if the blow strikes the target character’s shield, or the target character blocks the blow with their weapon. In order for the skill to be used the character must either strike their target or the target character uses an appropriate defense either magical or martial. The following skills follow this rule: Assassinate, Assassin Strike, Disarm, Paralyze Touch, and Weapon Accuracy."
     ]
+  },
+  {
+    "name": "Followers of the Light",
+    "introduction": [
+      "The High Lord is one of the three divine forces of the LAIRE game world, along with the Mother and the Dark Lord. The High Lord is eternally opposed by the Dark Lord; where the High Lord seeks to protect, the Dark Lord harms, where the High Lord seeks to nurture, the Dark Lord corrupts and destroys. Thus their eternal fight - from the moment of their first awakening - rages across the world. This fight continues to this day, and will most likely continue to the end of time. In these modern days, the war is fought by their followers, and in the case of the High Lord, in the Cleric, Paladin, and White Sorcerer",
+      "The High Lord opposes all forms of evil and their minions, thus the High Lord and the Mother oft find themselves on the same side of the fight against necromancy and the undead",
+      "The Cleric fills the role of guide, protector, leader, helper and sometime defender. Clerics guide people who seek to follow the High Lord not just with teaching them, but with their needs, charitably giving of themselves for the sake of others. Clerics primarily assist others in the fight against those who seek to harm. Clerics are more often found amongst the people helping them, then they would be involved in a fight.",
+      "Paladins are the proactive servants of the High Lord, going forth and smiting minions of the Dark Lord, undead, demons and all manner of creatures and men who seek to harm others or spread evil.",
+      "White Sorcerers are divine practitioners of sorcery, adept in the high arcane arts of sorcery as well as devoted followers of the High Lord. Their task is to help and support those who fight on the side of Light with their potent magics, for not only are they able to cast all the neutral rituals, but the potent white rituals, some of which are only available to the White Sorcerer. The White Sorcerer’s role is similar to that of the Cleric, but where the Cleric teaches and guides, the White Sorcerer uses their gifts mainly to strengthen and help those who fight the good fight.",
+      "There are three primary worlds or Planes of Existence in our game. Most of the action takes place on Midlantia, the Mother’s home. The Elysian Fields is the home of the High Lord and Hell is the home of the Dark Lord.",
+      "Characters wishing to follow this faith should seek out the Clerics and Paladins and find out in-game what it really means to be a Follower of the Light. As with all Advanced Skill Lists, a character should be fifth level and at least third to learn the skills associated with the High Lord’s Faith. Any race that has free will can become a Follower of the Light. Characters such as goblins, orcs, trolls and other creatures that do not have free will cannot follow any faith. A character can only follow one faith at one time; therefore a character cannot become a Servant of Darkness or a Druid while they are still a Follower of the Light.",
+      {
+        "type": "header",
+        "content": "The Order of Paladins"
+      },
+      "In Avalon, the majority of Paladins belong to the Order of Paladins. These staunch defenders of the people of Avalon are well known for their heroic deeds. All members of this order are members of the Paladin Council and one member is chosen as their leader. This order has other rules and laws they require their members to follow in addition to the laws set down by the High Lord.",
+      "Not all Paladins are members of this order and characters do not have to join the order to become a Paladin. Additionally, there may be other orders of Paladins called by different names both in the Duchy of Avalon and elsewhere on Midlantia. Players need to find them for themselves.",
+      {
+        "type": "header",
+        "content": "The House of the Sun"
+      },
+      "Within the City of Avalon and other villages, towns and keeps across the Duchy can be found holy places dedicated to the High Lord called the House of the Sun. These places, all built in the fashion of small stone keeps, have been sanctified to the High Lord and maintained by the Acolytes of the House of the Sun who dwell there. They are all open to everyone as a place of worship and refuge from the dangers of the world. Their doors are always open to the poor and needy as a place to find shelter and food. Indeed, each House of the Sun runs a soup kitchen providing food to those who cannot afford to feed themselves.",
+      "In the City of Avalon one can find the largest of these Houses of the Sun and it is frequented by many of the Followers of the Light and heroes of Avalon who seek to commune with the High Lord or just meet their fellows when they come to the City of Avalon during their visits there.",
+      "Those who belong to the House of the Sun are called Members, many of whom live there. All members of the House of the Sun swear to be good and honorable. Some wishing to do more become Acolytes and swear to the oaths or virtues of the House of the Sun: Courage, Patience, Faith, Charity and Honor. Any player wishing to learn more about becoming a member of the House of the Sun should seek out the Acolytes in-game.",
+      "The House of the Sun can also be found in other lands across Midlantia, some seemingly developing on their own yet with similar beliefs, but the House of the Sun is not the only group to be found. Other places dedicated to the High Lord exist, and can go by other names. Regardless, all of these organizations share a common bond in following the High Lord and opposing the Dark Lord."
+    ],
+    "rules": [
+      "A character can only be a follower of one faith; therefore a character may only be a Druid, a Follower of the High Lord or a Servant of the Darkness. They may only purchase skills off of one of these three lists. There are many other aspects a player should know about before embarking on this Advanced Career.",
+      {
+        "type": "header",
+        "content": "The Laws"
+      },
+      "Clerics, Paladins and White Sorcerers must follow certain rules in order to maintain their skills and faith. These are the laws set down by the High Lord to his followers. There may be other in-game rules set down by the Council of Paladins, the House of the Sun or other in-game organizations that the character may be asked to follow, but these are the ones set down by the High Lord and the character can lose access to their skills should they break one of them.",
+      {
+        "type": "header",
+        "content": "Clerics"
+      },
+      {
+        "type": "list",
+        "items": [
+          "A Cleric must be good; always seeking to protect the innocent, help others, and defeat evil. They are followers of the High Lord and should endeavor to emulate his principles in their lives. A Cleric may never consciously commit an evil act, doing so immediately forfeits the character’s needed purity to use their skills.",
+          "A Cleric must assist in the destruction of evil in all its forms whenever possible and prudent. Clerics are not called upon to fight in the front lines, but rather to assist those who do by whatever skills they have. Sometimes a fight is won not by the strength of arms, but by the support of others.",
+          "A Cleric is called to nurture, teach, advise and protect those proven to be in need. They are the spiritual leaders of the Followers of the Light.",
+          "A Cleric must never tell a lie. A Cleric must never break an oath or promise; doing so is the same as lying. Lying, trickery, and deceit are the tools of the Dark Lord and should never be used by a Cleric.",
+          "A Cleric may never willingly learn the Necromancy or Demonology Schools, nor may they use any necromantic or demonologist items, scrolls or abilities. They may never learn any necromantic or demonic skills or abilities. However, knowledge of evil is not evil and if the character has knowledge of Necromancy or necromantic skills they may become a Cleric so long as they never again willingly cast these spells or use these skills. When possible they should endeavor always to remove this knowledge. They must break their contract and regain their soul before they can become a Cleric.",
+          "A Cleric must be honorable. While a Cleric is not held to the same standards of honor as a Paladin, they still have their own code to live up to."
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Paladins"
+      },
+      {
+        "type": "list",
+        "items": [
+          "A Paladin must be good; always seeking to defeat evil, help others, and protect the innocent. They are followers of the High Lord and should endeavor to emulate his principles in their lives. A Paladin may never consciously commit an evil act, doing so immediately forfeits the character’s needed purity to use their skills.",
+          "A Paladin must destroy evil in all its forms – undead, demons, Servants of the Dark Lord, etc. – whenever possible and prudent. The Paladins are the righteous warriors who set themselves against the charge of evil. They are the vanguard.",
+          "A Paladin may never deny a request for aid from one proven to be defenseless and innocent.",
+          "A Paladin must always be truthful in all they say and do. A Paladin must never break an oath or promise, doing so is the same as lying. Lying, trickery and deceit are the tools of the Dark Lord and should never be used by a Paladin.",
+          "A Paladin may never willingly learn the Necromancy or Demonology Schools, nor may they use any necromantic or demonologist items, scrolls or abilities. They may never learn any necromantic or demonic skills or abilities. However, knowledge of evil is not evil and if the character has knowledge of Necromancy or necromantic skills they may become a Paladin so long as they never again willingly cast these spells or use these skills. When possible they should endeavor always to remove this knowledge. They must break their contract and regain their soul before they can become a Paladin.",
+          "A Paladin must always be honorable and they are held to the highest standards of honor as an example to all whom they lead."
+        ]
+      },
+      {
+        "type": "header",
+        "content": "White Sorcerers"
+      },
+      {
+        "type": "list",
+        "items": [
+          "A White Sorcerer must be good; always seeking to help others, protect the innocent, and defeat evil. They are followers of the High Lord and should endeavor to emulate his principles in their lives. A White Sorcerer may never consciously commit an evil act, doing so immediately forfeits the character’s needed purity to use their skills.",
+          "A White Sorcerer must assist in the destruction of evil in all its forms whenever possible and prudent. White Sorcerers are not called upon to fight in the front lines, but rather to assist those who do by whatever skills they have. Sometimes a fight is won not by the strength of arms, but by the support of others.",
+          "A White Sorcerer may never sell a white ritual. Receiving compensation for the components is acceptable, but they may never ask for more then the components cost. Additionally, a White Sorcerer may never deny a request for a white ritual from a good person so long as they are compensated for the components, the components are available, and they have the time and power to do so.",
+          "A White Sorcerer must never tell a lie. A White Sorcerer must never break an oath or promise; doing so is the same as lying. Lying, trickery and deceit are the tools of the Dark Lord and should never be used by a White Sorcerer.",
+          "A White Sorcerer may never willingly learn the Necromancy or Demonology Schools, nor may they use any necromantic or demonologist items, scrolls or abilities. They may never learn any necromantic or demonic skills or abilities. However, knowledge of evil is not evil and if the character has knowledge of Necromancy or necromantic skills they may become a White Sorcerer so long as they never again willingly cast these spells or use these skills. When possible they should endeavor always to remove this knowledge. They must break their contract and regain their soul before they can become a White Sorcerer.",
+          "A White Sorcerer must be honorable. While a White Sorcerer is not held to the same standards of honor a Paladin, they still have their own code to live up to."
+        ]
+      },
+      {
+        "type": "header",
+        "content": "Codes of Honor"
+      },
+      "Honor is a very difficult concept to define, people have tried for ages and it would be difficult to fit a proper definition into this rulebook, but in the next few paragraphs an attempt will be made to give the player an idea on how to play honor as a Follower of the Light. One note, Clerics and White Sorcerers have the same level of honor and in this section, this book refers to both simply as Clerics.",
+      "When confronting a foe, the Paladin must be, as he is in all things, honest and upfront. Never should a Paladin attack a foe that is unaware of him or his intent. Nor should the Paladin strike from the shadows as an assassin in the night. On the field of battle or in personal combat, the Paladin should never stoop to the level of his opponents. Unlike the Paladin, the Cleric does not have to openly confront their foes. Clerics can attack opponents while they are at a disadvantage, either because they are unarmed or unaware of the attack. It is acceptable for Clerics to ambush their opponents. They cannot kill or attack opponents while they are sleeping or assassinate them.",
+      "When trading for goods and services the Paladin should always deal honestly and be upfront in all things. Never should he stoop to such low acts as withholding important information or actively misleading the other person. Clerics have slightly more leeway in trading with others, they may allow the person to believe what they will or allow the person to place their own value on the item. They still may never lie and can never withhold important information or actively mislead the person they are trading with.",
+      "When dealing with others, the Paladin shall always be honest, upfront, and forthright. They may never deceive even by omission. If asked a direct question the Paladin should always answer with the complete truth, tell the person they will not answer the question, or say nothing at all. Clerics have more freedom, depending on with whom they are dealing. If they are dealing with an evil character or Servant of Darkness they are allowed to do as they will so long as they do not break their other oaths. They can withhold information or actively mislead them – anything short of actually lying to them. However with everyone else, the Cleric needs to hold themselves to a higher standard. While it is not necessary to be as forthright as the Paladin, the Cleric may go as far as allowing the person to believe what they will.",
+      "This is not a complete list by far, but should give the player a good idea of what will be expected of them as they play these Advanced Careers.",
+      {
+        "type": "header",
+        "content": "The Cleric and Paladin Focus"
+      },
+      "Every Cleric and Paladin must have a focus to use their faith skills. All skills in the Follower of the Light Skill List Table denoted with an “F” require a focus. White Sorcerers also require a focus of sorts, their Ritual book acts as their focus.",
+      "The focus can be any item of any value, either in-game such as a piece of numbered jewelry or a weapon of quality, or in-play. When a character completes the necessary in-game requirements and learns the Cleric of Light and/or Paladin skills, they must choose a focus. The character can have only one focus at a time and should they loose their focus it must be recovered. If the focus is destroyed or lost beyond any hope of recovery, they may create a new one. The player must find out in-game how to do this.",
+      {
+        "type": "header",
+        "content": "The Cardinal Oath"
+      },
+      "Every Follower of the Light needs to make a Cardinal Oath. This oath helps to direct the character along their chosen course. The oath can be anything appropriate and is subject to Plot approval. Some examples of Cardinal Oaths taken by characters in the past are:",
+      {
+        "type": "list",
+        "items": [
+          "To always protect the innocent.",
+          "To help, heal and care for those in need.",
+          "To kill all necromancers.",
+          "To destroy all undead.",
+          "To destroy demons."
+        ]
+      },
+      "This is not an exhaustive list, but should give the player some ideas as to what is expected.",
+      { "type": "header", "content": "The Quest"},
+      "All Followers of the Light need to complete a quest before they can become Clerics, Paladins, or White Sorcerers. Though this quest can come to the character from various in-game sources, ultimately it is the Plot Committee who decides when a character is ready to be quested and sets down the specific quest the character must complete. Successful completion of this quest satisfies the “Plot Approval” requirement to learn the Cleric, Paladin, and White Sorcerer skills.",
+      { "type": "header", "content": "Special Follower of the Light Skill Rules"},
+      "All characters that have Cleric or Paladin skills or is a White Sorcerer must follow their respective laws. This skill set is subject to Plot approval and can be taken away or denied access to for failing to follow these rules. Should a character lose access to their skills, they must find a way to atone for their transgression in-game.",
+      "In addition, as with other faith lists, should a Paladin or Cleric lose their free will by a spell or skill they no longer have access to their Followers of the Light Tagged Skills. This only applies to charm like effects that gives the wielder control over the target as is the case with Enslavement, and Dominate spells; Hypnosis; Demonic Charm, etc. Effects such as Silent and Mute, Bedazzle, Speak the Truth, etc. that do not control the character do not cause them to loose access from their faith skills. When the charm ends, the character can once again use their abilities.",
+      "The following Followers of the Light skills: Heal Wounds, Life, Destroy Lesser Undead, and Destroy Undead are not used should the player miss their target. If the target character calls a martial defense of any kind the skill is stopped but not used. If the attack takes effect or a spell defense that stops physical attacks is used, the skill is used up for that Tag Cycle. There are special rules for the Destroy Undead skill and the player should read that skill description carefully.",
+      { "type": "header", "content": "Special White Sorcerer Rules"},
+      "Once a character learns Rank 3 Sorcery skill, they have the option of remaining a Gray Sorcerer or choosing a side. Those that choose to follow the High Lord become White Sorcerers.",
+      "The White Sorcerer gains certain benefits for aligning themselves with the light. First, they receive a +5% bonus to all white rituals. Second, they are able to cast the rituals restricted to White Sorcerers; those rituals that are designated as white only. Finally, they gain double the knowledge bonus for the ranks of the Healing School known for themselves, other casters, and participants in all rituals.",
+      "However, there are some disadvantages. They are no longer able to cast dark rituals and may never use Black Ritual Powder in their rituals. In addition, those who receive the benefit of a White Ritual become beholden to the Laws of a White Sorcerer while they are under the affects of the ritual. Should the character break any of these Laws or the White Sorcerer’s Cardinal Oath, they immediately lose the benefit of the Ritual and drop to 1 Body Point max for the remainder of the Event which cannot be healed by any means. The White Sorcerer who cast the white ritual can no longer cast any white only rituals and loses their White Sorcerer Bonus for the remainder of the Event.",
+      { "type": "header", "content": "Losing Faith"},
+      "Sometimes a Cleric, Paladin or White Sorcerer may break their laws – either accidentally or on purpose. Doing so causes the character to no longer be able to use some or all of their skills or rituals. A Plot Marshal will determine what effect breaking their laws has on the character’s faith skills. In-game, the character must find a way to atone for their transgression if they wish to regain their access to their skills.",
+      "Sometimes a Cleric, Paladin or White Sorcerer commits an act they can never atone for or renounces their faith; they fall from grace. These characters lose access to their skills and cannot re-spend their Build Points, their Body Points are unaffected. A character can choose to follow a new path, choose to be a Druid or Dark Lord. If they are accepted by one of these paths, their skills are removed from their card, their Body Points gained from Follower of the Light skills are lost, and they can then use these unspent, refunded Build Points to purchase skills off the other two lists. A White Sorcerer can choose to remain a Gray Sorcerer or become a Dark Sorcerer. Either way, the character does not lose the ranks of Sorcery they already have learned.",
+      "A character can only change faiths once ever and can never go back to their old faith. Equally, a character can only have skills from one faith at one time ever."
+    ]
   }
 ]
