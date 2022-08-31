@@ -4306,20 +4306,278 @@
         ]
       },
       "This is not an exhaustive list, but should give the player some ideas as to what is expected.",
-      { "type": "header", "content": "The Quest"},
+      {
+        "type": "header",
+        "content": "The Quest"
+      },
       "All Followers of the Light need to complete a quest before they can become Clerics, Paladins, or White Sorcerers. Though this quest can come to the character from various in-game sources, ultimately it is the Plot Committee who decides when a character is ready to be quested and sets down the specific quest the character must complete. Successful completion of this quest satisfies the “Plot Approval” requirement to learn the Cleric, Paladin, and White Sorcerer skills.",
-      { "type": "header", "content": "Special Follower of the Light Skill Rules"},
+      {
+        "type": "header",
+        "content": "Special Follower of the Light Skill Rules"
+      },
       "All characters that have Cleric or Paladin skills or is a White Sorcerer must follow their respective laws. This skill set is subject to Plot approval and can be taken away or denied access to for failing to follow these rules. Should a character lose access to their skills, they must find a way to atone for their transgression in-game.",
       "In addition, as with other faith lists, should a Paladin or Cleric lose their free will by a spell or skill they no longer have access to their Followers of the Light Tagged Skills. This only applies to charm like effects that gives the wielder control over the target as is the case with Enslavement, and Dominate spells; Hypnosis; Demonic Charm, etc. Effects such as Silent and Mute, Bedazzle, Speak the Truth, etc. that do not control the character do not cause them to loose access from their faith skills. When the charm ends, the character can once again use their abilities.",
       "The following Followers of the Light skills: Heal Wounds, Life, Destroy Lesser Undead, and Destroy Undead are not used should the player miss their target. If the target character calls a martial defense of any kind the skill is stopped but not used. If the attack takes effect or a spell defense that stops physical attacks is used, the skill is used up for that Tag Cycle. There are special rules for the Destroy Undead skill and the player should read that skill description carefully.",
-      { "type": "header", "content": "Special White Sorcerer Rules"},
+      {
+        "type": "header",
+        "content": "Special White Sorcerer Rules"
+      },
       "Once a character learns Rank 3 Sorcery skill, they have the option of remaining a Gray Sorcerer or choosing a side. Those that choose to follow the High Lord become White Sorcerers.",
       "The White Sorcerer gains certain benefits for aligning themselves with the light. First, they receive a +5% bonus to all white rituals. Second, they are able to cast the rituals restricted to White Sorcerers; those rituals that are designated as white only. Finally, they gain double the knowledge bonus for the ranks of the Healing School known for themselves, other casters, and participants in all rituals.",
       "However, there are some disadvantages. They are no longer able to cast dark rituals and may never use Black Ritual Powder in their rituals. In addition, those who receive the benefit of a White Ritual become beholden to the Laws of a White Sorcerer while they are under the affects of the ritual. Should the character break any of these Laws or the White Sorcerer’s Cardinal Oath, they immediately lose the benefit of the Ritual and drop to 1 Body Point max for the remainder of the Event which cannot be healed by any means. The White Sorcerer who cast the white ritual can no longer cast any white only rituals and loses their White Sorcerer Bonus for the remainder of the Event.",
-      { "type": "header", "content": "Losing Faith"},
+      {
+        "type": "header",
+        "content": "Losing Faith"
+      },
       "Sometimes a Cleric, Paladin or White Sorcerer may break their laws – either accidentally or on purpose. Doing so causes the character to no longer be able to use some or all of their skills or rituals. A Plot Marshal will determine what effect breaking their laws has on the character’s faith skills. In-game, the character must find a way to atone for their transgression if they wish to regain their access to their skills.",
       "Sometimes a Cleric, Paladin or White Sorcerer commits an act they can never atone for or renounces their faith; they fall from grace. These characters lose access to their skills and cannot re-spend their Build Points, their Body Points are unaffected. A character can choose to follow a new path, choose to be a Druid or Dark Lord. If they are accepted by one of these paths, their skills are removed from their card, their Body Points gained from Follower of the Light skills are lost, and they can then use these unspent, refunded Build Points to purchase skills off the other two lists. A White Sorcerer can choose to remain a Gray Sorcerer or become a Dark Sorcerer. Either way, the character does not lose the ranks of Sorcery they already have learned.",
       "A character can only change faiths once ever and can never go back to their old faith. Equally, a character can only have skills from one faith at one time ever."
+    ]
+  },
+  {
+    "name": "Druid",
+    "introduction": [
+      "The Mother is one of the three divine forces of the LAIRE game world, along with the High Lord and the Dark Lord. While the latter eternally feud with each other, the Mother concerns herself with the aspects of the world not directly in the fight – the plants, animals and creatures She has created, in other words, nature. There are three primary worlds or Planes of Existence in our game. Most of the action takes place on Midlantia, the Mother’s home. The Elysian Fields is the home of the High Lord and Hell is the home of the Dark Lord. Druids are the followers of the Mother, Her voice and hands amongst the mortal creatures of the world ensuring above all else that life and the natural cycle of death and rebirth are maintained and the balance between the forces of Law and Choas is kept. In times past, the battle between the forces of Good and Evil have devastated and nearly destroyed the world. The Mother's followers have been there to put things right, but they have another enemy - the undead. In a time long ago, necromancy was created, a magical force that threatens the world with destruction in a slow and nearly unstoppable way. Necromancy is an anathema to everything the Mother is and her followers are tasked with its destruction",
+      "Characters wishing to follow this faith should seek out the Druids and find out in-game what it really neans to be a Druid.",
+      {
+        "type": "header",
+        "content": "Druidic Society"
+      },
+      "In the lands of Avalon and indeed most of Midlantia, the Druids have formed themselves into Circles. These Circles are lead by a High Druid and protect the local geographical regions. There is a Circle for Avalon, Barconia, Coventry, etc. This is the norm for the Druids, but there may be others who have different beliefs on how to organize themselves and this must be found out in-game.",
+      "For every Druid that is part of a circle, there is a one this not. A loner that wonders the deep forests, lonely crags, high mountain tops and low mountain valleys segregated from mortal societies. These loner types care little for other mortal races and seek to avoid them and their distractions.",
+      "Some Druids are warriors. Proactive fighter who move through nature as a predator hunting those that seek to despoil the Mother’s gardens. Others are mages and scholars. They seek to teach and guide others in living in harmony with nature.",
+      "Druids seek to maintain the harmonious balance of nature and fix things when external powers upset this balance. A Druid would be called to a forest after a fire to ensure life returns naturally to the area. A land destroyed by a necromantic disease, however, has been destroyed un-naturally and a Druid would use their faith to bring life to the land once more.",
+      "Druids are neither good nor evil; there is no morality in the teachings of the Mother. The Mother teaches balance and survival through ones own skills and abilities. Overcoming adversity and difficulty proves ones own worth. It is how all things grow and become better. Some Druids take this idea of survival of the fittest to the extreme. They embrace the aggressive and sometimes violent power of nature and turn wild and feral. They see all mortal races as their enemies and lash out and try to destroy them all.",
+      "Most Druids, being moral people, have a sense of right and wrong. They may find themselves upholding some personal belief of what is right when not directly serving the interests of the Mother. This is fine, so long as their duties to the Mother and her ideals and precepts come first.",
+      "Any race that has free will can become a Druid. Characters such as goblins, orcs, trolls and other creatures that do not have free will cannot follow any faith. A character can only follow one faith at one time; therefore a character cannot become a Follower of the Light or Servant of Darkness while they are still a Druid.",
+      {
+        "type": "header",
+        "content": "Animal Totems and the Elements"
+      },
+      "Once a character becomes a Druid they are given a guardian totem animal. The guardian totem is the spirit of an animal that most represents the Druid’s nature and demeanor. This totem may also be called upon during Druidic ceremonies and may be called upon by the Druid while in long meditation for guidance and advice. This is also the animal form that the character will assume when they take on the Aspect of the Beast if they purchase that skill.",
+      "Druids call upon the power of the elements – those primordial forces that all things in the world are made from – while in service to the Mother. Most Druids are gifted with abilities that allow them accesses to these forces. When a Druid first learns the Elemental Pool skill, they choose one element to start with. This is generally the element the Druid feels closest too. They can learn to wield other elements from their pools. Those Druids, who embrace the elemental power of nature, can learn the Elemental Quintessence skill and become empowered by their favorite element."
+    ],
+    "rules": [
+      "A character can only be a follower of one faith; therefore a character may only be a Druid, a Follower of the Light, or a Servant of Darkness. They may only purchase skills from one of these three lists.",
+      "There are many other aspects a player should know about before embarking on this Advanced Career.",
+      {
+        "type": "header",
+        "content": "The Druidic Code"
+      },
+      "There are six rules the Mother has set down for her followers to live by. There may be other in-game codes and restrictions placed upon the character by the in-game teachers and Circles but these are the ones the Mother has set. They are as follows:",
+      {
+        "type": "list",
+        "items": [
+          "A Druid must protect and defend nature from wonton destruction and abuse at all times. The Followers of the Mother are the trusted caretakers of Her creation and are tasked with its protection. A farmer who harvests his crops or fells some trees to keep warm in the winter is using the bounty of the Mother the way she wishes. A town that destroys an entire forest to better the view of a river is abusing nature and should be stopped.",
+          "A Druid must oppose Necromancy, its practioners, and its creations, the undead, at all times. They must destroy the undead whenever possible and prudent and either kill the necromancer or have the knowledge of necromancy removed from them. All sources of necromancy must be destroyed or purged when found. The struggle against necromancy must be fought always.",
+          "A Druid must always tend to gardens of the Mother. The natural, wild places of the world. The forests, streams, oceans, plains, savannas, and swamps, all places where the struggle and drama of life plays out. They must always maintain the health and natural balance of nature.",
+          "A Druid cannot ever tell a lie. In order to perform the role of guide and advisor that many Druids find themselves in, they must be trusted. Their words therefore must always be free of lies.",
+          "A Druid may never learn Necromancy, cast any necromantic spell, or use any necromantic item. Necromancy is the Mother’s bane and Her followers must not succumb to its temptations.",
+          "A Druid may not wear metal armor – chain mail, light or heavy plate. Encasing ones self in that much metal cuts you off from the natural world around you. Let the Mother be your armor or take from the fauna and flora around you; armor of leather, bone, or wood."
+        ]
+      },
+      {
+        "type": "header",
+        "content": "The Druid's Focus"
+      },
+      "Every Druid must have a focus to use their druidic skills. All skills in the Druid Skill List Table denoted with an “F” require a focus.",
+      "The focus can be any item of any value, either in-game such as a piece of numbered jewelry, a weapon of quality, or in-play. When a character completes the necessary in-game requirements and learns the Druid skill, they must choose a focus. The character can have only one focus at a time and should they lose their focus, it must be recovered. If the focus is destroyed or lost beyond any hope of recovery, they may create a new one. The player must find out in- game how to do this.",
+      {
+        "type": "header",
+        "content": "Special Druid Skill Rules"
+      },
+      "All characters that have Druid skills must follow the Druidic Code. This skill set is subject to Plot approval and can be taken away or denied access to for failing to follow these rules. Should a character lose access to their skills, they must find a way to atone for their transgression in-game.",
+      "In addition, as with other faith lists, should a Druid lose their freewill by a spell or skill they no longer have access to their faith abilities. This only applies to charm like effects that gives the wielder control over the target as is the case with Enslavement and Dominate spells; Hypnosis; demonic charm, etc. Effects such as Silent and Mute, Bedazzle, or Speak the Truth that do not control the character do not cause them to lose access from their faith skills. When the charm ends, the character can once again use their abilities.",
+      {
+        "type": "header",
+        "content": "Special Uses for the Elemental Pool"
+      },
+      "When the character purchases the Elemental Pool skill, they must choose a single element to use with the pool; the character can purchase the Elemental Attunement skill to add more elements to their pool. The Druid who purchases an Elemental Pool may use it to empower their weapons with their element or throw their element as a physical attack. The list of elements, their opposites, and the damage done are listed below.",
+      {
+        "type": "table",
+        "headers": [
+          "Element",
+          "Opposite",
+          "Effect"
+        ],
+        "rows": [
+          [
+            "Air",
+            "Earth",
+            "Lightning Damage"
+          ],
+          [
+            "Earth",
+            "Air",
+            "Earth Damage"
+          ],
+          [
+            "Fire",
+            "Water",
+            "Fire Damage"
+          ],
+          [
+            "Water",
+            "Fire",
+            "Ice Damage"
+          ],
+          [
+            "Life",
+            "Death",
+            "Healing Damage"
+          ],
+          [
+            "Death",
+            "Life",
+            "Body Damage"
+          ]
+        ]
+      },
+      "For all the elements, the character pays 1 Elemental Pool Point to deal one point of magic damage. When a Druid channels Death through a weapon, it will harm anything – even undead. However, due to the nature of the element, if they throw the element of Death, it will heal any character normally healed by Death Magic. If a Druid channels Life through their weapon, they will harm anything, even living characters. However, if they throw that element, they will heal living characters or harm characters that normally are harmed by healing, such as undead. Note that healing damage will do direct body damage to any character that is harmed by healing.",
+      "Druids can use their Elemental Pool through their claws in addition to their weapons.",
+      {
+        "type": "header",
+        "content": "The Quest"
+      },
+      "All Druids need to complete a quest before they can become Druids. Though this quest can come to the character from various in-game sources, ultimately it is the Plot Committee who decides when a character is ready to be quested and sets down the specific quest the character must complete. Successful completion of this quest satisfies the “Plot Approval” requirement to learn the Druid skill.",
+      {
+        "type": "header",
+        "content": "Losing Faith"
+      },
+      "Sometimes a Druid may break their code – either accidentally or on purpose. Doing so causes the character to no longer be able to use some or all of their skills and spells. A Plot Marshal will determine what effect breaking the Druidic Code has on the character’s faith skills. In-game, the character must find a way to atone for their transgression if they wish to regain their access to their skills.",
+      "Sometimes a Druid commits an act they can never atone for or renounces their faith; they fall from grace. These characters lose access to their skills and cannot re-spend their Build Points, but their Body Points are unaffected. A character can choose to follow a new path, either to be a follower of the High Lord or Dark Lord. If they are accepted by one of these paths, their skills are removed from their card, the Body Points gained from Druidic Skills are lost, and they can then use these unspent, refunded Build Points to purchase skills off the other two lists.",
+      "A character can only change faiths once ever and can never go back to their old faith. Equally, a character can only have skills from one faith at one time ever.",
+      {
+        "type": "header",
+        "content": "Nature Magic"
+      },
+      "Nature Magic works just like any regular low magic school; it must be learned rank by rank, requires the use of the correct full verbal and costs Power Points. Standard spell defenses will stop the effects of these spells – Negation, Spell Shield, etc – except the character gains no Elemental Pool Points or Power Points if an Absorption spell is used. A character can use the Redirect skill to redirect a Nature Magic spell.",
+      "Nature Magic spells cannot be used with Warlock skills, Create Scroll skill, or Sorcery Rituals.",
+      "In order to learn ranks of Nature Magic, the character must meet the following requirements in addition to the listed prerequisites.",
+      {
+        "type": "table",
+        "headers": [
+          "Rank",
+          "Elemental Pool Purchases"
+        ],
+        "rows": [
+          [
+            "1",
+            "2"
+          ],
+          [
+            "2",
+            "4"
+          ],
+          [
+            "3",
+            "6"
+          ],
+          [
+            "4",
+            "8"
+          ]
+        ]
+      },
+      "Below is the list of spells available in each rank of Nature Magic."
+    ],
+    "natureMagicVerbal": "By Nature's Will, I...",
+    "natureMagic": [
+      {
+        "name": "Create Food and Water",
+        "duration": "Instant",
+        "cost": 2,
+        "rank": 1,
+        "description": [
+          "With this spell, the Druid may produce an edible meal out of the earth. The meal created is the minimum requirement for healthy survival for one person for a day. The food is neither very filling nor great in quality. The Druid also causes a small jet of water to spring from the ground for one minute producing 4 liters of pure drinking water.",
+          "The Druid may produce food for themselves for the month instead of paying the monthly maintenance to Logistics."
+        ]
+      },
+      {
+        "name": "Repel this Being",
+        "duration": "While Concentrating",
+        "cost": 3,
+        "rank": 1,
+        "description": [
+          "This spell compels the target character to be unable to attack the Druid with attacks or spells. If the Druid attacks the target, the spell will end.",
+          "The spell lasts as long as the Druid concentrates. Out-of-game, in order to represent this, the player must hold their arm outstretched parallel to the ground with their palm facing towards the target.",
+          "This spell is a charm like effect and therefore can be stopped by Resist Suggestion spell, the Iron Will skill, Elven Resist skill, and other defenses that stop charms in addition to other defenses that stop spells."
+        ]
+      },
+      {
+        "name": "Entangle Your Limbs",
+        "duration": "3 Seconds",
+        "cost": 4,
+        "rank": 2,
+        "description": [
+          "This spell causes vines to rise up and entangle the targeted character’s arms and legs together and pinning them to the ground for 3 seconds. While under the effects of this spell, the character is unable to move and must place their arms at their sides and legs together.",
+          "If the target has a +10 or greater Strength Bonus, Non-Combinable they are unaffected at all by this spell. The character must have this before they are affected by the spell, they cannot invoke latent spells or skills or invoke items to gain the +10 Strength Bonus, Non- Combinable after they are affected by this spell to free themselves."
+        ]
+      },
+      {
+        "name": "Heal Your Disease",
+        "duration": "Instant",
+        "cost": 4,
+        "rank": 2,
+        "description": "This spell will cure most diseases, including the one caused by the Cause Disease and Plague spells."
+      },
+      {
+        "name": "Strike You Down with Thunder and Lightning",
+        "duration": "Instant",
+        "cost": 9,
+        "rank": 3,
+        "description": [
+          "Target character suffers 24 points of damage from magical lightning and effected by a 5 second Torso Stun.",
+          "Note that shields of quality will stop all the effects of this spell."
+        ]
+      },
+      {
+        "name": "Grow a Wall of Brambles",
+        "duration": "End of Current Tag Cycle or Until Destroyed",
+        "cost": 9,
+        "rank": 3,
+        "description": [
+          "This spell creates a 10 foot by 10 foot by 1 foot nearly impassable wall of thorny vines and brambles. The wall is non-magical and can be destroyed by receiving 100 Body Points of damage or a Kill Spell. The wall suffers double damage from fire attacks.",
+          "Any creature attempting to pass through the wall suffers 14 points of normal damage and becomes stuck in the wall. Any creature stuck in the wall may push their way through in 5 seconds with a +3 or greater Strength Bonus. Characters with a +6 or greater Strength Bonus may pass unhindered but not undamaged.",
+          "The Wall of Brambles follows the normal wall spell rules except that the Druid need not concentrate to maintain the wall. The Druid must have a 10 foot long piece of green garland to represent the wall. When the wall is first cast, anyone in the area of effect must choose which side of the wall they wish to wind up on.",
+          "The wall remains until the end of the current Tag Cycle or the wall has taken enough damage to destroy it. The wall may not be removed by a Dispel Magic or Sever Magic spell and the wall cannot be healed, but the caster can freely pass through the wall at will. If the player who cast the wall leaves Line of Sight, they should sign and leave the Elemental Pool Points with the garland. Any damage done to the wall that does not destroy it should be recorded on the tag.",
+          "Other than what was stated above, this follows the normal wall spell rules."
+        ]
+      },
+      {
+        "name": "Travel Through this Tree to Another Place",
+        "duration": "Special",
+        "cost": 12,
+        "rank": 4,
+        "description": [
+          "By use of this spell, the Druid may transport themselves and all items carried and worn through one tree to another. The tree must be touched and be at least one foot in diameter. The Druid may take one other willing, living character with them.",
+          "After completion of the verbal, the character must put on a white headband. From the time the Druid puts on a white headband, they have 20 seconds to reach the other tree and the Druid cannot be blocked by other characters while moving. If the Druid does not reach another tree by that time, they are brought to the Brink of Death and rise up through the earth where the time ran out with everything they are carrying including another character. This additional character is not harmed.",
+          "The Druid cannot drop or pick up any items while they are tree walking.",
+          "Note that the player does not call a Hold to use this spell."
+        ]
+      },
+      {
+        "name": "Transmute Your Flesh to Stone Forever",
+        "duration": "End of Current Event",
+        "cost": 14,
+        "rank": 4,
+        "description": [
+          "The targeted character and all items carried or in hand including Mithril and magical items are turned to magical stone until the end of the current Event.",
+          "The target is not dead but in stasis, their Death Count and all other timed effects – alchemical durations, diseases, Death Slave, etc. – stop. They cannot be affected by physical attacks or spells including those augmented by Warlockery.",
+          "The affected character may be moved with a +6 Strength Bonus, Non-Combinable or better.",
+          "This spell may be undone with Oil of Stone to Flesh or Restore Flesh spell or certain sorcery rituals. Dispel Magic and Sever Magic spells have no effect on the stoned character. The Druid who cast the spell can remove it by touching the player."
+        ]
+      },
+      {
+        "name": "Restore You Back to Flesh Again",
+        "duration": "Instant",
+        "cost": 14,
+        "rank": 4,
+        "description": [
+          "This spell turns a character that is currently turned to stone back to being flesh again in the same state they were when turned to stone. Therefore, if a character was Mortally Wounded and then turned to stone, they are still Mortally Wounded and their Death Count continues.",
+          "This will undo most turn to stone effects such as a Basilisk’s gaze, a Gorgon’s Gaze, the Flesh to Stone spell or similar spells or effects."
+        ]
+      }
     ]
   }
 ]

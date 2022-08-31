@@ -2267,6 +2267,149 @@
           "Skills with an “F” require the use of the Cleric’s or Paladin’s focus. For turning skills, the focus must be held up, but for the rest the character must simply have the focus on their person.",
           "All skills listed as effecting “undead” effect demons as well. For example, Destroy Lesser Undead will also work as a Destroy Lesser Demon. The player need not call anything differently."
         ]
+      },
+      "druid": {
+        "skills": [
+          {
+            "name": "Druid",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Plot Approval and Herbal Lore",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Elemental Pool (*,V,F)",
+            "cost": 5,
+            "duration": "Instant",
+            "prerequisiteSkill": "Druid",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Elemental Attunement",
+            "cost": 4,
+            "duration": "Constant",
+            "prerequisiteSkill": "2 Elemental Pool",
+            "purchase": "Special",
+            "tagged": "No"
+          },
+          {
+            "name": "Claws (V,F)",
+            "cost": 3,
+            "duration": "Constant",
+            "prerequisiteSkill": "Druid",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Pass Without a Trace",
+            "cost": 5,
+            "duration": "Constant",
+            "prerequisiteSkill": "Druid",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Nature's Child (V,F)",
+            "cost": 5,
+            "duration": "10 Minutes",
+            "prerequisiteSkill": "Pass Without a Trace",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Forest Meld (V,F)",
+            "cost": 6,
+            "duration": "Special",
+            "prerequisiteSkill": "Pass Without a Trace",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Bark Skin (V,F)",
+            "cost": 4,
+            "duration": "30 Minutes",
+            "prerequisiteSkill": "Pass Without a Trace",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Nature's Purity (F)",
+            "cost": 5,
+            "duration": "10 Minutes",
+            "prerequisiteSkill": "Elemental Pool",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Nature's Health (F)",
+            "cost": 4,
+            "duration": "Constant",
+            "prerequisiteSkill": "Elemental Pool",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Compel Mother's Children (V,F)",
+            "cost": 8,
+            "duration": "30 MInutes",
+            "prerequisiteSkill": "Nature's Child",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Hibernate (V,F)",
+            "cost": 3,
+            "duration": "Special",
+            "prerequisiteSkill": "Forest Meld",
+            "purchase": "Once",
+            "tagged": "No"
+          },
+          {
+            "name": "Shapeshift (V,F)",
+            "cost": 7,
+            "duration": "1 Hour",
+            "prerequisiteSkill": "Nature's Child, Claws",
+            "purchase": "Multi",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Aspect of the Beast (V,F)",
+            "cost": 10,
+            "duration": "1 Hour",
+            "prerequisiteSkill": "Shapeshift, Compel Mother's Children",
+            "purchase": "Once",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Elemental Quintessence (V,F)",
+            "cost": 10,
+            "duration": "1 Hour",
+            "prerequisiteSkill": "Nature Magic Rank 3",
+            "purchase": "Once",
+            "tagged": "Yes"
+          },
+          {
+            "name": "Nature Magic (F)",
+            "cost": [
+              2,
+              2,
+              2,
+              2
+            ],
+            "duration": "",
+            "prerequisiteSkill": "Elemental Pool, Special",
+            "purchase": "Multi",
+            "tagged": "No"
+          }
+        ],
+        "specialNotes": [
+          "Skills with an asterisk (*) can be delivered by either touch, thrown, or used through a weapon. No extra skill is required to deliver these skills through a weapon. A Druid cannot channel through their weapon and their opponents, therefore if a character strikes an opponents weapon or shield, there is no effect and the skill is not used.",
+          "Skills with a “V” require a verbal to use. If the character is unable to speak – such as being under the effect of a Silent and Mute spell – they are unable to use these skills. The verbal must be at least 5 syllables, not counting the skills name but can be anything the player wishes, and must contain some reasonably recognizable version of the skill’s name in the verbal. For example, “By the will of the Mother, I meld with the forest”, would be an acceptable verbal for the Forest Meld skill. Simply using the name of the skill is not an acceptable verbal.",
+          "Skills with an “F” require the use of the Druid’s focus. The character must simply have the focus on their person to gain access to these skills.",
+          "The Nature Magic skill is purchased in ranks. Each rank costs the listed Build Points. The character must have 2 purchases of the Elemental Pool skill per rank."
+        ]
       }
     }
   ],
