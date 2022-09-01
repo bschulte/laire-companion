@@ -1,0 +1,120 @@
+{
+  "Advanced Career": "Refers to any of the ten Advanced Careers listed in Chapter 4",
+  "Armor Points": [
+    "A measure of the armor protection a character has. All types of Armor Points are stackable, but Armor Points from the same source are not. For example, a character can only have one Armor spell or receive the benefits of only one Oil of Armor.",
+    "There is an order that the character’s Armor Points are lost; different types of Armor Points are lost in the following descending order:",
+    {
+      "type": "list",
+      "items": [
+        "Armor Spell",
+        "Magical Armor",
+        "Oil of Armor",
+        "Real Armor Worn"
+      ]
+    }
+  ],
+  "Awarded Build Points": "A measure of how many Build Points a character has been awarded. It does not include the starting Build Points.",
+  "Basic Career": "Refers to any of the three basic skill lists in Chapter 3.",
+  "Body Points": [
+    "A measure of the amount of damage a character can take. The character’s base Body Points are determined by the skills they have purchased. All types of Body Point bonuses are stackable, but Body Points from the same source are not. For example, a character can only have one Stamina Spell or receive the benefits of only one Stamina potion.",
+    "There is an order that the character’s Body Points are lost; different types of Body Points are lost in the following descending order:",
+    {
+      "type": "list",
+      "items": [
+        "Stamina Spell",
+        "Heroism Song",
+        "Barkskin Spell",
+        "Magical Body",
+        "Stamina Potion",
+        "Base Body Points"
+      ]
+    }
+  ],
+  "Build Points": "A measure of how much skill and how powerful a character is. Also, Build Points are used to purchase new skills for the character. Every skill has a Build Point cost associated with it.",
+  "Character": "This refers to any in-game persona a player has. A player’s character, an Orc Shaman, a Troll, a farmer, and a Golem are all characters. It does not matter if the character is a PC or NPC, they are all characters.",
+  "Damage Bonus": "A measure of the damage a character can deal with their weapon. All weapons have a base damage determined by the type of weapon it is. All Damage Bonuses are stackable but not from the same source. The exception is Damage Bonuses from skills such as the Proficiency skill, the Backstab Skill, and Assassin Proficiency skill. These are all stackable with themselves. For example, a character with 2 Proficiency skills, 2 Master Proficiency skills, 3 Assassin Proficiency skills using a One-Handed Edged weapon would deal 9 points of damage with each swing.",
+  "Damage Resistance": "Some characters are not affected by some types of weapon attacks. These characters have Damage Resistance and require special weapon materials to affect them. There are three levels of Damage Resistance: Silver, Mithril and Magic. This denotes the minimum special weapon needed to hurt the character. So a character who has Damage Resistance: Mithril is only hurt by Mithril or Magic damage.",
+  "Death Count": "The time during which a character is dying. Once a character is Bleeding to Death, Mortally Wounded or at the Brink of Death, they are in their Death Count.",
+  "Defense that Stops Physical Attacks": "Refers to any skill, spell, ability, or magical effect that will protect the character from physical damage. Invulnerability spell, Ritual of Defense, and Dodge are all examples of a defense that stops physical attacks.",
+  "Defense that Stops Magical Attacks": "Refers to any skill, spell, ability, or magical effect that will protect the character from magical affects and damage. Absorption spell, Ritual of Spell Shield, Redirect skill, Resist Spell skill, and Dodge are all examples of a defense that stops magical attacks.",
+  "Eldritch Effects": [
+    "This type of effect is indicative of the attacks and effects of higher powers. For example, the breath of Drakes and Dragons are Eldritch in nature. This is not to be confused with the Pyrotechnics School of magic. Even though the verbal says, “I summon forth an Eldritch…” it is not a true Eldritch attack.",
+    "These attacks are only stopped by: the Dodge skill if it is not an area of effect attack, Resist ability or effect, a Ritual of Eldritch Shield, and Elemental Protection. Shields of any quality do not stop the attack. Soaks and Thresholds of any strength are bypassed by these attacks. Armor will protect the target character normally. Magic Sanctuary spell, Wall of Force spell, Haven spell, Wards, and Circle of Protection will stop Eldritch attacks.",
+    "If a character is reduced to -1 Body Points by an Eldritch attack, they are immediately brought to the Brink of Death and are left as a smoldering stump with no limbs or head. Additionally, all items – magical or otherwise – are destroyed, except for artifact level items. Rituals cast upon the character remain unaffected."
+  ],
+  "Event": "A regular monthly scheduled event. Most events are three days long, Friday night to Sunday afternoon. Some Events last longer, Friday night to Monday afternoon; these special four day events take place on Memorial Day and Labor Day. Other events only last one day, like a holiday party.",
+  "Greater Undead": "A type of undead that is intelligent and able to learn skills. The following are examples of greater undead: Death Knight, Death Mage, Death Assassin, any other Lord class undead, Mummy, Vampire, Death Lord, and Lich. Some undead are the greater version of their type of undead but they are still not greater undead. For example, a Greater Skeleton is still a lesser undead.",
+  "Incorporeal": [
+    "Characters that are incorporeal have no physical form and cannot do anything that requires a physical form. They cannot pick anything up or wear armor. Just because an incorporeal character is affected by an attack – magic for example, it does not mean they may manipulate that in any way, shape or form. A Wraith cannot pick up a magic sword and run away with it, for example.",
+    "Incorporeal characters may pass through solid, non-living, non- magical objects by saying, “Phasing” loud enough for people to hear. The following exceptions apply. A player may never, ever call a Hold to phase. A phasing character cannot stop halfway through and “hide”, they must pass through immediately. A character can only phase through doors or other portals the player can actually move through. A player may not call a hold to move to the other side of a window; they have to actually go through the window or door. The player is always in-game and can be attacked or harmed while phasing. If a wall is represented by a tarp or similar out-of-game physical representation, the player may phase through it by going under or through a seam – non-destructively of course, but they are always in-game."
+  ],
+  "Latent Spell": "Any low magic, Nature Magic, Spell Song spell, or ritual that can be invoked either in defense of an attack or to be used without preparation. For example, the Negation and Invulnerability spells are latent defensive spells; a Giant Strength spell or Ice Brand spell are examples of latent spells that are not defenses.",
+  "Lesser Undead": "A type of undead that may or may not be intelligent but cannot learn skills. The following are examples of lesser undead: Zombie, Skeleton, Ghoul, Revenant, Death Slave, Specter, Wraith, Shadows, and Shades. Some undead are the greater version of their type of undead but they are still not greater undead. For example, a Greater Skeleton is still a lesser undead.",
+  "Line of Sight": "The player must be able to see their target in order to effect or maintain a skill, spell, or ability. The player my take a single step or lean to verify they can see their target. The character does not have to be looking at the target and minor obstructions such as people or a tree do not block line of sight, a solid large obstruction such as a building will. If the character moves behind foliage that prevents them completely from seeing their target, line of sight is broken. Line of sight is also broken if the character is rendered Unconscious, but not blinded.",
+  "Monster Cabin": "This is also called the NPC Cabin. This is where a player goes for their NPC work shift to find out what they are doing. It is the command center for the Plot Committee and the NPC’s.",
+  "NPC": "This acronym stands for Non-Player Character, which refers to the roles a player plays that are controlled by the Plot Committee and are sent out from the Monster Cabin.",
+  "NPC Cabin": "This is also called the Monster Cabin. This is where a player goes for their NPC work shift to find out what they are doing. It is the command center for the Plot Committee and the NPC’s.",
+  "OCFS": "An acronym for Opening Ceremonies Fact Sheet. The OCFS is found at the Logistics area at each Event. It contains all the important things you need to know for the Event. Things like: safety issues, special rules, important announcements, information about the weekend from the Plot Committee, etc. Every player is responsible for knowing everything in the OCFS. Not reading it is not an excuse for not following the rules!",
+  "PC": "This acronym stands for Player Character which refers to the character the player plays and is in control of.",
+  "Player": "This refers to the real world, out-of-game person who plays LAIRE. Everyone in our game is a player and they all play characters.",
+  "Resist Ability": "This defensive ability will stop any and all attacks or affects that effect the character. After calling this defense the character is Torso Stunned for 5 seconds, even if the character is normally not affected by Torso Stuns. The Torso Stun cannot be stopped or resisted in any way. While Torso Stunned, the character may call another Resist if they have it, but they are Torso Stunned for an additional 5 seconds. For example, a character calls a Resist when they are already stunned for 2 seconds; they would have another 8 seconds to count off before the stun effect ends.",
+  "Shadow Walk": [
+    "This ability allows a character to move from one shadow to another. There must actually be a shadow where the character starts and stops their travel. To use this ability, the play must say loudly enough to be heard, “Shadow Walk 1, Shadow Walk 2, Shadow Walk 3.” When the character arrives at their destination they must say the same thing again. While in their count, a character is vulnerable to attacks and cannot parry, but may use marshal or magical defenses. To represent their out of play status, the player should put their weapons or claws over their head.",
+    "When Shadow Walking, the character is completely unaware of the in-game world around them. They cannot listen in to conversations or wait to appear. The character must choose their reentry point at the time they Shadow Walk. The target area must be specific but does not need to be in line of sight."
+  ],
+  "Skill List": "A collection of similar skills. The Basic Career Skill Lists cost the character 10 Build Points to purchase and have an on list and off list cost. The Advanced Career Skill Lists have no cost associated with them but are grouped and have prerequisites to give the character a choice of skills to learn for that Advanced Career.",
+  "Spell Defense": "Any low magic, Nature Magic, Spell Song spell, or ritual that protects the character for some kind of attack or effect and is latent. A Negation, Invulnerability, Elemental Protection- Fire and a Spell Shield are all examples of Spell Defenses. An Armor spell is not a Spell Defense as it is not latent.",
+  "Soak": "A Soak is a type of defense that protects the character from physical attacks by subtracting its value from all damage. So a 5 Soak would subtract 5 points of damage from every physical attack. If a character was struck with an attack that did 4 points of damage, they would take no damage and if the character were struck with an attack that did 10 points of damage, the character would take 5 points of damage even if that attack did direct Body Point damage. Thresholds are applied before Soaks.",
+  "Strength Bonus": [
+    "A measure of a character’s strength relative to a normal human. Every point of strength adds to the damage done with a weapon. So a +2 Strength Bonus would allow the character to deal two extra points of damage with their attack. There are many different sources of Strength Bonuses. Some races have a natural Strength Bonus, some spells will give a character a Strength Bonus, some alchemical items will give a character a Strength Bonus, some skills give the character a Strength Bonus, etc. All of these Strength Bonuses stack with each other. However, except for the Feat of Strength skill, Strength Bonuses from the same source do not stack. A character cannot use two Giant Strength spells to gain a +6 Strength Bonus. For example, a character can use a Giant Strength spell, a +3 Giant Strength potion, a Feat of Strength skill, and a Holy Blessing skill to gain a +10 Strength Bonus.",
+    "Most Strength Bonuses will allow a character to perform a feat of great strength and last for 15 seconds. For example, a character with a +3 Strength Bonus can carry a character and run with them.",
+    "If not specified, the Strength Bonus is “per hand combinable” which means that if the character uses both hands on a weapon or both hands to perform an action their bonus doubles. “Per hand non- combinable” means that the bonus will not double if the character uses both hands. If the character has some Strength Bonuses from a combinable source and others from a non-combinable source, they still stack, but only the combinable strength will double with the use of two hands. In the above example, the character would have a +10 Strength Bonus with one hand and a +11 Strength Bonus with two hands since only the Holy Blessing is combinable.",
+    "When performing a feat of great strength, characters can work cooperatively. All Strength Bonuses are cumulative and for every character after the first, the bonus increases by +1. So if three characters with no Strength Bonus attempt to open a door, their combined Strength Bonus would be +2.",
+    "When carrying another character, both players must be present. A character cannot grab another character and run away leaving the slower, carried character behind. Therefore, the carrier and the carried must move at the slower of two players speed. The carried player must, in all fairness, move at their fastest possible speed. Any attempt to prevent being carried away in this manner will be dealt with as cheating.",
+    "Every full +3 Strength Bonus the character has allows them to throw another character 5 feet. If a character throws someone horizontally, they are always throwing them half as high. So, if a character throws someone 20 feet, they will go 10 feet high, and you need that much clearance to do so. A character can throw someone straight up at half the normal distance. A character can “cannonball” someone, i.e. throw them with no arc, at one quarter the normal distance. No more than 4 characters at one time can throw one person. There are NO other options, no changing trajectories ever – only the standard 0 degrees, 45 degrees, 90 degrees is allowed.",
+    "For example, four characters want to throw one of their buddies over a pit. The pit is 30 feet wide and the ceiling is 10 feet high. They have a combined Strength Bonus of +27. This would allow them to throw someone 45 feet, but they would also go 23 feet high and hit the ceiling. This throw is impossible. They realized this and decide to throw their buddy with no arc – a cannonball. With their combined Strength Bonus, they could throw their buddy 12 feet straight; well short of the other side of the pit. They party is going to have to find another way around the pit.",
+    "Any feat of great strength is at the marshal’s discretion."
+  ],
+  "Tag Cycle": [
+    "Every normal LAIRE event is broken down into four Tag Cycles. Some events last longer and have two extra Tag Cycles, other special events last only one Tag Cycle. Some skills, Power Points, Elemental Pool Points and Spell Singing Points are only useable a limited number of times in a Tag Cycle. When the character runs out, they cannot use that skill until the next Tag Cycle. Below are the times and tag color for the different Tag Cycles.",
+    {
+      "type": "table",
+      "headers": [
+        "Time",
+        "Tag Color"
+      ],
+      "rows": [
+        [
+          "Lay-On to Saturday 7AM",
+          "Pink"
+        ],
+        [
+          "Saturday 7AM to Saturday 7PM",
+          "Blues"
+        ],
+        [
+          "Saturday 7PM to Sunday 7AM",
+          "White"
+        ],
+        [
+          "Sunday 7AM to Closing (or 7PM)",
+          "Green"
+        ],
+        [
+          "Sunday 7PM to Monday 7AM",
+          "Varies"
+        ],
+        [
+          "Monday 7AM to Closing",
+          "Varies"
+        ]
+      ],
+      "footers": "For special four day events the tag cycles are extended"
+    }
+  ],
+  "Tagged Skills": "Some skills are only usable a limited number of times per Tag Cycle each time they are learned. For example, the Slay skill can only be used once per Tag Cycle every time it is learned. At the beginning of the next Tag Cycle, the character once again has access to these skills. An unused skill cannot be saved or used in the following Tag Cycle. When you check in at Logistics, you will receive your Character Card and a tag for every Tag Skill you have.",
+  "Threshold": "A Threshold is a type of defense that protects the character from physical attacks, so long at it is not exceeded. If the Threshold is exceeded, then the character takes full damage. For example, a 4 Threshold would protect the character from any type of damage that is 4 points of damage or less, even attacks that do direct body damage. If the character is hit with an attack that does 5 points of damage, they would take all 5 points. Thresholds are applied before Soaks.",
+  "Torso Stun": "An affect that renders the character unable to do anything except stagger around helplessly. The character may not take any offensive actions, cast spells, use any skill, invoke any latent spell, or speak while they are under the effects of a Torso Stun. Any innate racial defensive skills or abilities can be used. For example, Outlander Resist, Eleven Resist or Dwarven Resist skills or the Resist ability.",
+  "Total Build Points": "A measure of how many Build Points a character has. It includes the starting Build Points and Awarded Build Points.",
+  "Unobstructed Line of Sight": "The skill, spell, or ability requires a line of sight to the target that is not hindered by any obstacle, in-game or out-of-game, even if the character can see through the obstacle. If a spell packet can travel from the character to the target, however improbably, the skill, spell or ability will take effect. For example, a grate is between the character and the target, if the spell packet fits through the grate the skill, spell, or ability will pass, conversely if the target is behind a Wall of Force spell, a glass window, or a window screen, the spell packet could never travel to the target, so the affect fails."
+}
