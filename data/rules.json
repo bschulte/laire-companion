@@ -125,6 +125,949 @@
     ]
   },
   {
+    "name": "Tag Cycles and Using Skills",
+    "content": [
+      "If you do not play in a Tag Cycle you cannot use tags from that Tag Cycle. This rule applies to PC’s as well as NPC’s."
+    ],
+    "subsection": "General Rules",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "tags"
+    ]
+  },
+  {
+    "name": "Acknowledging an Attack",
+    "content": [
+      "When you are hit with an attack, you should acknowledge the attack by saying, “Got it” when possible and prudent. It indicates you know you were hit with the attack. If you call a defense to the attack it is not necessary to call “Got it.”"
+    ],
+    "subsection": "General Rules",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "attacks",
+      "combat"
+    ]
+  },
+  {
+    "name": "When to Call \"No Effect\"",
+    "content": [
+      "If a character is immune to an attack and they are hit with that attack, the player should call, “No Effect.” However, if the attack normally has no visible affect – Charm School spells, charm abilities, the Take Your Sight spell, the Enfeeble spell, poisons, etc. – the player does not have to call, “No Effect.” The player should still acknowledge they where hit by the attack by saying, “Got it.”",
+      "Common skills characters can learn that fall under this skill are the Poison Immunity, some Spell Immunities, Immunity to Charm, and Alchemical Resist skills."
+    ],
+    "subsection": "General Rules",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "effects"
+    ]
+  },
+  {
+    "name": "Having and Doubling Effects",
+    "content": [
+      "During game play, a character may acquire items or abilities that either halves the cost for using a skill or spell or doubles its effects. No matter what or where it comes from, no spell, skill, ability, power or effect can be both halved and doubled and it can only be halved or doubled once. There are no exceptions to this rule. If the character does have two of these effects, each time they use the spell, skill, ability, etc. they can choose whether to double the effect or half its cost.",
+      "The one and only exception to this rule is the skill Double Power. While it can never be combined with another doubling effect, if the character has something that halves the cost for the spell, it can be combined with the Double Power skill.",
+      "This rule also holds true for items or abilities that reduce the cost for using a spell, skill, ability, etc. These effects cannot be combined with themselves, with halving effects or doubling effects."
+    ],
+    "subsection": "General Rules",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "effects"
+    ]
+  },
+  {
+    "name": "One Strike Combat Rule",
+    "content": [
+      "Engaging in combat in a manner that is dangerous to yourselves or others will not be tolerated. Every player gets one warning per Event given to them by a Marshal. Any player receiving a second combat warning in that same Event will be removed from all combat for the duration of the Event and have to attend a combat retraining class before they will be allowed to fight again.",
+      "For example, a character who ducks low, thereby presenting their head as the primary target, is endangering themselves. If the player gets hit in the head, it is their fault, not the striking player, and they will be given a combat warning.",
+      "On the other hand, a player who aims for their opponents shoulder is asking for trouble as this increases the likelihood of striking their opponents head. The player who delivered the blow, in this case, is at fault and will be given a combat warning."
+    ],
+    "subsection": "General Rules",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "combat"
+    ]
+  },
+  {
+    "name": "Courtesy",
+    "content": [
+      "LAIRE tries to promote personal growth as well as the growth of a character’s Level. So, while in-game your character may be a rude, crude, crass, stupid, bore, you need not be one as well.",
+      "If you need to talk to someone, especially someone who is volunteering a considerable amount of their personal time to be a Marshal, Staff, Plot Marshal, or E-Board member, it is rude and insulting to walk up to that person while they are already engaged in a conversation with another person and interrupt with your request or issue. The other player who you just pushed aside has as much right and need as you do. The polite, and only acceptable, behavior is to approach and wait quietly to be acknowledged or the conversation to end. This is not an invitation to eavesdrop on a conversation that does not concern you. That is almost as rude.",
+      "Similarly, approaching a person while they are in-game and you are out-of-game and starting to talk to them is also rude. Approach and wait to be acknowledged if they are roleplaying, or politely and quietly inform the person that you need to talk to them out-of-game.",
+      "Of course if there is an emergency and you need to talk to someone, then by all means interrupt, but do it courteously by first saying, “Excuse me,” then apologizing to the person you are not going to speak to, “I’m sorry for interrupting, but this is an emergency.” Then go on with your explanation. Everyone deserves to be treated with respect and courtesy, even you.",
+      "It is also important to be conscientious about your personal hygiene. It is difficult to roleplay or otherwise interact with another player if they – to put it bluntly – stink. As someone once said, “Water is not just for drinking, it is for bathing too.” Be sure to bathe before, during, and after during an Event as well as brush your teeth and use plenty of deodorant."
+    ],
+    "subsection": "General Rules",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Calling other Players on Mistakes",
+    "content": [
+      "Sometimes a character will make a mistake using a skill. Some of these mistakes are in-game mistakes, such as flubbing a verbal. Some are out-of-game mistakes, like striking a player in the foot with the Slay skill. In either case, the skill, spell, or effect fails. However, if the mistake is in-game, the player should point out why they are not taking the effect. For example, a character casts a fireball by saying, “I draw upon the earth to cast a fireball.” The targeted character should call “Flubbed verbal”. On the other hand, if the error is an out-of-game mistake, they should call “Out-of-Game Error”. The character using the skill has the right to ask for a Marshal to make a call as to whether the skill was used correctly. The target character in either case does not have to correct the character using the skill."
+    ],
+    "subsection": "General Rules",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "While playing the game, a player will learn information that their character does not know. Most often, this occurs when the player is NPC’ing. This section will describe what acceptable and unacceptable behavior in our game is.",
+      "Regardless of the rules bellow, if at anytime a player hears in-game information that affects their in-game roleplay, they can go to a Player-Rep to have their grievance heard and a suitable resolution to the problem passed down. So watch what you say, you never know who is listening or who may not want to know the information you are giving out."
+    ],
+    "subsection": "In-Game and Out-of-Game Information",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Player to Player Information",
+    "content": [
+      "Anything one player tells another player about their player character or actions their player character takes can be taken in- game at your discretion. For example, at the end of an Event, a player may boast, “Wow! What a game I had today! I killed the Duke!” You may take this information in-game and, at the next Event, inform the Duke who killed him.",
+      "Be careful where and to whom you tell information about your character. If you are telling your best friend, who you trust not to reveal the information or take it in-game, that you just completed your Dark Cleric quest and have learned your first skill, there may be someone near by that over hears the information and CAN bring it in- game. You have no recourse and will get no special considerations if either your best friend or the eavesdropper brings the information in- game."
+    ],
+    "subsection": "In-Game and Out-of-Game Information",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "information"
+    ]
+  },
+  {
+    "name": "NPC to Player Information",
+    "content": [
+      "Any in-game information you learn while playing an NPC or discussing storylines with a Plot Marshal must be kept out-of-game. This information may never be brought in-game and may never be discussed with other players without explicit permission from the, Marshal.",
+      "However, it is acceptable to tell anecdotal stories about your NPC experiences so long as you leave out the unnecessary particulars. For example, you are playing a character on a module. During the module, one of the player characters uses a Servant of Darkness skill and you learn that they are playing such a character. Also, during the fight the same character drops his weapon in a humorous manner. Later you meet up with your friends and want to regale them with the story. So long as you leave out the player’s character name, the information about the module itself, and the fact that they are a Servant of Darkness, you may feel free to tell your friends about the humorous incident."
+    ],
+    "subsection": "In-Game and Out-of-Game Information",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "information"
+    ]
+  },
+  {
+    "name": "Between Event \"In-Game\" Conversations",
+    "content": [
+      "It is unreasonable to expect the game to monitor, curtail, or control quasi-in-game conversations between characters between Events. It is, however, discouraged.",
+      "It is against the rules to plan, conspire, or discuss actions that have in- game effects beyond the characters of the players present. For example, if the Baron of the Dale and the Lord of Lochehart, while at an out-of-game wedding, plan to overthrow the Duke. This is meta- gaming and against the rules. Also, the rule above about player to player in-game information exchange applies. So, if while at this wedding, another player hears the conversation, not only will they be able to bring the information in-game but the two former players will receive the appropriate disciplinary action."
+    ],
+    "subsection": "In-Game and Out-of-Game Information",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "information"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "You are a player, and your character is your representation in the LAIRE game world. You have complete control over your own character – subject to the rules of the game – you control how your character feels, speaks, acts, lives, and dies. In contrast, there are non-player characters (NPC’s), whose actions are not fully controlled by their players; these are described in a later section.",
+      "Your character could become the greatest hero to ever stride across the world, or the most wicked creature ever to have slinked in the shadows, depending on what you want to do and how well you play the game. Remember always – for good or for ill – in-game actions have in-game consequences."
+    ],
+    "subsection": "Player Characters (PC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Know the Rules",
+    "content": [
+      "The better you know the rules, the better a player you can be. Ideally, all the players will know all the rules of the game, but realistically that is a lot of information to know and not every rule in this rulebook is applicable to you or your character. If you are playing a Paladin, you do not need to know how to cast a ritual. As you play the game, you will learn which rules are the most important for your character and which are the most important for you to memorize. You can start off by learning the combat related skills and the low magic spells, as these are the most common, and the ones you will encounter the most."
+    ],
+    "subsection": "Player Characters (PC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Be a Good Sport",
+    "content": [
+      "This is only a game. Like any well-run game or sport, the rules of good sportsmanship apply. Do not get into shouting matches with other players over the interpretation of the rules; stay calm and call a Marshal. If someone is unfamiliar with the rules or makes a mistake, be tolerant and patient; give the new or poor player a chance to become an experienced and good player. For example, if you are hit in the head, do not lose your cool; call a Hold, explain what happened, and tell them to be careful. If it happens again, do not yell at the other player; call a Marshal. You must treat all players with respect at all times. Failure to do so will result in disciplinary action.",
+      "As a player, you may have to be especially tolerant of the people playing the monsters you meet, since as NPCs they are likely to be new members of LAIRE, or people testing whether they like to play the game. In that sense, every player is a living advertisement for the quality of the game. Without new members, LAIRE will become stagnant and dull. By being a good player and a good sport, you help keep the game alive.",
+      "If your character has taken enough damage to go to negative Body Points, lie down and play dead. In the big picture of the game of LAIRE, there is no “winning” or “losing,” but it still can be personally disappointing when your character dies. However, it is also a chance to show how good a player you can be: count down the time for when healing spells are still effective as accurately as you can; cooperate with searches according to the rules; follow the rules on in-game possessions as you arrange to resurrect your character."
+    ],
+    "subsection": "Player Characters (PC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Do Not Get into Arguments About the Rules",
+    "content": [
+      "Rules disputes are a strictly out-of-game activity, and cannot add to anyone’s enjoyment of the game. If the result of an encounter is obvious, do not go thumbing through the rules looking for a saving grace for your character; let the game move on. If you have a rules question ask a Marshal. If you think a Marshal’s call was in error, talk to one of your Player Representatives. They will bring the issue to E-Board and they will take the appropriate actions to rectify the situation.",
+      "In particular, do not waste your time arguing over a Marshal’s judgment. Marshals are trained to try to be fair to everyone; if a Marshal rules against you, then they are trying to be fair to someone else. If you feel a Marshal ruled incorrectly, then see a Player Representative immediately.",
+      "If there is a question between a PC and an NPC whether it be taking damage or how a skill or rule works and there is no Marshal present, the PC wins."
+    ],
+    "subsection": "Player Characters (PC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Roleplay",
+    "content": [
+      "While you are playing, try to “be” your character. When your character is hit in the leg, try to act as if you were wounded in that leg; when you see a player in a goblin mask, picture them as an actual monster; when your character is surrounded by enemies and all hope is lost, act valiantly or plead for mercy as your character would do. Your ability to interact in the game as your character is what makes the game fun to play and is what will make other players want to interact with your character.",
+      "The goal of the game of LAIRE is not to kill all the monsters and “win” the game. The point of LAIRE is to put yourself in the middle of a giant interactive improvisational theater. The organization provides the direction and the stage props, but at every moment the star of your personal theater is you. Play your part well, so you can give yourself a good review when the play is over."
+    ],
+    "subsection": "Player Characters (PC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Stay In-Game as Much as Possible",
+    "content": [
+      "Make it clear when you are in-game, and when you are not.",
+      "Of course, when you are out-of-game you are supposed to wear a white headband. However, there are still times when it is not clear to other players whether you are speaking in-game or making an out-of- game comment, so please call a Hold before making any out-of-game comments.",
+      "It is not acceptable and very bad form to interrupt in-game roleplay with an out of game comment or joke. You cannot call a Hold to make a joke or some other off topic comment. If you wish to have such conversations, then you should go to an out-of-game location and go out-of-game. Saying, “Out of character…” and making some out-of-game or out of context comment is absolutely unacceptable. If a marshal catches a player doing this, negative Roleplaying Chips will be written on your card. Repeated offenses will result in disciplinary actions.",
+      "The biggest problem is in the area of insults. If you call someone a nasty name or use a real world obscene gesture, they may misunderstand and take it personally. The best solution is never to use blunt language at all; try to come up with medieval sounding equivalents: “You are an illegitimate offspring of a female hound with whom you yourself have mated.” If you treat insult as a high art, not only will players know that you are speaking in-game, but you may earn a Roleplaying Chip for a truly creative put-down."
+    ],
+    "subsection": "Player Characters (PC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "You are Not Your Character, Your Character is Not You",
+    "content": [
+      "You can play whatever character you wish for your own personal entertainment. You can be a rascally scoundrel, an evil necromancer, a brutish barbarian, or a shining paragon of virtue. But do not get too caught up in the role you have chosen for yourself. Your character may be evil, but as a player you are expected to follow all the out-of- game rules of LAIRE. Do not assume that because someone plays a bad character that they share their character’s traits; some of the nicest people in the world play the most wicked characters in the game. Of course, you should also remember that in-game actions have in-game consequences. If your character attacks a group of necromancers and some get away, you should not be surprised if they come back looking for revenge. Similarly, if you kill the Baron of Islewatch, you should not be surprised if your character becomes an outlaw and is hunted and hounded constantly."
+    ],
+    "subsection": "Player Characters (PC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Be Prepared",
+    "content": [
+      "You know that you will need a white headband to show when you are out-of-game. You know you will have to carry tags for all the skills your character has. You know that you may be trudging through the woods in the rain. If you are playing a spellcaster, you know you will have to write on your Power Point tags. So, be prepared for all these things: find an old t-shirt that you can tear up for a white headband; make sure your costume has a pocket for all your tags; bring a zipper- lock plastic bag to keep your tags from getting wet; bring a pen. Just like you cannot play hockey without your hockey stick, it is your responsibility to make sure that you are properly equipped to play the game."
+    ],
+    "subsection": "Player Characters (PC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Ask for Tags",
+    "content": [
+      "After your encounter with other players or NPC’s is finished, ask for the tags for any abilities they have used, any damage they have taken, any spells they have cast, etc. Since the NPC’s and other players always have the right to ask you to show proof of your abilities, you should avail yourself of the same right to ask them.",
+      "Just because someone asks for your tags does not mean that you are being accused of cheating; we strongly encourage everyone to ask for tags whenever the opportunity arises. Be cooperative when you are asked for tags. If you discover that someone made a mistake and used an ability or Power Points that they did not have, do not get excited; call a Marshal. If you are the one who made a mistake, try to be fair: “Uh-oh, I thought I had more Body Points left. Okay, I’m dead,” and lie down immediately.",
+      "In general, if you discover that a mistake was made in the middle of a combat, do not do the battle over; it is almost impossible to do. Decide amongst yourselves or get a Marshal to adjudicate what a fair result would be, and let the game move on."
+    ],
+    "subsection": "Player Characters (PC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "One Last Time...",
+    "content": [
+      "This is only a game. It is meant to be fun. If you take it too seriously, then it is no longer a game. Then, it is not fun anymore."
+    ],
+    "subsection": "Player Characters (PC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Of all the volunteer work you can do for LAIRE, by far the most important is… cleaning the campsite at the end of an event, but the second most important work you can do is to be a Non-Player Character. The NPC’s play all the roles that the Player Characters do not: the monsters, the townsfolk, the princes and princesses in distress, the imprisoned dragon that must be rescued from the evil clutches of a dastardly knight. Someone has to play these parts so the other players can have fun.",
+      "There are many advantages to being an NPC. It is a good way to learn the rules; we recommend that new members of LAIRE start by being NPC’s for their first event. When you play an NPC, you get to explore possibilities that your regular character cannot; if your character is a spellcaster, you can get a chance to see what it is like to be a fighter. You can play without worrying about all the complications associated with being a Player Character. Finally, when you play an NPC you earn Build Points, Brownie Points, and Play Credits, which you can use to advance your regular character and hopefully have fun as well.",
+      "The primary disadvantage to being an NPC is that you have to play your role according to the instructions of a Module Director, a Monster Marshal, or a Plot Marshal. Most players take this as a challenge; like an actor interpreting a part, they look for ways to have fun within the roles they have been given.",
+      "LAIRE will provide costumes, weapons, spell packets, and instruction for all the NPC’s at an Event. Bring your own costumes and weapons if you wish; chances are the Module Director or Monster Marshal will be able to fit them into the event somehow. We ask that your clothes have no obvious anachronisms; a plain black t-shirt and black pants are fine. Also, please try to arrive at your work shift on time, so you have plenty of time to get acquainted with your role."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Know the Rules",
+    "content": [
+      "Make yourself familiar with this rulebook as soon as you can. Keep a copy of the rules near your encounter site. Try to memorize the spell verbals and the effects of the different spells. If your NPC has special abilities, make sure you know how to use those abilities."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Be a Good Sport",
+    "content": [
+      "This is only a game. Like any well-run game or sport, the rules of good sportsmanship apply. Do not get into shouting matches with the players over the interpretation of the rules; stay calm and call a Marshal. If a player is unfamiliar with the rules or makes a mistake, be tolerant and patient; give the new or poor player a chance to become an experienced and good player. For example, if a player hits you in the head, do not lose your cool; call a Hold, explain what happened, and tell them to be careful. If it happens again, do not yell at the other player; call a Marshal. You must treat all players with respect at all times. Failure to do so will result in disciplinary action.",
+      "If you have a dispute with another player over the rules and no Marshal or rulebook is available, assume the Player Character is correct and let the game continue. Discuss the issue with a Marshal or a Player Representative after the encounter is over."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Obey the Monster Marshal",
+    "content": [
+      "Always follow all the instructions for any role that you are given. Even if out-of-game you are a fantastic fighter, if you are told to play a zombie you must fight like a zombie, even though this often means a quick and nasty end. The Monster Marshal will give you role- playing instructions for your character. You must follow these instructions and not go outside what you have been told, even if it is cool or funny to do so. For example, if you are sent out as a kind and friendly healer and told to heal anyone in need free of charge, you should not take it upon yourself to charge as much as you possibly can or rob the bodies of the fallen before you heal them. The marshal has reasons for sending you out with the instructions they do. Taking it upon yourself to do otherwise can cause problems you may not know about and ruin the fun for others.",
+      "Generally speaking, players who perform the roles that they are given with both good roleplaying and while staying within their assigned parameters will be given more complicated and intense roles in the future. Conversely, players who fail to do this will be given the most basic roles such as zombies and rocks or they might not even be allowed to play an NPC at all and must find another way to fulfill their work assignment such as cleaning the NPC cabin."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Take Your Hits",
+    "content": [
+      "Nothing is more annoying than a monster that refuses to die. If you have been defeated, lie down and die – well in-game at least. You will have a chance to play another monster soon."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Roleplay",
+    "content": [
+      "Be your character. Roleplay according to what the Marshal tells you, but within those limits try to be a person, not just a piece of cardboard to be knocked down. Even a mindless monster is a role: it single-mindedly obeys its commands or pursues its goal."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "The Players are not Your Opponents",
+    "content": [
+      "This game is not the monsters versus the Player Characters, it is you and the other players working together to have fun. You are playing a role, not just player bashing. If the players are roleplaying, encourage them to earn the roleplaying chips they may get."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Do not Give a Killing Blow to a Player Character",
+    "content": [
+      "There are some exceptions to this, and the Monster Marshal or Module Director will tell you if you are one of those exceptions."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "He also Serves Who Only Stands and Waits",
+    "content": [
+      "The hardest part of being an NPC is the waiting. No matter how bored you get, do not wander off."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Be Available",
+    "content": [
+      "If your character has been killed and you do not know where to go, return out-of-game to the monster area and wait for instructions."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Be Prepared",
+    "content": [
+      "Bring a white headband and a pouch or pocket to carry your headband and your treasure."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Keep Your Card with You at All Times",
+    "content": [
+      "A player always has the right to see your NPC card if they question whether you have a given ability. If you do not have the card, then the encounter never happened. If you are an NPC in a module, the description in the module write-up is the equivalent of a card."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Ask for Tags",
+    "content": [
+      "After your encounter with the players is finished, ask for the tags for any abilities they have used, any damage they have taken, any spells they have cast, etc. Since the players always have the right to ask you to show proof of your abilities, you should avail yourself of the same right to ask them."
+    ],
+    "subsection": "Non-Player Characters (NPC's)",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "When the game of LAIRE is played, your character goes on adventures, lives, dies, is hurt, is healed, uses abilities, and learns new abilities from other characters. The part of LAIRE responsible for keeping track of all these things is called Logistics. One of the first things you do each time you attend a LAIRE event is to visit Logistics. After you pay to attend the Event, you will receive cards and tags which specify everything about your character: how many Body Points they have, what skills they know, the number of times the skill can be used in a day, what spells they can cast, and so forth. Logistics is described in the Organization Chapter in more detail.",
+      "LAIRE uses tags, 4 in by 1 in stiff pieces of colored paper with information that relates to objects and game concepts with a corresponding in-game description written on them. For example, a Slay skill tag denotes that the character can use their Slay skill once in a Tag Cycle, or an alchemical item tag will describe what kind of alchemical substance is in the vial or physical representation.",
+      "It is important that you carry your tags with you while you are in- game. If you do not have the appropriate card or tag, then you cannot use the corresponding ability. If your item does not have the appropriate tags, you cannot use your item.",
+      "Remember, all skill tags and cards are out-of-game and cannot be stolen by anyone in-game. If you have robbed someone’s pouch and you discover that you stole their tags by mistake, return them immediately."
+    ],
+    "subsection": "The Tag System",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "NPC Cards",
+    "content": [
+      "Both the player and non-player characters must carry cards that identify their skills, abilities, and Body Points. While player characters (PC’s) carry the tags described above, the non-player characters (NPC’s) usually carry just a single card with their character information.",
+      "If you encounter an NPC, you have the right to ask to see their card if you want to verify that they have an ability they are using, or even to prove they have been given permission to play an NPC by a Monster Marshal. If they do not have a card, then they are out-of-game; the encounter with the NPC never happened.",
+      "However, there is one case in which NPCs are not required to have a card with them. This is when they are part of an encounter or a module, in which case their character is described in the encounter or module write-up itself."
+    ],
+    "subsection": "General Rules",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "These are the tags every character receives with their Character Card. Some tags every character will receive, like Body Point tags. Others represent how many times a Tag Cycle you can use a skill or ability. Lastly, there are pool point tags that represent how much power a character has to use abilities or cast spells."
+    ],
+    "subsection": "Character Tags",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Body Points",
+    "content": [
+      "These tags keep track of how much body a character currently has. When your character takes damage, you should hand over your used Body Point tags to the player that did the damage during a Tag Exchange. When you are healed, you should take the pool points associated with the type of healing you have received and have the caster note how much was healed on the back. These now represent you new Body Points. Since Body Points are not Tag Cycle specific, they are always red in color. Body Point Tags come in denominations of 5 Body Points only."
+    ],
+    "subsection": "Character Tags",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Skill Tags",
+    "content": [
+      "Some skills in our game can only be used a limited number of times in a Tag Cycle. When you check in at Logistics, along with your Character Card, you will receive one skill tag for each purchase of a tagged skill for each Tag Cycle. You can only use the tags for the current Tag Cycle. Some examples of tagged skills are: Disarm, Critical Attack, Slay, Weapon Accuracy, Assassinate, Assassin Strike, Total Power, Recover Power, Shape Change, Turn Lesser Undead, Greater Magic Weapon, and many, many more."
+    ],
+    "subsection": "Character Tags",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Pool Points",
+    "content": [
+      "Power Points, Elemental Pool Points, Spell Singing Points, Healing Pool Points are all examples of pool points that the character may have. Pool points do not do much on their own; they are primarily used to power spells or other effects. For example, Power Points are used to power low magic spells. All pool point tags are color coded for a specific Tag Cycle, and only tags from that cycle can be used."
+    ],
+    "subsection": "Character Tags",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "As you play the game, you will give players your tags to represent the use of your abilities. For example, if you repair someone’s armor, you will give them the used Armor Repair tags to use as replacement Armor Points; if you cast a Heal Person spell, you will give that person the Power Point tags to use as replacement Body Points; if your character is damaged, you will give your attacker the Body Point tags for the amount of damage you took; if you Slay someone, you will give them the Slay skill tag. The specific use of each type of tag is described under the associated skill in Chapter 5.",
+      "Used tags must always be disposed of in some way; they are never recycled back into the game. You may be required to write on the tags to indicate their new use; for example, when Armor Repair tags become Armor Point tags. In this case, keep the newly created Armor Point tags with the rest of your Armor Point tags and use them whenever you would normally give away Armor Points. A tag that indicates a one use skill or spell should be torn in half by the target to indicate it has been used. Since we must clean the camp before leaving, please do not throw the tags on the ground; rip them up and put them in your pocket until you can throw them in the trash.",
+      "Never hesitate to ask a player for a tag or some other proof that they have a given ability. Likewise, do not take offense because someone asks you for a tag; it is a necessary part of the game. The exchange of tags helps Marshals to verify that no rules have been broken, and helps players keep track of what their character’s current pool of abilities are. There are times when tag exchanges are momentarily inconvenient: obviously, do not stop a combat just to exchange tags, but be sure to adjust your tags before the NPCs, or your healers, wander off.",
+      "Do not be tempted to short cut the tag exchange procedure. Here is an example of why: You are attacked and damaged by a monster, then the monster runs off. A spellcaster casts a healing spell on you, saying “Do not bother tearing off your Body Points. I’ll just tear up the Power Points I’m using.” The spellcaster walks away. Then the NPC playing the monster comes back out-of-game, and asks you for the tags for the damage that the monster did. Now you are stuck, because you cannot show any proof to the NPC player that you received a healing spell.",
+      "All skill and pool tags are color-coded. You will receive all the tags for an event at the beginning of an event, but you may not use a tag if it does not have the appropriate color for the time of day in which it is designated. For example, if you are told that blue tags are to be used from dawn to dusk on Saturday, you may not use your blue tags on Friday or Sunday. This rule only refers to unused tags; if a latent spell was cast on you on Saturday, the blue tags representing that spell are still good on Sunday of the same Event.",
+      "If you do not play in a Tag Cycle you cannot use tags from that Tag Cycle. This rule applies to a PC as well as to an NPC."
+    ],
+    "subsection": "Tag Exchanges",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Alchemists and Sorcerers use components to practice their craft. Alchemists use components to make their alchemical items and sorcerers require them to cast rituals. Every recipe or ritual outlines what components are needed by the character to create that effect.",
+      "There are three basic kinds of components: parts dissected from other characters, parts from plants, and gems or stones. While the character may find any of these during game play, and may even be able to collect them with the proper skill, these components may be purchased at the Alchemist’s Guild, the Guild of Arcane Lore, or from the Merchant’s Guild. The character can usually find the component cheaper from the former two rather than the Merchant’s guild. Also, due to rarity and demand, not every component will be available all the time.",
+      "Components that come from characters and plants have a date on the tag indicating when the component was collected. Components do not expire or lose their potency over time; however, sometimes freshness counts, and it may be appropriate for the Marshal to give a bonus to the success roll. The individual creation or casting rules will give the appropriate rules regarding such bonuses.",
+      "On the tag there is a line for a description of the item and a place for the player who identified it to initial and sign their player number. This information is in-game and must always be valid. Since it is in-game, if the character has the appropriate literacy, they can read the tag and identify it. This does not stop a character from mislabeling the vial the component is in, however.",
+      "All components must have a physical representation or vial. A player cannot have their character carry a stack of component tags while they adventure. It is acceptable to have just tags and no vials or physical representations when a character has his items in its place of storage, but if the character takes them out of their room, they must have a physical representation.",
+      "If a character does have tags without any kind of physical representation while out of their place of storage, the player will lose the components."
+    ],
+    "subsection": "Component Tags",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Getting Tags for Parts Dissected During Game Play",
+    "content": [
+      "Any player with the Dissection skill can get Component Request tags from the Treasure Manager. These tags have a line for what was dissected, when it was dissected, and a place for the initials and player number of the player who played the character being dissected. At the end of the Event, the player should place all their component request tags into an envelope with their name on it and hand it over to the Treasure Manager who will write out the tags for the player over the month. The Treasure Manager will return any tag that is not on the official component list. You still have the component should the need for this component arise, but no numbered tag will be written out until it has an official number. Additionally, the Treasure Manager is under no obligation to write out any component tags for players at an Event. If you want to use your components in-game, make sure you hand them in to the Treasure Manager."
+    ],
+    "subsection": "Component Tags",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Every alchemical item has a tag associated with it and a unique number indicating what kind of alchemical item it is. If the item is new or unique, on the back of the tag there will be a description of the effects of the item. This descriptive information is out-of-game.",
+      "On the tag there is a line for a description of the item and a place for the player who identified it to initial and sign their player number. This information is in-game and must always be valid. Since it is in- game, if the character has the appropriate literacy, they can read the tag and identify it. This does not stop a character from mislabeling the vial the component is in, however.",
+      "All finished products must be in a vial. A player cannot have their character carry a stack of finished items while they adventure. It is acceptable to have just tags and no vials when a character has their items in their place of storage."
+    ],
+    "subsection": "Alchemy Tags",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "tags"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "In-game items such as magic items, weapons, and armor have an Item Card associated with it. Every in-game item needs an out-of- game card that has the item description on it and what in-game effects the item has. The character must carry the item card on them at all times; it is like the Character Card for the item. If a player finds an item with a number on it, they can attempt to identify it and if a Marshal is present they may have the information and the item card. If no item card is available, the player can go to the Treasure Manager or Plot to find the item card.",
+      "The item is what truly matters, and if there is no physical representation or only an item card, then the item does not exist."
+    ],
+    "subsection": "Item Cards",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "cards"
+    ]
+  },
+  {
+    "name": "Magic Item Cards",
+    "content": [
+      "Every magic item has a Magic Item Card with the item number that is engraved on the item. The card describes what the item looks like, what the base value of the item is, what rituals have been cast upon the item, and what their effects are. The card will indicate if the magical effects are permanent, charged, or last a certain duration. For items that have spell effects, the card will also indicate whether the spells are Castable or Invokable. Magic Item Cards are always red in color.",
+      "Characters that have rituals cast upon them, whether permanent or temporary, need to also have a Magic Item Card. Instead of an item number the player number and character name is used.",
+      "The player is responsible for and required to get any tags needed for their magic items from Logistics when they check in."
+    ],
+    "subsection": "Item Cards",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "cards"
+    ]
+  },
+  {
+    "name": "Weapon Cards",
+    "content": [
+      "All weapons, except arrows and rocks, require a Weapon Card to be attached to the weapon at all times. If the player finds a weapon that does not have a Weapon Card attached to it, they should assume the weapon is out of game. If it is an NPC weapon, they should give it to an NPC or bring it to the NPC Cabin. All other weapons should be brought to Logistics so the player can reclaim their weapon.",
+      "All weapons must have a physical representation. A player cannot have their character carry a stack of weapon cards while they adventure. It is acceptable to have just a card or physical representation when a character has his items in its place of storage, but if the character takes them out of their room, they must have a physical representation.",
+      "Normal weapons get normal Weapon Cards that indicates the player’s name, the character’s name, the weapon class, the Marshal who approved the weapon’s creation and date of creation.",
+      "Weapons of quality and magic weapons have the following information on the card: item number, physical description, magical effects or modifications, Marshal’s signature and date. These weapons all belong to LAIRE, and the item card should never be removed from the weapon, rather the entire weapon is always passed on to whomever finds it. The sections below on stealing have more information on this.",
+      "The color of the card depends on the type of weapon it is and is given in the table below.",
+      {
+        "type": "table",
+        "headers": [
+          "Weapon Type",
+          "Color"
+        ],
+        "rows": [
+          [
+            "Normal Weapon",
+            "Gray"
+          ],
+          [
+            "Weapon of Quality",
+            "Blue"
+          ],
+          [
+            "Magic Weapon",
+            "Red"
+          ]
+        ]
+      },
+      "Normal weapons also include weapons with any temporary smithing or alchemical effects like silver coatings or an Oil of Sharpness."
+    ],
+    "subsection": "Item Cards",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "cards"
+    ]
+  },
+  {
+    "name": "Armor Cards",
+    "content": [
+      "Every suit of armor is evaluated when the character first attempts to bring it in-game by an Arms Marshal. The exact Armor Points for the suit is recorded on the Armor Card or Cards. Every separate piece of armor gets its own Armor Card. The player’s character then brings the card and the physical representation for the armor to the Armory and purchases the suit in-game.",
+      "All armor must have a physical representation. A player cannot have their character carry a stack of Armor Cards while they adventure. It is acceptable to have just a card or physical representation when a character has his items in its place of storage, but if the character takes them out of their room, they must have a physical representation.",
+      "The color of the card depends on the type of armor it is and is given in the table below.",
+      {
+        "type": "table",
+        "headers": [
+          "Weapon Type",
+          "Color"
+        ],
+        "rows": [
+          [
+            "Normal Weapon",
+            "Gray"
+          ],
+          [
+            "Weapon of Quality",
+            "Blue"
+          ],
+          [
+            "Magic Weapon",
+            "Red"
+          ]
+        ]
+      },
+      "Normal armor also includes armor with any temporary smithing or alchemical effects, like an Oil of Armor. Armor of Quality refers to Elven, Dwarven, or Enchantment Quality crafted suits of armor.",
+      "In addition to the Armor Card, the player will also need to keep track of their Armor Point Tags."
+    ],
+    "subsection": "Item Cards",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "cards"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Everything at an Event falls into one of three categories: in-game, out-of-game, and in-play. By now you should have a good feel for the difference between in-game and out-of-game and how it pertains to things you will come across as you play the game.",
+      "In-game items are anything that have an item card, tags, item number, or are property of LAIRE. Coins, alchemical items, special weapons, magic items, scrolls, gems, jewelry, etc. are all examples of in-game items. Locations can be in-game too. The Inn, the House of the Sun, the Druid’s Grove, the Armory, the Healer’s Guild, and indeed most of the camp are in-game places. Even players can be in- game. These are all objects, places or people that you can interact with in-game.",
+      "Out-of-game refers to any object that is not represented in-game. Your car keys, your car, food, camp signs, etc. are all examples of out-of-game things. While you play the game, you should treat these items as either not being there or how you would in the “real” world. For example, if you find a set of keys in the Inn, you should not try to sell them to the Merchant’s Guild, instead you should bring them to a member of the E-Board so their owner can find them. Also, if you see someone’s wallet on their bed, you should not take it, even if your character is a thief, because that is called stealing and is not tolerated by LAIRE at all.",
+      "Places such as bathrooms, the parking lot, the ranger’s house, the smoker’s area, the NPC cabin, Logistics area, etc. are all examples of out-of-game areas of the camp. Whenever a player enters an out-of- game area, their character is considered out-of-game and no in-game activity can take place there, including in-game conversations. Some areas of the camp may be designated out-of-game, either because there is some physical hazard, that part of the camp is being used by someone else, or that section of the camp is being used for modules or a special encounter and your character has to find out in-game how to gain entrance – usually by finding the hook to the adventure being run there. If your adventuring accidentally takes you into an out-of- game area, you should quickly move back out. Similarly if you see someone entering an out-of-game area that has been specially designated as out-of-game, you should politely warn them. For example, if you are being chased by some Orcs and you find yourself in the middle of a module, stop running. Wait for the players of the Orcs to catch up and both of you should move to a different section of the camp and continue your chase.",
+      "Some people are out-of-game. Anyone wearing a white head band is always out-of-game and you should ignore them in-game. That does not mean you also ignore them out-of-game because they may have important marshaling information for you. Sometimes the person who is out-of-game may not be wearing a white head band, but it is still obvious they are not part of the game. The ranger, someone’s parent, vendors or people visiting the game are some examples. If you are ever not sure if a player or person is in-game or out-of-game you should politely ask them, but if everyone is following the rules, this should be a rare occurrence.",
+      "In-game and out-of-game is usually straightforward, obvious and easy to determine. However, there is a gray area called in-play that you should pay particular attention to. In-play items refer to anything that belongs to a player but their character uses. Things like costuming, room or module decorations, jewelry that does not have a number, props without a number on them, a noble’s banner, etc. are examples of in-play items. These things are there to enhance your game play and to help your suspension of disbelief. They are not there to be taken or damaged; they are another player’s property. They can be stolen in-game only by placing a note or, with great care, moving the items under a bed or into an out-of-game area nearby.",
+      "It is important to remember that these things belong to someone. You cannot remove them from the player or the player’s sleeping area. For example, you are playing a necromancer and are told to go and harry the town and you decide to smash the items in the House of the Sun. You should go into the House of the Sun and spend time pretending to do your damage and leave a note that describes what you have done. You can never actually break, damage or deface anything you find there; all those props belong to the players who have characters that are members of the House of the Sun.",
+      "A player may give another player permission to take an in-play item that belongs to them. For example, the Baron of Ultor has a banner in the inn. Another player wants his character to steal it and asks the Baron of Ultor out-of-game if he can take the actual banner. The player agrees figuring it will be easier to catch the thief if he has to run away with the banner. Even though he has permission, he should still be careful of the other player’s property and not lose or damage the banner."
+    ],
+    "subsection": "In-game, Out-of-Game, In-Play Items",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Sometimes a player may wish to bring a piece of jewelry or other item in-game or make an item that was in-play, in-game. The player should be aware that once they do this, the item is now property of LAIRE and if someone takes it in-game, they may never get the item back.",
+      "The item can have any reasonable value that the player wants. They should take it to the Treasure Manager at the beginning of the Event and, after the Treasure Manager agrees to the in-game value, will engrave the item with its LAIRE number. The player must pay the Treasure Manager 110% of the final in-game value of the item when it is engraved.",
+      "Even though the item becomes LAIRE property, the player does not receive any Brownie Points for the donation.",
+      "Players cannot bring some things in-game. A player cannot bring in a weapon, armor, magic items, scrolls, alchemical items, gems etc. in this manner."
+    ],
+    "subsection": "Bringing an Item In-Game",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "LAIRE is a game, and in that game there are those players who may wish their character to be a bit unsavory or of low moral character. In other words, they are thieves. This section will deal with the rules on how to take in-game items and what to do with them.",
+      "The player should have a firm grasp on the difference between in- game versus out-of-game versus in-play before they embark on their felonious career; for while thievery is permitted in-game, it is not tolerated out-of-game at all. Put simply, do not take other players property, ever! Taking another players money, shoes, wallet, clothes, jewelry, duffle bag, or any other property is called stealing and it is a crime. The organization of LAIRE takes this very seriously and so should you.",
+      "The following sections dealing with stealing and thievery always refers to in-game stealing, never the out-of-game criminal actions."
+    ],
+    "subsection": "Stealing",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "tags"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Any character can take some in-game item that does not belong to them. The character does not need a special skill to do so. The Rogue Basic Career and Master Thief Advanced Career have many skills that make this easier, but none are required.",
+      "There are three basic areas of thievery: Taking things you find around, taking things from a character, and taking things from a building. The later two will be discussed below.",
+      "Your character can only steal in-game items, but all in-game items fall into two categories: personal and LAIRE property. Personal in-game items are a character’s weapon, shield, and their armor. Everything else – coins, gems, jewelry, scrolls, alchemy, magic items, etc. – are LAIRE property.",
+      "When your character steals a personal in-game item, you must take it to either the Armory or the Merchants Guild as soon as possible. Please remember that these items are another person’s property and treat them with care. Any damage that occurs to them while in your possession is your responsibility to fix. These items belong to some other player and they are going to want them back. You may not go out-of-game while you are in possession of another player’s personal out-of-game items. You cannot go to sleep, go NPC, or go and have a cigarette or perform any other out-of-game action until you have brought the items to the Armory or Merchants Guild.",
+      "The Armory and Merchants Guild have different advantages and disadvantages to selling things to them. Any weapons or armor the Armory buys, it can resell; they put it on their shelf to resell. So, if a character’s sword is stolen and sold to the Armory, the sword you purchase back from them is the same one. Therefore, there is a chance to find out who stole the sword. The Merchants Guild, on the other hand, ships out much of the things they purchase. When a character’s armor or weapon is sold to the Merchant’s Guild, the equipment is gone and unrecoverable. You can still purchase a new weapon from them, or just reclaim your physical representation. The advantage of selling weapons and armor to the Armory is the price you will receive for the equipment. The Merchant’s Guild gives a much lower price for these goods. This only applies to weapons and armor that are a player’s personal property. Items that are LAIRE property always remain in-game and if any guild purchases these goods, the items stay in-game. This is a necessary game mechanic that allows players to reclaim their property and the thieves a place to fence their hot goods with some measure of reliability.",
+      "Whatever LAIRE items your character acquires your character keeps. There is no need to sell it immediately."
+    ],
+    "subsection": "General Thievery",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "theft"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Before any search can be done, the character must be unable to resist – unconscious, paralyzed, in their Death Count, etc. – or willing. Simply being bound with a Bind spell or being held for example, is not sufficient to allow a search. This does not mean a character cannot have their weapons or anything else removed from their hands when they are bound, however.",
+      "When a player wishes to search another player, they should position themselves next to them and say, “I search you.” The character about to be rummaged has one of two responses: give over all their in- game items or request the searching character to describe their search by saying, “Describe your search.” The third type of search requires the use of the Speed Search skill."
+    ],
+    "subsection": "Searching a Character",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics",
+      "theft",
+      "search"
+    ]
+  },
+  {
+    "name": "Simple Search",
+    "content": [
+      "When a player is informed they are being searched, one of their options is to agree to a simple search. The player must hand over all of their in-game items. Under no circumstances can a player withhold any of their in-game items. If the player thinks the searcher might miss something, then they have to ask for a complete search. If player has nothing to hand over and agrees to the simple search, they can simply respond, “You find nothing.”"
+    ],
+    "subsection": "Searching a Character",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Complete Search",
+    "content": [
+      "Alternatively, a player can opt for a complete search. The player should tell the searcher, “Describe your search.” The searcher then begins to describe what areas of the character’s body they are searching. If the searcher looks at an area that has an in-game item, the player has to turn it over. For example, if the searcher says “I take off your glove and search your hand,” the player should give over any rings or bracelets they have that are in-game.",
+      "This is what a complete search might look like. Ding has used the Waylay skill to render Elyssa unconscious. He tells her, “I search you.” Elyssa opts for a complete search and says, “Describe your search.”",
+      "Ding:“I look under your gloves.”",
+      "Elyssa:“You find a ring.” She takes off her glove and hands the ring to Ding.",
+      "Ding:“Okay, I’ll check for anything around your neck.”",
+      "Elyssa:“You don’t find anything.”",
+      "Ding:“What about that necklace?”",
+      "Elyssa:“That is only in-play.”",
+      "Ding:“Okay, I’ll check your pouches next.”",
+      "Elyssa:“Which one?” Elyssa has a blue pouch behind her back that Ding cannot see, so she wants him to be specific.",
+      "Ding:“The two black ones, this one and this one,” he says as he points to the pouches, missing the one behind her back.",
+      "Elyssa:“The one on the right has out-of-game stuff in it. Here are the contents of the other pouch.” Elyssa takes out the silvers and coppers she has in her pouch along with a potion vial with the tag inside. Finally she hands over a gem that is magical. Along with the gem, she hands Ding the Magic Item Card from her out-of-game pouch.",
+      "Ding:He does not know what is magical and puts the card in his out-of-game pouch and continues, “Okay I pat down your legs and take off your boots.”",
+      "Elyssa:He begins to go through the motions of taking off her boots, it takes time to do this and Ding must wait. Once done with her left boot, she removes her right and hands him a scroll. “Here this is all you find.”",
+      "Ding:“Okay, anything else?”",
+      "Elyssa:“Not in the areas you described.”"
+    ],
+    "subsection": "Searching a Character",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Speed Search",
+    "content": [
+      "If a character has the Speed Search skill, they can use that to search a character instead. The skill takes 10 seconds to use and will force the player to hand over all in-game items they have no matter how well hidden. If an item is attuned or hidden magically, Speed Search will fail to give the searcher these items. In the case of an attuned item, the searcher will know it is worth something, but is attuned.",
+      "For a full description of how the Speed Search skill works, see the skill’s description in Chapter 5."
+    ],
+    "subsection": "Searching a Character",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "The first thing a player has to do before searching the place where other characters sleep, or a guild – be it a cabin, inn room, tent, lean-to, etc – is to get a Rogue Marshal. No character can enter the cabin, etc. with the intent to steal without a Rogue Marshal. Also, the Rogue Marshal must be out-of-game and not involved with the in-game planning or executing of the theft.",
+      "The Rogue Marshal will check out the cabin and read any out-of- game marshal notes for the building before the theft begins and stay to the side while the characters do the deed. During the theft, the marshal may answer questions about what is in-game and what is out-of-game and interject when needed describing traps or other in- game effects the thieving characters may encounter.",
+      "The characters may only search in-game boxes, bags, cabinets, etc. while they are looting a cabin. The area under a bed is always out-of- game. Also closets, dressers, and other furniture in the room may be designated as out-of-game with a sign indicating such.",
+      "If you take any items that require physical representations once they are removed from their place of storage, then you must provide a physical representation before that item can be removed from the room. Yes, that means if you do not have one, then you can not steal the item.",
+      "Read the sections on in-game, in-play and out-of-game items and know it well before you search a cabin."
+    ],
+    "subsection": "Searching a Room or Cabin",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "You are required to account for all of your in-game items at every Event. If you have the item in-game and hide it in-game, then it is fair game for anyone who finds it. You may leave your in-game items at your in-game home, however, you must inform a Plot Marshal and if you wish to retrieve the items, you have to get permission from the Plot Marshal. Sometimes, the items may either be stolen or your home may become unreachable due to in-game events. Finally, any item left at home is either inaccessible to the character or you have to get permission from a Plot Marshal to go and retrieve your item. If you are caught retrieving your items from your car or home without a Plot Marshal’s permission, you will receive a rules violation.",
+      "As long as the in-game item is hidden in an in-game location, the player may hide their treasures anywhere they want; for example, under a log, beneath the steps to their cabin, in a field, etc. Your duffel bag under your bed is not an in-game location. Remember that at the end of the Event the items need to be recovered, and the player should make sure they remember where they hid it, for if the player forgets, their character has lost the items in-game. Similarly, if the player returns to the hiding spot and does not find their character’s items, it is lost in-game.",
+      "A character may attempt to hide something on their person, but this does not guarantee they will not lose it if searched. Remember that when a character is searched, they have two choices: a Simple Search and a Complete Search. A player must hand over all their character’s items if they agree to a Simple Search and if the searching character calls the location where the item is hidden, the player must hand it over. LAIRE does not allow hidden pockets or similar things that obscure items from searches."
+    ],
+    "subsection": "Hiding In-Game Items",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Of course, a character can hide their items in their cabin and use in- game locks and traps with the use of the appropriate skill. Anyone can use a LAIRE approved lock to secure trunks and boxes or even a door. You may only use LAIRE approved locks. As long as you have the key for your lock, you can open it. You can never out-of- game actually lock a door, ever, with any lock.",
+      "A lock with no item number on it is a normal lock that can be easily shattered or broken with 10 points of damage. LAIRE locks with an item number on it usually indicates it is unshatterable, or maybe even magical and will be accompanied by a tag indicating its in-game properties.",
+      "Characters with the Set Trap skill can booby trap their treasures and cabin. See the Set Trap skill for a description of how this skill works. Remember only a character with the Disarm Trap skill can disarm a trap, but anyone can spot one."
+    ],
+    "subsection": "Securing Your Cabin - Locks and Traps",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "If a player goes out-of-game at an Event for some reason, they may be required to leave some of their possessions in-game. As a general rule, a character’s weapons, armor, shield, money, gems, scrolls, potions, or magic items go out-of-game with the character.",
+      "However, if a character has any important items, the character may be required to leave them in-game when they go out-of-game. For example, if a character has stolen the Duke’s sword and there are teams of adventurers searching for it, the player cannot take the sword out-of-game for any reason. If the player has to go out-of-game, they should first talk to a Plot Marshal to discuss where the item should be left."
+    ],
+    "subsection": "While You are Out-of-Game",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "If the rules on in-game stealing are abused or ignored, the Executive Board of LAIRE can, will, and has done so in the past, suspend all in- game stealing or even stop the game until the situation is rectified. Do not ruin an entire event for everyone by ignoring these rules. Be a responsible player.",
+      "Remember to get a Rogue Marshal before you enter the sleeping area of another character to steal."
+    ],
+    "subsection": "A Final Word on Stealing",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "The following timeline is given to give a player the needed information on what is expected of them before, during and after an Event.",
+      "1) The week after an Event you should go on-line and pre-register for the next Event if you plan on attending. If, after pre- registering, you can not make the Event, you are required to contact Logistics by Wednesday night before the Event to cancel your registration. If you fail to do so, you are charged $5.00 and 1 Play Credit and will receive no Awarded Build Points.",
+      "2) Before the Event, you should check your weapons and make sure they are in good repair and will pass at the Event. Clean all your clothes and straighten and fix your LAIRE equipment.",
+      "3) The week before the Event, you can check the web site to get your room assignment. Any player that travels more than 350 miles to attend an event is not required to NPC or perform any other type of 5 hour duty shift. This is for players who live that far away only.",
+      "4) Pack up your LAIRE stuff and make sure you have the following:",
+      {
+        "type": "list",
+        "items": [
+          "White Headband",
+          "Flashlight",
+          "Pen",
+          "Toiletries",
+          "Costume, including extra clothing, weather appropriate",
+          "clothing, shoes, and extra socks",
+          "Weapons, armor, shield, etc.",
+          "In-game items",
+          "Sleeping bag, pillow, blanket, etc."
+        ]
+      },
+      "5) When you arrive at the Event, go to Logistics and verify your sleep assignment is the same. Logistics will be open at 7:00pm on Friday night.",
+      {
+        "type": "list",
+        "items": [
+          "After you drop your stuff off, get into costume and bring your weapons and white headband to Logistics. If you are NPC’ing Friday night, you do not have to have your costume with you.",
+          "Before going to Logistics, get your weapons and spell packets checked. Even if you are NPC’ing Friday night, you need to get your weapons checked.",
+          "Go through check-in at Logistics. You will get your character’s card and pay for the Event at Finance. Even if you are NPC’ing the whole Event, you still need to check in at Logistics.",
+          "After you have checked in, you should stay near the main building for Opening Ceremonies, which starts promptly at 8:30pm. The game starts (lay-on) at 9:00pm on Friday night.",
+          "PLAY! And have fun, but do not forget to do your work assignment. Be on time and ready to go for your NPC shift.",
+          "The Event will end on Sunday (or Monday for a 4-day Event) about 2½ hours before sunset. The time will be announced at Opening Ceremonies. After the game is called, everyone should attend Closing Ceremonies. At Closing Ceremonies you will receive your Camp Cleanup Assignment. Everyone also has a Sleeping Site Cleanup Assignment.",
+          "After both your cleanup assignments are completed, you may check out at Logistics.",
+          "Then the whole cycle begins again with step 1."
+        ]
+      }
+    ],
+    "subsection": "Event Cycle and Timeline",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "To actively participate in LAIRE, a player must be fourteen years old or older. However, there is a role available to those too young to play in the entire game: the role of Page. Pages are in costume, but they wear safety orange colored non-combat headbands to indicate their non-combat status. Anyone may inquire with the Plot Committee if there are positions available as a page.",
+      "Pages are primarily used to exchange in-game messages between characters. They are allowed to roleplay, speak in-game, and be spoken to. However, they may not use any skills or items, nor may they make physical contact with players for any in-game reason. To kill a Page, stand within 10 feet of the Page, point a weapon at them and say, “I kill you.”",
+      "Anyone 13 or younger must be accompanied at all times by a parent or legal guardian, or a specified adult with parental consent. The supervising adult must remain out-of-game."
+    ],
+    "subsection": "Pages",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "",
+    "content": [],
+    "subsection": "Searching a Character",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "",
+    "content": [],
+    "subsection": "Searching a Character",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "",
+    "content": [],
+    "subsection": "Searching a Character",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "",
+    "content": [],
+    "subsection": "Searching a Character",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "",
+    "content": [],
+    "subsection": "Searching a Character",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
+    "name": "",
+    "content": [],
+    "subsection": "Searching a Character",
+    "section": "Basic Game Rules and Concepts",
+    "tags": [
+      "basic"
+    ]
+  },
+  {
     "name": "Striking With a Weapon",
     "content": [
       "You must swing your weapon at moderate speed with moderate force. If you do not have enough time to call damage between each of your swings, then you are swinging too quickly.",
