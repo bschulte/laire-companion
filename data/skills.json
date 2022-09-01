@@ -1799,7 +1799,7 @@
       "buildCost": 2,
       "tagged": "No",
       "skillType": "Arcane",
-      "prerequisites": "Magic Basic Career Skill List, Rank 4 of Any School of Magic",
+      "prerequisites": "Mage Basic Career Skill List, Rank 4 of Any School of Magic",
       "skillList": "Warlock",
       "purchase": "Once",
       "duration": "Constant",
@@ -1986,351 +1986,1443 @@
               "Two-Handed, Polearm, Bows",
               "+1.5"
             ]
+          ],
+          "footers": [
+            "Note: The bonus is rounded down so one purchase give a +1 Damage Bonus and two purchases give a +3 Damage Bonus."
           ]
         },
-        "This may be combined with any other Damage Bonus the character has. Master Proficiency is not hand specific and therefore will add to both weapons of a character using the Florentine skill, but only adds once for two-handed or bastard weapons."
+        "This may be combined with any other Damage Bonus the character has. Master Proficiency is not hand specific and therefore will add to both weapons of a character using the Florentine skill, but only adds once for two-handed or bastard weapons.",
       ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Master Set Traps",
+      "buildCost": 5,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Dexterity",
+      "prerequisites": "Quick Disarm, Set Trap 4",
+      "skillList": "Master Thief",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to set traps with no minimum time requirement other than the time it actually takes the player to set the trap. Additionally, it gives the character an extra free rank of Set Traps. So, if the character has Set Traps 4, then can set traps as if they had Set Traps 5."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Master Waylay",
+      "buildCost": 5,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Dexterity",
+      "prerequisites": "Waylay and 20 Build Points of Additional Dexterity Skills",
+      "skillList": "Master Thief",
+      "purchase": "Once",
+      "duration": "5 Minutes",
+      "description": [
+        "This skill works the same way as the Waylay skill with three exceptions. First, Master Waylay is delivered subtly so the character only needs to call the attack loud enough for the target to hear it. The character being attacked may be in combat but the character using this skill cannot be in combat. Finally, the character should prefix their damage with “Master Waylay.”"
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Medium",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to perform a séance which takes 10 minutes of roleplay and requires the normal trappings of a séance – such as candles, incense, holding hands, etc. – and thereby speak to spirits. The spirits must be willing, though the character can request a spirit’s presence. It is up to the discretion of a Plot Marshal as to whether the spirit appears or not and whether the skill works. A spirit can make its presence known to the medium and it is up to the medium whether or not they wish to perform the séance.",
+        "This skill does not allow the character to see spirits and the character cannot be sure by simply the sound of the voice if they have contacted the correct spirit.",
+        "This skill will only let the character speak to a spirit that has been dead for more than 10 years."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Missile Deflection",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List",
+      "skillList": "Assassin, Master Thief",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This parry skill allows the character to deflect any ranged attack including ones that use the True Aim skill or use any special martial skill, except the Slay skill. The character should call “Missile Deflect” to use this skill. This skill can be used even if it is delivered from behind, but not if from a surprise attack; therefore it is impossible to parry the Assassinate skill. It is also possible to parry an attack directed against someone else as long as they are within weapons length. A character cannot use a ranged attack to parry an attack for another. The character may block any low magic or Nature Magic spell that is not combined with a Perfect Aim skill for another character, but they then take the effect of the spell and must call an appropriate defense that will stop the spell in order to avoid the effects of the spell themselves.",
+        "This skill is always used once called."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Natural Claws",
+      "buildCost": 0,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Racial",
+      "prerequisites": "Special",
+      "skillList": "None",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to extend and retract sharp claws. The character must use approved LAIRE claws in combat dealing 1 point of damage with each blow. The claws are part of the character’s body and may not be coated with poison and doing so would poison the character. Even if the character were immune to the poison, the poison would be expended when applied. The character’s claws take damage and any damage dealt to the claws is taken from the character’s Body Points.",
+        "Damage Bonuses and special weapon attacks, like the Slay, Stun, Waylay, Assassinate, etc. skills, with the exception of the Speed skill and Inspire and Heroism spell songs, may not be used with the Natural Claws skill. However, the character’s Strength Bonus does add to the damage.",
+        "The prerequisite for this skill is being a member of a race that has claws. It is normally not available to characters outside these races."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Nature's Child",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Pass Without a Trace",
+      "skillList": "Druid",
+      "purchase": "Multi",
+      "duration": "10 Minutes",
+      "description": [
+        "When this skill is used the character becomes one with the land, rendering the character inoffensive to plants and animals for 10 minutes. Plants and animals may not attack the character but may attack anyone that may be with them. If the character willingly attacks any plants or animals while this skill is active, the creatures will fight back. A character that does so, loses access to all Followers of the Mother spells and abilities until the end of the next Tag Cycle, and must contact a Plot Marshal.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Nature's Health",
+      "buildCost": 4,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Faith",
+      "prerequisites": "Elemental Pool",
+      "skillList": "Druid",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill makes the character completely immune to all diseases, natural or magical. If the character loses their focus, they lose the protection of this skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Nature's Purity",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Elemental Pool",
+      "skillList": "Druid",
+      "purchase": "Multi",
+      "duration": "10 Minutes",
+      "description": [
+        "This skill makes the character completely immune to all poisons, natural or magical, when invoked. The skill can be called as a defense to an attack, however the character must be conscious in order to use the skill.",
+        "This skill requires the use of the character’s focus.",
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Overlay",
+      "buildCost": 6,
+      "tagged": "Yes",
+      "skillType": "Arcane",
+      "prerequisites": "Any 3 Warlock Skills, Special",
+      "skillList": "Warlock",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "With this skill the character can cast a latent spell on the target character contrary to the normal spell stacking restrictions. In order to use the Overlay skill, the overlaid spell must be cast after the regular spell. When invoking latent spells, the overlaid spell or spells must be invoked in the exact reverse order they were placed upon the character or all spells above the one invoked are lost. Latent overlaid spells are invoked normally and are preceded by the word “Overlay”. There is no restriction to the number of stacked spells. This skill can only be used with a spell cast by the character and not when invoked from an item or read from a scroll.",
+        "For example, Herrin has an Absorption spell, Overlay Negation spell, and Overlay Absorption spell cast on him in that order, the first one he would call is “Overlay Absorption”, then the “Overlay Negation”, then “Absorption”. If Herrin called the Overlay Negation spell first, the Overlay Absorption spell would be lost, but the regular Absorption spell remains.",
+        "A Destroy Magic spell will remove all overlaid latent spells, including ones augmented by any other Warlockery, such as the Total Power skill.",
+        "The use of this skill is indicated by prefixing the spell verbal by “Upon Your Mystical Defenses…”"
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Pain Touch",
+      "buildCost": 6,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Dark Paladin, 2 Wounding",
+      "skillList": "Servant of Darkness",
+      "purchase": "Multi",
+      "duration": "5 Minutes",
+      "description": [
+        "This skill will cause the targeted character to fall to the ground or to their knee in extreme pain. The target character cannot move or take any other action except invoke latent spells. This affect can be cured by using the Heal Wounds skill to Heal Body.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill. This skill can be delivered by touch or through a weapon. This skill can be blocked by, and is expended by, a magical defense that stops physical attacks or the Resist Evil skill, or a defensive martial skill which is used but does not expend the Pain Touch skill for that Tag Cycle. This effect can only be cured by a Heal Body cast from a Heal Wounds skill, not the spell."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Paladin",
+      "buildCost": 2,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Faith",
+      "prerequisites": "Plot Approval, Cleric",
+      "skillList": "Follower of the Light",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill makes the character permanently immune to all fear effects.",
+        "This skill can be purchased in the same month as the Cleric skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Paralyze Touch",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Master Assassin Skill",
+      "skillList": "Assassin",
+      "purchase": "Multi",
+      "duration": "10 Minutes",
+      "description": [
+        "This skill allows the character to paralyze the target character with a touch. The character may touch their target anywhere on their body with a spell packet held in their hand. This skill is a non-combat skill and cannot be used on someone engaged in fighting. The Paralysis Touch skill can be countered by the appropriate defense for a physical attack; namely Invulnerability spell, a parry skill, Dodge, etc., however, if the target character is surprised, they many not use their martial parry skills.",
+        "The target of this skill is rendered paralyzed for 10 minutes. The paralysis can be released by the original character or another character with their use of the Paralysis Touch skill. A Heal Body spell will release a paralyzed character.",
+        "This skill is not used if the character misses their target or the attack is blocked. If they succeed in touching their target or if the target calls an appropriate defense, the skill is used."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Pass Without a Trace",
+      "buildCost": 5,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Faith",
+      "prerequisites": "Druid",
+      "skillList": "Druid",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "Once learned, this skill makes the character unable to be tracked either by skill, scent or other tracking abilities. The character may opt to leave tracks if they wish, but then any character with the appropriate skill can track them.",
+        "This skill will not prevent the character from being scried upon with sorcery."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Perfect Aim",
+      "buildCost": 6,
+      "tagged": "Yes",
+      "skillType": "Arcane",
+      "prerequisites": "Any 3 Warlock Skills, Special",
+      "skillList": "Warlock",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "Learning this skill allows a character to cast a spell without throwing a spell packet. The spell starts at the caster’s index finger and travels to the target. The hand that points the index finger must either be empty or be holding a spell packet. Perfect aimed spells cannot bend corners or “follow” a character out of sight. A Perfect aimed spell can go over a wall spell, but not if that wall spell fills a doorway or other similar structures. As a general rule, so long as a spell packet could physically move from the caster to the target – however improbable – the target is hit.",
+        "The range of a Perfect Aim skill is limited to however far the casting character can throw a spell packet when the targeted character is outdoors. The player need not hit the target but has to throw the packet at least as far as the target. It can go farther, but cannot land short. If the character and the targeted character are indoors, the player does not need to throw a spell packet and the attack is not limited by range. Indoors and outdoors, in this case, refers to real world, out-of-game buildings not in-game caves or buildings.",
+        "The target can invoke a defense that stops spells normally, but the player cannot physically dodge the spell. All other rules of spell casting apply. The target must be in line of sight at the start and end of the spell verbal – including any Warlock skill verbals.",
+        "The Dodge skill can be used to stop a Perfect Aim skill.",
+        "For example, Logan is attacked by a Warlock who begins casting his verbal, “With Perfect Aim, Double Cast, Dragon’s Breath Spell.” Logan hears the verbal being cast and runs behind the inn out of sight of the caster before she finishes casting. Logan is safe for now and the Warlock has expended the one Speed Cast and 16 Power Points, but not the two Perfect Aims or the Double Cast. Un-daunted, the Warlock picks another target, Dom Dom, who is busy fighting some of the Warlock’s undead minions. The Warlock successfully completes the verbal and Dom Dom finds out too late he has been hit by the two spells. He calls two of his Dodge skills stopping each of the spells cast at him. The Warlock is foiled once more.",
+        "This skill can only be used with a spell cast by the character and not when invoked from an item or read from a scroll.",
+        "To use this skill, the character must prefix the spell verbal by “With Perfect Aim…”, and then point their index finger at the target of the spell."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Pick Lock",
+      "buildCost": [
+        2,
+        6
+      ],
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Dexterity",
+      "prerequisites": "None",
+      "skillList": "Rogue Basic Career Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to attempt to pick an in-game lock. Without this skill a character cannot even attempt to pick the lock.",
+        "This skill does not guarantee success; the player must pick the lock with what ever tools they have on hand."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Pick Pockets",
+      "buildCost": 4,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Dexterity",
+      "prerequisites": "Speed Search",
+      "skillList": "Master Thief",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows a character to pick the pockets of other characters. In order to use this skill the character needs an out-of-game pick pocket tool, which is an alligator clip with a piece of string attached to it. The length of the string starts out at 2 inches and increases by 1 inch for every additional purchase of this skill. The string should be knotted or marked at one inch intervals, and must be approved by a Rogue or Arms Marshal before use. Players may carry any number of clips of the appropriate length.",
+        "To use this skill, the character must first get a Rogue Marshal to marshal this skill then the character must place their pick pocket tool anywhere on the targeted character’s clothing or person. The clip may not be placed on weapons, shields, or props. Once the clip is placed on the character’s person the character walks over to the Marshal, only then are the items stolen. The Marshal will approach the targeted character and remove any single in-game item which the string can reach designated by the character using this skill.",
+        "This skill will not allow you to take items which hold other items, such as bags or pouches. Items may be retrieved from within pouches or pockets, from under clothing, or other items of apparel, as long as the string can touch the item while still clipped where the character placed it. The item pilfered can be no larger than the palm of the pickpocket’s hand in any direction. If it is larger then the palm the item is not stolen and the attempt fails. No item that is attuned can be stolen and the attempt automatically fails and the target character is alerted to the attempt.",
+        "Additional clips may be attached to the target character to steal additional items. Any interruption during the process results in a failed attempt. If the target character catches you placing clips or if you are caught by someone else, you have been caught red-handed and the last attempt fails – nothing is gained from that attempt.",
+        "A Marshal must be present to use this skill, no exceptions. If your Marshal is pulled away while marshaling your theft, the attempt fails, but you escape detection for the time-being. The Marshal has final say as to whether something can be pick pocketed.",
+        "A character may also use this skill to place items on a character. The character must still place the alligator clip in the area in which they intend to place the item and have the item they wish to place in-hand. When the clip is placed, the character using the skill gives the item to the marshal who then places it within the range of the string. The item to be placed must still be palm sized.",
+        "Out-of-game, personal items may be removed only at player’s discretion. Items actively held in the hand, being actively used by the target character, or under a glove may not be pick pocketed."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Poison Immunity",
+      "buildCost": 5,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List, 20 Build Points of Dexterity Skills or Resist Alchemy",
+      "skillList": "Assassin, Master Thief, Alchemist",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "The character becomes immune to a type of poison and therefore they are immune to all forms of that poison. For example, if they become immune to death poison, then they are immune to Instant Death, Slow Death and Quick Death. Similarly, if the character is immune to damaging poisons then they are immune to all damaging poisons – 8, 12, 16, and 24 point versions. The following table outlines what categories the character can choose from.",
+        {
+          "type": "list",
+          "items": [
+            "Amnesia Poison",
+            "Blindness Poison",
+            "Damaging Poisons",
+            "Death Poisons",
+            "Feeblemind Poison",
+            "Forget and Remember Poison",
+            "Love Poison",
+            "Paralysis Poison",
+            "Paranoia Poison",
+            "Silence Poison",
+            "Sleep Poison",
+            "Weakness Poison"
+          ]
+        },
+        "The character may not become immune to solutions or potions."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Poison Lore",
+      "buildCost": [
+        2,
+        6
+      ],
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Dexterity",
+      "prerequisites": "Herbal Lore, Literacy",
+      "skillList": "Rogue Basic Career Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to recognize alchemical reagents. This is the basic skill for learning the Poison School only and grants the character the knowledge of how to brew, distill, mix, and perform the other basic skills needed to create poisons. It does not grant the character the ability to actually make anything; a separate skill is required for that. This skill is required to read and identify poison recipes in-game."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Poisons School",
+      "buildCost": [
+        2,
+        2,
+        3,
+        4,
+        5
+      ],
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "Alchemy Lore or Poison Lore for Rank 1, Prior Rank for Rest",
+      "skillList": "Rogue Basic Career Skill List, Alchemist, Assassin",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "This skill is purchased in ranks similar to schools of magic. Rank 1 Poisons allows the character to identify all Poisons, which takes the character 1 minute of roleplaying in-game to perform. This can be used to detect and identify poisons in food, drink, or a person’s blood. The higher ranks allow the character to brew Poisons of that rank and lower. So a character with Rank 3 Poisons could identify any Poison and brew any Poison in Rank 2 and Rank 3, as long as they have the recipe."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Potions School",
+      "buildCost": [
+        2,
+        2,
+        3,
+        4,
+        5
+      ],
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "Alchemy Lore for Rank 1, Prior Rank for Rest",
+      "skillList": "Alchemist",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "This skill is purchased in ranks similar to schools of magic. Rank 1 Potions allows the character to identify all Potions, which takes the character 1 minute of roleplaying in-game to perform. The higher ranks allow the character to brew Potions of that rank and lower. So a character with Rank 3 Potions could identify any potion and brew any Potion in Rank 2 and Rank 3, as long as they have the recipe."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Poison Spit",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Racial",
+      "prerequisites": "None",
+      "skillList": "None",
+      "purchase": "Multi",
+      "duration": "10 Minutes",
+      "description": [
+        "This skill allows the character to spit a dose of contact Paralysis poison at a target character. This effect is exactly the same as the poison of the same name.",
+        "The poison from this skill cannot be collected, stored or dissected by anyone in any way. It cannot be placed on a weapon, and can only be thrown.",
+        "The character must call “Poison Spit” when they use this skill."
+      ]
     },
     {
-      "name": "",
+      "name": "Professional Skills",
       "buildCost": 1,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "A professional skill is way for a player to round out their character’s background or personality. Professional skills never have any impact on game play other than the rare, incidental situations where, at the marshal’s sole discretion and under no obligation, the character may gain some roleplay insight or otherwise unavailable information. For example, a player who has the Professional Skill: Sailor may find themselves in a situation where they must steer a boat, or raise or drop an anchor. The marshal may let the player do this if it fits within the story or module.",
+        "The character does not ever gain any kind of income, item, exclusion, information or preference by having a Professional Skill. Using the above example, the character who chooses to learn Professional Skill: Sailor does not get a boat, trade routes, connections, contracts, cargo, insight into the economic machinations of the Nobles or a land, receipt of cargo, exemption of their monthly maintenance fee, a place to sleep out-of-game (i.e. on the boat they do not have), etc. Any of these benefits must be earned in-game if ever possible and do not ever come from this skill.",
+        "A character may only have one Professional Skill for every 10 Levels, excluding their starting Professional Skill, rounded down. So a Level 14 character may only have an additional Professional Skill; once they turn Level 20 they may learn another if they wish. Characters whose race is Common Man start the game with two Professional Skills, instead of one. They are still bound by the limit on the number of additional Professional Skills they may purchase. For example, a Level 20 Common Man could have four Professional Skills.",
+        "The list of approved and accepted Professional Skills is given in the following table.",
+        {
+          "type": "table",
+          "title": "Professional Skill Name",
+          "rows": [
+            [
+              "Animal Trainer",
+              "Innkeep"
+            ],
+            [
+              "Artist",
+              "Laborer"
+            ],
+            [
+              "Baker",
+              "Lumberjack"
+            ],
+            [
+              "Bartender",
+              "Mason"
+            ],
+            [
+              "Blacksmith",
+              "Merchant"
+            ],
+            [
+              "Candle Maker",
+              "Miller"
+            ],
+            [
+              "Carpenter",
+              "Miner"
+            ],
+            [
+              "Carpet Maker",
+              "Pig Farmer"
+            ],
+            [
+              "Cartwright",
+              "Rancher"
+            ],
+            [
+              "Clothier",
+              "Sailor"
+            ],
+            [
+              "Cobbler",
+              "Scribe"
+            ],
+            [
+              "Cooper",
+              "Servant"
+            ],
+            [
+              "Crop Farmer",
+              "Shipwright"
+            ],
+            [
+              "Dairy Farmer",
+              "Shop Keep"
+            ],
+            [
+              "Fisherman",
+              "Soldier"
+            ],
+            [
+              "Furrier",
+              "Tanner"
+            ],
+            [
+              "Gaoler",
+              "Teamster"
+            ],
+            [
+              "Glass Blower",
+              "Thatcher"
+            ],
+            [
+              "Guardsman",
+              "Tinker"
+            ],
+            [
+              "Herder",
+              "Town Crier"
+            ],
+            [
+              "Hunter",
+              "Trapper"
+            ],
+          ]
+        }
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Quick Disarm Trap",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List, Disarm Trap, Trap Dodge",
+      "skillList": "Master Thief",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows the character to disarm any one non-magical trap, seen or unseen, whether the character is aware of it or not. This skill cannot be used as a defense. The player must declare they are using this skill on something they suspect might be trapped. Then the door, box or item is opened and if there is indeed a trap it is automatically disarmed. If there is no trap then the skill is not used. The character must spend 10 seconds working on the suspected trigger to disarm it."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Quick Pick Locks",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List, Pick Locks, Trap Dodge",
+      "skillList": "Master Thief",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "The character with this skill is able to pick any one non-magical lock the character can see and reach. The player must declare they are using this skill on something they suspect might be locked. Then the door, box or item is opened and if it is indeed locked, it is automatically unlocked. If the lock is not locked, then the skill is not used. The character must have in-game lock picks to use this skill. The character must spend 10 seconds working on the suspected object to unlock it."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Quick Study",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "The character with this skill is a fast learner and can learn a new skill at half the normal in-game time. Normally it takes 5 minutes per Build Point of in-game roleplay to learn a new skill. A quick study will learn a new skill in 2 and a half minutes per Build Point.",
+        "To learn an Assassin Proficiency skill normally takes 50 minutes, a character with this skill would learn it in 25 minutes.",
+        "This skill is cumulative with the Instructor skill and, so, if the teacher has the Instructor skill, it would only take 12½ minutes to teach an Assassin Proficiency skill.",
+        "This skill is not list or skill specific and any skill the character learns can be trained quickly."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Rage",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Racial",
+      "prerequisites": "None",
+      "skillList": "None",
+      "purchase": "Multi",
+      "duration": "5 Minutes",
+      "description": [
+        "This skill causes the character to enter into battle frenzy. The character will gain the following benefits while raging:",
+        {
+          "type": "list",
+          "items": [
+            "Double their Body Point stat",
+            "+2 Strength Bonus",
+            "Immune to Waylay",
+            "Immune to Torso Stun",
+          ]
+        },
+        "There are some disadvantages to raging; they are as follows:",
+        {
+          "type": "list",
+          "items": [
+            "The character cannot cast any magic",
+            "The character will attack their enemies first, then non- Highlanders or Celts, and Highlanders or Celts last",
+            "While under the affects of a rage, the character cannot use any skill that requires free will",
+          ]
+        },
+        "To invoke this skill, the character should roleplay getting angry then call their clan’s name. During the rage, the character should roleplay being angry and out of control and periodically shout out the name of their clan.",
+        "The rage will end after the duration or if the character falls unconscious for any reason. Other Highlanders or Celts can end a rage if they roleplay talking the raging character down for 1 minute."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Read Magic",
+      "buildCost": [
+        1,
+        6
+      ],
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "Any Literacy Skill",
+      "skillList": "Mage Basic Career Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "When the character learns this skill they are able to read magical writing. This skill is needed to use scrolls, without it a character cannot even tell what spell is written on the scroll. This skill is also required to read any tome that teaches you magic, for example the magical tomes in the Guild of Arcane Lore."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Recover Power",
+      "buildCost": 2,
+      "tagged": "Yes",
+      "skillType": "Arcane",
+      "prerequisites": "Mage Basic Career Skill List, Rank 4 of Any School of Magic",
+      "skillList": "Warlock",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows a character to recover the Power Points and the Spell Holding skill they would have lost if they: error in a spell verbal, miss the target with a spell packet, take damage while casting, or throw a spell packet before the verbal is complete. To use this skill the character must say “Recover Power” within 5 seconds after making a mistake. This skill does not work if you hit the target or the target invokes a defense that stops spells to stop the attack."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Redirect Spell",
+      "buildCost": 7,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Channeling",
+      "skillList": "Master Warrior",
+      "purchase": "Multi, Special",
+      "duration": "Instant",
+      "description": [
+        "This skill allows the character to channel a spell they were hit with through their weapon into any target. Once successfully hit with a spell attack, the player must call “Redirect” and then has 5 seconds to channel the spell away from them into their target upon a successful weapon strike.",
+        "The character can redirect a spell augmented by Warlock skills, however the spell loses all of its augmentations and only the base spell is redirected. A character can only redirect a spell if they are wielding a weapon (not just in their hand) at the time. If the character has two weapons, not including a shield, they may redirect two spells.",
+        "If no target is available to redirect the spell into, then the character may redirect the spell into the ground or some other inanimate object. If a character does not ground the spell, after 5 seconds the spell will harmlessly go away.",
+        "Additionally, the character needs a weapon of quality to redirect spells. Normal weapons and temporarily alloyed weapons will not work. Any attempt to redirect a spell using a normal weapon fails and the spell will affect the character normally.",
+        "Only low magic schools can be redirected, therefore, Spell Songs and Nature Magic cannot be redirected.",
+        "A character must have 15 Power Points per Redirect Spell skill they want to learn. This includes the 30 Power Points needed to learn the Channeling skill.",
+        "This skill is always used once called."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Repel Undead",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Turn Lesser Undead",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "Special",
+      "description": [
+        "This skill will force all lesser undead and lesser demons, or one specific greater undead or greater demon to stay 10 feet away from the character for as long as they hold up their focus. The undead or demons may not attack, cast spells directed towards the character, or even look at the character. This skill does not require concentration and will remain in effect so long as the character continues to hold up their focus and in the case of a single target, towards the target character. The character may take offensive actions and cast spells while maintaining a repel, but should they take damage, the effect will end. Note that a character may only maintain one Repel Undead at a time and cannot use any of their other turn undead skills while maintaining a Repel Undead skill.",
+        "This skill can only be countered by a Servant of Darkness control skill, Empower skill or sorcery; necromancy or abilities will not counter this skill.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Researcher",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character a better chance to research a new alchemical item or sorcery ritual. This skill give a +10% bonus to their success role. In addition, this skill will allow a character to research in-game information in a library, such as the Ducal Library, at a reduced in-game price."
+      ]
     },
+    {
+      "name": "Resist Alchemy",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Arcane",
+      "prerequisites": "Alchemy Lore, Any Two Rank 3 of Potions, Poisons, or Solutions",
+      "skillList": "Alchemist",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allow the Alchemist to resist the effects of any alchemical item or effect the alchemist is exposed to, except acids, Fire Breath potion, or any other item that causes external direct damage or effect."
+      ]
+    },
+    {
+      "name": "Resist Evil",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Paladin",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill will stop one of the following skills: Death Touch, Pain Touch, Venom Touch, Sever Soul, or one Wounding strike.Both the Resist Evil and the resisted skill are used. In the case of use against Sever Soul, this skill can be used when the character is not conscious."
+      ]
+    },
+    {
+      "name": "Resist Spell",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Racial",
+      "prerequisites": "None",
+      "skillList": "None",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill will allow the character to negate the effects of any one low magic spell, Spell Song, Sorcery ritual, or Warlock augmented spell. This skill will not stop Nature Magic spells.",
+        "This skill is not latent and the character has to call this skill when they are affected by one of the listed effects. If a character has another defense against the spell effect they must call their Resist Spell skill first. If a character is out of Resist Spell skill uses for that Tag Cycle they do not have to call another defense against the affect.",
+        "This skill will not work if the character is unconscious."
+      ]
+    },
+    {
+      "name": "Resist Truth",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List",
+      "skillList": "Assassin, Master Thief",
+      "purchase": "Multi",
+      "duration": "Special",
+      "description": [
+        "With the purchase of this skill, the character is able to lie while under the effects of a charm spell or truth inducer once, per tag, per question asked per truth inducer or charm. Therefore if the character is subjected to a Speak the Truth spell, they can use one use of this skill to lie to this question. If asked the same question with another Speak the Truth spell, the character needs to use another use of this skill. However, if the character is dominated or enslaved by spell or skill, then no matter how many times they are asked the same question, they may use one Resist Truth tag to stop all those questions.",
+        "This skill will also prevent you from being forced to commit an action that would answer a question. For example, if a character was dominated and asked if they were an assassin, they could use this skill to lie to that question. For as long as that particular Domination spell was in affect they could continue to lie. If they where asked to raise their arm, stand, dance, etc. if they were an assassin they could “lie” and not follow those commands. However, if they were ordered to follow the caster, protect the caster, or any other similar action they would be compelled to do so. If the character was again dominated and asked the same question, they would have to use another purchase of the Resist Truth skill to lie.",
+        "This skill will not work against the Detect Lie skill."
+      ]
+    },
+    {
+      "name": "Set Trap",
+      "buildCost": null,
+      "tagged": "No",
+      "skillType": "Dexterity",
+      "prerequisites": "Disarm Trap",
+      "skillList": "Rogue Basic Career Skill List, Master Thief",
+      "purchase": "5 Times",
+      "duration": "Constant",
+      "description": [
+        "The player with this skill should read the section in Chapter 7 dealing with setting and removing traps and general in-game thievery before they use this skill.",
+        "The character with this skill can set traps that vary in effect and damage based on how many ranks of the Set Trap skill they have. There are many different types of approved traps that can be set at LAIRE and the character can set any of them with this skill alone.",
+        "For every rank of the Set Trap skill the character has they can make a trap that deals 5 points of normal damage, up to a maximum of 25 points per trap that only effects the character that set off the trap. The trap can be made to affect an area. For every rank used, the radius can be extended by 5 feet, up to a maximum of 10 feet. A rank can only either add to the damage or increase the radius of effect. So, a character with five ranks of the Set Trap skill can make a trap that will affect a single character dealing 25 points of normal damage, a trap that deals 20 points of damage in a 5 foot radius, or 15 points of damage in a 10 foot radius. The character can make traps using less than their maximum number of ranks. In the above case, a character can make a trap that deals 5 points of damage to a single person even though they have five ranks of the Set Trap skill.",
+        "The basic trap deals normal physical damage. The type of damage can be changed by expending the additional cost given below. So, a character can make a trap that deals fire damage, silver damage, or Dwarven damage, but not a combination of these effects. With five ranks of the Set Trap skill, the character can incorporate an alchemical item into their traps. The character must choose to deal damage or an alchemical item, not both. If the alchemical item affects a single character then it must be a contact item. The Set Trap skill cannot augment the alchemy in anyway; therefore an alchemical item that is contact cannot be made to affect an area with this skill. The character must acquire the alchemy separately in addition to the appropriate cost for setting a Rank 5 trap.",
+        "A Trap Tag must be purchased from the Treasure Marshal or a Rogue Marshal ahead of time. The character declares what the trap’s effect will be when they purchase it and it is recorded on the tag. This cannot be changed later. The character pays the required in-game money and provides any extra cost for making the desired trap at the time the tag is acquired. A character must have the required number of ranks of the Set Trap skill to set a trap. For example, a character finds a Rank 5 trap but only has two ranks of the Set Trap skill; they cannot use that trap. Setting a trap takes 1 minute per rank of the trap. A trap must be placed on an object and cannot be set on a character. A character cannot set a trap on a Skeleton, a Golem, an Elf or any other character. Each trap must have its own independent trigger and each trigger can only have one trap. You cannot string traps together. You can set a trap to go off on a box when it is opened, and on an object in the box, but could not set two traps to go off when the lid is opened, ever.",
+        "There is no targeting of traps and no chance the trap will miss. The player needs to call the appropriate defense that stops physical attacks to avoid damage. A character many not use marital defenses like the Slay Parry, Master Parry or Critical Attack skills.",
+        "A trap can only be disarmed with the Disarm Trap skill. A character can teach another how to disarm a specific trap on a particular object. For example, a character can set a trap on a box and teach his friends how to disarm that specific trap. Even if the character comes across another trap of the exact same type, they cannot disarm it. A trap must always be able to be disarmed.",
+        "The cost of a trap is given in the table below.",
+        {
+          "type": "table",
+          "headers": [
+            "Effect",
+            "Cost"
+          ],
+          "rows": [
+            [
+              "Each Rank of the Trap",
+              "5 Copper Pieces"
+            ],
+            [
+              "Fire Damage",
+              "5 Copper Pieces"
+            ],
+            [
+              "Copper Damage",
+              "1 Copper Pieces"
+            ],
+            [
+              "Silver Damage",
+              "1 Silver Pieces"
+            ],
+            [
+              "Gold Damage",
+              "5 Silver Pieces"
+            ],
+            [
+              "Mithril Damage",
+              "10 Silver Pieces"
+            ],
+          ]
+        },
+        "So, a rank 3 trap that deals 10 points of silver damage in a 5 foot radius would cost the character 25 copper pieces. A rank 3 trap that deals 5 points of fire damage in a 10 foot radius would cost the character 20 copper pieces.",
+        "All traps are purchased whole and cannot be augmented later or disassembled for parts. Once a trap is set, it normally cannot be reused unless it is disarmed without damaging the physical trap itself."
+      ]
+    },
+    {
+      "name": "Sever Limb",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "1 Stun, 1 Slay, Continuous +3 Strength Bonus",
+      "skillList": "None",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill works just like the Stun skill, except the limb is removed. The head is not a limb for this skill. The character should suffix their normal damage called with “Sever Limb”. Anything held in the hand or on the arm should be dropped to the ground next to the target character. This skill has no effect if the character is struck in the torso, a limb must be targeted for this skill to work. Removal of the limb does not influence death system status.",
+        "This skill requires the character to have a +3 Strength Bonus to learn and use. This can either be a natural racial bonus or from some other source, such as a magic item. However, the bonus must be a continuous bonus, not one that has a duration or is invoked for a duration. Therefore, a Strength Potion does not count towards this prerequisite."
+      ]
+    },
+    {
+      "name": "Sever Soul",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Death Touch",
+      "skillList": "Servant of Darkness",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill can only be used on a character that has been brought to the Brink of Death and will bring them to the end of their Death Count. This skill takes 60 seconds to use. The character should deliver this skill, by touch or through a weapon, like a Killing Blow, “<verbal> Sever Soul 1, Sever Soul 2, Sever Soul 3…” up to a 60 second count. The character only needs to say “Sever Soul” every 5 seconds after the first three and before the last three. This count must be said in an audible voice and is obvious to others looking out. Though the target character is not forced to leave the body, they may at any time after this skill is used. This skill can be blocked by the Resist Evil skill.",
+        "This skill requires the use of the character’s focus and a verbal, which can be of any length and must contain the name of the skill."
+      ]
+    },
+    {
+      "name": "Shapeshift",
+      "buildCost": 7,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Claws, Nature's Child",
+      "skillList": "Druid",
+      "purchase": "Multi",
+      "duration": "1 Hour",
+      "description": [
+        "When this skill is purchased, the character gains the ability to transform into a normal animal with stats from the normal form of the animal from the Codex of Monstrous Creatures each time the skill is used. All armor and items worn – magical or otherwise – change into the new form and any access to them is lost, however, the benefits of any magic item is still available to the character except magic items that need to leave the character to be useful.",
+        "When a character transforms, they must drop to their hands and knees for 1 minute to role-play the shift. During this time, the character puts on the appropriate costuming for the animal. The character can be attacked and harmed during this time and no skills or abilities can be used. The Druid may call latent spell defenses or invoke spell defenses from items, however. Taking damage will not interrupt the transformation unless the Druid is rendered unconscious or worse. If the character is interrupted, they do not use the skill for that Tag Cycle.",
+        "They also suffer the following detriments while shapeshifted:",
+        {
+          "type": "list",
+          "items": [
+            "They cannot speak common, but can understand what others are saying",
+            "They lose access to all skills, abilities, racial abilities, Body Points, etc of their old form and completely take on the stats of their new form.",
+            "Cannot perform any physical activity the animal cannot naturally perform, for example, opening doors, writing, riding a horse, cooking dinner, etc.",
+            "Cannot use any weapons or shields"
+          ]
+        },
+        "While shape changed, the character appears as a completely normal and natural version of the animal form chosen.",
+        "When the character changes back to their natural form and they are down Body Points, they are down the same amount of Body Points in their normal form. If this would normally put them at zero or less Body Points, the character is at 1 Body Point.",
+        "The change normally lasts 1 hour, but the character may change back to their natural form at will. If while in the animal form, the character is Mortally Wounded or brought to the Brink of Death, they are forced back into their natural form. The character may expend another purchase of this skill at the end of the duration to continue staying in their shapeshifted form without changing back first.",
+        "To use this skill the character must have weapons and costuming appropriate to the animal form. Plot has the final say on the stats of the animal and if it is appropriate.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Shatter Weapon",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, 1 Proficiency",
+      "skillList": "Master Warrior",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "Using this skill, a character may shatter any weapon or shield, regardless of size, using a one-handed edge or a one-handed blunt weapon or larger. Magic, Mithril and unshatterable weapons may not be broken by use of this skill.",
+        "To use this skill, the character must strike their target and hit either their body or weapons. This skill can be used as a defense and cannot be called if another character strikes them or they block with their weapon.",
+        "This skill is not used if the character misses their target. If they succeed in striking their target, or if the target calls an appropriate defense, the skill is used.",
+        "The character must call “Shatter Weapon/Shield” when they use this skill."
+      ]
+    },
+    {
+      "name": "Shield Parry",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, 1 Proficiency, Any Shield Skill",
+      "skillList": "Master Warrior",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to use any martial parry skill they know with their shield."
+      ]
+    },
+    {
+      "name": "Shield Skill",
+      "buildCost": null,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "None",
+      "skillList": "Warrior Basic Career Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "With this skill, a character becomes able to wield a shield and gives that character ability to block damage with a shield. Without this skill, if a character is holding a shield and the shield is struck, the character takes damage as if they were not holding the shield. A shield must be wielded to be effective; the character must hold it by the handle with a hand and arm that is not impaired. If the character holds it incorrectly or the hand or arm is impaired, then any blows struck on the shield effect the character normally, just as if they did not have the shield.",
+        "Shields are not weapons and cannot be used to attack under any circumstances. No martial skill can be used with a shield regardless of the skill. However, if the character purchases the Shield Parry skill, they may then use any of their defensive martial skills with their shield.",
+        "A shield worn on the back affords the character no protection. A character cannot block an attack effectively simply by wearing multiple shields, even if they have the appropriate skill.",
+        "Shields of quality – Dwarven crafted, mythril, and magic shields – can stop the damaging spells of the elemental schools of magic. The spells that do not cause damage but have an effect such as the Pin, Ice Cast, Shatter, or Blast spells cannot be stopped by shields."
+      ]
+    },
+    {
+      "name": "Slay",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, 2 Proficiencies",
+      "skillList": "Master Warrior",
+      "purchase": "Multi, Special",
+      "duration": "Instant",
+      "description": [
+        "This skill allows a character to strike down a target character with one strike. The character hit with this skill is Mortally Wounded and requires the appropriate healing. This skill ignores armor and does not damage it. The character must strike between the elbows to the shoulders and shoulders to the knees of the target character. The character must call “Slay” after the blow is delivered followed by any special damage modifiers, such as “Magic”, “Silver”, etc. This skill can also be used as a Slay Parry, which will stop any one physical martial attack, even a Slay skill. Either use of this skill expends that use of this skill for that Tag Cycle",
+        "A character must have one Proficiency skill per Slay skill they wish to purchase. So, a character that wants three Slay skills must have three Proficiency skills. The Slay skill can be used with any weapon in which the character has two Proficiency skills of either type.",
+        "Therefore, if the character has two Master Proficiency skills they can use their Slay with any weapon.",
+        "This skill is not used if the character misses their target, does not hit the appropriate area on the target, or the attack is blocked. If they succeed in striking their target or if the target calls an appropriate defense, the skill is used."
+      ]
+    },
+    {
+      "name": "Solutions School",
+      "buildCost": [
+        2,
+        2,
+        3,
+        4,
+        5
+      ],
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Alchemy Lore for Rank 1, Prior Rank for Rest",
+      "skillList": "Alchemist",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "This skill is purchased in ranks similar to schools of magic. Rank 1 Solutions allows the character to identify all Solutions, which takes the character 1 minute of roleplaying in-game to perform. The higher ranks allow the character to brew Solutions of that rank and lower. So a character with Rank 3 Solutions could identify any Solution and brew any Solution in Rank 2 and Rank 3 as long as they have the recipe."
+      ]
+    },
+    {
+      "name": "Sorcery Lore",
+      "buildCost": 2,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Create Scroll, 4th Rank of Any School",
+      "skillList": "Sorcerer",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to read, write, and understand sorcery rituals. The rituals can be in any language, but the terms and concepts are undecipherable to anyone who does not have this skill."
+      ]
+    },
+    {
+      "name": "Speed",
+      "buildCost": 6,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, 2 Proficiencies",
+      "skillList": "Master Warrior",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "Using this skill, a character may automatically strike their opponent with a single blow. To use this skill the character must strike at the opponent and must prefix the affect with “Speed”, followed by either weapon damage or a specialty attack such as the Disarm or Slay skills. This skill can only be used with hand to hand weapons and not with ranged attacks.",
+        "Since Speed is a master level skill, only a Master Parry or a Slay skill will stop this attack. Even if the Speed skill is used with a Disarm, for example, the targeted character must use a master level skill to stop the attack.",
+        "This skill is always used once called."
+      ]
+    },
+    {
+      "name": "Speed Cast",
+      "buildCost": 7,
+      "tagged": "Yes",
+      "skillType": "Arcane",
+      "prerequisites": "Any 3 Warlock Skills, Special",
+      "skillList": "Warlock",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "Learning this skill allows a character to cast a spell without saying the complete verbal. When the spell is cast, the Warlock says the name of the spell suffixed by the word “…Spell”. The name of the spell does not have to be technically correct: Life spell, Heal Life spell, Heal this Life spell are all correct. This skill is used when you have said the word “Spell”.",
+        "This skill can only be used with a spell cast by the character and not when invoked from an item or read from a scroll."
+      ]
+    },
+    {
+      "name": "Speed Search",
+      "buildCost": 6,
+      "tagged": "No",
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List, Evaluate Item",
+      "skillList": "Master Thief",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "With this skill, the character is able to completely search an immobile – Unconscious, paralyzed, bound, etc. – character in 10 seconds. One hand must be in contact with the target character while calling “Speed Search 1, Speed Search 2… Speed Search 10”. The 10 seconds should be accompanied by an in-game frisking starting at the head or feet and continuing along the body, as the skill is easily recognizable as a frenzied search. The target must give up any in- game items they have in their possession, except those hidden by magical means or items that are attuned. Items located inside the searched character, swallowed items for example, are revealed as such, but the character must remove the item after the search is completed.",
+        "Only one character can search another character at a time. The target character is easily recognizable as having been searched."
+      ]
+    },
+    {
+      "name": "Spell Binding",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Arcane",
+      "prerequisites": "Mage Basic Career Skill List, Rank 4 of Any School of Magic",
+      "skillList": "Warlock",
+      "purchase": "Multi",
+      "duration": "6 Hours",
+      "description": [
+        "This skill allows a character to bind a spell to a targeted character thereby extending the duration of a spell to 6 hours. This skill does not work on latent or instant spells. This skill can only be used with a spell cast by the character and not when invoked from an item or read from a scroll.",
+        "The use of this skill is indicated by prefixing the spell verbal by “With Spell Binding…”"
+      ]
+    },
+    {
+      "name": "Spell Holding",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Arcane",
+      "prerequisites": "Mage Basic Career Skill List, Rank 4 of Any School of Magic",
+      "skillList": "Warlock",
+      "purchase": "Multi",
+      "duration": "5 Minutes",
+      "description": [
+        "When the character invokes this skill, it will allow them to increase the duration for holding a spell from 5 seconds to 5 minutes. After the spell verbal is completed, the caster must still state the name of the Warlock skills, if any, used and the name of the spell every 5 to 10 seconds. The skill is used once invoked. If the character takes damage or the 5 minutes are up the spell and any Warlock skills that augmented the spell are lost. Note that the normal rules for having a spell in hand are still followed. For more information on this see the chapter on magic.",
+        "This skill cannot be used with any type of wall spell. This skill can only be used with a spell cast by the character and not when invoked from an item or read from a scroll.",
+        "The verbal for this skill is “With Spell Holding…” which must prefix the normal spell verbal."
+      ]
+    },
+    {
+      "name": "Spell Immunity",
+      "buildCost": 5,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Mage Basic Career Skill List, Rank 4 of Any School of Magic",
+      "skillList": "Warlock",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "This skill makes a character permanently immune to a specific spell chosen at the time this skill is learned. The character must know how to cast the spell, that is they must have that rank of magic and the spell in that rank. Once learned, the character is no longer able to cast that spell ever again. For example, if a character purchases Spell Immunity to the Kill spell then they cannot be affected by a Kill spell again under any circumstances. The Character can still cast a spell they are immune to from scrolls or from magic items.",
+        "Use of this skill does not require a focus."
+      ]
+    },
+    {
+      "name": "Spell Singer",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Arcane",
+      "prerequisites": "Literacy",
+      "skillList": "Spell Singer",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill makes the character a Spell Singer and gives the character access to Spell Singing magic. In addition, it gives the character 3 Spell Singing Points."
+      ]
+    },
+    {
+      "name": "Stamina",
+      "buildCost": 4,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "This skill permanently gives the character +3 Body Points each time the skill is purchased. Other than what is listed in this rulebook, this skill will not allow the character to perform any other actions or feats of great stamina."
+      ]
+    },
+    {
+      "name": "Stunning Blow",
+      "buildCost": [
+        6,
+        12
+      ],
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Any 1 Proficiency",
+      "skillList": "Warrior Basic Career Skill List",
+      "purchase": "Multi",
+      "duration": "Special",
+      "description": [
+        "By means of this skill the character is able to deliver a stunning blow to another character. If the target character is struck in the torso then they are affected by a Torso Stun for 5 seconds. If the blow lands on an arm or leg then that limb is broken and must be healed before it can be used again. The character also causes their normal damage when they use this skill. The character should suffix their damage called with the word “Stun”.",
+        "For example, Sir Damien normally causes 18 points of damage with his silver sword. He wants to use his Stunning Blow skill to break an opponent’s leg. He swings his sword and calls “18 Silver Stun”, connects with the character’s leg and successfully breaks his leg and does 18 points of damage to the opponent. Satisfied with the results, he moves on to the next target.",
+        "A character that is affected by a Torso Stun cannot take any offensive action, any defensive action, call any defenses, invoke any items, cast spells or speak. They may only move slowly and should call out their stun count, “Torso Stun One, Torso Stun Two, etc” for the full 5 seconds. Nothing can heal the character from being Torso Stunned. If a character’s arm is broken, they are disarmed as per the Disarm skill and must keep their arm at their side. A character with a broken leg must kneel on that limb and may only crawl. The character cannot jump or hop around on their good leg.",
+        "This skill is not used if the character misses their target or the attack is blocked. If they succeed in striking their target or if the target calls an appropriate defense, the skill is used.",
+        "Unless the target character is immune to stunning blows or has damage resistance superior to the attack, they take the damage and the effects of the stunning blow."
+      ]
+    },
+    {
+      "name": "Superior Strength",
+      "buildCost": 15,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill grants any character a permanent +1 Strength Bonus, non- combinable. This is combinable with any natural racial Strength Bonus the character already has. This skill can only be purchased and used by a living character. If a living character is turned into an undead, they lose the benefits of this skill."
+      ]
+    },
+    {
+      "name": "Swim",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Dexterity",
+      "prerequisites": "None",
+      "skillList": "Master Miscellaneous",
+      "purchase": "Once",
+      "duration": "Special",
+      "description": [
+        "This skill has only one use, to overcome obstacles encountered during game play which do not physically exist. It cannot be used to swim across an actual lake or river if the water is there out-of-game, but if the Marshal only describes the water obstacle or if the water is only represented by a tarp, string or other out-of-game item, then the character can use this skill. The Marshal will have final say as to whether the character successfully uses this skill. The character walks across the out-of-game representation at a slow walk and can swim any reasonable distance."
+      ]
+    },
+    {
+      "name": "Tight Rope Walker",
+      "buildCost": 4,
+      "tagged": "No",
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List, Climb",
+      "skillList": "Master Thief",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill has only one use, to overcome obstacles encountered during game play which do not physically exist. It allows the character to traverse narrow surfaces and rope at a normal pace and fight normally so long as one foot remains on the representation. It cannot be used to walk along the roofs of out-of-game buildings or from tree branch to tree branch, but if the Marshal only describes the ledge or if the rope is only represented by a string along the ground then the character can use this skill. The Marshal will have final say as to whether the character successfully uses this skill."
+      ]
+    },
+    {
+      "name": "Torture",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This roleplaying skill allows the character to inflict pain upon a character without doing damage. The target character must be restrained and unable to resist. The character may cause damage if they wish at any point while using this skill; they may even deliver a Killing Blow.",
+        "This skill does not force a character to answer any question, reveal any information or perform any task. It can be used with the Interrogate skill to force the target character to answer one question truthfully, but the normal rules of the Interrogate skill apply.",
+        "This skill does not allow a character to mutilate a character without doing damage or magically preserving the character in anyway. For example, a character cannot remove an internal organ or bone without delivering a Killing Blow. They can remove fingers or toenails but not hearts, intestines, or spleens. This skill does not allow the character to alter the target character’s physiology in any way, the Evisceration skill is used for that."
+      ]
+    },
+    {
+      "name": "Total Power",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Arcane",
+      "prerequisites": "Any 3 Warlock Skills, Special",
+      "skillList": "Warlock",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "A spell augmented with Total Power penetrates all low magic spell defenses, and affects the target directly. The only low magic spell defense against a spell augmented with Total Power is one that was originally cast with the Total Power skill; if a character has a Total Power Negation, they can invoke it against an ordinary Kill spell or a Total Power Kill spell. The Total Power skill only penetrates spell defenses, not racial abilities or ritual spell defenses. A spell defense augmented by Total Power will still be affected by a Dispel Magic spell, or a Destroy Magic spell, for example. In regards to Magic Sanctuary, Imprisonment, and wall spells, Total Power will go through them but in turn cannot be augmented by Total Power to stop a like augmented spell. A Total Power Imprisonment spell will go through a target’s spell defenses imprisoning them, but another Total Power spell upon the imprisoned character will still affect them normally – the Imprisonment spell is not a “Total Power” Imprisonment spell. In the unique case of a character already under the affects of a Imprisonment spell, a character casting a Total Power Imprisonment spell will go through the imprisonment removing the original and affecting the character with a new Imprisonment spell.",
+        "This skill can only be used with a spell cast by the character and not when invoked from an item or read from a scroll.",
+        "To use this skill, the character prefixes the spell verbal by the phrase “With Total Power…”"
+      ]
+    },
+    {
+      "name": "Tracking",
+      "buildCost": 6,
+      "tagged": "No",
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Master Miscellaneous",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "In order to successfully use this skill, a Marshal must be present. This skill allows the character to track any character that leaves visible signs of its passing. While using this skill the character must move at a slow walking pace. The Marshal has final say as to the successful use of this skill. If no Marshal is present, this skill fails. In addition, the Marshal must know the whereabouts of the character(s) being tracked. If the Marshal does not know, or cannot discover the whereabouts in a reasonable amount of time, the attempt fails.",
+        "For example, Kenai wants to track a necromancer and his undead that attacked some Avalonians. He gets a Marshal who knows where the NPC’s were headed to and marshals the tracking skill. However, when the players arrive at the encounter site, the NPC’s are not there. The Marshal has no idea where the NPC’s are and therefore the tracking attempt has failed.",
+        "This skill can be used to cover tracks as well. While using this skill in this fashion, the player must move at a slow walking pace, one step per second. The Marshal has final say as to the successful use of this skill."
+      ]
+    },
+    {
+      "name": "Trap Dodge",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List, Set Trap Rank 3",
+      "skillList": "Master Thief",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows a character to escape the effects of a trap once it has been triggered. The character does not move from the spot they were in when the trap was triggered. The character can dodge a trap even if they were surprised. This skill may not be combined with Dodge, Jump, or any other movement-affecting skill. The character cannot dodge a trap that they intentionally set off."
+      ]
+    },
+    {
+      "name": "True Aim",
+      "buildCost": 6,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, 1 Proficiency with a Ranged Weapon or 1 Assassin Proficiency Skill",
+      "skillList": "Master Warrior, Assassin",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "With this skill, the character may hit any target character within line of sight flawlessly without having to actually hit the target. The character must have the appropriate ranged attack in hand and the character must fire or throw the attack. If the character or targeted character is outside a building the missile attack must go at least as far, if not farther than the target. It need not hit or be close, just reach the target. If the character and the target character are inside an out- of-game real world building the range of a True Aim skill is unlimited. The character must prefix the attack with “True Aim…”, and call the damage or effect. The character should indicate the target clearly by pointing at the target.",
+        "This skill is always used once called."
+      ]
+    },
+    {
+      "name": "Turn Lesser Undead",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Detect Undead",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "30 Minutes",
+      "description": [
+        "This skill will force all lesser undead and lesser demons within hearing range or line of sight of the character to turn and flee away from them for 30 minutes. The affected characters must turn and move as fast as that type of character is able to move. They are not allowed to take any offensive actions and cannot use defensive skills, but they may invoke latent defenses.",
+        "This skill can only be countered by a Servant of Darkness control skill, Empower skill or sorcery; necromancy will not counter this skill.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Turn Undead Horde",
+      "buildCost": 8,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Repel Undead",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "30 Minutes",
+      "description": [
+        "This skill will force all undead and demons of any type, within hearing range or line of sight of the character to turn and flee away from them for 30 minutes. The affected characters must turn and move as fast as that type of character is able to move. They are not allowed to take any offensive actions and cannot use defensive skills, but they may invoke latent defenses.",
+        "This skill can only be countered by a Servant of Darkness control skill, Empower skill or sorcery; necromancy will not counter this skill.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
+    },
+    {
+      "name": "Unlife",
+      "buildCost": 8,
+      "tagged": "No",
+      "skillType": "Faith",
+      "prerequisites": "Dark Paladin, Cloak Undead",
+      "skillList": "Servant of Darkness",
+      "purchase": "Once",
+      "duration": "Special",
+      "description": [
+        "Once this skill is purchased, the character’s immunity to being turned into an undead is forfeit. Every time the character is raised as an undead through necromancy or sorcery they gain the characteristics of the undead they are turned into – body and abilities – and will be able to use all of their skills and Servant of Darkness skills as a free thinking character not under the caster’s control. The one exception is Zombies and Skeletons created through the Necromancy School, the character cannot use any skill or ability that requires verbals.",
+        "If the character is resurrected, they will retain memory of their time as an undead, but not the act of being animated. This skill will not protect them from skills or abilities that control undead."
+      ]
+    },
+    {
+      "name": "Venom Touch",
+      "buildCost": 8,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Pain Touch, Dark Paladin",
+      "skillList": "Servant of Darkness",
+      "purchase": "Multi",
+      "duration": "5 Minutes",
+      "description": [
+        "This skill will contaminate the targeted character’s blood with a fatal, non-alchemical effect, bypassing all armor. The target is paralyzed for 5 minutes and if not cured in that time the character will be brought to the Brink of Death. This effect can only be cured by using the Heal Wounds skill to Purify Blood. While under the effects of this skill, the target is surrounded by a sickly green nimbus.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill. This skill can be delivered by touch or through a weapon. This skill can be blocked by, and is expended by, a magical defense that stops physical attacks or the Resist Evil skill, or a defensive martial skill which is used but does not expend the Pain Touch skill for that Tag Cycle. This effect can only be cured by a Purify Blood cast from a Heal Wounds skill, not the low magic spell."
+      ]
+    },
+    {
+      "name": "Waylay",
+      "buildCost": [
+        5,
+        15
+      ],
+      "tagged": "No",
+      "skillType": "Dexterity",
+      "prerequisites": "Small Weapon Skill",
+      "skillList": "Rogue Basic Career Skill List",
+      "purchase": "Once",
+      "duration": "5 Minutes",
+      "description": [
+        "This skill will render a target character Unconscious by striking them with a small weapon. The character should tap the target player between the shoulder blades with the weapon and prefix their damage with the word “Waylay”. All Damage Bonuses and Strength Bonuses will add to the damage done by a Waylay. The character must call damage to be effective; a “Waylay Zero” or less has no effect.",
+        "This skill must be delivered from behind. The character must be approximately 90 degrees behind their target to be considered behind them. The character cannot reach their arms around the target to use their Waylay skill. A Waylay does not have to be delivered from surprise, but cannot be delivered against a character who is currently engaged in combat. Once a character has been hit with a Waylay, they are considered to be in-combat, therefore you cannot hit the same character with another waylay immediately after. A character cannot Waylay two characters simultaneously even if they have the Florentine skill. Additionally, a character cannot use the Waylay skill with a ranged attack, even if it is augmented by the True Aim skill.",
+        "A defense that stops physical attacks will protect the character from both the effect and damage done by a waylay. Additionally, a helmet that covers the back of a character’s head and neck will also protect against a Waylay. When armor is evaluated by an Arms Marshal, the helmet is assigned a certain number of Armor Points. In order for a Waylay to knock a character unconscious, it must do more damage than the Armor Points in the helmet. For example, if the target is wearing a helmet worth 2 Armor Points, and you call “Waylay one”, then the target does not fall unconscious but still takes 1 point of damage. The Armor Points in the helmet are the last ones to go for purposes of waylay protection.",
+        "In-game, a Waylay should be perceived as a strong, hard blow to the back of a character’s head, accompanied by a meaty “thunk”. It is not possible to make this a quiet attack; the character must say – not whisper – the word “Waylay”; everyone who hears that word knows that a strong blow has been struck."
+      ]
+    },
+    {
+      "name": "Weapon Accuracy",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, 1 Proficiency, or 1 Assassin Proficiency",
+      "skillList": "Master Warrior, Assassin",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "Using this skill, a character can pinpoint the “chink” in their opponent’s Armor, and hit their Body Points directly. The character must suffix the word “Body” after the amount of damage. This notifies their opponent that such damage is to be deducted from their Body Point total. This skill may be used with other damage skills such as Critical Attack and Speed, as well as being an effective way to deliver blade poisons. This skill will work against mundane or magical Armor Points, even those from an Armor spell.",
+        "This skill cannot be used with an attack that does not do damage.",
+        "This skill is not used if the character misses their target or the attack is blocked. If they succeed in striking their target or if the target calls an appropriate defense, the skill is used."
+      ]
+    },
+    {
+      "name": "Weapon Barrier",
+      "buildCost": 6,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Weapons Master, 4 Proficiencies",
+      "skillList": "Master Warrior, Assassin",
+      "purchase": "Multi",
+      "duration": "1 Minute",
+      "description": [
+        "This skill grants the character a 2 Threshold for 1 minute. This skill will stack with itself, so each additional use of this skill will grant the character an additional +2 Threshold up to a maximum of an 8 Threshold. The player must decide when they invoke this skill how many purchases they wish to use; they cannot decide later to increase the Threshold value.",
+        "To use this skill, the character must be wielding a weapon. The player should call, “Weapon Barrier, x Threshold”, where ‘x’ is the value of the Threshold. Then about every 30 seconds they should remind everyone they are using this skill by saying, “Active Weapon Barrier x”. If the character should lose their weapon, they no longer gain the benefit of the Threshold. When the character is once more wielding a weapon, the benefit of the Threshold is regained. This same rule applies to the character being rendered Unconscious or forced into a Death Count. Once the character is awoken or healed, the Threshold continues. Finally, if a character is unable to wield their weapon – they are bound, paralyzed or imprisoned, their limb is broken, they are blinded and do not have the Blind Fighting skill, etc. – they will lose the benefit of the Threshold until they are able to wield a weapon again. Note that the 1 minute count continues even if the character is not gaining the benefit of this skill.",
+        "This effect stacks only with non-magical threshold effects.",
+        "For example, Scanlon is ambushed by four Orcs. Being alone and without his healer, he decides not to risk being felled by these evil creatures. He invokes two purchases of his Weapon Barrier skill by saying, “Weapon Barrier, 4 Threshold,” and engages the Orcs. One of the Orcs is an Orc Hero and deals 5 points of damage with his weapon and two others are only dealing 3 points of damage. Since Scanlon cannot increase his threshold even though he has a third purchase of this skill, he turns his attention to the Orc Hero and drops him quickly. However, this allows the Orc shaman to hit Scanlon with a Bind spell. Now he no longer gains the benefit of the Weapon Barrier skill and loses his 4 Threshold. The remaining two Orcs are able to easily cut him down."
+      ]
+    },
+    {
+      "name": "Weapon Proficiency",
+      "buildCost": [
+        10,
+        15
+      ],
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "Any Weapon Skill",
+      "skillList": "Warrior Basic Career Skill List",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "When this skill is purchased the character gains a Damage Bonus to
+their attacks given in the table below.",{"type": "table","headers": [
+          "Weapon Type",
+          "Damage Bonus"
+        ],
+        "rows": [
+          [
+            "Small, Thrown, One-Handed, and Crossbows",
+            "+1"
+          ],
+          [
+            "Bows",
+            "+1.5"
+          ]
+        ],
+        "footers": ["Note: The bonus is rounded down so one purchase give a +1 Damage
+Bonus and two purchases give a +3 Damage Bonus."]
+        },
+        "This skill must be purchased for a specific weapon category and cannot be used with other weapons. Additionally, this skill is hand specific and the character must choose whether to apply the Damage Bonus to either their right or left hand when they purchase this skill.",
+        "This skill is stackable with itself and all Weapon Proficiencies learned within a specific weapon category are cumulative. So a Weapon Proficiency +4 with Polearm skill would allow the character to cause 10 points of damage with their polearm. Weapon Proficiencies with other weapon categories do not stack with each other.",
+        "For example, Jaygo purchases the Weapon Proficiency +1 skill with his One-Handed Edge skill with his right hand. He would then cause 3 points of damage with his long sword. Later, Jaygo learns the Weapon Proficiency +2 skill with his One-Handed Edge skill with his right hand and a Weapon Proficiency +1 with Small Weapon skill with his left hand. Now, with his Florentine skill, he causes 4 points of damage with his long sword and 2 points of damage with his dagger, so long as he uses his weapons in the correct hand.",
+        "Proficiencies purchased for bastard weapons are also hand specific. The character gains the Damage Bonus when they use the bastard weapon in two hands and with only one hand so long as it is in the hand they specified at the time the skill was learned.",
+        "Proficiencies learned with weapon categories do not transfer to free weapons gained. For example, a character that learns the One- Handed Edge skill and Two-Handed Edge skill can also use Bastard Edged Weapons, but their One-Handed or Two-Handed Edge Weapon Proficiencies cannot be used with a bastard weapon. This is also true for bastard weapon skills."
+      ]
+    },
+    {
+      "name": "Weapon Skill",
+      "buildCost": null,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "None",
+      "skillList": "Warrior Basic Career Skill List, Rogue Basic Career Skill List, Mage Basic Career Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill is broken down into various categories of weapons. The character must learn each skill individually. All these skills give the character the ability to call damage with that weapon type. If a character does not have the appropriate skill, not only can they not call damage, but should the weapon they are holding be struck, they take the damage anyway.",
+        "The Small Weapon skill costs zero Build Points and anyone can learn this skill. The character does not have to take the skill if they do not want, but they then cannot use a small weapon. However, any character that learns a weapon skill automatically learns the Small Weapon skill and it is put on their Character Card.",
+        "If a character has the One-Handed Edge and Two-Handed Edge skills they can use a Bastard Sword as well. The same is true for the blunt weapons skills.",
+        "Weapon skills are not hand specific. A character with the One- Handed Edge skill can use their short sword in either their right or left hand with no penalty. Bastard weapons used in one hand will do one less point of damage then when used with two hands. Two handed weapons of any type must be used with two hands to cause damage but can still be used to block attacks if used in one hand. Any marital parry skill the character has with their two handed weapon can be used while only using one hand.",
+        "All weapons fall into one of the listed weapon categories. Any new weapon to the game must fall into one of these categories."
+      ]
+    },
+    {
+      "name": "Weapons Master",
+      "buildCost": 10,
+      "tagged": "No",
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, 50 Build Points of Martial Skills",
+      "skillList": "Master Warrior",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "With the purchase of this skill, a character gains the ability to use every form of weapon and shield listed on the Warrior Basic Career Skill List and the Florentine skill. Weapons not listed on the Warrior Basic Career Skill List may be learned at no additional cost when taught by someone with the specific weapon skill or Weapons Master and the knowledge of how to use the weapon.",
+        "Additionally, any Build Points spent on weapon skills the character may have are refunded when this skill is learned. So, if a character has One-handed Edge skill, Two-handed Edge skill and Large Shield skill the character would get back a total of 10 Build Points, effectively getting the Weapons Master skill for free."
+      ]
+    },
+    {
+      "name": "Weapon Smith",
+      "buildCost": [
+        4,
+        6,
+        8,
+        10
+      ],
+      "tagged": "No",
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "4 Times",
+      "duration": "Constant",
+      "description": [
+        "This skill allows a character to make weapons. The table below outlines what each rank of the Weapon Smith skill allows the character to create.",
+        {
+          "type": "table",
+          "headers": [
+            "Rank",
+            "Weapon or Special Crafting"
+          ],
+          "rows": [
+            [
+              "Rank 1",
+              "Small Weapons"
+            ],
+            [
+              "Rank 1",
+              "One-Handed Blunt"
+            ],
+            [
+              "Rank 1",
+              "Bastard Blunt"
+            ],
+            [
+              "Rank 1",
+              "Two-Handed Blunt"
+            ],
+            [
+              "Rank 1",
+              "Spear"
+            ],
+            [
+              "Rank 1",
+              "Quarterstaff"
+            ],
+            [
+              "Rank 1",
+              "Any Shield"
+            ],
+            [
+              "Rank 2",
+              "One-Handed Edge"
+            ],
+            [
+              "Rank 2",
+              "Bastard Edge"
+            ],
+            [
+              "Rank 2",
+              "Two-Handed Edge"
+            ],
+            [
+              "Rank 2",
+              "Polearm"
+            ],
+            [
+              "Rank 2",
+              "Cold Forging"
+            ],
+            [
+              "Rank 2",
+              "Coper, Silver, or Gold Coating"
+            ],
+            [
+              "Rank 2",
+              "Wire Creation"
+            ],
+            [
+              "Rank 3",
+              "Venom Dagger"
+            ],
+            [
+              "Rank 3",
+              "Enchantment Quality"
+            ],
+            [
+              "Rank 3",
+              "Permanently Alloyed Weapon"
+            ],
+            [
+              "Rank 3",
+              "Locks"
+            ],
+            [
+              "Rank 4",
+              "Bone Crafting"
+            ],
+            [
+              "Rank 4",
+              "Venom Sword"
+            ],
+            [
+              "Rank 4",
+              "Unshatterable (Dwarven Crafting)"
+            ],
+            [
+              "Rank 4",
+              "+1 Damage Bonus (Elvent Crafting)"
+            ],
+            [
+              "Rank 4",
+              "Mithril Forging"
+            ],
+          ]
+        },
+        "A character can create any number of normal weapons they wish in between Events. The character needs to hand over the appropriate weapon stock – which they can buy from the Treasure Manager – and receives the appropriate weapon card. If a character wishes to make a weapon during an Event, they must spend the indicated time in- game. All special weapons must be made in-game.",
+        "For full details on creating weapons see the description under the Miscellaneous Skill List in Chapter 2."
+      ]
+    },
+    {
+      "name": "White Sorcerer",
+      "buildCost": 3,
+      "tagged": "No",
+      "skillType": "Faith",
+      "prerequisites": "Plot Approval, Rank 3 Sorcery",
+      "skillList": "Follower of the Light",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to cast white only rituals, gives the character a +5% Casting Bonus to all white and white only rituals and double their Knowledge Bonus for ranks of Healing School.",
+        "For more information, see the sections on Follower of the Light Advanced Career and Sorcerer Advanced Career."
+      ]
+    },
+    {
+      "name": "Wounding",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Dark Cleric",
+      "skillList": "Servant of Darkness",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "Once this skill is purchased, the character gains a Wounding Pool. For each purchase of this skill the character gains 25 Wounding Points. The character may use this to heal themselves and any evil characters’ – Servants of Darkness, undead, demons, Dark Acolytes, etc. – Body Points at a rate of one for one. The character may not use their pool to mimic Healing School spells.",
+        "The character may also use one Wounding Pool Point to augment the damage of their weapon strike to “Dark” which will do direct Body Point damage to any character, even those only affected by magic. This does not increase the damage done by the attack. The character may use any amount of their available Wounding Pool to deliver direct Body Point damage on a one for one ratio by touch or thrown with a spell packet.",
+        "For example, Raizen the Dark Cleric has five purchases of the Wounding skill giving her a 125 point Wounding Pool. She has used 50 points already leaving her with 75 Wounding Pool Points. During a town battle, she uses 40 points of her Wounding Pool by touch to harm Roselina, saying, “By the Dark Lord’s hate, I strike you down, 40 Dark”. Roselina falls but others around her heard what happened and begin attacking Raizen. She normally swings 5 points of damage with her sword and uses 1 point of her Wounding Pool per swing to augment her damage. She now swings “5 Dark” and does direct Body Point damage to any character she attacks.",
+        "A character that also has the Dark Paladin skill can increase the damage of their weapon strikes at a one for one ratio with their Wounding Pool up to their available Wounding Pool.",
+        "For example, Tyr is fighting the Ducal Guard. Outnumbered, he decides to increase his damage using his Wounding Pool from 7 points of damage. He uses 3 points of his Wounding Pool with each swing. He now swings 10 points of damage and calls “10 Dark” damaging their Body Points directly. Tyr can use more of his Wounding Pool with each attack to increase his damage accordingly.",
+        "This skill requires the use of a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill. This skill can be delivered by touch, thrown, or through a weapon. If delivered through a weapon, the targeted character must be struck, and unlike Channeled spells, weapons and shields will stop the attack. If the character misses their target, whether thrown or delivered threw a weapon, or the target uses a martial skill to stop the attack, the skill is not used. If the attack is stopped by a Resist Evil skill or a magical defense that stops physical attacks, the skill is used."
+      ]
+    }
   ]
 }
