@@ -3,44 +3,59 @@
     "name": "The First Rule",
     "content": "If a skill, spell or other rule does not explicitly state you can do something, then you cannot do it. For example, the Giant Strength spell does not say you can use it to leap greater distances, therefore, no matter how creative you may be in trying; you cannot leap with a Giant Strength spell. Another example, the Slay skill says nothing about being used to break an object such as a door. During game play your character wants to get into a room behind a closed door. You cannot use one of your purchases of the Slay skill to break down the door.",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Characters and Players",
     "content": "You are a player and your character is the role you take up in the LAIRE game world. Characters are anything played by a player in the game. Any PC or NPC is a character; Orcs, Goblins, Zombies, Dwarves, etc are all characters. Throughout this rulebook these two words are used and they are not interchangeable. Be careful when you read this rulebook, many of the rules change their meaning if you exchange these two game terms.",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Tag Cycles and Using Skills",
     "content": "If you do not play in a Tag Cycle you cannot use tags from that Tag Cycle. This rule applies to PCs as well as NPCs.",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Rounding Rules",
     "content": "From time to time a player may have to round a number. Unless otherwise stated, the player should round any remainder in their favor with a minimum of 1.",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Losing Permanent Pool Points or Body Points",
     "content": "No character can ever be forced by any charm effect to use a skill or ability, cast a spell or a ritual that will expend permanent pool points – Power Points, Elemental Pool Points, etc. – or permanent Body Points. If the character is made to do so, the attempt fails and nothing is lost. ",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Rule Conflicts",
     "content": "Some rules, skills, spells, rituals, etc. conflict with a more general rule or another skill, spell, ritual, etc. To determine how these rules interact, follow the rule with the most specific information. For example, the general rule is, a skill is used if a defense is called for it. However, many faith skills state that only a magical defense, such as an Invulnerability spell will cause the faith skill to be expended. Finally, the Destroy Undead skill is not used if an Invulnerability spell is called.",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "What Happens When You Call a Hold",
     "content": "When someone calls the word “Hold,” you should stop what you are doing immediately, and stay exactly where you are. Do not leave the spot you are standing on; players who move without good reason during a Hold should be reported to a Marshal. Do not have any conversation during a Hold, in-game or out-of-game, unless it relates to the specific reason why the Hold was called",
     "subsection": "The Hold Rule",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics", "hold_rule"]
+    "tags": [
+      "basics",
+      "hold_rule"
+    ]
   },
   {
     "name": "How to Call a Hold",
@@ -50,7 +65,10 @@
     ],
     "subsection": "The Hold Rule",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics", "hold_rule"]
+    "tags": [
+      "basics",
+      "hold_rule"
+    ]
   },
   {
     "name": "When to Call a Hold",
@@ -76,7 +94,10 @@
     ],
     "subsection": "The Hold Rule",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics", "hold_rule"]
+    "tags": [
+      "basics",
+      "hold_rule"
+    ]
   },
   {
     "name": "What is not allowed during a Hold",
@@ -88,14 +109,20 @@
     ],
     "subsection": "The Hold Rule",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics", "hold_rule"]
+    "tags": [
+      "basics",
+      "hold_rule"
+    ]
   },
   {
     "name": "The Word Hold In-game",
     "content": "You are encouraged to use “period sounding” speech, but a cry of “Hold varlet! I wish to smite thee” is a bad idea. All those around you will hear and repeat the “Hold” and will ignore the rest of your sentence. Therefore, you should not yell the words “Hold” or “Halt” at all, and you should be cautious about beginning any sentence with the word “Hold.” Instead, use the word “Stop”, or “Keep the line” instead of “Hold the line”.",
     "subsection": "The Hold Rule",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics", "hold_rule"]
+    "tags": [
+      "basics",
+      "hold_rule"
+    ]
   },
   {
     "name": "Striking With a Weapon",
@@ -107,7 +134,9 @@
     ],
     "subsection": "Weapons, Magic and Taking Damage",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Calling Damage",
@@ -119,7 +148,9 @@
     ],
     "subsection": "Weapons, Magic and Taking Damage",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Additions to Normal Damage",
@@ -130,7 +161,9 @@
     ],
     "subsection": "Weapons, Magic and Taking Damage",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "When You Do Not Call Full Damage",
@@ -140,7 +173,9 @@
     ],
     "subsection": "Weapons, Magic and Taking Damage",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Taking Damage",
@@ -152,7 +187,9 @@
     ],
     "subsection": "Weapons, Magic and Taking Damage",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Illegal Combat Maneuvers",
@@ -171,7 +208,9 @@
     ],
     "subsection": "Weapons, Magic and Taking Damage",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Legal Contact in Combat",
@@ -183,7 +222,9 @@
     ],
     "subsection": "Weapons, Magic and Taking Damage",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Types of Injury",
@@ -193,7 +234,9 @@
     ],
     "subsection": "Death and Dying",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Death and Recovery",
@@ -244,7 +287,9 @@
     ],
     "subsection": "Death and Dying",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Unconsciousness",
@@ -255,24 +300,79 @@
     ],
     "subsection": "Death and Dying",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
+  },
+  {
+    "name": "Life Effects",
+    "content": [
+      "A character may receive one life effect from each category listed in the table below per day (7am to 7am).",
+      {
+        "type": "table",
+        "headers": [
+          "Life Effect Category",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Low Magic Spell",
+            "Life spell, Kill spell on an undead"
+          ],
+          [
+            "Faith skill",
+            "Paladin Life"
+          ],
+          [
+            "Alchemy",
+            "Alchemical Life potion"
+          ],
+          [
+            "Elemental Life",
+            "The ability of a Life Elemental"
+          ],
+          [
+            "Artifact",
+            "Some ancient and powerful items from antiquity have their own category"
+          ],
+          [
+            "Higher Power Life",
+            "Draconic Life"
+          ],
+          [
+            "Legend Life spell",
+            "Special"
+          ]
+        ]
+      }
+    ],
+    "subsection": "Death and Dying",
+    "section": "Combat",
+    "tags": [
+      "combat",
+      "basics"
+    ]
   },
   {
     "name": "Bleeding to Death",
     "content": "If a character takes enough damage to go to below 0 Body Points, that character is Bleeding to Death. A dying character is considered to be at -1 Body Points, no matter how much additional damage was taken. If your character has 2 Body Points and is hit for 4 points of damage, your character is at -1 Body Points; if your character is then hit by a 24 point Inferno spell the character is still at -1 Body Points. A character goes from Bleeding to Death to Dying if they are not treated within 1 minute of the time they began Bleeding to Death",
     "subsection": "Death and Dying",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Mortally Wounded",
     "content": "A character is considered Mortally Wounded when they have been affected by a Slay or Assassinate skill. The character is reduced to -1 Body Points, should lie down, and begin their count. The character has 1 minute to receive a Heal Mortal Wound spell or a Follower of the Light using their Healing Pool to Heal Mortal Wound, at which the Light using their Healing Pool to Heal Mortal Wound, at which time the character is at 1 Body Point. A character goes from being Mortally Wounded to the Brink of Death if they are not treated within that 1 minute.",
     "subsection": "Death and Dying",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
-    "name": "Dying",
+    "name": "Brink of Death (Dying)",
     "content": [
       "A character is at the Brink of Death stage if:",
       {
@@ -291,7 +391,9 @@
     ],
     "subsection": "Death and Dying",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Death",
@@ -302,14 +404,18 @@
     ],
     "subsection": "Death and Dying",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Killing Blows",
     "content": "To force a character to the Brink of Death when they are Unconscious, Bleeding to Death, paralyzed, asleep, or otherwise totally unresisting, a player may deliver a Killing Blow with a weapon, spell or hands. Note that hands can only be used in this one specific case and are not allowed to be used in combat normally",
     "subsection": "Death and Dying",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "After Your Character is Dead",
@@ -325,14 +431,18 @@
     ],
     "subsection": "Death and Dying",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "In-game Behavior",
     "content": "The game is better if you stay in-game as much as possible. Try to keep out-of-game comments to a minimum; yes, we have seen Monty Python and the Holy Grail as many times as you have. Let us look at the Hamlet analogy: it may seem funny to the actor playing Hamlet to stick in a line from A Streetcar Named Desire, but chances are it will just make the audience fidget; after all, they came for a good performance of Shakespeare, and the joke just spoils the experience. All of us work together to create the illusion that we are participating in a fantasy world; no one likes it when their work is spoiled.",
     "subsection": "In-game vs. Out-of-game ",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Out-of-game Behavior",
@@ -343,7 +453,9 @@
     ],
     "subsection": "In-game vs. Out-of-game ",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Going In- and Out-of-Game",
@@ -353,7 +465,9 @@
     ],
     "subsection": "In-game vs. Out-of-game ",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Out-of-Game Areas",
@@ -363,7 +477,9 @@
     ],
     "subsection": "In-game vs. Out-of-game ",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Abuse of the System",
@@ -374,7 +490,9 @@
     ],
     "subsection": "In-game vs. Out-of-game ",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Sleeping In-Game",
@@ -384,7 +502,9 @@
     ],
     "subsection": "In-game vs. Out-of-game ",
     "section": "Basic Game Rules and Concepts",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Intro",
@@ -406,7 +526,9 @@
     ],
     "subsection": "Logistics and Check-in",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "The Character Card",
@@ -418,7 +540,9 @@
     ],
     "subsection": "Logistics and Check-in",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Checking Out",
@@ -440,7 +564,9 @@
     ],
     "subsection": "Logistics and Check-in",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Up Keep",
@@ -450,7 +576,9 @@
     ],
     "subsection": "Logistics and Check-in",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "PC’ing",
@@ -460,7 +588,9 @@
     ],
     "subsection": "Logistics and Check-in",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "NPC’ing",
@@ -474,14 +604,18 @@
     ],
     "subsection": "Logistics and Check-in",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Intro",
     "content": "LAIRE is a cooperative effort. The organization only works when everyone participates to make it work. We are a not-for-profit organization, and we cannot pay you for your efforts on our behalf. Instead, we award Brownie Points (BRP) when you work for us. The basic rate is one BRP for each hour of labor; sometimes the rate is higher for arduous work such as helping to run Logistics.",
     "subsection": "Brownie and Play Credits ",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "How to Spend Brownie Points",
@@ -489,7 +623,10 @@
       "Brownie Points may not be traded between players. There is one exception: you can give BRP to another player for the sole purpose of helping them buy a new life if they pull a black marble.",
       {
         "type": "table",
-        "headers": ["Category", "Brownie Point Cost"],
+        "headers": [
+          "Category",
+          "Brownie Point Cost"
+        ],
         "rows": [
           [
             "Build for a Character",
@@ -513,28 +650,36 @@
     ],
     "subsection": "Brownie and Play Credits ",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Earning Brownie Points",
     "content": "On page 275 (LINK_TODO) there is a table outlining the Brownie Points, Build or Play Credits awarded for the various jobs in LAIRE. Not all the jobs listed are described in this rule book. You will learn what each of these jobs are as you play the game.",
     "subsection": "Brownie and Play Credits ",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "LAIRECash",
     "content": "LAIRECash can be used only to offset the cost of LAIRE Events, up to half the cost of the Event. One LAIRECash equals one dollar.",
     "subsection": "Brownie and Play Credits ",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Play Credits",
     "content": "Every time you go to a full event weekend end, you are required to have one Play Credit. The most common way to earn Play Credits is to NPC a full weekend. From time to time, LAIRE will have a special event usually lasting only a single day or night, for example, the Halloween Party. These events do no require a Play Credit to participate. Any player that travels more than 200 miles to attend an Event does not require a Play Credit to participate.",
     "subsection": "Brownie and Play Credits",
     "section": "Basic Game Play",
-    "tags": ["basics"]
+    "tags": [
+      "basics"
+    ]
   },
   {
     "name": "Weapon Damage",
@@ -561,7 +706,10 @@
     ],
     "subsection": "Weapons, Magic and Taking Damage",
     "section": "Weapon Damage",
-    "tags": ["basics", "damage"]
+    "tags": [
+      "basics",
+      "damage"
+    ]
   },
   {
     "name": "Earning Build and Leveling",
@@ -571,28 +719,112 @@
       "New characters receive 25 initial Build Points. The Awarded Build is the number of Build Points you gain above that initial 25. The Total Build is the sum of the awarded Build Points plus the initial 25. The number of Build Points that corresponds to a character’s Level is on the following chart:",
       {
         "type": "table",
-        "headers": ["Level", "Awarded Build", "Total Build"],
+        "headers": [
+          "Level",
+          "Awarded Build",
+          "Total Build"
+        ],
         "rows": [
-          ["1", "0-9", "25-34"],
-          ["2", "10-19", "35-44"],
-          ["3", "20-29", "45-54"],
-          ["4", "30-39", "55-64"],
-          ["5", "40-49", "65-74"],
-          ["6", "50-59", "75-84"],
-          ["7", "60-69", "85-94"],
-          ["8", "70-79", "95-104"],
-          ["9", "80-89", "105-114"],
-          ["10", "90-99", "115-124"],
-          ["11", "100-109", "125-134"],
-          ["12", "110-119", "135-144"],
-          ["13", "120-129", "145-154"],
-          ["14", "130-139", "155-164"],
-          ["15", "140-149", "165-174"],
-          ["16", "150-159", "175-184"],
-          ["17", "160-169", "185-194"],
-          ["18", "170-179", "195-204"],
-          ["19", "180-189", "205-214"],
-          ["20", "190-199", "215-224"]
+          [
+            "1",
+            "0-9",
+            "25-34"
+          ],
+          [
+            "2",
+            "10-19",
+            "35-44"
+          ],
+          [
+            "3",
+            "20-29",
+            "45-54"
+          ],
+          [
+            "4",
+            "30-39",
+            "55-64"
+          ],
+          [
+            "5",
+            "40-49",
+            "65-74"
+          ],
+          [
+            "6",
+            "50-59",
+            "75-84"
+          ],
+          [
+            "7",
+            "60-69",
+            "85-94"
+          ],
+          [
+            "8",
+            "70-79",
+            "95-104"
+          ],
+          [
+            "9",
+            "80-89",
+            "105-114"
+          ],
+          [
+            "10",
+            "90-99",
+            "115-124"
+          ],
+          [
+            "11",
+            "100-109",
+            "125-134"
+          ],
+          [
+            "12",
+            "110-119",
+            "135-144"
+          ],
+          [
+            "13",
+            "120-129",
+            "145-154"
+          ],
+          [
+            "14",
+            "130-139",
+            "155-164"
+          ],
+          [
+            "15",
+            "140-149",
+            "165-174"
+          ],
+          [
+            "16",
+            "150-159",
+            "175-184"
+          ],
+          [
+            "17",
+            "160-169",
+            "185-194"
+          ],
+          [
+            "18",
+            "170-179",
+            "195-204"
+          ],
+          [
+            "19",
+            "180-189",
+            "205-214"
+          ],
+          [
+            "20",
+            "190-199",
+            "215-224"
+          ]
         ]
       },
       "Every character is awarded a blanket number of Build Points for attending an Event. These Build Points are an award and not a right. A player pays to attend the Event not for Build Points. The Builds Point awarded every Event is a privilege not a right and the Executive Board can chose to withhold Build Points from a character or the game if they wish or award extra Build Points if they wish.",
@@ -605,20 +837,54 @@
           "Maximum Build from Brownie"
         ],
         "rows": [
-          ["1", "6", "3"],
-          ["2", "5", "2.5"],
-          ["3", "4", "2"],
-          ["4", "3", "1.5"],
-          ["5 to 25", "2", "1"],
-          ["26 to 30", "1.7", "0.9"],
-          ["31 to 35", "1.5", "0.8"],
-          ["36 and up", "1", "0.5"]
+          [
+            "1",
+            "6",
+            "3"
+          ],
+          [
+            "2",
+            "5",
+            "2.5"
+          ],
+          [
+            "3",
+            "4",
+            "2"
+          ],
+          [
+            "4",
+            "3",
+            "1.5"
+          ],
+          [
+            "5 to 25",
+            "2",
+            "1"
+          ],
+          [
+            "26 to 30",
+            "1.7",
+            "0.9"
+          ],
+          [
+            "31 to 35",
+            "1.5",
+            "0.8"
+          ],
+          [
+            "36 and up",
+            "1",
+            "0.5"
+          ]
         ]
       },
       "Characters can also gain extra Build Points for exceptional roleplaying and going on a Module. These extra Build Points are called Roleplaying Chips (RC) and are either written directly on a character’s card or handed to a player in the form of a round yellow chip. These chips are handed into Logistics at the end of the Event when you turn in your Character Card. Players earn RC not characters and a player may hand in the chips with any character they have; however, RC’s written on a character card are for that character only and cannot be transferred."
     ],
     "section": "Character Growth",
-    "tags": ["leveling"]
+    "tags": [
+      "leveling"
+    ]
   },
   {
     "name": "Learning and Teaching Skills",
@@ -635,7 +901,9 @@
       "Once a skill appears on a player’s card their character has used the skill or cast the spell successfully at least once."
     ],
     "section": "Character Growth",
-    "tags": ["leveling"]
+    "tags": [
+      "leveling"
+    ]
   },
   {
     "name": "Body Points",
@@ -652,9 +920,21 @@
           "Associated Skill Lists"
         ],
         "rows": [
-          ["Martial", "0.25", "Warrior, Weapons Master"],
-          ["Dexterity", "0.10", "Rogue, Master Thief, Assassin"],
-          ["Arcane", "0.05", "Mage, Alchemy, Sorcery, Warlock, Spell Singing"],
+          [
+            "Martial",
+            "0.25",
+            "Warrior, Weapons Master"
+          ],
+          [
+            "Dexterity",
+            "0.10",
+            "Rogue, Master Thief, Assassin"
+          ],
+          [
+            "Arcane",
+            "0.05",
+            "Mage, Alchemy, Sorcery, Warlock, Spell Singing"
+          ],
           [
             "Faith",
             "0.20",
@@ -665,7 +945,11 @@
             "0.15",
             "Some Miscellaneous Skills, Some Master Miscellaneous Skills"
           ],
-          ["Racial", "0.15", "Racial Skills"]
+          [
+            "Racial",
+            "0.15",
+            "Racial Skills"
+          ]
         ]
       },
       "There is one exception of the on-list versus off-list Build Point value, for Power Points, you receive 0.05 Body Points for each Build you spend, even if you bought the Power Points off-list.",
@@ -674,7 +958,11 @@
       "Tythis purchases: One-Handed Edged Weapon (6 BP), Battle Surgery (4 BP), First Aid (2 BP), Armor Smith (3 BP), Literacy (4 BP), 1st Rank Aura School (5 BP), and 11 Power Points (11 BP). This sums up as follows: 6 x 0.25 (Martial skills) + 13 x 0.15 (Miscellaneous skills) + 16 x 0.05 (Arcane skills) = 3.95 Body Points, plus 3 = 6.95 Body Points, which is rounded to 7 Body Points."
     ],
     "section": "Character Growth",
-    "tags": ["leveling", "health", "hp"]
+    "tags": [
+      "leveling",
+      "health",
+      "hp"
+    ]
   },
   {
     "name": "Introduction",
@@ -682,7 +970,11 @@
       "Magic is an important element to any fantasy roleplaying game. Even if your character never casts a magic spell or uses a magic item, the existence of magic has an impact on your character. The LAIRE magic system has several aspects; the basic magic or low magic is described in this chapter. There are other, more complex forms of magic called high magic which is comprised of: Sorcery, Warlockery and Spell Singing. There is also the faith magic of the Druids called Nature Magic. These high magics are described in their respective Advanced Careers. This chapter deals solely with low magic and the various schools of magic that make it up, along with the general rules for how to use magic in our game."
     ],
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "Introduction",
@@ -691,7 +983,11 @@
     ],
     "subsection": "How Spells Work",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "How to Cast a Spell",
@@ -713,7 +1009,11 @@
     ],
     "subsection": "How Spells Work",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "How to Interrupt a Spell or Fail to Cast a Spell",
@@ -734,7 +1034,11 @@
     ],
     "subsection": "How Spells Work",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "Power Points",
@@ -745,7 +1049,11 @@
     ],
     "subsection": "How Spells Work",
     "section": "Magic",
-    "tags": ["mp", "power points", "pp"]
+    "tags": [
+      "mp",
+      "power points",
+      "pp"
+    ]
   },
   {
     "name": "Spell Verbals",
@@ -757,19 +1065,55 @@
       "There are other in-game characteristics that distinguish spells from one another. Each spell gives off a flash of light when it is cast. The table below indicates what color goes with what school.",
       {
         "type": "table",
-        "headers": ["School", "Color"],
+        "headers": [
+          "School",
+          "Color"
+        ],
         "rows": [
-          ["Auras", "Green"],
-          ["Bonds", "Green"],
-          ["Charms", "Green"],
-          ["Death", "Green"],
-          ["Demonology", "Green"],
-          ["Enchantments", "Green"],
-          ["Healing", "Green"],
-          ["Ice", "Green"],
-          ["Necromancy", "Green"],
-          ["Pyrotechnics", "Green"],
-          ["Thaumaturgy", "Green"]
+          [
+            "Auras",
+            "Green"
+          ],
+          [
+            "Bonds",
+            "Green"
+          ],
+          [
+            "Charms",
+            "Green"
+          ],
+          [
+            "Death",
+            "Green"
+          ],
+          [
+            "Demonology",
+            "Green"
+          ],
+          [
+            "Enchantments",
+            "Green"
+          ],
+          [
+            "Healing",
+            "Green"
+          ],
+          [
+            "Ice",
+            "Green"
+          ],
+          [
+            "Necromancy",
+            "Green"
+          ],
+          [
+            "Pyrotechnics",
+            "Green"
+          ],
+          [
+            "Thaumaturgy",
+            "Green"
+          ]
         ]
       },
       "However, it takes more than just saying the words to cast a spell. A character who just says, “I Call upon Darkness and Terror to Kill You and Wreak Havoc upon Your Soul,” has not necessarily cast a Kill spell; they must have the skill of Rank 4 Death Magic, spend the Power Points, have a spell packet in hand, and the desire to cast as well. Any character can say the verbal for a spell if they know them, even a character with that school and rank of magic, but the spell is not cast unless the character wishes to; there needs to be a conscious effort on the part of the character to cast a spell. The spell is cast when the verbal is finished, so there is a visible effect when the character ends casting.",
@@ -779,7 +1123,11 @@
     ],
     "subsection": "How Spells Work",
     "section": "Magic",
-    "tags": ["casting", "spells", "verbal"]
+    "tags": [
+      "casting",
+      "spells",
+      "verbal"
+    ]
   },
   {
     "name": "Latent Spells",
@@ -794,25 +1142,79 @@
       "When casting a latent spell on a character, take the Power Point tags used to cast the spell, write the caster’s name and the name of the spell, and give the tags to the character. For convenience, a player may abbreviate the name of the latent spell. Here are some suggested abbreviations:",
       {
         "type": "table",
-        "headers": ["Latent Spell", "Suggested Abbreviation"],
+        "headers": [
+          "Latent Spell",
+          "Suggested Abbreviation"
+        ],
         "rows": [
-          ["Absorption", "ABS"],
-          ["Armor*", "+3 AP"],
-          ["Aura of Resistance", "ARES"],
-          ["Defense", "DEF"],
-          ["Fire Shield", "FS"],
-          ["Fortitude", "FOR"],
-          ["Giant Strength", "GS"],
-          ["Frost Brand", "FB"],
-          ["Ice Shield", "IS"],
-          ["Invulnerability", "INV"],
-          ["Magic Weapon", "MW"],
-          ["Negation", "NEG"],
-          ["Obscure", "OBS"],
-          ["Reflection", "REF"],
-          ["Resist Suggestion", "RS"],
-          ["Stamina*", "+3 BP"],
-          ["Vigilance", "VIG"]
+          [
+            "Absorption",
+            "ABS"
+          ],
+          [
+            "Armor*",
+            "+3 AP"
+          ],
+          [
+            "Aura of Resistance",
+            "ARES"
+          ],
+          [
+            "Defense",
+            "DEF"
+          ],
+          [
+            "Fire Shield",
+            "FS"
+          ],
+          [
+            "Fortitude",
+            "FOR"
+          ],
+          [
+            "Giant Strength",
+            "GS"
+          ],
+          [
+            "Frost Brand",
+            "FB"
+          ],
+          [
+            "Ice Shield",
+            "IS"
+          ],
+          [
+            "Invulnerability",
+            "INV"
+          ],
+          [
+            "Magic Weapon",
+            "MW"
+          ],
+          [
+            "Negation",
+            "NEG"
+          ],
+          [
+            "Obscure",
+            "OBS"
+          ],
+          [
+            "Reflection",
+            "REF"
+          ],
+          [
+            "Resist Suggestion",
+            "RS"
+          ],
+          [
+            "Stamina*",
+            "+3 BP"
+          ],
+          [
+            "Vigilance",
+            "VIG"
+          ]
         ],
         "footers": [
           "* These spells are not actually latent, but are active spells. They are in the list for completion."
@@ -822,7 +1224,11 @@
     ],
     "subsection": "Special Rules for Spells",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "Stacking Spells",
@@ -835,7 +1241,11 @@
     ],
     "subsection": "Special Rules for Spells",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "Wall Spells and Concentration Rules",
@@ -851,7 +1261,11 @@
     ],
     "subsection": "Special Rules for Spells",
     "section": "Magic",
-    "tags": ["spells", "wall", "concentration"]
+    "tags": [
+      "spells",
+      "wall",
+      "concentration"
+    ]
   },
   {
     "name": "Durations",
@@ -865,7 +1279,11 @@
     ],
     "subsection": "Special Rules for Spells",
     "section": "Magic",
-    "tags": ["time", "spells", "duration"]
+    "tags": [
+      "time",
+      "spells",
+      "duration"
+    ]
   },
   {
     "name": "Overspending Power Points",
@@ -876,7 +1294,11 @@
     ],
     "subsection": "Special Rules for Spells",
     "section": "Magic",
-    "tags": ["casting", "pp", "cost"]
+    "tags": [
+      "casting",
+      "pp",
+      "cost"
+    ]
   },
   {
     "name": "Natural Immunities",
@@ -886,7 +1308,11 @@
     ],
     "subsection": "Special Rules for Spells",
     "section": "Magic",
-    "tags": ["immunity", "immune", "resistance"]
+    "tags": [
+      "immunity",
+      "immune",
+      "resistance"
+    ]
   },
   {
     "name": "Shields and Spells",
@@ -895,21 +1321,46 @@
       "The six elemental schools are given in the table below:",
       {
         "type": "table",
-        "headers": ["School of Magic", "Element"],
+        "headers": [
+          "School of Magic",
+          "Element"
+        ],
         "rows": [
-          ["Bonds", "Earth"],
-          ["Death", "Death"],
-          ["Enchantments", "Air"],
-          ["Healing", "Life"],
-          ["Ice", "Water"],
-          ["Pyrotechnics", "Fire"]
+          [
+            "Bonds",
+            "Earth"
+          ],
+          [
+            "Death",
+            "Death"
+          ],
+          [
+            "Enchantments",
+            "Air"
+          ],
+          [
+            "Healing",
+            "Life"
+          ],
+          [
+            "Ice",
+            "Water"
+          ],
+          [
+            "Pyrotechnics",
+            "Fire"
+          ]
         ]
       },
       "Only the spells from these schools that do damage are stopped by shields of quality. For example: the Fireball, Ice Bolt, Lightning Bolt, and Maim spells all do damage and are all stopped by shields of quality. Spells that have an effect are not stopped by shields of quality. For example: the Pin, Paralysis, Shatter, Blast, Ice Cast and Artic Wind spells are all effect spells and are not stopped by shields of quality."
     ],
     "subsection": "Special Rules for Spells",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "Stopping Spells for Someone Else",
@@ -919,7 +1370,11 @@
     ],
     "subsection": "Special Rules for Spells",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "Casting Spells on Inanimate Objects",
@@ -930,7 +1385,11 @@
     ],
     "subsection": "Special Rules for Spells",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "Introduction",
@@ -939,13 +1398,36 @@
       "Spells are also grouped by rank within a school; the more powerful a spell is, the higher its rank. What rank a character may learn is dependant upon the chart given below.",
       {
         "type": "table",
-        "headers": ["Rank, Character Level", "Power Points"],
+        "headers": [
+          "Rank, Character Level",
+          "Power Points"
+        ],
         "rows": [
-          ["1", "1st", "3"],
-          ["2", "3rd", "25"],
-          ["3", "5th", "50"],
-          ["4", "7th", "75"],
-          ["5", "9th", "100"]
+          [
+            "1",
+            "1st",
+            "3"
+          ],
+          [
+            "2",
+            "3rd",
+            "25"
+          ],
+          [
+            "3",
+            "5th",
+            "50"
+          ],
+          [
+            "4",
+            "7th",
+            "75"
+          ],
+          [
+            "5",
+            "9th",
+            "100"
+          ]
         ]
       },
       "All the lower ranks of a school must be learned before a higher rank can be learned; a character cannot learn the second rank of the Healing School unless they know the first rank of the Healing School.",
@@ -957,7 +1439,11 @@
     ],
     "subsection": "Learning Low Magic",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "Spell Books",
@@ -969,7 +1455,11 @@
     ],
     "subsection": "Learning Low Magic",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
     "name": "Introduction",
@@ -980,34 +1470,697 @@
     ],
     "subsection": "New Spells",
     "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "tags": [
+      "casting",
+      "spells",
+      "magic"
+    ]
   },
   {
-    "name": "",
-    "content": [],
-    "subsection": "Learning Low Magic",
-    "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "name": "Introduction",
+    "content": [
+      "Combat is one of the most exciting and intriguing parts of the game of LAIRE. At first it seems simple: you just swing a foam sword at your opponent. Then the issue of safety arises, a player has to know how and where to strike with their foam weapon in legal LAIRE combat. Then there is keeping track of how much damage your character has taken during the battle, and all the special blows that can be struck. Combat is not as easy as it first appears.",
+      "However, a player who is familiar with all the rules of combat is also the one who has the most fun. The best fighters in the game are those who let themselves feel the rush of adrenaline as they enter melee, but still retain the control over their actions that, in-game, an experienced warrior must have if they are to survive. This balance between knowledge and excitement occurs frequently in the game: A player who knows the rules will enjoy themselves more."
+    ],
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
   },
   {
-    "name": "",
-    "content": [],
-    "subsection": "Learning Low Magic",
-    "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "name": "Surprise Attacks and Using Martial Defenses",
+    "content": [
+      "The only attack skill that is classified as a surprise is the Assassinate skill. A character cannot use a martial defensive skill against a surprise attack. Therefore, if an Assassinate skill is used on a character, they cannot call martial defenses like Master Parry, Slay Parry, Crit Parry, etc. to stop the Assassinate.",
+      "An attack delivered by surprise is different than a surprise attack. A character unaware of an opponent who is struck by an attack – damage, martial skill, spell, or ability – can always call a magical defense. They can also call a martial skill so long as they have a weapon in hand. They must be able to use their martial defense with the weapon in hand. A character with a weapon that is sheathed or held under their arm, for example, cannot use a martial skill to stop the attack.",
+      "For example, Zephyr is standing around watching some friends spar. His weapons are in their sheath at his side. A brigand comes up behind him and strikes him in the back with a Slay. Even though Zephyr has a Slay skill that he can parry the attack with, he cannot use it to stop the Slay from the brigand because it is in his sheath. He calls an Invulnerability instead. Later, Zephyr is again standing around waiting for some friends to return. This time, learning his lesser earlier in the day, he has his sword out and in hand. Another brigand quietly approaches Zephyr from behind and surprises Zephyr with a Slay to the back. This time Zephyr calls his Slay Parry and stops the attack."
+    ],
+    "section": "Combat",
+    "subsection": "Weapons and Taking Damage",
+    "tags": [
+      "combat"
+    ]
   },
   {
-    "name": "",
-    "content": [],
-    "subsection": "Learning Low Magic",
-    "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "name": "Introduction",
+    "content": [
+      "Bastard swords may be used with one or two hands; the damage varies according to the number of hands on the weapon.",
+      "All two-handed weapons, including staves and polearms, must always be used in two hands to score damage in combat. If you wield the weapon with one hand, you cannot do damage with it but you can still block and parry.",
+      "Spears cannot be thrown. The only weapons you are allowed to throw are those entirely made out of foam."
+    ],
+    "subsection": "Special Rules for Weapons and Shields",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
   },
   {
-    "name": "",
-    "content": [],
-    "subsection": "Learning Low Magic",
-    "section": "Magic",
-    "tags": ["casting", "spells", "magic"]
+    "name": "Claws",
+    "content": [
+      "Some characters with a skill or racial ability may use a claw to attack with instead of in-game weapons. A claw is represented out-of-game by a foam weapon wrapped entirely in white duct tape. If your weapon strikes a claw, the character takes damage because the claw is part of the character’s body. However, some character’s claws are so tough they do not take any damage if you hit their claws. The NPC should indicate they have not taken damage when their claws are struck. A claw cannot be affected by a Fumble spell or removed with the Disarm skill. In addition, most martial skills such as Proficiencies, Slay, Critical Attack, Assassinate, etc. cannot be used with a claw.",
+      "In order to cast a spell, you must hit the person with a spell packet, even if you use a spell packet to touch them at zero range. Therefore, you can never “touch cast” with a claw, no matter who you are. The only way to cast a spell through a weapon is with the Channeling skill. You cannot use a claw to channel a spell since it is neither a weapon nor a weapon of quality. There are no such things as “claws of quality”. All characters in our game conform to this rule, no spell may be cast with the use of claw. Some creatures have spell like effects that sound or act like spells. This is acceptable and is clearly delineated on the character’s card. Also, certain characters with claws may be able to use faith skills and abilities through their claws. This also will be clearly delineated on that character’s card."
+    ],
+    "subsection": "Special Rules for Weapons and Shields",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Shields",
+    "content": [
+      "Shields do not add to the Armor Point value awarded a character. They are simply used to block attacks. Unlike armor, shields never “wear out”. A shield can sustain any number of blows struck by any type of weapon. Spells that strike a shield are not blocked and still affect the character normally. However, shields of quality will stop elemental damaging attacks such as spells from the Ice School or Enchantments School."
+    ],
+    "subsection": "Special Rules for Weapons and Shields",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Facial Contact",
+    "content": [
+      "The head and face are never appropriate for any in-game activity, whether it be an attack by a weapon, a target for a spell packet, or the application of an item such as a poison. If you wish to represent facial contact in some way, touch the player’s shoulder and say “facial contact” out-of-game."
+    ],
+    "subsection": "Legal Contact in Combat",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "When You Are Struck Illegally",
+    "content": [
+      "If you are struck on an illegal part of your body, let your opponent know by saying, “head strike,” or whatever is appropriate. If you are struck a second time, call a Hold and explain the matter to the offending player and to a Marshal. You should do this even if you think the second blow was a coincidence. You do not know if the player has a problem systematically striking other people in the head; the Marshal will know if the player has been warned before.",
+      "If you are struck illegally and are hurt out-of-game, remember that it is your responsibility to call a Hold, not your attacker. Your attacker cannot tell whether you are actually hurt or whether you are roleplaying the damage done to your character. Do not hesitate to call a Hold for your own personal safety; if you have been hit in the head and you think you are all right, call a Hold anyway; sometimes it takes a moment to feel the effects of a nasty blow."
+    ],
+    "subsection": "Legal Contact in Combat",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "When You Strike an Illegal Blow",
+    "content": [
+      "If you swing a blow and a player says, “head strike,” always take their word for it. Even if you think the blow was an accident, treat it as a serious indication that you should alter your style of combat. The most common reason for accidental head strikes is that you are aiming for a player’s shoulder and strike their head instead. Do not aim for their shoulder anymore, aim for their torso instead; also remember that the feet and ankles are always legal targets and can be more effective points to aim at in combat than the shoulder.",
+      "Important: If a player falls down before you and seems injured, ask. It is their responsibility to call a Hold, not yours, but give them a chance to do so. However, if the player fails to respond or you see blood, call a Hold. If you hear them even whisper the word Hold at this point, repeat it with a yell so that the combat will stop. If a player falls down clutching at their head, then odds are they are not roleplaying; ask, “Out-of-game, are you all right?”"
+    ],
+    "subsection": "Legal Contact in Combat",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Restraining Another Character",
+    "content": [
+      "Sometimes during game play one character may wish to restrain another character for some reason. There is no physical contact allowed between two players, therefore in order to simulate the contact, the restraining character should touch the other character on the shoulder with a spell packet and say, “I grab you with plus <Strength Bonus>, <Location>”. For example, if Feiht wishes to restrain Dunadass, he would touch Dunadass on the shoulder with a spell packet, and using his Giant Strength spell, say, “I grab you with plus three strength on your arms.”",
+      "The target of the grab has three choices. First, they can do nothing and be grabbed. Second, they could call a defense that stops physical attacks, or lastly, can use their strength to resist. In order not to be grabbed, the target must equal the strength used to grab them; in this case, the tie goes to the grabbed. Once grabbed, the character must exceed the strength used to hold them; in this case the tie goes to the grabber.",
+      "All Strength Bonuses must be called when grabbed or when being resisted. There is no back and forth escalation of strength contests. If the Strength Bonus comes from a temporary source, such as a spell, then the initial attempt counts as one action. In the above example, if Dunadass was grabbed by Feiht, Feiht would be able to hold Dunadass for 15 seconds with a +3 Strength Bonus from his Giant Strength spell.",
+      "If for any reason, the target character resists the grab contest and wins, the grabber will have to try again and cannot simply restate the grab. Finally, no character can grab another character while either is engaged in combat."
+    ],
+    "subsection": "Legal Contact in Combat",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "To force a character to the Brink of Death when they are Unconscious, Bleeding to Death, paralyzed, asleep, or otherwise totally unresisting, a player must touch the character’s torso with a weapon and say, “One Killing Blow, two Killing Blow, three Killing Blow,” followed by the damage done by the attack. It is also acceptable to say, “Killing Blow one, Killing Blow two, Killing Blow three,” followed by the damage done by the attack. It must take at least three seconds to say this phrase and requires the character to concentrate, therefore they may take no other actions while delivering the Killing Blow. This represents the time it takes for the player to set up the ideal shot that will kill the character. For example, if you are giving a Killing Blow to a character, and you have a long sword and no Damage Bonus, you would say, “One Killing Blow, two- Killing Blow, three Killing Blow, two damage.”",
+      "A Killing Blow can be administered with a thrown weapon, a bow, or a crossbow. You must count “One Killing Blow, two Killing Blow, three Killing Blow,” cast your weapon, hit the target character in the torso, and state the amount of damage done by the weapon. If you should hit the target with the weapon but not in the torso, they still take the damage you called and if they are asleep – in- or out-of- game – the player or character should be woken up.",
+      "A Killing Blow can also be given with a magic spell that does damage. The spell caster must say the spell verbal, count “One Killing Blow, two Killing Blow, three Killing Blow,” then either hit the character with a spell packet or touch the character’s torso with a spell packet, and then state the damage done by the spell. For example, “With pure magic I cast a shock… one Killing Blow, two Killing Blow, three Killing Blow… four magic lightning.”",
+      "If the Killing Blow is delivered with a weapon, and the weapon has a special property, you must include the property in the phrase. For example, if you are giving a Killing Blow to a werewolf and you have a silver long sword, you would say, “One Killing Blow, two Killing Blow, three Killing Blow, two silver”. Maybe this will not make any difference, but you never know…",
+      "You can give a Killing Blow with your bare hands but you must have a Strength Bonus of at least +3 or the Killing Blow Magic skill.",
+      "If the player giving the Killing Blow is interrupted while saying the phrase, the fallen character is unaffected. If you are giving a Killing Blow to a player who is sleeping in-game, if they wake up and dodge while you are saying the phrase, then you have not killed their character. If they sleep through the phrase, then their character is dead; wake the player and tell them the bad news.",
+      "The reason you must include the damage done when you give a Killing Blow is that there are some monsters that are resistant to damage, or can only be affected by special weapons. For example, a monster with thick, horny skin may be unaffected by blows that do 2 points of damage or less; such a creature would not be harmed by a Killing Blow delivered with an ordinary dagger."
+    ],
+    "subsection": "Killing Blows",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Sometimes a character – for good or ill – may want to disable a character or even remove a limb.",
+      "To remove a limb, a character needs an edged weapon; blunt weapons can never remove limbs. The character should place their weapon on the limb to be removed in the general area they want the limb removed. The player should count to three, “Severing blow one, severing blow two, severing blow three, <damage>.” Conversely, the character can try and tear a limb off in the same way, but a minimum of a +6 Strength Bonus is required to remove the limb. If the limb removed is either an arm or leg, the target character is immediately Bleeding to Death. If the head is removed in this manner, the target character is immediately brought to the Brink of Death.",
+      "If the character only wants to disable another character without tearing off limbs, they can deliver a disabling blow. The character needs three of the following five skills to do so: First Aid, Autopsy, Battle Surgery, Dissection, or Evisceration. The character can disable limbs, hands, fingers, eyes, ears, or the ability to speak. The character should count 3 seconds saying, “Disabling blow one, disabling blow two, disabling blow three.” The target character is immediately brought to 1 Body Point. Heal Limb spell or effect will fix any of these effects."
+    ],
+    "subsection": "Severing Blows and Disablilng a Character",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "There are a variety of special attacks that you may be able to strike in combat. An attack may be special because of an ability your character has, because of a special weapon you have, because of a magic spell that is aiding your attack, or because you are playing a monster with a special power.",
+      "Most special attacks are announced by giving the damage caused by the blow, followed by the special property of the attack. However, there are some attacks that do not do damage in a conventional way and so no damage is announced.",
+      "The following table gives a list of the most common special attacks found in the game. The damage type follows the amount of damage dealt when the player swings the attack, for example, “Two Damage”, “Six Magic”, or “Four Paralyze”. These effects are cumulative as in these examples: “Four Body Poison”, “Twelve Magic Fire Crit”, or “Ten Gold Lightning Body Poison”. The order of the modifiers does not matter; “Waylay Magic Three” and “Waylay Three Magic” are the same. Also, never use “Damage” in conjunction with any other special attack. For example, you would say “Five Fire”, “Four Stun”, “Slay”, or “Slay Magic” not “Five Fire Damage”, “Four Damage Stun”, “Slay Damage”, or “Slay Magic Damage” respectively."
+    ],
+    "subsection": "Special Attacks",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Other Attacks",
+    "content": [
+      "There are also monster attacks that do not involve direct attacks with weapons (or claws). Here are some of them: Acid, Fire, Cold, etc.: Some creatures have the ability to breathe or shoot substances that do damage. Normally this is represented by the monster NPC tossing a spell packet. The monster NPC would announce the amount of damage and type of substance when they toss the packet. For example, a dragon might call, “Fifty Eldritch Fire,” if the packet hit."
+    ],
+    "subsection": "Special Attacks",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "A character can use a martial skill to parry an attack for another character so long as the parrying character is within weapon’s length of the character they are defending. The parrying character does not take the effect of the attack.",
+      "This holds true for spells thrown at another character. A character can parry a spell for another character using any martial parry skill. However, the parrying character takes the effects of the spell just as if they where hit by it. The parrying character may call a defense that stops spells if they have one to prevent the spell from affecting them.",
+      "The only exception to this rule is are the Perfect Aim and True Aim skills. A character cannot parry these attacks when they are directed against another character."
+    ],
+    "subsection": "Parrying for Another Character",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "When a battle is over, then is the time to hand over your tags to the players you used your skills on. Give any Armor Point and Body Point tags to those who have done damage to you. If you cast any spells, you should give up the Power Point tags for those spells. If you invoked any spell defenses or magical attacks, hand over the Power Point tags that were used to represent the latent spell. If you used any special attack skills such as Stun or Critical Attack, you should give the tags that represent the use of those skills to your targets.",
+      "Of course, be sure to collect tags from those whom you have damaged, those who cast spells at you, those who invoked latent spells, and those who used special attacks. If your opponents were NPC’s, you should feel free to ask to see their cards for proof of any unusual attacks or abilities that they used against you as most NPC’s do not have tags. After you have collected the necessary tags, turn them into Logistics so they can be reused at a later date. Since we must clean the camp before leaving, please do not throw the tags on the ground; put them in your pocket until you can get to logistics."
+    ],
+    "subsection": "When the Battle Is Done",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      {
+        "type": "table",
+        "headers": [
+          "Damage Type",
+          "Description"
+        ],
+        "rows": [
+          [
+            "Damage",
+            "This is a normal blow delivered by a claw or a normal weapon."
+          ],
+          [
+            "Metal Alloys: Copper/Bronze, Silver, Gold, Mithril",
+            "This means the weapon is made out of a special alloy or has some temporary magical or alchemical augmentation allowing it to act as an alloyed weapon. These attacks do damage to some characters with the Damage Resistance ability on their card. Note that some weapons are only coated with the alloy, and the coating may wear off after a certain amount of time; check the weapon’s card carefully. The order given on the left is the order of precedence for the Damage Resistance ability. For example, a monster that has Damage Resistance: Gold would take damage from gold, mithril and magical weapons but not silver, copper or normal weapons."
+          ],
+          [
+            "Magic",
+            "This is a magical blow delivered by a magic weapon, a weapon with a Magic Weapon spell upon it, a Greater Magic Weapon skill, etc. A magic weapon does damage to some characters with the Damage Resistance: Magic ability on their card. Note that some magical augmentations are temporary, so check the weapon’s card carefully."
+          ],
+          [
+            "Elemental: Fire, Ice, Lightning, Life, etc.",
+            "This means that the weapon is being augmented by some physical effect, such as fire, ice, lightning, and so on. Such an effect does not make a weapon magical, nor does it normally increase the amount of damage done by the weapon. Some characters take additional damage from such attacks; some characters are immune to such attacks."
+          ],
+          [
+            "Body",
+            "The blow does direct Body Point damage, bypassing the character’s Armor Points. This blow may be struck by special weapons or skills such as the Weapon Accuracy skill. Some monsters may be able to damage Body Points directly; you can ask to see the NPC’s card to prove they have this ability."
+          ],
+          [
+            "Rot",
+            "The attack does direct Body point damage, bypassing the character’s Armor points and is Necromantic in nature. Physical attacks affect undead normally, however, magical attacks will heal undead characters."
+          ],
+          [
+            "Disease",
+            "This blow is struck by the claws of character whose touch causes a disease. The disease will only take effect if the blow does damage to a character’s Body Points; if only Armor Points are damaged then the disease does not take effect. Normally, diseases act like the Necromancy Cause Disease spell; a Marshal will tell you if there are any other special effects. You can ask to see the NPC’s card to prove they have this ability."
+          ],
+          [
+            "Paralyze",
+            "This blow is struck by the claws of creature whose touch causes paralysis. The paralysis will only take effect if the blow does damage to a character’s Body Points; if only Armor Points are damaged then the paralysis does not take effect. A paralyzed character cannot move nor speak for 10 minutes (note that this is different from the duration of a Paralysis spell)."
+          ],
+          [
+            "Poison",
+            "This means that the weapon was poisoned; normally a poisoned weapon is indicated by a piece of green duct tape on the blade. A poison only takes effect if the blow does damage to a character’s Body Points; if only Armor Points are damaged then the poison does not take effect. Also, a poison is normally wiped off a weapon after the first blow that makes contact with a character, so subsequent strikes by that weapon will not be poisoned. If your character’s Body Points are damaged by a poisoned weapon, you should tell your attacker out-of-game, “I’m poisoned”; the attacker will tell you the effects of the poison."
+          ]
+        ]
+      }
+    ],
+    "subsection": "Damage Types",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "When a character reaches the end of their Death Count and the player decides to put on a white headband, the character must go to the Healers Guild to resurrect. Before the Death System is discussed, the player should understand the difference between the body, spirit and soul.",
+      "Every sentient character in the game has a body, a spirit and a soul. The body is the physical, corporeal, tangible manifestation of the character in the game world. The soul is the essence of the character, all their memories and personality, their experiences and skills are part of the soul. The spirit is what binds the two together.",
+      "Every soul is unique and eternal – though there are powerful magical effects that can destroy a soul forever, the soul on its own will exist forever. The soul is who the character really is. When a character dies their final death, their soul is judged and goes to its final rewards. The souls of some characters are reincarnated and born again and again, each time their memories of their past lives are lost or suppressed. Some souls become lost and forgotten and wander the world in search of their hereafter.",
+      "The spirit is also immortal and eternal but is not unique. When a person is born, their unique soul merges with a spirit from the Lands of the Dead and life is created. When a character dies, their spirit goes back to the Lands of the Dead, the body dissipates and their soul goes to the Healers Guild. When a character can no longer resurrect, their spirit stays in the Lands of the Dead to “recharge” and waits to merge with a new soul. The rigors of life drain the power a spirit has to hold a soul and body together. Every time a character dies the spirit is weakened. This is represented in the Death System by black marbles – one for every level and one for every death. While the spirit is holding a body and soul together it takes on the aspects of the character’s soul – their personality, emotions, skills – which is why when the Lands of Dead are visited you can meet people you knew. Most of the time, a spirit is not given enough time in the Lands of the Dead to regain its strength and people are born with weak spirits; spirits that effectively have less than 20 marbles, maybe only 1 and therefore their first death is their last death.",
+      "However, there is another magical force in the game that can hold a soul to a body, Necromancy. When a necromancer turns a character into an undead, they use the Necromantic magic to act as a spirit. The lesser spells such as Create Zombie, Skeleton and Ghoul are too weak to allow the soul’s personality to come through and a mindless creature is created. Dark Sorcerous rituals, however, draw upon more powerful Necromantic magic and create greater undead with a twisted evil version of the soul’s personality animating the dead corpse. Either way, the soul – if not evil to begin with – is tormented by their undead state and becomes evil."
+    ],
+    "subsection": "The Body, Spirit and Soul",
+    "section": "Combat",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "When you are resurrected with a Return Spirit spell or at the Healers’ Guild, you must check to see if the resurrection was successful. You pick from a bag of twenty marbles, each of which is black, white, or red. The number of black stones in the bag is one for every death you have had in the past not counting uses of the Heal Life spell and not counting your “current” death, and one for every level. A single black marble is replaced with a red one in the bag when you are Level 10 or higher, and then enough white stones to make a total of twenty marbles.",
+      "If you pick a white marble, your character is resurrected successfully. If you pick a black marble, the resurrection has failed; you cannot bring your character back into the game without turning in 5*(number of black and red marbles) in Brownie Points. If you pick a red marble, the resurrection has succeeded, but this is your last life. All of your white marbles become black marbles. If you die again, you are dead permanently and become unresurrectable. If you reach zero white marbles and you have not reached Level 30, then your character has one chance left to resurrect, you have to pull a red marble. If you fail to pull a red marble – instead pulled a black – you cannot brownie your character back and you have died your final death and are unresurrectable. There are some means in the game, magical or otherwise, that automatically resurrects your character regardless of your chances; if you only have a red marble, your character is still technically resurrectable and those methods will work.",
+      "The one exception to these rules is your character’s first death. Regardless of what level your character dies at, be it Level 1 or 41, you will always resurrect. The player does not pull a marble on their first death.",
+      "If a character is unresurrectable and they die, their body does not dissipate. If their body is destroyed they cannot attempt to resurrect and their body is lost forever. However, this death is recorded on the character card.",
+      "If the “resurrection bag” is not available, and the player whose character is being restored agrees, any convenient means may be substituted for the resurrection bag; for example, a 20-sided die could be used.",
+      "No matter which color stone you pick, your death must be recorded on your character card.",
+      "Game hint: At any given time, if you do not have enough Brownie Points saved to bring your character back to life, you are taking a big risk. If you pull a black marble, you will not be able to play your character until you have earned enough Brownie Points to pay for the resurrection; if your character is killed 5 minutes after an event begins, you may have to play an NPC for the remainder of the event to earn enough Brownie Points. Therefore, we suggest that you earn the Brownie Points before you play your character; this is one reason why we suggest that all new LAIRE members start by playing NPC’s for at least one Event."
+    ],
+    "section": "Combat",
+    "subsection": "The Death System",
+    "tags": [
+      "combat"
+    ]
+  },
+  {
+    "name": "How to Resurrect a Character",
+    "content": [
+      "First, a character must learn the process in-game and have the ability noted on their Character Card. In order to resurrect another character, a character must have learned Rank 3 of the Healing School, or have a skill that allows them to life, for example, the Life skill, Legend Life spell song, or even the Death Touch skill as it can be used to life in certain circumstances. Meeting one of these criterions allows the character to see a dead character on Consecrated Ground. However, neither character can communicate in any way to each other. Neither party can speak or gesture or pantomime any kind of information. In-game, perception and therefore information is distorted between a soul and a living person.",
+      "Meeting one of these criterions allows a character to see a soul on Consecrated Ground such as is found in the Healers Guild. The character can only see the face clearly. Consecrated Ground should not be confused with an area that has been blessed or Sanctified by one of the three faiths. The House of the Sun, for example, is Sanctified to the High Lord or the Druid’s Grove is Sanctified to the Mother. These areas have their own special rules and the player must learn about these in-game. Anyone who can resurrect can teach another character how to do it so long as that character can see souls.",
+      "In order to perform the resurrection, the character should touch the dead character and say, “I draw upon this Consecrated Ground to bring this person back to life,” or something similar. The verbal need not be exact, but should be clear what the character is doing to anyone listening. Also, this verbal is in-game and should the character not be able to speak, they cannot begin the Resurrection. The character performing the resurrection needs to be standing on the ground or touching it in some other way for this to work.",
+      "Next the player performing the resurrection should ask the player of the dead character if they wish to resurrect. A player cannot be forced to resurrect their character. If they are willing, then the player should pull a marble from the bowl. The player should not look at the stone and only show it to the player performing the resurrection.",
+      "Then the resurrecting character gives a descriptive story detailing the spirits’ journey from the Lands of the Dead. The player may not ask for any information about the dead character to customize the story; they may however use whatever in- or out-of-game knowledge they have to make the story more personal. Also, the dead character can volunteer any information they wish and it does not have to be the truth either.",
+      "Neither character will remember the events that take place during the resurrection. In-game, the resurrecting character sends their soul to the Lands of the Dead to find the lost spirit and brings it back to the Consecrated Ground. This journey to the Lands of the Dead is never remembered by either party.",
+      "The resurrection itself takes about 10 minutes to complete. Once the resurrection begins, the resurrecting character is oblivious to their surroundings and cannot interact with it in any way. If the character is interrupted by either taking damage or having their hand removed from the dead character they immediately wake up and can act normally. Nothing bad happens to the dead character should the resurrection be interrupted. The resurrection simply starts from the beginning again when the resurrecter is ready.",
+      "Those witnessing the resurrection will see the vague outline of the dead character glow a rosy pink and a body forming out of the ground. When the resurrection is over, and it is successful, the dead character is now alive and their body is fully formed. The character is not yet ready to play, for the stress of returning from the dead leaves the character and their body (new or otherwise) in pain. The character should roleplay this discomfort as they see fit. The newly resurrected character has to take 10 minutes before they can function normally. During this time, they can speak and move very slowly. They are unable to use any skill or ability and cannot fight at all even to parry, but they may invoke latent spells or skills.",
+      "The last bit of out-of-game bookkeeping is done at the end of the resurrection when the healer marks the death and the color of the marble pulled on the Character Card. Additionally any Brownie Points spent on buying off a black marble resurrection should be crossed off.",
+      "If a character pulls a black marble and does not have the Brownie Points to bring their character back, the body is still formed and is dead. A character on their last death that tries to resurrect will create a body that is dead. This can be tried only once.",
+      "The character performing the resurrection does not gain any information as to how many black marbles the dead character has. There is no difference in trying to resurrect a first level character or a thirty first level one. The dead character however, knows how hard it was to come back in-game and knows if they can resurrect again vis- à-vis a resurrection."
+    ],
+    "section": "Combat",
+    "subsection": "The Death System",
+    "tags": [
+      "combat",
+      "death",
+      "resurrection"
+    ]
+  },
+  {
+    "name": "Resurrection Story Sample 1",
+    "content": [
+      "“You awaken to the sound of birds singing outside the window to your small cottage. You sit up and stretch, soaking in the rays of sunlight streaming in through your open window as a gentle breeze flaps your curtains and wafts in the smell of spring flowers. Slowly you draw yourself out of bed and get yourself ready to face the new day.",
+      "“Finished with your morning ritual, you move out the door and into the morning. The clean, bright field outside your house is alive with the dance of nature’s creatures all busy at their own tasks, seemingly unaware of your intrusion into their world. You head over to the well near the house and draw forth a bucket of fresh water and satiate your morning thirst as a majestic white stag bounds across your view.",
+      "“As you look around a feeling of something being amiss, a feeling that has been growing since you awoke this morning grows ever stronger. The once gentle breeze grows to a strong wind blowing the smells of fires and food from the north. You turn and look at your house which no longer feels familiar or safe, but has taken on an air of mystery and almost foreboding. All is not as right as you first thought. You slowly realize you do not belong here. You turn north and quickly head away, fearful the owner of the house will return and find umbrage with the intruder who has used their house. You quicken your pace and then begin to run with all the speed your legs will take you.",
+      "“Your lungs burn with the need for air and your legs ache from running. You slow and pant, walking on through the fields of wheat and corn you have found yourself in. You hear a snap and turn behind to see what is following you, but you see nothing. You have a sense of being followed, of something malevolent stalking you. Not wanting to startle the animal – for that must be what it is – you move on ahead.",
+      "“There it is again, the sound of something behind you moving through the field, just far enough back that you cannot see it, but close enough that the sounds of its passing warn you of its imminent attack. You can hear the heavy, harsh breathing of the creature which must be of terrible size. A sense of panic grows within you and then you hear the sound of soft music playing ahead. The sky has turned dark with storm clouds and the smell of rain has mixed with the aromas of food and fire from up ahead. You must not be far now.",
+      "“You break out into a run and tear through the field at the same time the monster behind you lets out a low, rumbling guttural growl ending in a harsh bark. The creature must be some kind of dog or wolf. You imagine the creature with large white fangs dripping with its copious drool and its hot fetid breath panting past its large red tongue. The creature – stepping out of the pages of one of your childhood stories – surely has a thick, dirty black coat, matted in places by the dried blood of its past meals.",
+      "“You run, it follows. Finally, you burst from the field and see a large gothic mansion ahead of you. Dreary light seeps from the window and the muffled sounds of a party reach you, barely heard over the pounding of the blood in your ears. Running to the front door you pound on the door begging to be let in. Knowing it foolish, you look over your shoulder and there, heading terribly fast towards you, is the monstrous wolf from your nightmares glimpsed only for a moment in the flash of lighting that cracks from the storm clouds above.",
+      "“Then the door opens and a butler asks you your business here. You push past him and point out the door, pleading with him to close the door. You both look outside, for surly the hound is at the door, but there is nothing out there. You poke your head outside and look around. Nothing, the night is empty and there is no sign or sound of the creature that has chased you all day.",
+      "“The butler asks you your name and says you have been expected. He indicates that you should follow him and he leads you to a great room filled with people of all walks and stations of life. You turn to ask who the host is and why you were expected, but you only catch a glimpse of him as the two great doors close leaving you to the party.",
+      "“The aromas of food and fine drink come from a far table and the warmth of two large fire places quickly takes your mind off the mystery and on to more important things. You make your way to the buffet table and take a generous helping of several of the offered dishes and a big mug of your favorite drink, which the host just happens to have. You sit and clean your plate and drain your drink. Still you hunger and decide to take more. A few of the other guests look at you and shake their head at your obvious display of gluttony. You finish two more plates of food and are now hungrier than you were before you started. Confused you put aside your thoughts of food and try and find your way out of this place.",
+      "“You move about the room looking for the exit. You find none. The door you know you entered in is gone. You ask your fellow guests how to leave, some laugh, but most just politely ignore you. You grow frustrated. Then you hear your name called from the other side of the room. You head over to the source of the call but the crowds make your way difficult. Again you hear your name called. You grow closer. The crowd has started to grow excited about the arrival of the host. You hear your name again, but this time the person looking for you has moved elsewhere. If only you knew who it was.",
+      "“You yell out “HERE!” but the crowd is too loud. You hear you name but cannot tell from where it came. “HERE!” again you shout just as the crowd goes silent and turns to one end of the great room. You turn and look, curious as to whom your host is, maybe they have some answers. The large red curtains move and part slightly allowing the monster that chased you through the fields to step out, this time its teeth red with the blood of a fresh kill. You panic. Are these people crazy?",
+      "“You try and back away but no one will move out of your way. The monster howls and a chill runs down your back. You are transfixed with fear. The beast leaps into the crowd which quickly parts and makes way for their “host”. The guests part and bow to the monster which has its gaze and hunger fixed on you. Slowly it comes forward, inexorably moving towards you. Now you know its name. Death, and nothing can stop it. “Death comes for us all,” you think. This is it, the end. The monster is close and its head rises and glares into your eyes.",
+      "“Then a hand grabs your shoulder and whips you around. The face is familiar but you can’t recall from where. It calls your name and says, “I’ve looking everywhere for you! Quickly, this way!” You are pulled off away from the beast which growls and lets out a soul chilling howl that threatens to drop you dead from fear. Your guide leads you quickly out of the hall and into a side corridor, one that was not there minutes ago.",
+      "“You arrive at what looks like a closet in the side of the hall. “Here it is, always different each time!” he says. Just as he fiddles with a key taken from his pocket in the lock of the closet, the beast turns the corner and calls your name. Death wants you and does not plan on letting you go. “Got it!” exclaims you new friend and throws open the doors. “This way,” he says and enters the closet, reaching out to you with his hand.",
+      "“Death moves forward and says “You are mine, and I will have you one day. I follow in your shadow always!” Then your new friend grabs your hand and brings you into the closet. You finally turn and look inside wondering what you are doing in a closet, but instead of clothes, you see a glowing portal which you are pulled towards. Your guide steps through saying, “I can only lead you here you have to come through on your own.” You hesitate then feel Death breathe its rancid breath over your shoulder and before it can utter another word you leap through the portal.",
+      "“You find yourself lying on the ground in the Healers Guild. Pain courses through you as your body finishes reforming. You realize you have died. The pain and shock of coming back to life wipes away the memories of your time in the Lands of the Dead.”"
+    ],
+    "section": "Combat",
+    "subsection": "The Death System",
+    "tags": [
+      "combat",
+      "death"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "While the weapons in LAIRE are made out of foam, we encourage players to wear real or real-looking armor. A good suit of armor can add a lot to the medieval look of the game. The defensive value of a character’s armor is represented in the game by Armor Points. The Armor Point value of the armor that you wear is assigned by an Arms Marshal.",
+      "There are seven types of armor that may be worn by a player. Any type of armor worn by a player other than these types will be assigned to one of these standard categories by the Arms Marshal. The armor types are:",
+      {
+        "type": "table",
+        "headers": [
+          "Armor Type",
+          "Description"
+        ],
+        "rows": [
+          [
+            "Costume (C)",
+            "Medieval and fantasy clothing. This is worth 2 Armor Points. The character receives 1 more Armor Point for appropriate costume footwear."
+          ],
+          [
+            "Soft Leather (SL)",
+            "Real leather is 1/8″ thick without studs."
+          ],
+          [
+            "Rigid Leather (RL)",
+            "Real leather more than 1/8 thick. Or, soft leather with metal studs no more than 2″ apart, measured from the center, with each stud having a diameter between ½″ to 1″. Or, leather scale mail armor with each scale being no larger than 6″ square and more than 1/8″ thick. Two layers of soft leather sewn or riveted together counts as rigid leather. Wearing two separate layers of soft leather does not count."
+          ],
+          [
+            "Ring Mail (RM)",
+            "Metal rings with an inner diameter of not more than 1″ and an outer diameter of 3″ mounted onto soft leather or better. Or, rigid leather with metal studs no more than 2″ apart, measured from the center, with each stud having a diameter between ½″ to 1″."
+          ],
+          [
+            "Chain Mail (CM)",
+            "Metal rings with an inner diameter of at least 3/8″ and no more than 5/8″ diameter (4-and-1 chain weave, more dense weaves acceptable)."
+          ],
+          [
+            "Light Plate (LP)",
+            "Metal with a thickness of 20 to 22 gauge."
+          ],
+          [
+            "Leavy Plate (HP)",
+            "Metal with a thickness of 18 gauge or more. Plate armor made of any material other than steel, regardless of thickness, can never be heavy plate."
+          ]
+        ]
+      },
+      {
+        "type": "table",
+        "headers": [
+          "Armor Location",
+          "SL",
+          "RL",
+          "RM",
+          "CM",
+          "LP",
+          "HP"
+        ],
+        "title": "Armor Point Table",
+        "rows": [
+          [
+            "Helmet, Full",
+            "1.3",
+            "2.5",
+            "3.8",
+            "5",
+            "6.3",
+            "7.5"
+          ],
+          [
+            "Helmet, Partial",
+            "0.6",
+            "1.3",
+            "1.9",
+            "2.5",
+            "3.1",
+            "3.8"
+          ],
+          [
+            "Helmet, Cap",
+            "0.3",
+            "0.6",
+            "0.9",
+            "1.3",
+            "1.6",
+            "1.9"
+          ],
+          [
+            "Neck",
+            "0.3",
+            "0.6",
+            "0.9",
+            "1.3",
+            "1.6",
+            "1.9"
+          ],
+          [
+            "Shoulders*",
+            "0.6",
+            "1.3",
+            "1.9",
+            "2.5",
+            "3.1",
+            "3.8"
+          ],
+          [
+            "Breast Plate",
+            "1.3",
+            "2.5",
+            "3.8",
+            "5",
+            "6.3",
+            "7.5"
+          ],
+          [
+            "Back Plate",
+            "1.3",
+            "2.5",
+            "3.8",
+            "5",
+            "6.3",
+            "7.5"
+          ],
+          [
+            "Upper Arms*",
+            "0.6",
+            "1.3",
+            "1.9",
+            "2.5",
+            "3.1",
+            "3.8"
+          ],
+          [
+            "Elbows*",
+            "0.3",
+            "0.6",
+            "0.9",
+            "1.3",
+            "1.6",
+            "1.9"
+          ],
+          [
+            "Lower Arms*",
+            "0.6",
+            "1.3",
+            "1.9",
+            "2.5",
+            "3.1",
+            "3.8"
+          ],
+          [
+            "Groin",
+            "1.3",
+            "2.5",
+            "3.8",
+            "5",
+            "6.3",
+            "7.5"
+          ],
+          [
+            "Upper Legs*",
+            "0.6",
+            "1.3",
+            "1.9",
+            "2.5",
+            "3.1",
+            "3.8"
+          ],
+          [
+            "Knees*",
+            "0.3",
+            "0.6",
+            "0.9",
+            "1.3",
+            "1.6",
+            "1.9"
+          ],
+          [
+            "Lower Legs*",
+            "0.6",
+            "1.3",
+            "1.9",
+            "2.5",
+            "3.1",
+            "3.8"
+          ]
+        ],
+        "footers": [
+          "* Indicates that points should be halved if only one is worn; i.e., only one sleeve, or only one knee is covered."
+        ]
+      }
+    ],
+    "section": "Armor",
+    "tags": [
+      "combat",
+      "death"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "The Armor Point system used at LAIRE allows the character to receive Armor Points for anything from a costume all the way up to real plate armor. If the point system seems complicated, do not worry; a trained Arms Marshal will evaluate your armor and assign the number of Armor Points you will receive. Armor Points are awarded for two aspects of your armor:"
+    ],
+    "section": "Armor",
+    "subsection": "Assigning Armor Points",
+    "tags": [
+      "combat",
+      "armor"
+    ]
+  },
+  {
+    "name": "The In-game Strength of the Armor",
+    "content": [
+      "The thicker and tougher the type of armor is, the more Armor Points it will receive. This reflects the in-game ability of the armor to protect a character. Points are given for each individual piece of armor by an Arms Marshal according to the Armor Point Table above. For example, if a character is wearing rigid leather armor that covers the front, back, and shoulders, the Arms Marshal would sum 2.5 + 2.5 + 1.3 = 6.3 Armor Points."
+    ],
+    "section": "Armor",
+    "subsection": "Assigning Armor Points",
+    "tags": [
+      "combat",
+      "armor"
+    ]
+  },
+  {
+    "name": "Real Armor Bonus",
+    "content": [
+      "The suit of armor will also receive more Armor Points for real armor than for a substitute. For example, the character will get more Armor Points for real leather armor than for a piece of studded naugahyde. This reflects the fact that real armor is heavier than “costume” armor, and so the players who bear the extra weight receive Armor Points in compensation and that real armor adds to the fantasy feel of the game and looks better.",
+      "The Real Armor Bonus is partly subjective on the part of the Arms Marshal; the Marshal judges how realistic the armor looks and whether it would protect the character in real combat. The bonus listed in the below table determines what the Arms Marshal will use for the Real Armor Bonus.",
+      {
+        "type": "table",
+        "headers": [
+          "Class",
+          "Penalty",
+          "Description",
+          "Example"
+        ],
+        "rows": [
+          [
+            "Real",
+            "0%",
+            "Real leather of the correct thickness. Real steel or iron metal armors",
+            "Chain mail made with real metal and correct gauge and size. Studded leather made from real leather and metal studs."
+          ],
+          [
+            "Replica",
+            "25%",
+            "Plastic armor that looks real, Aluminum instead of steel",
+            "Scale mail made from plastic rain barrel riveted to ¼” leather"
+          ],
+          [
+            "Imitation",
+            "50%",
+            "Armor that can easily be seen as fake, but still looks like armor.",
+            "Chain mail made with binder rings, painted hubcaps or garbage pail lids, chain mail links that are excessively small, naugahyde or “pleather”, plastic costume armor"
+          ],
+          [
+            "Poor",
+            "80%",
+            "Costuming made to look like armor.",
+            "Cloth that looks like chain, toy armor, rubber armor, cardboard covered in aluminum foil, plastic rings sewn to pleather, sporting equipment* life football shoulder pads, hockey goalie masks."
+          ]
+        ],
+        "footers": "* If the sports equipment has been modified so it is unrecognizable as sports equipment, then it can be considered Replica armor."
+      },
+      "In the above example, if the armor was naugahyde leather scale armor that looks real, the Arms Marshal might award the Imitation penalty and suit of armor would be worth 6.3 * 0.5 = 3.15 Armor Points."
+    ],
+    "section": "Armor",
+    "subsection": "Assigning Armor Points",
+    "tags": [
+      "combat",
+      "armor"
+    ]
+  },
+  {
+    "name": "Rounding the Sum",
+    "content": [
+      "Finally, any fractional amount in the Armor Point total is rounded up to the nearest whole number. In the above example, the 3.15 Armor Points would be rounded to 4.0; this would be the final Armor Point value of the armor in the example."
+    ],
+    "section": "Armor",
+    "subsection": "Assigning Armor Points",
+    "tags": [
+      "combat",
+      "death"
+    ]
+  },
+  {
+    "name": "The Armor Card",
+    "content": [
+      "The Marshal will record each of these numbers on your Armor Card: the Armor Point value of each piece of your armor, and the Real Armor Bonus. The Armor Card is your permanent record of the value of your armor, and you should bring it to each LAIRE Event.",
+      "The Armor Card establishes that your character has that armor in- game. If you lose the Armor Card, then you have lost the armor; keep your card in a safe place. If your armor is lost in-game, then you must give up the Armor Card. If you do not recover your armor again in-game, you will have go to the Armory, have your armor reevaluated, and pay a fee to purchase new armor.",
+      "If your armor is reevaluated, the new Armor Point value may be different from the old one. This is because the Real Armor Bonus is subjective, and may be awarded differently at different times.",
+      "If you add a new item to your armor, you must go to an Arms Marshal to have the new item indicated on your card. If you entirely replace your armor, you must visit the Arms Marshal to get a new Armor Card for the armor; you may also have to pay an in-game fee to bring the new armor into the game. You are allowed to have as many suits of armor as you like, as long as all the pieces of armor remain in-game."
+    ],
+    "section": "Armor",
+    "subsection": "Assigning Armor Points",
+    "tags": [
+      "combat",
+      "armor"
+    ]
+  },
+  {
+    "name": "Armor Point Tags",
+    "content": [
+      "When you first get your suit of armor you will be given an equal number or Armor Point tags equal to the number of Armor Points on your Armor Card. These Armor Points do not reset in between Events and, when the armor is reduced to 0 Armor Points it must be repaired.",
+      "When you take normal damage, the points of damage are first taken from your Armor Points. Only when all your Armor Points have been expended does your character take Body Point damage. When you lose Armor Points, you give the expended Armor Point tags to the player who caused the damage."
+    ],
+    "section": "Armor",
+    "subsection": "Assigning Armor Points",
+    "tags": [
+      "combat",
+      "armor"
+    ]
+  },
+  {
+    "name": "Resetting Armor after Combat",
+    "content": [
+      "The character’s armor is not used up entirely after each combat they get into. After the armor has taken enough damage to reduce it to 0 Armor Points, the character may spend 5 minutes in-game “resetting” the armor. The armor is reduced by 3 Armor Points every time the character resets the armor. For example, if a character has a suit of chain mail worth 12 AP and then gets into a fight that reduces the armor down to 0 AP, the character may spend 5 minutes resetting the armor. The armor now has 9 AP to protect the character in their next fight. The player should hand over the used Armor Point tags to the player they were involved in the combat with.",
+      "It is possible to walk away from a long fight and reset armor, but if the character is interrupted while doing so they do not have any armor available and must start again later from the beginning spending the full 5 minutes to reset the armor.",
+      "While resetting armor, the player should role-play their character adjusting and fixing the armor so it is obvious to everyone what they are doing.",
+      "If your armor is not reduced to 0 Armor Points but has been damaged, then resetting the armor will still degrade it by 3 Armor Points."
+    ],
+    "section": "Armor",
+    "subsection": "Assigning Armor Points",
+    "tags": [
+      "combat",
+      "armor"
+    ]
+  },
+  {
+    "name": "The Helmet and Waylay",
+    "content": [
+      "If your armor includes a helmet, the Arms Marshal will judge whether the helmet will protect you from a Waylay. You need to have a helmet that covers your head and the back of your neck to qualify for Waylay protection. The Arms Marshal will note the separate armor point value of your helmet on your armor card. In order for a Waylay to knock your character unconscious, the blow must do more damage than the number of Armor Points in your helmet.",
+      "For the purposes of Waylay, it is assumed that the Armor Points in your helmet are the last Armor Points expended. For example, assume you wear 10 Armor Points, including a helmet that is worth 1 Armor Point. If you are hit for 5 points of damage, you have 5 Armor Points remaining; your helmet is still worth 1 Armor Point. If you are then Waylaid with a blow of “Waylay one,” you are not knocked unconscious, you have 4 Armor Points left, and your helmet is still worth 1 Armor Point. If someone else then strikes you with “Waylay three,” you are knocked unconscious, you have 1 Armor Point left, and your helmet is still worth 1 Armor Point. However, if someone does one or more points of additional damage to your character, you will have no Armor Points left, and no helmet protection against a Waylay."
+    ],
+    "section": "Armor",
+    "subsection": "Assigning Armor Points",
+    "tags": [
+      "combat",
+      "armor"
+    ]
+  },
+  {
+    "name": "Armor Repair",
+    "content": [
+      "If your armor has been damaged, there are two ways to have it repaired during an Event. The first way is for a character with the Armor Smith skill to repair your armor. The second way is to go to the Armory, which will repair your damaged armor for an in-game fee. It is not possible to repair armor above the Armor Point maximum listed on your Armor Card.",
+      "A player with the Armor Smith skill receives a number of Armor Repair tags at the start of an Event. When their character repairs your armor, they will take the Armor Repair tags, sign their name on the back, and give you the expended tags to use as replacement Armor Point tags."
+    ],
+    "section": "Armor",
+    "subsection": "Assigning Armor Points",
+    "tags": [
+      "combat",
+      "armor"
+    ]
+  },
+  {
+    "name": "Introduction",
+    "content": [
+      "Only one type of armor may be worn at a time on each body part. A player may not “layer” chain mail and plate mail to receive the points of both. If armor of different types covers the same area of the body, then the higher point value armor takes precedence.",
+      "Gauntlets with sharp points, edges, or studs are forbidden. Any armor with sharp edges or points that might come into contact with other players is also forbidden. Do not include spikes or sharp armor, you are likely to injure someone or damage someone’s weapon."
+    ],
+    "section": "Armor",
+    "subsection": "Armor Notes",
+    "tags": [
+      "combat",
+      "armor"
+    ]
   }
 ]

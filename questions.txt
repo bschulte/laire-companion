@@ -15,3 +15,6 @@
 
 * For the golem creation table, there doesn't appear to be the first footer for the table
 * A lot of potions have "Instant" duration, but then in the description say they last for the duration of the potion
+* The Combat rules section (Chapter 6) seems to have some duplicate rules, probably should consolidate or reorganize better (looks to be the same for Death and Dying)
+* Do we need the resurrection stories? I only included the 1st one
+* I didn't include the weapon building rules
