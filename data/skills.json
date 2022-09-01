@@ -1349,334 +1349,647 @@
       ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Extend Spell Song",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "Spell Singing Rank 4",
+      "skillList": "Spell Singer",
+      "purchase": "Once",
+      "duration": "Special",
+      "description": [
+        "This skill allows the character to extend the range of the Heroism song. In order to use this skill effectively, there must be other Spell Singers who can hear the song in the area. The character starts their song and calls “Extension” at the end, then any other Spell Singer who heard the song can then take up the song and extend its range. The Spell Singers must still be able to hear the originator of the song in order to continue extending it.",
+        "Should one of the Spell Singers move too far away and can no longer hear the originator, they may move back in range and take up the song again. Only characters with the Spell Singer skill can extend the song. If the originator should stop singing, the song ends for everyone."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Extension",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Channeling",
+      "skillList": "Master Warrior",
+      "purchase": "Multi",
+      "duration": "5 Minutes",
+      "description": [
+        "When the character invokes this skill, it will allow them to increase the duration for holding a spell they are going to channel from 5 seconds to 5 minutes. After the spell verbal is completed, the caster must still state the name of the spell every 5 to 10 seconds. The skill is used once the spell verbal is successfully completed. If the character takes damage or the 5 minutes are up, the spell is lost.",
+        "The verbal for this skill is “Extension” which must prefix the normal spell verbal. A character cannot use this skill with the Redirect skill, only spells they cast themselves can be extended."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Feat of Strength",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, 2 Staminas",
+      "skillList": "Master Warrior",
+      "purchase": "Multi",
+      "duration": "Instant or 15 Seconds",
+      "description": [
+        "Using this skill gives the character a +3 Strength Bonus, Non- Combinable, allowing the character to perform a feat of great strength, adding 3 points of damage to one swing, performing an action such as carrying a body for 15 seconds, or similar actions.",
+        "This skill may be stacked with the Giant Strength spell, Feat of Heroes spell, any giant strength potion, or any other Strength Bonus.",
+        "Unlike any other type of Strength Bonuses, the Feat of Strength skill will stack with itself. So, if a character has three purchases of the skill he can increase his damage for one swing by 9 points of damage, or perform an action requiring a +9 Strength Bonus, Non- Combinable.",
+        "If this skill is used to increase the character’s damage, it is not used if they miss or the attack is blocked. If they succeed in striking their target or if the target calls an appropriate defense, the skill is used.",
+        "The character must call “Feat of Strength” when they use this skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "First Aid",
+      "buildCost": 2,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill can be used to heal a living character that is Bleeding to Death. The character places two free hands on the target character and calls “First Aid” and begins a 1 minute count. Once a character starts to use this skill the target character’s Death Count stops. After the 1 minute count, the character is Unconscious at 0 Body Points and after 5 minutes will regain consciousness and be at 1 Body Point. Also, this skill can be used to wake up a character that is Unconscious and has more than 1 Body Point. The character should place a free hand on the target character and begin a 1 minute count. No Body Points are restored when using the First Aid Skill in this manner.",
+        "A character can only be first aided by one character at a time and a character can only first aid one character at a time. The use of this skill requires the character to concentrate while they are using this skill. The player should look at the character they are using this skill on and can only talk, invoke Latent spells, or use a Dodge skill while first aiding someone. If the use of this skill is interrupted by either taking damage or the character choosing to stop, the target character must resume their Death Count. If the character wishes to try to first aid again, they must start from the beginning.",
+        "A character can also use this skill to assess the condition of another character. The character places a free hand on the target character, says “First Aid Assess” and takes a 5 second count. Once the character starts to assess the condition of the target character, and if that character is Bleeding to Death, their Death Count stops. The character using this skill will learn what stage their Death Count is at and how many Body Points the target character is down.",
+        "This skill cannot be used to heal characters who are Mortally Wounded or at the Brink of Death.",
+        "A character can choose to use a real bandage when using this skill. The bandage is in-game, does not have to be purchased, must be white, and must be larger than 2 feet by 3 inches. The character must either have their hand on the target character or be bandaging to use this skill. If the character uses a bandage, the time it takes for the target character to wake up is cut in half – only taking 2½ minutes. Once the target character wakes up, the bandages are no longer needed and can be removed or returned to the first-aider to re-use."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Florentine",
+      "buildCost": [
+        3,
+        9
+      ],
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Martial",
+      "prerequisites": "Any One-Handed Weapon Skill",
+      "skillList": "Warrior Basic Career Skill List, Rogue Basic Career Skill List",
+      "purchase": "Once",
+      "duration": "Custom",
+      "description": [
+        "This skill allows the character to use a one handed weapon in one hand and a small weapon in the other. The character cannot use two one handed, any bastard, or any two handed weapons with this skill. The character must strike and call damage separately for each weapon. Any Strength Bonus the character has adds to the damage of both hands, unless that Strength Bonus is for only one attack, then the character can only apply it to one hand and one attack."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Forest Meld",
+      "buildCost": 6,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Pass Without a Trace",
+      "skillList": "Druid",
+      "purchase": "Multi",
+      "duration": "Special",
+      "description": [
+        "For each use of this skill purchased, the character may become undetectable while standing next to a tree or shrub. Once invoked, the character may not move or speak or the effect is negated and the ability is used. To use this ability, the player stands next to a tree or shrub and crosses their hands or weapons over their head. This skill cannot be used while in combat.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Greater Magic Weapon",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Paladin or Dark Paladin",
+      "skillList": "Follower of the Light, Servant of Darkness",
+      "purchase": "Multi",
+      "duration": "30 Minutes",
+      "description": [
+        "When invoked, this skill will empower any weapon the character holds to swing for magical damage for 30 minutes. This skill is hand specific and once invoked, only weapons in that hand will be augmented. There is no Damage Bonus or other effect from the use of this skill. The weapon can still be shattered.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Gypsy Curse",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Racial",
+      "prerequisites": "None",
+      "skillList": "None",
+      "purchase": "Once",
+      "duration": "Special",
+      "description": [
+        "This skill allows the character to curse another character when they are killed. The curse is enacted when the character leaves their body after being at the Brink of Death. The player should announce the curse to the offending character and the effect is immediate. There is no defense to this skill except for the Resist ability.",
+        "The curse can be removed by the character or by a clan’s leader. Otherwise, the character must find a way to remove the curse. As with other curses, this curse will stay with the character even if they are killed.",
+        "Below are the curses a character can use. They can choose a curse for their level or any lower level.",
+        {
+          "type": "table",
+          "headers": [
+            "Character Level",
+            "Curse"
+          ],
+          "rows": [
+            [
+              "1-4",
+              "Curse character to end every sentence with one word, chosen at time of curse. Curse character to kneel while they are speaking to a gypsy. Curse character to never use their hands to eat."
+            ],
+            [
+              "5-9",
+              "Curse character to always accept a bet, no more than 5sp wager. Curse character to always yell – as loud as they can – everything they say. Curse character to always walk in light. They must carry a light source as bright as a Light spell if it is dark. If there is no light present, they cannot move."
+            ],
+            [
+              "10-14",
+              "Curse character to always tell the full and complete truth. Curse character to be blind. Curse character to never be able to run."
+            ],
+            [
+              "15-19",
+              "Curse character to be unable to move unless there is another character in line of sight. Curse character to never refuse a request for help. Curse character to wither away, loosing 10%, rounded up, of their original Body Point total per month down to a minimum of 1 Body Point."
+            ],
+            [
+              "20-29",
+              "Curse character to take whatever damage they deal in hand to hand combat. Curse character to stutter, making them unable to use any skill that requires a verbal or cast spells. Curse character to take double damage from all forms of attacks, no effect on durations."
+            ],
+            [
+              "30+",
+              "Curse character to be brought to the Brink of Death before every dawn by any means plot devises. Curse character to never be able to hurt another character directly."
+            ]
+          ]
+        }
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Heal Life",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "2 Heal Wounds",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows the character to bring another character that is at the Brink of Death back to life at 1 Body Point without having to use the Death System. The character using this skill is rendered unconsciousness for 10 minutes with no way of being awoken.",
+        "This skill may also be used as an attack, either by touch or through a weapon, against undead only. It can also be used to block the Death Touch skill. Using the skill in either of these ways does not cause the character to fall unconscious.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill. This skill can be delivered by touch or through a weapon. If delivered through a weapon, the targeted character must be struck, and unlike Channeled spells, weapons and shields will stop the attack. If the character misses their target or the target uses a martial skill to stop the attack, the skill is not used. If the attack is stopped by an Empower skill or a magical defense that stops physical attacks, the skill is used."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Heal Wounds",
+      "buildCost": 5,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Cleric",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "Once this skill is purchased, the character gains a Healing Pool. For each purchase of this skill, the character gains 25 Healing Points. The character may use this to heal any character’s Body Points at a rate of one for one or harm undead characters at the same rate. The character may also use their pool to mimic Healing School spells at double the Power Point cost and by touch only. The table below outlines what spells they can mimic and how many Healing Pool Points it costs.",
+        {
+          "type": "table",
+          "headers": [
+            "Healing Spell",
+            "Healing Pool Points"
+          ],
+          "rows": [
+            [
+              "Detect Life",
+              "0*"
+            ],
+            [
+              "Purify Blood",
+              "4"
+            ],
+            [
+              "Assess Ailment",
+              "8"
+            ],
+            [
+              "Heal Body",
+              "8"
+            ],
+            [
+              "Heal this Mind",
+              "8"
+            ],
+            [
+              "Heal this Limb",
+              "10"
+            ],
+            [
+              "Heal this Mortal Wound",
+              "12"
+            ],
+            [
+              "Return Ghoul**",
+              "16"
+            ],
+            [
+              "Return Death Slave**",
+              "40"
+            ]
+          ],
+          "footers": [
+            "* The character must have at least 1 Healing Pool Point to Detect Life.",
+            "** Only Clerics can mimic these two effects, not Paladins."
+          ]
+        },
+        "The character may use this skill to augment their damage to “Light” which will deal direct body damage to all undead and demons and requires one point of their Healing Pool per attack. This does not increase the damage done by the attack. The character may use any amount of the Healing Pool they have left to deliver damage by touch or thrown via a spell packet. A character may not touch another character if they are engaged in combat.",
+        "For example, Kida has three purchases of the Heal Wounds skill giving her 75 Healing Pool Points. She has used 20 Healing Pool Points already that Tag Cycle. She sees a demon pontificating to the Avalonians attempting to cower them into submission. She walks up behind the demon and touches the character using her Healing Pool to inflict damage. She says, “By the light of the sun I cleanse your evil taint with 30 Light”. The NPC demon takes 30 points of direct Body Point damage. Now Kida is engaged in combat and cannot touch the NPC. She uses her dagger to attack the demon. Normally she swings 1 damage with her dagger, but Kida has used a Holy Blessing and a +3 Strength Potion. She uses 1 point of her Healing Pool to augment her damage and now swings “5 Light” – 1 for the dagger, +1 for the Holy Blessing and +3 for the Giant Strength potion.",
+        "The character that also has the Paladin skill may use this skill to increase the damage of their weapon strikes in addition to changing the type of damage to “Light”. The character may use any amount of their available Healing Pool to increase their damage on a one for one basis.",
+        "For example, Reylos is fighting a pack of undead that is normally only affected by silver weapons or better. Having only normal weapons and swinging 7 points of damage, he uses three points of his Healing Pool with each swing. He now swings 10 points of damage and calls “10 Light”. Reylos can use more of his Healing Pool with each attack to increase his damage accordingly.",
+        "Damage augmented with “Light”, in either case, does not harm living characters unless noted on their Character Card.",
+        "This skill requires the use of a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill. This skill can be delivered by touch, thrown, or through a weapon. If delivered through a weapon, the targeted character must be struck, and unlike Channeled spells, weapons and shields will stop the attack. If the character misses their target, no matter how it is delivered, or the target uses a martial skill to stop the attack, the skill is not used. If the attack is stopped by an Empower skill or a magical defense that stops physical attacks, the skill is used."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Herbal Lore",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to identify and collect herbs during an Event. The player should go to the NPC Cabin and inform a marshal they are attempting to collect herbs. The player must then spend time in-game looking for herbs. The longer the character looks, the more likely it is they will find something. When the character finishes, they return to the NPC Cabin and a random roll will determine what the character finds.",
+        "With this skill, the character can bring in-game any common herb that they have a physical representation for. For example, the player brings in a pack of mint leaves from the supermarket and can ask the Treasure Manager to write them out the appropriate number of tags. The maximum amount of herbs a player can bring in is 1 silver piece worth per month."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Hibernate",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Faith",
+      "prerequisites": "Forest Meld",
+      "skillList": "Druid",
+      "purchase": "Once",
+      "duration": "Special",
+      "description": [
+        "This skill allows the character to meld with nature and fall asleep for as long as the character wants, but:",
+        {
+          "type": "list",
+          "items": [
+            "The time specified has to be longer than one week,",
+            "The Duration has to specified at the time the skill is used, and",
+            "Has to be used in a natural surrounding."
+          ]
+        },
+        "While hibernating, the character is safe from all outside harm and cannot be found. The character does not need to eat, sleep or excrete. They do not age nor do they have any sense of the outside world or the passage of time.",
+        "If this skill is used between Events, the character does not need to pay their upkeep and cannot learn any new skills.",
+        "To use this skill, the character cannot be in danger of being attacked, engaged in combat, and must sit and meditate for 1 hour. This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Holy Blessing",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "2 Heal Wounds",
+      "skillList": "Follower of the Light",
+      "purchase": "Multi",
+      "duration": "10 Minutes",
+      "description": [
+        "This skill allows the character to bless Followers of the Light, Acolytes, and non-mortal beings of good (such as Dragons, Drakes, and Solars) with a +1 Strength Bonus and immunity to fear. This skill is non-latent and will last for 10 minutes from time of blessing. If this skill is used on an unaligned person, a Servant of Evil, or a being of evil, the skill is used but it will have no effect. This skill cannot be stacked with itself, but will stack with other Strength Bonuses.",
+        "This skill requires the use of the character’s focus and a verbal, which must be at least 5 syllables, not including the skill’s name, and must contain some reasonably recognizable version of the name of the skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Hypnosis",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Dexterity",
+      "prerequisites": "Master Assassin Skill",
+      "skillList": "Assassin",
+      "purchase": "Multi",
+      "duration": "30 Minutes",
+      "description": [
+        "This skill allows the character to hypnotize one targeted character that is within 10 feet and after making direct, mutual eye contact for 3 seconds. The in-game verbal, “I compel you with hypnosis”, must be used after the 3 seconds of eye contact. If eye contact is broken before the verbal is finished, or the character takes damage the attempt fails and the skill is used.",
+        "Hypnosis and any Charm School spell or lesser racial ability – satyr/faun charm – are mutually inclusive. However, the hypnosis will override the commands of a lesser charm. For greater racial abilities – Vampiric Domination, Demonic or Draconic Charm – though also mutually inclusive, the hypnosis will be overridden by the greater racial charm.",
+        "The Iron Will skill or immunity to charms can block the Hypnosis skill. If the target also has a use of the Hypnosis skill, they may use that to block the attack. Resist Suggestion spell or Elven Resist skill will not work to stop this skill.",
+        "While the hypnosis is in effect, the character may give any number of commands to their target. The commands must be in a clear and understandable language. While hypnotized, the target character will not attack the character unless they are ordered to.",
+        "The targeted character will remember all the actions they took while hypnotized and believe them their own. They can be ordered to forget who hypnotized them – this is the only command that will last after the hypnosis ends. A second use of the Hypnosis skill will reveal this lost memory. The character can cause the target to forget or remember anything else they want; however, the affected character will remember the truth when the duration ends.",
+        "This skill lasts for 30 minutes. If while under the effects of a Hypnosis skill the target character is hypnotized, the newest hypnosis takes effect and the old one ends.",
+        "The hypnotized character does not know they are hypnotized while under the effects, nor when the affect ends. However, they may question why they took actions they would not normally or why they forgot certain facts."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Identify Component",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "Dissection",
+      "skillList": "Alchemist, Sorcerer",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows a character to identify components and what race a character is. It takes 1 minute to use this skill.",
+        "This skill will identify a component they find. They can verify what it is by cross-referencing the out-of-game number on the item tag with a component list.",
+        "The character may also identify the race of a character by examining them. This will not allow a character to identify a character from across a field or during combat for it is necessary to do a close examination of the creature to determine what type it is. The character need not be dead, just unresisting. They can, for example, tell what kind of troll they are examining, but not what skills or careers they might know. Without this skill, the character might know he has dissected a troll’s blood, but not what kind of troll he is dissecting. If a character wants to know if the brain of the fallen character is a necromancer’s brain, they would first have to dissect the brain then spend another minute in-game identifying the brain. A character cannot take a sample of un-dissected blood and tell whether the character is a Druid, Mage, Healer, or whatever. They can do so after dissecting the blood."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Immunity to Charm",
+      "buildCost": 5,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Faith",
+      "prerequisites": "Paladin or Dark Paladin",
+      "skillList": "Follower of the Light, Servant of Darkness",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "This skill will allow the character to become completely and permanently immune to one specific charm or charm-like effect per purchase of this skill. Some of the charms that can be chosen are given below.",
+        {
+          "type": "table",
+          "headers": [
+            "Charm Category",
+            "What is Stopped"
+          ],
+          "rows": [
+            [
+              "Charm School Spell",
+              "That specific spell only"
+            ],
+            [
+              "Domination",
+              "Any domination effect, spell, ritual or ability"
+            ],
+            [
+              "Vampiric Charm",
+              "Any charm affect from Vampires"
+            ],
+            [
+              "Demonic Charm",
+              "Any charm effect from any demon or Hierarch"
+            ],
+            [
+              "Possession",
+              "Any possession effect from any type of character"
+            ],
+            [
+              "Hypnosis",
+              "Any hypnosis effect from any skill or ability"
+            ],
+            [
+              "Undead Control",
+              "Any skill or ritual that controls undead (not Faith skills)"
+            ],
+          ]
+        },
+        "A character may not use this skill to become immune to any alchemical affect, even if that effect is similar to the categories listed above. Additionally, a character may not become immune to any Follower of the Light or Servant of Darkness compel or turn skills."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Inner Catalyst",
+      "buildCost": 0,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "Rank 5 Poisons",
+      "skillList": "Alchemist",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This Alchemist only skill allows the character to increase the duration of any potion they consume. The character is able to increase the duration by one level. This can extend the duration past what can normally be made. For example, if a character consumes a +3 Giant Strength potion with a duration of 1 hour, this skill would allow them to increase that duration to 6 hours.",
+        "This skill must be used when the alchemy is first consumed. The player cannot decide later they wish to increase the duration. This skill cannot be used to decrease the duration of a potion, even if they used this skill to increase the duration prior. The character must record their use of this skill on the alchemical item tag."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Instructor",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "The character with this skill is particularly good at teaching others the things they know. Normally, it takes 5 minutes per Build Point to teach someone a new skill. The character with this skill takes only half that time. So to teach someone the Slay skill normally takes 50 minutes, but with the Instructor skill it will only take 25 minutes of in-game roleplay to teach.",
+        "This skill is cumulative with the Quick Study skill therefore, if the student has the Quick Study skill, it would only take 12½ minutes to teach the Slay skill.",
+        "This skill is not list or Teach skill specific and any skill the character knows can be taught quickly."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Interrogate",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Master Miscellaneous",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill allows the character to interrogate another character and force one truthful answer from them. It takes 5 minutes to use this skill and during that time the character should roleplay his interrogation of the target character. For every purchase of the Stamina skill the target character has, they can prolong the time it takes to use this skill by 10 minutes. So a character with three purchases of the Stamina skill could hold out for 30 minutes. This skill can be countered by the Courage skill. No other skill or spell will stop this skill.",
+        "Paladins and Dark Paladins are immune to the Interrogate skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Iron Will",
+      "buildCost": 10,
+      "tagged": "Yes",
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Master Miscellaneous",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "This skill trains the character’s mind to resist charms. The character can use this skill to stop: any Charm School spell, any racial charms like Satyr/Faun charm, the Hypnosis skill, charm like effect Spell Songs, charm like effect Nature Magic, Ritual of Domination, Possession, Vampiric charm, Draconic or Hierarch charm, or any other charm affect. This skill will not stop a fear effect.",
+        "This skill has no obvious effects when used and does not need to be called out loud. This skill must be used immediately after the attack. A player could not wait until they are given a command they do not like then use this skill to free their mind to disobey the order. The one exception to this rule is charm effects that have a base duration of longer than 1 hour. The character may use his Iron Will to regain self control for 10 minutes. Some examples are: being an undead under the control of another, being under the effects of a Ritual of Domination, or a Demonic Charm. A spell that has been augmented with the Spell Binding skill does not fall under this exception as the base duration is still 1 hour or less.",
+        "This skill can never be used to stop any Follower of the Light or Servant of Darkness turn or control skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Jump",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Dexterity",
+      "prerequisites": "None",
+      "skillList": "Master Miscellaneous",
+      "purchase": "Once",
+      "duration": "Special",
+      "description": [
+        "This skill has only one use, to overcome obstacles encountered during game play which do not physically exist. It cannot be used to jump over a stone wall if the stone wall is there out-of-game, but if the Marshal only describes the wall or if the wall is only represented by a tarp, string or other out-of-game item, then the character can use this skill. The Marshal will have final say as to whether the character successfully uses this skill. This skill cannot be used to prevent falling damage of any kind. The character is able to jump 10 feet straight up, 20 feet out, or 30 feet down.",
+        "This skill cannot ever be used in a combat situation, in other words the character cannot use this skill to jump into a fight, out of a fight, as a means to escape pursuit, or to leap to an unreachable location and attack. It can never be used as a means to jump from tree to tree as a mode of travel, regardless of the character. This skill can only be used to overcome non-existent obstacles."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Killing Blow Magic",
+      "buildCost": 2,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "Magic Basic Career Skill List, Rank 4 of Any School of Magic",
+      "skillList": "Warlock",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to augment a Killing Blow done with their bare hands. Normally, a bare hand can only do 1 point of damage for Killing Blows only; a character with this skill can do 10 points of magical damage with their bare handed Killing Blows.",
+        "The character must say: “One Killing Blow, Two Killing Blow, Three Killing Blow, Ten Magic”. You may do less than 10 points of damage, but it is always magical damage. This skill can be blocked with the use of a defense that stops magical attacks. It can be performed any number of times after it is purchased.",
+        "Use of this skill does not require a focus. No other Warlock skills can be used with this skill."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Literacy",
+      "buildCost": 4,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Miscellaneous",
+      "prerequisites": "None",
+      "skillList": "Miscellaneous Skill List",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the character to read and write one specific language per purchase of this skill. A separate Literacy skill is needed for each language the character wishes to know. This skill does not give the character the ability to speak the language. Most of the languages a character can learn are given below.",
+        {
+          "type": "list",
+          "items": [
+            "Common",
+            "Elven",
+            "Dark Elven",
+            "Dwarven",
+            "Kalitanian",
+            "Nymidian",
+            "Carthidian",
+            "Draconic",
+            "Hierarch"
+          ]
+        },
+        "A character can only start with the Literacy skills for their race."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Lie",
+      "buildCost": 3,
+      "tagged": "Yes",
+      "skillType": "Faith",
+      "prerequisites": "Dark Cleric",
+      "skillList": "Servant of Darkness",
+      "purchase": "Multi",
+      "duration": "Instant",
+      "description": [
+        "With the purchase of this skill, the character is able to lie while under the effects of a charm spell or truth inducer once, per tag, per question asked per truth inducer or charm. Therefore if the character is subjected to a Speak the Truth spell, they can use one use of this skill to lie to this question. If asked the same question with another Speak the Truth spell, the character needs to use another use of this skill. However, if the character is dominated or enslaved by spell or skill, then no matter how many times they are asked the same question, they may use one Lie tag to stop all those questions.",
+        "This skill will also prevent you from being forced to commit an action that would answer a question. For example, if a character was dominated and asked if they were an assassin, they could use this skill to lie to that question. For as long as that particular Domination spell was in affect they could continue to lie. If they were asked to raise their arm, stand, dance, etc. if they were an assassin they could “lie” and not follow those commands. However, if they were ordered to follow the caster, protect the caster, or any other similar action they would be compelled to do so. If the character was again dominated and asked the same question, they would have to use another purchase of the Lie skill to lie."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Make Contact",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "Any One Rank 3 of Potions, Posions, or Solutions",
+      "skillList": "Alchemist, Assassin",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill will make an alchemical item into contact item. Contact items can be administered by touch, by applying it to an item, applying it to an edged weapon, or thrown. If placed on an item, the character must make skin contact to take effect. When used on a weapon the player must call poison after the damage of the blow, and if Body Points are hit, the item takes effect. When thrown it must hit the player and the character must have 0 Armor Points currently for it take effect.",
+        "This skill cannot be used on alchemical items that have already been created. Using this skill increases the number of Production Points and Reagent Tags needed. The table below outlines these requirements.",
+        {
+          "type": "table",
+          "title": "Make Contact Table",
+          "headers": [
+            "",
+            "Production Point Increase",
+            "Reagent Tag Increase",
+            "Additional Component"
+          ],
+          "rows": [
+            [
+              "Contact",
+              "+50%",
+              "+50%",
+              "Pitchblende"
+            ]
+          ]
+        },
+        "Whether this skill works on an alchemical item is noted in the item’s description."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Make Gaseous",
+      "buildCost": 3,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Arcane",
+      "prerequisites": "Any Two Rank 4 of Potions, Poisons, Solutions",
+      "skillList": "Alchemist",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "This skill allows the alchemist to make some alchemical items gaseous. All gaseous items have a radius indoors and outdoors and effects every one in the radius, including the character who delivered it if they are in the area of effect. To determine who is effected, the character struck with the gas or the closest player to the gas should stretch their arms out to either side and turn in a circle and anyone in that radius that the player can touch is affected.",
+        "This skill cannot be used on alchemical items that have already been created. Using this skill increases the number of Production Points and Reagent Tags needed. The table below outlines these requirements",
+        {
+          "type": "table",
+          "title": "Make Gaseous Table",
+          "headers": [
+            "",
+            "Production Point Increase",
+            "Reagent Tag Increase",
+            "Additional Component"
+          ],
+          "rows": [
+            [
+              "Gaseous",
+              "+100%",
+              "+100%",
+              "1 pt. of Acid"
+            ]
+          ]
+        },
+        "Whether this skill works on an alchemical item is noted in the item’s description."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Master Assassin",
+      "buildCost": 8,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Dexterity",
+      "prerequisites": "Rogue Basic Career Skill List, 20 Build Points of Dexterity Skills",
+      "skillList": "Assassin",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "When a character purchases this skill they gain the ability to use: Small Weapon, Thrown Weapon, One-Handed Edge, Bow, Crossbow, and the Florentine skill. The character also gains the ability to use two One-Handed Edge weapons Florentine style.",
+        "Additionally, any Build Points the character may have spent on these weapon skills are refunded when this skill is learned. So, if a character has One-Handed Edge skill, Florentine skill and Thrown Weapon skill the character would get back a total of 8 Build Points, effectively getting the Master Assassin skill for free."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Master Florentine",
+      "buildCost": 4,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, Florentine, 1 Master Proficiency",
+      "skillList": "Master Warrior",
+      "purchase": "Once",
+      "duration": "Constant",
+      "description": [
+        "A character with this skill may use any weapon of any length in either hand that the character has the skill to use. Two-handed weapons may be used only to block, and bastard weapons may be used to deal one-handed damage. This skill will allow the character to use two one-handed weapons at the same time."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
-      "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "name": "Master Parry",
+      "buildCost": 4,
+      "tagged": "Yes",
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, 2 Proficiencies",
+      "skillList": "Master Warrior",
+      "purchase": "Multi, Special",
+      "duration": "Instant",
+      "description": [
+        "This skill may be used to parry any physical blow including special attacks such as Critical Attack, Stunning Blow, Disarm, or a blow that does damage, but not the Slay skill. This skill can be used even if it is delivered from behind, but not if from a surprise attack; therefore it is impossible to parry an Assassinate skill. It is also possible to parry an attack directed against someone else as long as they are within weapons length. A character cannot use a ranged attack to parry an attack for another. The character may block any low magic or Nature Magic spell that is not combined with a Perfect Aim skill for another character, but they then take the effect of the spell and must call an appropriate defense that will stop the spell in order to avoid the effects of the spell themselves.",
+        "For example, Drokk is fighting three brigands. One of them runs away into the woods. The fight with the last two continues for a while. The two brigands move around so they are on opposite sides of Drokk, then one of them, from behind, uses the Speed and Stun skills against Drokk. Drokk might not have seen the blow coming, but he knew his opponent was there and uses his Master Parry skill to stop the attack. Distracted, Drokk does not see the third brigand sneaking back up to him. This one sees his chance and uses a Shatter Weapon skill against Drokk from behind and surprise. Drokk cannot use his Master Parry skill to stop this attack and calls his Invulnerability spell to stop the attack. Now Drokk is really mad and the brigands are in for a tough time.",
+        "A character must have one Proficiency skill per Master Parry skill they wish to purchase. So, a character that wants three Master Parry skills must have three Proficiency skills. The Master Parry skill can be used with any weapon the character has two Proficiency skills of either type. Therefore, if the character has two Master Proficiency skills they can use their Master Parry with any weapon.",
+        "The character must call “Master Parry” when they use this skill. This skill is always used once called."
+      ]
     },
     {
-      "name": "",
-      "buildCost": 1,
+      "name": "Master Proficiency",
+      "buildCost": 13,
       "tagged": "No",
-      "skillType": "",
-      "prerequisites": "",
-      "skillList": "",
-      "purchase": "",
-      "duration": "",
-      "description": []
+      "skillType": "Martial",
+      "prerequisites": "Warrior Basic Career Skill List, 2 Non-Master Proficiencies",
+      "skillList": "Master Warrior",
+      "purchase": "Multi",
+      "duration": "Constant",
+      "description": [
+        "For each purchase of this skill, a character gains a Damage Bonus with all weapons in which they have a weapon skill and according to the table below.",
+        {
+          "type": "table",
+          "headers": [
+            "Weapon Type",
+            "Damage Bonus"
+          ],
+          "rows": [
+            [
+              "Small, Thrown, One-Handed, Bastard, Staffs, and Crossbows",
+              "+1"
+            ],
+            [
+              "Two-Handed, Polearm, Bows",
+              "+1.5"
+            ]
+          ]
+        },
+        "This may be combined with any other Damage Bonus the character has. Master Proficiency is not hand specific and therefore will add to both weapons of a character using the Florentine skill, but only adds once for two-handed or bastard weapons."
+      ]
     },
     {
       "name": "",
